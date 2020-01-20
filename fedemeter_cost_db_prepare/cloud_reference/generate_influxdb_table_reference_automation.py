@@ -15,6 +15,7 @@ import sys
 
 
 excuction_path = "D:\\Anaconda3\\python.exe"
+#excuction_path = "C:\\Users\\Brian\\Desktop\\test_projecct\\venv\\Scripts\\python.exe"
 
 
 # for influx json db
