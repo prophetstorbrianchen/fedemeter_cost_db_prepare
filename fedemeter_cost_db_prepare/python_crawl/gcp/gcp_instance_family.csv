@@ -1,0 +1,6 @@
+provider,family,instance
+gcp,general-purpose,N1
+gcp,general-purpose,N2
+gcp,compute-optimized,C2
+gcp,memory-optimized,M1
+gcp,memory-optimized,M2

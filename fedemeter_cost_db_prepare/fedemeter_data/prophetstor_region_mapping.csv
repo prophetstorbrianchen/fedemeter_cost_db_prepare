@@ -1,0 +1,124 @@
+﻿provider,region,continent,country,city
+aws,Asia Pacific (Mumbai),Asia,India,Mumbai
+aws,Asia Pacific (Osaka-Local),Asia,Japan,Osaka
+aws,Asia Pacific (Seoul),Asia,South Korea,Seoul
+aws,Asia Pacific (Singapore),Asia,Singapore,Singapore
+aws,Asia Pacific (Sydney),Oceania,Australia,Sydney
+aws,Asia Pacific (Tokyo),Asia,Japan,Tokyo
+aws,Asia Pacific (Hong Kong),Asia,China,Hong Kong
+aws,Canada (Central),North America,Canada,Toronto
+aws,EU (Frankfurt),Europe,Germany,Frankfurt
+aws,EU (Ireland),Europe,Ireland,Ireland
+aws,EU (London),Europe,UK,London
+aws,EU (Paris),Europe,France,Paris
+aws,EU (Stockholm),Europe,Sweden,Stockholm
+aws,Middle East (Bahrain),Asia,Bahrain,Bahrain
+aws,South America (Sao Paulo),South America,Brazil,Sao Paulo
+aws,US East (N. Virginia),North America,USA,Virginia
+aws,US East (Ohio),North America,USA,Ohio
+aws,US West (Los Angeles),North America,USA,Los Angeles
+aws,US West (Northern California),North America,USA,California
+aws,US West (Oregon),North America,USA,Oregon
+azure,North Central US,North America,USA,Illinois
+azure,Australia East,Oceania,Australia,New South Wales
+azure,Southeast Asia,Asia,Singapore,Singapore
+azure,Korea Central,Asia,South Korea,Seoul
+azure,Germany Central,Europe,Germany,Frankfurt
+azure,West US,North America,USA,California
+azure,Australia Southeast,Oceania,Australia,Victoria
+azure,France Central,Europe,France,Paris
+azure,United Kingdom West,Europe,UK,Cardiff
+azure,South Central US,North America,USA,Texas
+azure,East US 2,North America,USA,Virginia
+azure,South India,Asia,India,Chennai
+azure,Australia Central 2,Oceania,Australia,Canberra
+azure,Brazil South,South America,Brazil,Sao Paulo
+azure,North Europe,Europe,Ireland,Ireland
+azure,France South,Europe,France,Marseille
+azure,Germany Northeast,Europe,Germany,Magdeburg
+azure,West US 2,North America,USA,Washington
+azure,West Central US,North America,USA,Wyoming
+azure,West Europe,Europe,Netherlands,Middenmeer
+azure,West India,Asia,India,Mumbai
+azure,Canada Central,North America,Canada,Toronto
+azure,Australia Central,Oceania,Australia,Canberra
+azure,Central India,Asia,India,Pune
+azure,East Asia,Asia,China,Hong Kong
+azure,United Kingdom South,Europe,UK,London
+azure,Japan East,Asia,Japan,Tokyo
+azure,Japan West,Asia,Japan,Osaka
+azure,Central US,North America,USA,Iowa
+azure,Canada East,North America,Canada,Quebec 
+azure,East US,North America,USA,Virginia
+azure,Korea South,Asia,South Korea,Busan
+azure,UAE North,Asia,United Arab Emirates,Dubai
+azure,UAE Central,Asia,United Arab Emirates,Abu Dhabi
+azure,Switzerland North,Europe,Switzerland,Zurich
+azure,Switzerland West,Europe,Switzerland,Geneva
+azure,South Africa North,Africa,Republic of South Africa,Johannesburg
+azure,South Africa West,Africa,Republic of South Africa,Cape Town
+azure,Germany North,Europe,Germany,Berlin
+azure,Germany West Central,Europe,Germany,Frankfurt
+azure,Norway East,Europe,Norway,Oslo
+azure,Norway West,Europe,Norway,Stavanger
+gcp,Asia East 1a,Asia,Taiwan,Changhua
+gcp,Asia East 1b,Asia,Taiwan,Changhua
+gcp,Asia East 1c,Asia,Taiwan,Changhua
+gcp,Asia East 2a,Asia,China,Hong Kong
+gcp,Asia East 2b,Asia,China,Hong Kong
+gcp,Asia East 2c,Asia,China,Hong Kong
+gcp,Asia Northeast 1a,Asia,Japan,Tokyo
+gcp,Asia Northeast 1b,Asia,Japan,Tokyo
+gcp,Asia Northeast 1c,Asia,Japan,Tokyo
+gcp,Asia Northeast 2a,Asia,Japan,Osaka
+gcp,Asia Northeast 2b,Asia,Japan,Osaka
+gcp,Asia Northeast 2c,Asia,Japan,Osaka
+gcp,Asia South 1a,Asia,India,Mumbai
+gcp,Asia South 1b,Asia,India,Mumbai
+gcp,Asia South 1c,Asia,India,Mumbai
+gcp,Asia Southeast 1a,Asia,Singapore,Jurong West
+gcp,Asia Southeast 1b,Asia,Singapore,Jurong West
+gcp,Asia Southeast 1c,Asia,Singapore,Jurong West
+gcp,Australia Southeast 1a,Oceania,Australia,Sydney
+gcp,Australia Southeast 1b,Oceania,Australia,Sydney
+gcp,Australia Southeast 1c,Oceania,Australia,Sydney
+gcp,Europe North 1a,Europe,Finland,Hamina
+gcp,Europe North 1b,Europe,Finland,Hamina
+gcp,Europe North 1c,Europe,Finland,Hamina
+gcp,Europe West 1b,Europe,Belgium,St. Ghislain
+gcp,Europe West 1c,Europe,Belgium,St. Ghislain
+gcp,Europe West 1d,Europe,Belgium,St. Ghislain
+gcp,Europe West 2a,Europe,UK,London
+gcp,Europe West 2b,Europe,UK,London
+gcp,Europe West 2c,Europe,UK,London
+gcp,Europe West 3a,Europe,Germany,Frankfurt
+gcp,Europe West 3b,Europe,Germany,Frankfurt
+gcp,Europe West 3c,Europe,Germany,Frankfurt
+gcp,Europe West 4a,Europe,Netherlands,Eemshaven
+gcp,Europe West 4b,Europe,Netherlands,Eemshaven
+gcp,Europe West 4c,Europe,Netherlands,Eemshaven
+gcp,Europe West 6a,Europe,Switzerland,Zurich
+gcp,Europe West 6b,Europe,Switzerland,Zurich
+gcp,Europe West 6c,Europe,Switzerland,Zurich
+gcp,Northamerica Northeast 1a,North America,Canada,Quebec
+gcp,Northamerica Northeast 1b,North America,Canada,Quebec
+gcp,Northamerica Northeast 1c,North America,Canada,Quebec
+gcp,Southamerica East 1a,South America,Brazil,Sao Paulo
+gcp,Southamerica East 1b,South America,Brazil,Sao Paulo
+gcp,Southamerica East 1c,South America,Brazil,Sao Paulo
+gcp,US Central 1a,North America,USA,Iowa
+gcp,US Central 1b,North America,USA,Iowa
+gcp,US Central 1c,North America,USA,Iowa
+gcp,US Central 1f,North America,USA,Iowa
+gcp,US East 1b,North America,USA,Moncks Corner
+gcp,US East 1c,North America,USA,Moncks Corner
+gcp,US East 1d,North America,USA,Moncks Corner
+gcp,US East 4a,North America,USA,Virginia
+gcp,US East 4b,North America,USA,Virginia
+gcp,US East 4c,North America,USA,Virginia
+gcp,US West 1a,North America,USA,Oregon
+gcp,US West 1b,North America,USA,Oregon
+gcp,US West 1c,North America,USA,Oregon
+gcp,US West 2a,North America,USA,California
+gcp,US West 2b,North America,USA,California
+gcp,US West 2c,North America,USA,California

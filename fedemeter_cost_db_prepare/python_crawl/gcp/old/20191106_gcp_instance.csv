@@ -1,0 +1,74 @@
+instance
+N1 Standard 1
+N1 Standard 2
+N1 Standard 4
+N1 Standard 8
+N1 Standard 16
+N1 Standard 32
+N1 Standard 64
+N1 Standard 96
+N1 High Mem 2
+N1 High Mem 4
+N1 High Mem 8
+N1 High Mem 16
+N1 High Mem 32
+N1 High Mem 64
+N1 High Mem 96
+N1 High CPU 2
+N1 High CPU 4
+N1 High CPU 8
+N1 High CPU 16
+N1 High CPU 32
+N1 High CPU 64
+N1 High CPU 96
+N2 Standard 2
+N2 Standard 4
+N2 Standard 8
+N2 Standard 16
+N2 Standard 32
+N2 Standard 48
+N2 Standard 64
+N2 Standard 80
+N2 High Mem 2
+N2 High Mem 4
+N2 High Mem 8
+N2 High Mem 16
+N2 High Mem 32
+N2 High Mem 48
+N2 High Mem 64
+N2 High Mem 80
+N2 High CPU 2
+N2 High CPU 4
+N2 High CPU 8
+N2 High CPU 16
+N2 High CPU 32
+N2 High CPU 48
+N2 High CPU 64
+N2 High CPU 80
+E2 Standard 2
+E2 Standard 4
+E2 Standard 8
+E2 Standard 16
+E2 High Mem 2
+E2 High Mem 4
+E2 High Mem 8
+E2 High Mem 16
+E2 High CPU 2
+E2 High CPU 4
+E2 High CPU 8
+E2 High CPU 16
+M1 ULTRAMEM 40
+M1 ULTRAMEM 80
+M1 ULTRAMEM 160
+M2 ULTRAMEM 2084
+M2 ULTRAMEM 4164
+C2 Standard 4
+C2 Standard 8
+C2 Standard 16
+C2 Standard 30
+C2 Standard 60
+F1 MICRO
+G1 SMALL
+E2 MICRO
+E2 SMALL
+E2 MEDIUM

@@ -1,0 +1,76 @@
+,input
+0,Standard A2
+1,Standard A3
+2,Standard A4
+3,Standard A5
+4,Standard A6
+5,Standard A7
+6,Standard A8
+7,Standard A9
+8,Standard A10
+9,Standard A11
+10,Standard A2 v2
+11,Standard A2m v2
+12,Standard A4 v2
+13,Standard A4m v2
+14,Standard A8m v2
+15,Standard A8 v2
+16,Standard D1
+17,Standard D2
+18,Standard D3
+19,Standard D4
+20,Standard D11
+21,Standard D12
+22,Standard D13
+23,Standard D14
+24,Standard F1
+25,Standard F2
+26,Standard F4
+27,Standard F8
+28,Standard F16
+29,Standard F1s
+30,Standard F2s
+31,Standard F4s
+32,Standard F8s
+33,Standard F16s
+34,Standard D1 v2
+35,Standard D11 v2
+36,Standard D2 v2
+37,Standard D3 v2
+38,Standard D12 v2
+39,Standard D4 v2
+40,Standard D13 v2
+41,Standard D14 v2
+42,Standard D5 v2
+43,Standard D15 v2
+44,Standard DS1
+45,Standard DS2
+46,Standard DS3
+47,Standard DS4
+48,Standard DS1 v2
+49,Standard DS2 v2
+50,Standard DS3 v2
+51,Standard DS4 v2
+52,Standard DS5 v2
+53,Standard DS11 v2
+54,Standard DS12 v2
+55,Standard DS13 v2
+56,Standard DS14 v2
+57,Standard DS15 v2
+58,Standard G1
+59,Standard G2
+60,Standard G3
+61,Standard G4
+62,Standard G5
+63,Standard GS1
+64,Standard GS2
+65,Standard GS3
+66,Standard GS4
+67,Standard GS5
+68,Standard NC6
+69,Standard NC12
+70,Standard NC24
+71,Standard NC24r
+72,Standard NV6
+73,Standard NV12
+74,Standard NV24

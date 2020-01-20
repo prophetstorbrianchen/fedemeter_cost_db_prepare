@@ -1,0 +1,2976 @@
+provider,region,instance
+aws,EU (London),t2.medium
+aws,EU (London),t2.large
+aws,EU (London),t2.xlarge
+aws,EU (London),t2.2xlarge
+aws,EU (London),c4.large
+aws,EU (London),c4.xlarge
+aws,EU (London),c4.2xlarge
+aws,EU (London),c4.4xlarge
+aws,EU (London),c4.8xlarge
+aws,EU (London),c5.large
+aws,EU (London),c5.xlarge
+aws,EU (London),c5.2xlarge
+aws,EU (London),c5.4xlarge
+aws,EU (London),c5.9xlarge
+aws,EU (London),r4.large
+aws,EU (London),r4.xlarge
+aws,EU (London),r4.2xlarge
+aws,EU (London),r4.4xlarge
+aws,EU (London),r4.8xlarge
+aws,EU (London),r4.16xlarge
+aws,EU (London),m3.large
+aws,EU (London),m3.xlarge
+aws,EU (London),m3.2xlarge
+aws,EU (London),m4.large
+aws,EU (London),m4.xlarge
+aws,EU (London),m4.2xlarge
+aws,EU (London),m4.4xlarge
+aws,EU (London),m4.10xlarge
+aws,EU (London),m4.16xlarge
+aws,EU (London),m5.large
+aws,EU (London),m5.xlarge
+aws,EU (London),m5.2xlarge
+aws,EU (London),m5.4xlarge
+aws,EU (London),m5.12xlarge
+aws,EU (London),m5.24xlarge
+aws,EU (London),p2.xlarge
+aws,EU (London),p2.8xlarge
+aws,EU (London),p2.16xlarge
+aws,EU (London),p3.2xlarge
+aws,EU (London),p3.8xlarge
+aws,EU (London),p3.16xlarge
+aws,EU (London),g3.4xlarge
+aws,EU (London),g3.8xlarge
+aws,EU (London),g3.16xlarge
+aws,Asia Pacific (Singapore),t2.medium
+aws,Asia Pacific (Singapore),t2.large
+aws,Asia Pacific (Singapore),t2.xlarge
+aws,Asia Pacific (Singapore),t2.2xlarge
+aws,Asia Pacific (Singapore),c4.large
+aws,Asia Pacific (Singapore),c4.xlarge
+aws,Asia Pacific (Singapore),c4.2xlarge
+aws,Asia Pacific (Singapore),c4.4xlarge
+aws,Asia Pacific (Singapore),c4.8xlarge
+aws,Asia Pacific (Singapore),c5.large
+aws,Asia Pacific (Singapore),c5.xlarge
+aws,Asia Pacific (Singapore),c5.2xlarge
+aws,Asia Pacific (Singapore),c5.4xlarge
+aws,Asia Pacific (Singapore),c5.9xlarge
+aws,Asia Pacific (Singapore),r4.large
+aws,Asia Pacific (Singapore),r4.xlarge
+aws,Asia Pacific (Singapore),r4.2xlarge
+aws,Asia Pacific (Singapore),r4.4xlarge
+aws,Asia Pacific (Singapore),r4.8xlarge
+aws,Asia Pacific (Singapore),r4.16xlarge
+aws,Asia Pacific (Singapore),m3.large
+aws,Asia Pacific (Singapore),m3.xlarge
+aws,Asia Pacific (Singapore),m3.2xlarge
+aws,Asia Pacific (Singapore),m4.large
+aws,Asia Pacific (Singapore),m4.xlarge
+aws,Asia Pacific (Singapore),m4.2xlarge
+aws,Asia Pacific (Singapore),m4.4xlarge
+aws,Asia Pacific (Singapore),m4.10xlarge
+aws,Asia Pacific (Singapore),m4.16xlarge
+aws,Asia Pacific (Singapore),m5.large
+aws,Asia Pacific (Singapore),m5.xlarge
+aws,Asia Pacific (Singapore),m5.2xlarge
+aws,Asia Pacific (Singapore),m5.4xlarge
+aws,Asia Pacific (Singapore),m5.12xlarge
+aws,Asia Pacific (Singapore),m5.24xlarge
+aws,Asia Pacific (Singapore),p2.xlarge
+aws,Asia Pacific (Singapore),p2.8xlarge
+aws,Asia Pacific (Singapore),p2.16xlarge
+aws,Asia Pacific (Singapore),p3.2xlarge
+aws,Asia Pacific (Singapore),p3.8xlarge
+aws,Asia Pacific (Singapore),p3.16xlarge
+aws,Asia Pacific (Singapore),g3.4xlarge
+aws,Asia Pacific (Singapore),g3.8xlarge
+aws,Asia Pacific (Singapore),g3.16xlarge
+aws,EU (Frankfurt),t2.medium
+aws,EU (Frankfurt),t2.large
+aws,EU (Frankfurt),t2.xlarge
+aws,EU (Frankfurt),t2.2xlarge
+aws,EU (Frankfurt),c4.large
+aws,EU (Frankfurt),c4.xlarge
+aws,EU (Frankfurt),c4.2xlarge
+aws,EU (Frankfurt),c4.4xlarge
+aws,EU (Frankfurt),c4.8xlarge
+aws,EU (Frankfurt),c5.large
+aws,EU (Frankfurt),c5.xlarge
+aws,EU (Frankfurt),c5.2xlarge
+aws,EU (Frankfurt),c5.4xlarge
+aws,EU (Frankfurt),c5.9xlarge
+aws,EU (Frankfurt),r4.large
+aws,EU (Frankfurt),r4.xlarge
+aws,EU (Frankfurt),r4.2xlarge
+aws,EU (Frankfurt),r4.4xlarge
+aws,EU (Frankfurt),r4.8xlarge
+aws,EU (Frankfurt),r4.16xlarge
+aws,EU (Frankfurt),m3.large
+aws,EU (Frankfurt),m3.xlarge
+aws,EU (Frankfurt),m3.2xlarge
+aws,EU (Frankfurt),m4.large
+aws,EU (Frankfurt),m4.xlarge
+aws,EU (Frankfurt),m4.2xlarge
+aws,EU (Frankfurt),m4.4xlarge
+aws,EU (Frankfurt),m4.10xlarge
+aws,EU (Frankfurt),m4.16xlarge
+aws,EU (Frankfurt),m5.large
+aws,EU (Frankfurt),m5.xlarge
+aws,EU (Frankfurt),m5.2xlarge
+aws,EU (Frankfurt),m5.4xlarge
+aws,EU (Frankfurt),m5.12xlarge
+aws,EU (Frankfurt),m5.24xlarge
+aws,EU (Frankfurt),p2.xlarge
+aws,EU (Frankfurt),p2.8xlarge
+aws,EU (Frankfurt),p2.16xlarge
+aws,EU (Frankfurt),p3.2xlarge
+aws,EU (Frankfurt),p3.8xlarge
+aws,EU (Frankfurt),p3.16xlarge
+aws,EU (Frankfurt),g3.4xlarge
+aws,EU (Frankfurt),g3.8xlarge
+aws,EU (Frankfurt),g3.16xlarge
+aws,South America (Sao Paulo),t2.medium
+aws,South America (Sao Paulo),t2.large
+aws,South America (Sao Paulo),t2.xlarge
+aws,South America (Sao Paulo),t2.2xlarge
+aws,South America (Sao Paulo),c4.large
+aws,South America (Sao Paulo),c4.xlarge
+aws,South America (Sao Paulo),c4.2xlarge
+aws,South America (Sao Paulo),c4.4xlarge
+aws,South America (Sao Paulo),c4.8xlarge
+aws,South America (Sao Paulo),c5.large
+aws,South America (Sao Paulo),c5.xlarge
+aws,South America (Sao Paulo),c5.2xlarge
+aws,South America (Sao Paulo),c5.4xlarge
+aws,South America (Sao Paulo),c5.9xlarge
+aws,South America (Sao Paulo),r4.large
+aws,South America (Sao Paulo),r4.xlarge
+aws,South America (Sao Paulo),r4.2xlarge
+aws,South America (Sao Paulo),r4.4xlarge
+aws,South America (Sao Paulo),r4.8xlarge
+aws,South America (Sao Paulo),r4.16xlarge
+aws,South America (Sao Paulo),m3.large
+aws,South America (Sao Paulo),m3.xlarge
+aws,South America (Sao Paulo),m3.2xlarge
+aws,South America (Sao Paulo),m4.large
+aws,South America (Sao Paulo),m4.xlarge
+aws,South America (Sao Paulo),m4.2xlarge
+aws,South America (Sao Paulo),m4.4xlarge
+aws,South America (Sao Paulo),m4.10xlarge
+aws,South America (Sao Paulo),m4.16xlarge
+aws,South America (Sao Paulo),m5.large
+aws,South America (Sao Paulo),m5.xlarge
+aws,South America (Sao Paulo),m5.2xlarge
+aws,South America (Sao Paulo),m5.4xlarge
+aws,South America (Sao Paulo),m5.12xlarge
+aws,South America (Sao Paulo),m5.24xlarge
+aws,South America (Sao Paulo),p2.xlarge
+aws,South America (Sao Paulo),p2.8xlarge
+aws,South America (Sao Paulo),p2.16xlarge
+aws,South America (Sao Paulo),p3.2xlarge
+aws,South America (Sao Paulo),p3.8xlarge
+aws,South America (Sao Paulo),p3.16xlarge
+aws,South America (Sao Paulo),g3.4xlarge
+aws,South America (Sao Paulo),g3.8xlarge
+aws,South America (Sao Paulo),g3.16xlarge
+aws,Asia Pacific (Mumbai),t2.medium
+aws,Asia Pacific (Mumbai),t2.large
+aws,Asia Pacific (Mumbai),t2.xlarge
+aws,Asia Pacific (Mumbai),t2.2xlarge
+aws,Asia Pacific (Mumbai),c4.large
+aws,Asia Pacific (Mumbai),c4.xlarge
+aws,Asia Pacific (Mumbai),c4.2xlarge
+aws,Asia Pacific (Mumbai),c4.4xlarge
+aws,Asia Pacific (Mumbai),c4.8xlarge
+aws,Asia Pacific (Mumbai),c5.large
+aws,Asia Pacific (Mumbai),c5.xlarge
+aws,Asia Pacific (Mumbai),c5.2xlarge
+aws,Asia Pacific (Mumbai),c5.4xlarge
+aws,Asia Pacific (Mumbai),c5.9xlarge
+aws,Asia Pacific (Mumbai),r4.large
+aws,Asia Pacific (Mumbai),r4.xlarge
+aws,Asia Pacific (Mumbai),r4.2xlarge
+aws,Asia Pacific (Mumbai),r4.4xlarge
+aws,Asia Pacific (Mumbai),r4.8xlarge
+aws,Asia Pacific (Mumbai),r4.16xlarge
+aws,Asia Pacific (Mumbai),m3.large
+aws,Asia Pacific (Mumbai),m3.xlarge
+aws,Asia Pacific (Mumbai),m3.2xlarge
+aws,Asia Pacific (Mumbai),m4.large
+aws,Asia Pacific (Mumbai),m4.xlarge
+aws,Asia Pacific (Mumbai),m4.2xlarge
+aws,Asia Pacific (Mumbai),m4.4xlarge
+aws,Asia Pacific (Mumbai),m4.10xlarge
+aws,Asia Pacific (Mumbai),m4.16xlarge
+aws,Asia Pacific (Mumbai),m5.large
+aws,Asia Pacific (Mumbai),m5.xlarge
+aws,Asia Pacific (Mumbai),m5.2xlarge
+aws,Asia Pacific (Mumbai),m5.4xlarge
+aws,Asia Pacific (Mumbai),m5.12xlarge
+aws,Asia Pacific (Mumbai),m5.24xlarge
+aws,Asia Pacific (Mumbai),p2.xlarge
+aws,Asia Pacific (Mumbai),p2.8xlarge
+aws,Asia Pacific (Mumbai),p2.16xlarge
+aws,Asia Pacific (Mumbai),p3.2xlarge
+aws,Asia Pacific (Mumbai),p3.8xlarge
+aws,Asia Pacific (Mumbai),p3.16xlarge
+aws,Asia Pacific (Mumbai),g3.4xlarge
+aws,Asia Pacific (Mumbai),g3.8xlarge
+aws,Asia Pacific (Mumbai),g3.16xlarge
+aws,Asia Pacific (Sydney),t2.medium
+aws,Asia Pacific (Sydney),t2.large
+aws,Asia Pacific (Sydney),t2.xlarge
+aws,Asia Pacific (Sydney),t2.2xlarge
+aws,Asia Pacific (Sydney),c4.large
+aws,Asia Pacific (Sydney),c4.xlarge
+aws,Asia Pacific (Sydney),c4.2xlarge
+aws,Asia Pacific (Sydney),c4.4xlarge
+aws,Asia Pacific (Sydney),c4.8xlarge
+aws,Asia Pacific (Sydney),c5.large
+aws,Asia Pacific (Sydney),c5.xlarge
+aws,Asia Pacific (Sydney),c5.2xlarge
+aws,Asia Pacific (Sydney),c5.4xlarge
+aws,Asia Pacific (Sydney),c5.9xlarge
+aws,Asia Pacific (Sydney),r4.large
+aws,Asia Pacific (Sydney),r4.xlarge
+aws,Asia Pacific (Sydney),r4.2xlarge
+aws,Asia Pacific (Sydney),r4.4xlarge
+aws,Asia Pacific (Sydney),r4.8xlarge
+aws,Asia Pacific (Sydney),r4.16xlarge
+aws,Asia Pacific (Sydney),m3.large
+aws,Asia Pacific (Sydney),m3.xlarge
+aws,Asia Pacific (Sydney),m3.2xlarge
+aws,Asia Pacific (Sydney),m4.large
+aws,Asia Pacific (Sydney),m4.xlarge
+aws,Asia Pacific (Sydney),m4.2xlarge
+aws,Asia Pacific (Sydney),m4.4xlarge
+aws,Asia Pacific (Sydney),m4.10xlarge
+aws,Asia Pacific (Sydney),m4.16xlarge
+aws,Asia Pacific (Sydney),m5.large
+aws,Asia Pacific (Sydney),m5.xlarge
+aws,Asia Pacific (Sydney),m5.2xlarge
+aws,Asia Pacific (Sydney),m5.4xlarge
+aws,Asia Pacific (Sydney),m5.12xlarge
+aws,Asia Pacific (Sydney),m5.24xlarge
+aws,Asia Pacific (Sydney),p2.xlarge
+aws,Asia Pacific (Sydney),p2.8xlarge
+aws,Asia Pacific (Sydney),p2.16xlarge
+aws,Asia Pacific (Sydney),p3.2xlarge
+aws,Asia Pacific (Sydney),p3.8xlarge
+aws,Asia Pacific (Sydney),p3.16xlarge
+aws,Asia Pacific (Sydney),g3.4xlarge
+aws,Asia Pacific (Sydney),g3.8xlarge
+aws,Asia Pacific (Sydney),g3.16xlarge
+aws,Canada (Central),t2.medium
+aws,Canada (Central),t2.large
+aws,Canada (Central),t2.xlarge
+aws,Canada (Central),t2.2xlarge
+aws,Canada (Central),c4.large
+aws,Canada (Central),c4.xlarge
+aws,Canada (Central),c4.2xlarge
+aws,Canada (Central),c4.4xlarge
+aws,Canada (Central),c4.8xlarge
+aws,Canada (Central),c5.large
+aws,Canada (Central),c5.xlarge
+aws,Canada (Central),c5.2xlarge
+aws,Canada (Central),c5.4xlarge
+aws,Canada (Central),c5.9xlarge
+aws,Canada (Central),r4.large
+aws,Canada (Central),r4.xlarge
+aws,Canada (Central),r4.2xlarge
+aws,Canada (Central),r4.4xlarge
+aws,Canada (Central),r4.8xlarge
+aws,Canada (Central),r4.16xlarge
+aws,Canada (Central),m3.large
+aws,Canada (Central),m3.xlarge
+aws,Canada (Central),m3.2xlarge
+aws,Canada (Central),m4.large
+aws,Canada (Central),m4.xlarge
+aws,Canada (Central),m4.2xlarge
+aws,Canada (Central),m4.4xlarge
+aws,Canada (Central),m4.10xlarge
+aws,Canada (Central),m4.16xlarge
+aws,Canada (Central),m5.large
+aws,Canada (Central),m5.xlarge
+aws,Canada (Central),m5.2xlarge
+aws,Canada (Central),m5.4xlarge
+aws,Canada (Central),m5.12xlarge
+aws,Canada (Central),m5.24xlarge
+aws,Canada (Central),p2.xlarge
+aws,Canada (Central),p2.8xlarge
+aws,Canada (Central),p2.16xlarge
+aws,Canada (Central),p3.2xlarge
+aws,Canada (Central),p3.8xlarge
+aws,Canada (Central),p3.16xlarge
+aws,Canada (Central),g3.4xlarge
+aws,Canada (Central),g3.8xlarge
+aws,Canada (Central),g3.16xlarge
+aws,EU (Ireland),t2.medium
+aws,EU (Ireland),t2.large
+aws,EU (Ireland),t2.xlarge
+aws,EU (Ireland),t2.2xlarge
+aws,EU (Ireland),c4.large
+aws,EU (Ireland),c4.xlarge
+aws,EU (Ireland),c4.2xlarge
+aws,EU (Ireland),c4.4xlarge
+aws,EU (Ireland),c4.8xlarge
+aws,EU (Ireland),c5.large
+aws,EU (Ireland),c5.xlarge
+aws,EU (Ireland),c5.2xlarge
+aws,EU (Ireland),c5.4xlarge
+aws,EU (Ireland),c5.9xlarge
+aws,EU (Ireland),r4.large
+aws,EU (Ireland),r4.xlarge
+aws,EU (Ireland),r4.2xlarge
+aws,EU (Ireland),r4.4xlarge
+aws,EU (Ireland),r4.8xlarge
+aws,EU (Ireland),r4.16xlarge
+aws,EU (Ireland),m3.large
+aws,EU (Ireland),m3.xlarge
+aws,EU (Ireland),m3.2xlarge
+aws,EU (Ireland),m4.large
+aws,EU (Ireland),m4.xlarge
+aws,EU (Ireland),m4.2xlarge
+aws,EU (Ireland),m4.4xlarge
+aws,EU (Ireland),m4.10xlarge
+aws,EU (Ireland),m4.16xlarge
+aws,EU (Ireland),m5.large
+aws,EU (Ireland),m5.xlarge
+aws,EU (Ireland),m5.2xlarge
+aws,EU (Ireland),m5.4xlarge
+aws,EU (Ireland),m5.12xlarge
+aws,EU (Ireland),m5.24xlarge
+aws,EU (Ireland),p2.xlarge
+aws,EU (Ireland),p2.8xlarge
+aws,EU (Ireland),p2.16xlarge
+aws,EU (Ireland),p3.2xlarge
+aws,EU (Ireland),p3.8xlarge
+aws,EU (Ireland),p3.16xlarge
+aws,EU (Ireland),g3.4xlarge
+aws,EU (Ireland),g3.8xlarge
+aws,EU (Ireland),g3.16xlarge
+aws,US West (N. California),t2.medium
+aws,US West (N. California),t2.large
+aws,US West (N. California),t2.xlarge
+aws,US West (N. California),t2.2xlarge
+aws,US West (N. California),c4.large
+aws,US West (N. California),c4.xlarge
+aws,US West (N. California),c4.2xlarge
+aws,US West (N. California),c4.4xlarge
+aws,US West (N. California),c4.8xlarge
+aws,US West (N. California),c5.large
+aws,US West (N. California),c5.xlarge
+aws,US West (N. California),c5.2xlarge
+aws,US West (N. California),c5.4xlarge
+aws,US West (N. California),c5.9xlarge
+aws,US West (N. California),r4.large
+aws,US West (N. California),r4.xlarge
+aws,US West (N. California),r4.2xlarge
+aws,US West (N. California),r4.4xlarge
+aws,US West (N. California),r4.8xlarge
+aws,US West (N. California),r4.16xlarge
+aws,US West (N. California),m3.large
+aws,US West (N. California),m3.xlarge
+aws,US West (N. California),m3.2xlarge
+aws,US West (N. California),m4.large
+aws,US West (N. California),m4.xlarge
+aws,US West (N. California),m4.2xlarge
+aws,US West (N. California),m4.4xlarge
+aws,US West (N. California),m4.10xlarge
+aws,US West (N. California),m4.16xlarge
+aws,US West (N. California),m5.large
+aws,US West (N. California),m5.xlarge
+aws,US West (N. California),m5.2xlarge
+aws,US West (N. California),m5.4xlarge
+aws,US West (N. California),m5.12xlarge
+aws,US West (N. California),m5.24xlarge
+aws,US West (N. California),p2.xlarge
+aws,US West (N. California),p2.8xlarge
+aws,US West (N. California),p2.16xlarge
+aws,US West (N. California),p3.2xlarge
+aws,US West (N. California),p3.8xlarge
+aws,US West (N. California),p3.16xlarge
+aws,US West (N. California),g3.4xlarge
+aws,US West (N. California),g3.8xlarge
+aws,US West (N. California),g3.16xlarge
+aws,EU (Paris),t2.medium
+aws,EU (Paris),t2.large
+aws,EU (Paris),t2.xlarge
+aws,EU (Paris),t2.2xlarge
+aws,EU (Paris),c4.large
+aws,EU (Paris),c4.xlarge
+aws,EU (Paris),c4.2xlarge
+aws,EU (Paris),c4.4xlarge
+aws,EU (Paris),c4.8xlarge
+aws,EU (Paris),c5.large
+aws,EU (Paris),c5.xlarge
+aws,EU (Paris),c5.2xlarge
+aws,EU (Paris),c5.4xlarge
+aws,EU (Paris),c5.9xlarge
+aws,EU (Paris),r4.large
+aws,EU (Paris),r4.xlarge
+aws,EU (Paris),r4.2xlarge
+aws,EU (Paris),r4.4xlarge
+aws,EU (Paris),r4.8xlarge
+aws,EU (Paris),r4.16xlarge
+aws,EU (Paris),m3.large
+aws,EU (Paris),m3.xlarge
+aws,EU (Paris),m3.2xlarge
+aws,EU (Paris),m4.large
+aws,EU (Paris),m4.xlarge
+aws,EU (Paris),m4.2xlarge
+aws,EU (Paris),m4.4xlarge
+aws,EU (Paris),m4.10xlarge
+aws,EU (Paris),m4.16xlarge
+aws,EU (Paris),m5.large
+aws,EU (Paris),m5.xlarge
+aws,EU (Paris),m5.2xlarge
+aws,EU (Paris),m5.4xlarge
+aws,EU (Paris),m5.12xlarge
+aws,EU (Paris),m5.24xlarge
+aws,EU (Paris),p2.xlarge
+aws,EU (Paris),p2.8xlarge
+aws,EU (Paris),p2.16xlarge
+aws,EU (Paris),p3.2xlarge
+aws,EU (Paris),p3.8xlarge
+aws,EU (Paris),p3.16xlarge
+aws,EU (Paris),g3.4xlarge
+aws,EU (Paris),g3.8xlarge
+aws,EU (Paris),g3.16xlarge
+aws,US West (Oregon),t2.medium
+aws,US West (Oregon),t2.large
+aws,US West (Oregon),t2.xlarge
+aws,US West (Oregon),t2.2xlarge
+aws,US West (Oregon),c4.large
+aws,US West (Oregon),c4.xlarge
+aws,US West (Oregon),c4.2xlarge
+aws,US West (Oregon),c4.4xlarge
+aws,US West (Oregon),c4.8xlarge
+aws,US West (Oregon),c5.large
+aws,US West (Oregon),c5.xlarge
+aws,US West (Oregon),c5.2xlarge
+aws,US West (Oregon),c5.4xlarge
+aws,US West (Oregon),c5.9xlarge
+aws,US West (Oregon),r4.large
+aws,US West (Oregon),r4.xlarge
+aws,US West (Oregon),r4.2xlarge
+aws,US West (Oregon),r4.4xlarge
+aws,US West (Oregon),r4.8xlarge
+aws,US West (Oregon),r4.16xlarge
+aws,US West (Oregon),m3.large
+aws,US West (Oregon),m3.xlarge
+aws,US West (Oregon),m3.2xlarge
+aws,US West (Oregon),m4.large
+aws,US West (Oregon),m4.xlarge
+aws,US West (Oregon),m4.2xlarge
+aws,US West (Oregon),m4.4xlarge
+aws,US West (Oregon),m4.10xlarge
+aws,US West (Oregon),m4.16xlarge
+aws,US West (Oregon),m5.large
+aws,US West (Oregon),m5.xlarge
+aws,US West (Oregon),m5.2xlarge
+aws,US West (Oregon),m5.4xlarge
+aws,US West (Oregon),m5.12xlarge
+aws,US West (Oregon),m5.24xlarge
+aws,US West (Oregon),p2.xlarge
+aws,US West (Oregon),p2.8xlarge
+aws,US West (Oregon),p2.16xlarge
+aws,US West (Oregon),p3.2xlarge
+aws,US West (Oregon),p3.8xlarge
+aws,US West (Oregon),p3.16xlarge
+aws,US West (Oregon),g3.4xlarge
+aws,US West (Oregon),g3.8xlarge
+aws,US West (Oregon),g3.16xlarge
+aws,Asia Pacific (Tokyo),t2.medium
+aws,Asia Pacific (Tokyo),t2.large
+aws,Asia Pacific (Tokyo),t2.xlarge
+aws,Asia Pacific (Tokyo),t2.2xlarge
+aws,Asia Pacific (Tokyo),c4.large
+aws,Asia Pacific (Tokyo),c4.xlarge
+aws,Asia Pacific (Tokyo),c4.2xlarge
+aws,Asia Pacific (Tokyo),c4.4xlarge
+aws,Asia Pacific (Tokyo),c4.8xlarge
+aws,Asia Pacific (Tokyo),c5.large
+aws,Asia Pacific (Tokyo),c5.xlarge
+aws,Asia Pacific (Tokyo),c5.2xlarge
+aws,Asia Pacific (Tokyo),c5.4xlarge
+aws,Asia Pacific (Tokyo),c5.9xlarge
+aws,Asia Pacific (Tokyo),r4.large
+aws,Asia Pacific (Tokyo),r4.xlarge
+aws,Asia Pacific (Tokyo),r4.2xlarge
+aws,Asia Pacific (Tokyo),r4.4xlarge
+aws,Asia Pacific (Tokyo),r4.8xlarge
+aws,Asia Pacific (Tokyo),r4.16xlarge
+aws,Asia Pacific (Tokyo),m3.large
+aws,Asia Pacific (Tokyo),m3.xlarge
+aws,Asia Pacific (Tokyo),m3.2xlarge
+aws,Asia Pacific (Tokyo),m4.large
+aws,Asia Pacific (Tokyo),m4.xlarge
+aws,Asia Pacific (Tokyo),m4.2xlarge
+aws,Asia Pacific (Tokyo),m4.4xlarge
+aws,Asia Pacific (Tokyo),m4.10xlarge
+aws,Asia Pacific (Tokyo),m4.16xlarge
+aws,Asia Pacific (Tokyo),m5.large
+aws,Asia Pacific (Tokyo),m5.xlarge
+aws,Asia Pacific (Tokyo),m5.2xlarge
+aws,Asia Pacific (Tokyo),m5.4xlarge
+aws,Asia Pacific (Tokyo),m5.12xlarge
+aws,Asia Pacific (Tokyo),m5.24xlarge
+aws,Asia Pacific (Tokyo),p2.xlarge
+aws,Asia Pacific (Tokyo),p2.8xlarge
+aws,Asia Pacific (Tokyo),p2.16xlarge
+aws,Asia Pacific (Tokyo),p3.2xlarge
+aws,Asia Pacific (Tokyo),p3.8xlarge
+aws,Asia Pacific (Tokyo),p3.16xlarge
+aws,Asia Pacific (Tokyo),g3.4xlarge
+aws,Asia Pacific (Tokyo),g3.8xlarge
+aws,Asia Pacific (Tokyo),g3.16xlarge
+aws,US East (Ohio),t2.medium
+aws,US East (Ohio),t2.large
+aws,US East (Ohio),t2.xlarge
+aws,US East (Ohio),t2.2xlarge
+aws,US East (Ohio),c4.large
+aws,US East (Ohio),c4.xlarge
+aws,US East (Ohio),c4.2xlarge
+aws,US East (Ohio),c4.4xlarge
+aws,US East (Ohio),c4.8xlarge
+aws,US East (Ohio),c5.large
+aws,US East (Ohio),c5.xlarge
+aws,US East (Ohio),c5.2xlarge
+aws,US East (Ohio),c5.4xlarge
+aws,US East (Ohio),c5.9xlarge
+aws,US East (Ohio),r4.large
+aws,US East (Ohio),r4.xlarge
+aws,US East (Ohio),r4.2xlarge
+aws,US East (Ohio),r4.4xlarge
+aws,US East (Ohio),r4.8xlarge
+aws,US East (Ohio),r4.16xlarge
+aws,US East (Ohio),m3.large
+aws,US East (Ohio),m3.xlarge
+aws,US East (Ohio),m3.2xlarge
+aws,US East (Ohio),m4.large
+aws,US East (Ohio),m4.xlarge
+aws,US East (Ohio),m4.2xlarge
+aws,US East (Ohio),m4.4xlarge
+aws,US East (Ohio),m4.10xlarge
+aws,US East (Ohio),m4.16xlarge
+aws,US East (Ohio),m5.large
+aws,US East (Ohio),m5.xlarge
+aws,US East (Ohio),m5.2xlarge
+aws,US East (Ohio),m5.4xlarge
+aws,US East (Ohio),m5.12xlarge
+aws,US East (Ohio),m5.24xlarge
+aws,US East (Ohio),p2.xlarge
+aws,US East (Ohio),p2.8xlarge
+aws,US East (Ohio),p2.16xlarge
+aws,US East (Ohio),p3.2xlarge
+aws,US East (Ohio),p3.8xlarge
+aws,US East (Ohio),p3.16xlarge
+aws,US East (Ohio),g3.4xlarge
+aws,US East (Ohio),g3.8xlarge
+aws,US East (Ohio),g3.16xlarge
+aws,Asia Pacific (Seoul),t2.medium
+aws,Asia Pacific (Seoul),t2.large
+aws,Asia Pacific (Seoul),t2.xlarge
+aws,Asia Pacific (Seoul),t2.2xlarge
+aws,Asia Pacific (Seoul),c4.large
+aws,Asia Pacific (Seoul),c4.xlarge
+aws,Asia Pacific (Seoul),c4.2xlarge
+aws,Asia Pacific (Seoul),c4.4xlarge
+aws,Asia Pacific (Seoul),c4.8xlarge
+aws,Asia Pacific (Seoul),c5.large
+aws,Asia Pacific (Seoul),c5.xlarge
+aws,Asia Pacific (Seoul),c5.2xlarge
+aws,Asia Pacific (Seoul),c5.4xlarge
+aws,Asia Pacific (Seoul),c5.9xlarge
+aws,Asia Pacific (Seoul),r4.large
+aws,Asia Pacific (Seoul),r4.xlarge
+aws,Asia Pacific (Seoul),r4.2xlarge
+aws,Asia Pacific (Seoul),r4.4xlarge
+aws,Asia Pacific (Seoul),r4.8xlarge
+aws,Asia Pacific (Seoul),r4.16xlarge
+aws,Asia Pacific (Seoul),m3.large
+aws,Asia Pacific (Seoul),m3.xlarge
+aws,Asia Pacific (Seoul),m3.2xlarge
+aws,Asia Pacific (Seoul),m4.large
+aws,Asia Pacific (Seoul),m4.xlarge
+aws,Asia Pacific (Seoul),m4.2xlarge
+aws,Asia Pacific (Seoul),m4.4xlarge
+aws,Asia Pacific (Seoul),m4.10xlarge
+aws,Asia Pacific (Seoul),m4.16xlarge
+aws,Asia Pacific (Seoul),m5.large
+aws,Asia Pacific (Seoul),m5.xlarge
+aws,Asia Pacific (Seoul),m5.2xlarge
+aws,Asia Pacific (Seoul),m5.4xlarge
+aws,Asia Pacific (Seoul),m5.12xlarge
+aws,Asia Pacific (Seoul),m5.24xlarge
+aws,Asia Pacific (Seoul),p2.xlarge
+aws,Asia Pacific (Seoul),p2.8xlarge
+aws,Asia Pacific (Seoul),p2.16xlarge
+aws,Asia Pacific (Seoul),p3.2xlarge
+aws,Asia Pacific (Seoul),p3.8xlarge
+aws,Asia Pacific (Seoul),p3.16xlarge
+aws,Asia Pacific (Seoul),g3.4xlarge
+aws,Asia Pacific (Seoul),g3.8xlarge
+aws,Asia Pacific (Seoul),g3.16xlarge
+aws,US East (N. Virginia),t2.medium
+aws,US East (N. Virginia),t2.large
+aws,US East (N. Virginia),t2.xlarge
+aws,US East (N. Virginia),t2.2xlarge
+aws,US East (N. Virginia),c4.large
+aws,US East (N. Virginia),c4.xlarge
+aws,US East (N. Virginia),c4.2xlarge
+aws,US East (N. Virginia),c4.4xlarge
+aws,US East (N. Virginia),c4.8xlarge
+aws,US East (N. Virginia),c5.large
+aws,US East (N. Virginia),c5.xlarge
+aws,US East (N. Virginia),c5.2xlarge
+aws,US East (N. Virginia),c5.4xlarge
+aws,US East (N. Virginia),c5.9xlarge
+aws,US East (N. Virginia),r4.large
+aws,US East (N. Virginia),r4.xlarge
+aws,US East (N. Virginia),r4.2xlarge
+aws,US East (N. Virginia),r4.4xlarge
+aws,US East (N. Virginia),r4.8xlarge
+aws,US East (N. Virginia),r4.16xlarge
+aws,US East (N. Virginia),m3.large
+aws,US East (N. Virginia),m3.xlarge
+aws,US East (N. Virginia),m3.2xlarge
+aws,US East (N. Virginia),m4.large
+aws,US East (N. Virginia),m4.xlarge
+aws,US East (N. Virginia),m4.2xlarge
+aws,US East (N. Virginia),m4.4xlarge
+aws,US East (N. Virginia),m4.10xlarge
+aws,US East (N. Virginia),m4.16xlarge
+aws,US East (N. Virginia),m5.large
+aws,US East (N. Virginia),m5.xlarge
+aws,US East (N. Virginia),m5.2xlarge
+aws,US East (N. Virginia),m5.4xlarge
+aws,US East (N. Virginia),m5.12xlarge
+aws,US East (N. Virginia),m5.24xlarge
+aws,US East (N. Virginia),p2.xlarge
+aws,US East (N. Virginia),p2.8xlarge
+aws,US East (N. Virginia),p2.16xlarge
+aws,US East (N. Virginia),p3.2xlarge
+aws,US East (N. Virginia),p3.8xlarge
+aws,US East (N. Virginia),p3.16xlarge
+aws,US East (N. Virginia),g3.4xlarge
+aws,US East (N. Virginia),g3.8xlarge
+aws,US East (N. Virginia),g3.16xlarge
+azure,us-west,sles-enterprise-basic-a2-standard
+azure,us-west,sles-enterprise-basic-a3-standard
+azure,us-west,sles-enterprise-basic-a4-standard
+azure,us-west,sles-enterprise-basic-a5-standard
+azure,us-west,sles-enterprise-basic-a6-standard
+azure,us-west,sles-enterprise-basic-a7-standard
+azure,us-west,sles-enterprise-basic-a8-standard
+azure,us-west,sles-enterprise-basic-a9-standard
+azure,us-west,sles-enterprise-basic-a10-standard
+azure,us-west,sles-enterprise-basic-a11-standard
+azure,us-west,sles-enterprise-basic-a2v2-standard
+azure,us-west,sles-enterprise-basic-a2mv2-standard
+azure,us-west,sles-enterprise-basic-a4v2-standard
+azure,us-west,sles-enterprise-basic-a4mv2-standard
+azure,us-west,sles-enterprise-basic-a8mv2-standard
+azure,us-west,sles-enterprise-basic-a8v2-standard
+azure,us-west,sles-enterprise-basic-d1-standard
+azure,us-west,sles-enterprise-basic-d2-standard
+azure,us-west,sles-enterprise-basic-d3-standard
+azure,us-west,sles-enterprise-basic-d4-standard
+azure,us-west,sles-enterprise-basic-d11-standard
+azure,us-west,sles-enterprise-basic-d12-standard
+azure,us-west,sles-enterprise-basic-d13-standard
+azure,us-west,sles-enterprise-basic-d14-standard
+azure,us-west,sles-enterprise-basic-f1-standard
+azure,us-west,sles-enterprise-basic-f2-standard
+azure,us-west,sles-enterprise-basic-f4-standard
+azure,us-west,sles-enterprise-basic-f8-standard
+azure,us-west,sles-enterprise-basic-f16-standard
+azure,us-west,sles-enterprise-basic-f1s-standard
+azure,us-west,sles-enterprise-basic-f2s-standard
+azure,us-west,sles-enterprise-basic-f4s-standard
+azure,us-west,sles-enterprise-basic-f8s-standard
+azure,us-west,sles-enterprise-basic-f16s-standard
+azure,us-west,sles-enterprise-basic-d1v2-standard
+azure,us-west,sles-enterprise-basic-d11v2-standard
+azure,us-west,sles-enterprise-basic-d2v2-standard
+azure,us-west,sles-enterprise-basic-d3v2-standard
+azure,us-west,sles-enterprise-basic-d12v2-standard
+azure,us-west,sles-enterprise-basic-d4v2-standard
+azure,us-west,sles-enterprise-basic-d13v2-standard
+azure,us-west,sles-enterprise-basic-d14v2-standard
+azure,us-west,sles-enterprise-basic-d5v2-standard
+azure,us-west,sles-enterprise-basic-d15v2-standard
+azure,us-west,sles-enterprise-basic-ds1-standard
+azure,us-west,sles-enterprise-basic-ds2-standard
+azure,us-west,sles-enterprise-basic-ds3-standard
+azure,us-west,sles-enterprise-basic-ds4-standard
+azure,us-west,sles-enterprise-basic-ds1v2-standard
+azure,us-west,sles-enterprise-basic-ds2v2-standard
+azure,us-west,sles-enterprise-basic-ds3v2-standard
+azure,us-west,sles-enterprise-basic-ds4v2-standard
+azure,us-west,sles-enterprise-basic-ds5v2-standard
+azure,us-west,sles-enterprise-basic-ds11v2-standard
+azure,us-west,sles-enterprise-basic-ds12v2-standard
+azure,us-west,sles-enterprise-basic-ds13v2-standard
+azure,us-west,sles-enterprise-basic-ds14v2-standard
+azure,us-west,sles-enterprise-basic-ds15v2-standard
+azure,us-west,sles-enterprise-basic-g1-standard
+azure,us-west,sles-enterprise-basic-g2-standard
+azure,us-west,sles-enterprise-basic-g3-standard
+azure,us-west,sles-enterprise-basic-g4-standard
+azure,us-west,sles-enterprise-basic-g5-standard
+azure,us-west,sles-enterprise-basic-gs1-standard
+azure,us-west,sles-enterprise-basic-gs2-standard
+azure,us-west,sles-enterprise-basic-gs3-standard
+azure,us-west,sles-enterprise-basic-gs4-standard
+azure,us-west,sles-enterprise-basic-gs5-standard
+azure,us-west,sles-enterprise-basic-nc6-standard
+azure,us-west,sles-enterprise-basic-nc12-standard
+azure,us-west,sles-enterprise-basic-nc24-standard
+azure,us-west,sles-enterprise-basic-nc24r-standard
+azure,us-west,sles-enterprise-basic-nv6-standard
+azure,us-west,sles-enterprise-basic-nv12-standard
+azure,us-west,sles-enterprise-basic-nv24-standard
+azure,europe-north,sles-enterprise-basic-a2-standard
+azure,europe-north,sles-enterprise-basic-a3-standard
+azure,europe-north,sles-enterprise-basic-a4-standard
+azure,europe-north,sles-enterprise-basic-a5-standard
+azure,europe-north,sles-enterprise-basic-a6-standard
+azure,europe-north,sles-enterprise-basic-a7-standard
+azure,europe-north,sles-enterprise-basic-a8-standard
+azure,europe-north,sles-enterprise-basic-a9-standard
+azure,europe-north,sles-enterprise-basic-a10-standard
+azure,europe-north,sles-enterprise-basic-a11-standard
+azure,europe-north,sles-enterprise-basic-a2v2-standard
+azure,europe-north,sles-enterprise-basic-a2mv2-standard
+azure,europe-north,sles-enterprise-basic-a4v2-standard
+azure,europe-north,sles-enterprise-basic-a4mv2-standard
+azure,europe-north,sles-enterprise-basic-a8mv2-standard
+azure,europe-north,sles-enterprise-basic-a8v2-standard
+azure,europe-north,sles-enterprise-basic-d1-standard
+azure,europe-north,sles-enterprise-basic-d2-standard
+azure,europe-north,sles-enterprise-basic-d3-standard
+azure,europe-north,sles-enterprise-basic-d4-standard
+azure,europe-north,sles-enterprise-basic-d11-standard
+azure,europe-north,sles-enterprise-basic-d12-standard
+azure,europe-north,sles-enterprise-basic-d13-standard
+azure,europe-north,sles-enterprise-basic-d14-standard
+azure,europe-north,sles-enterprise-basic-f1-standard
+azure,europe-north,sles-enterprise-basic-f2-standard
+azure,europe-north,sles-enterprise-basic-f4-standard
+azure,europe-north,sles-enterprise-basic-f8-standard
+azure,europe-north,sles-enterprise-basic-f16-standard
+azure,europe-north,sles-enterprise-basic-f1s-standard
+azure,europe-north,sles-enterprise-basic-f2s-standard
+azure,europe-north,sles-enterprise-basic-f4s-standard
+azure,europe-north,sles-enterprise-basic-f8s-standard
+azure,europe-north,sles-enterprise-basic-f16s-standard
+azure,europe-north,sles-enterprise-basic-d1v2-standard
+azure,europe-north,sles-enterprise-basic-d11v2-standard
+azure,europe-north,sles-enterprise-basic-d2v2-standard
+azure,europe-north,sles-enterprise-basic-d3v2-standard
+azure,europe-north,sles-enterprise-basic-d12v2-standard
+azure,europe-north,sles-enterprise-basic-d4v2-standard
+azure,europe-north,sles-enterprise-basic-d13v2-standard
+azure,europe-north,sles-enterprise-basic-d14v2-standard
+azure,europe-north,sles-enterprise-basic-d5v2-standard
+azure,europe-north,sles-enterprise-basic-d15v2-standard
+azure,europe-north,sles-enterprise-basic-ds1-standard
+azure,europe-north,sles-enterprise-basic-ds2-standard
+azure,europe-north,sles-enterprise-basic-ds3-standard
+azure,europe-north,sles-enterprise-basic-ds4-standard
+azure,europe-north,sles-enterprise-basic-ds1v2-standard
+azure,europe-north,sles-enterprise-basic-ds2v2-standard
+azure,europe-north,sles-enterprise-basic-ds3v2-standard
+azure,europe-north,sles-enterprise-basic-ds4v2-standard
+azure,europe-north,sles-enterprise-basic-ds5v2-standard
+azure,europe-north,sles-enterprise-basic-ds11v2-standard
+azure,europe-north,sles-enterprise-basic-ds12v2-standard
+azure,europe-north,sles-enterprise-basic-ds13v2-standard
+azure,europe-north,sles-enterprise-basic-ds14v2-standard
+azure,europe-north,sles-enterprise-basic-ds15v2-standard
+azure,europe-north,sles-enterprise-basic-g1-standard
+azure,europe-north,sles-enterprise-basic-g2-standard
+azure,europe-north,sles-enterprise-basic-g3-standard
+azure,europe-north,sles-enterprise-basic-g4-standard
+azure,europe-north,sles-enterprise-basic-g5-standard
+azure,europe-north,sles-enterprise-basic-gs1-standard
+azure,europe-north,sles-enterprise-basic-gs2-standard
+azure,europe-north,sles-enterprise-basic-gs3-standard
+azure,europe-north,sles-enterprise-basic-gs4-standard
+azure,europe-north,sles-enterprise-basic-gs5-standard
+azure,europe-north,sles-enterprise-basic-nc6-standard
+azure,europe-north,sles-enterprise-basic-nc12-standard
+azure,europe-north,sles-enterprise-basic-nc24-standard
+azure,europe-north,sles-enterprise-basic-nc24r-standard
+azure,europe-north,sles-enterprise-basic-nv6-standard
+azure,europe-north,sles-enterprise-basic-nv12-standard
+azure,europe-north,sles-enterprise-basic-nv24-standard
+azure,us-west-central,sles-enterprise-basic-a2-standard
+azure,us-west-central,sles-enterprise-basic-a3-standard
+azure,us-west-central,sles-enterprise-basic-a4-standard
+azure,us-west-central,sles-enterprise-basic-a5-standard
+azure,us-west-central,sles-enterprise-basic-a6-standard
+azure,us-west-central,sles-enterprise-basic-a7-standard
+azure,us-west-central,sles-enterprise-basic-a8-standard
+azure,us-west-central,sles-enterprise-basic-a9-standard
+azure,us-west-central,sles-enterprise-basic-a10-standard
+azure,us-west-central,sles-enterprise-basic-a11-standard
+azure,us-west-central,sles-enterprise-basic-a2v2-standard
+azure,us-west-central,sles-enterprise-basic-a2mv2-standard
+azure,us-west-central,sles-enterprise-basic-a4v2-standard
+azure,us-west-central,sles-enterprise-basic-a4mv2-standard
+azure,us-west-central,sles-enterprise-basic-a8mv2-standard
+azure,us-west-central,sles-enterprise-basic-a8v2-standard
+azure,us-west-central,sles-enterprise-basic-d1-standard
+azure,us-west-central,sles-enterprise-basic-d2-standard
+azure,us-west-central,sles-enterprise-basic-d3-standard
+azure,us-west-central,sles-enterprise-basic-d4-standard
+azure,us-west-central,sles-enterprise-basic-d11-standard
+azure,us-west-central,sles-enterprise-basic-d12-standard
+azure,us-west-central,sles-enterprise-basic-d13-standard
+azure,us-west-central,sles-enterprise-basic-d14-standard
+azure,us-west-central,sles-enterprise-basic-f1-standard
+azure,us-west-central,sles-enterprise-basic-f2-standard
+azure,us-west-central,sles-enterprise-basic-f4-standard
+azure,us-west-central,sles-enterprise-basic-f8-standard
+azure,us-west-central,sles-enterprise-basic-f16-standard
+azure,us-west-central,sles-enterprise-basic-f1s-standard
+azure,us-west-central,sles-enterprise-basic-f2s-standard
+azure,us-west-central,sles-enterprise-basic-f4s-standard
+azure,us-west-central,sles-enterprise-basic-f8s-standard
+azure,us-west-central,sles-enterprise-basic-f16s-standard
+azure,us-west-central,sles-enterprise-basic-d1v2-standard
+azure,us-west-central,sles-enterprise-basic-d11v2-standard
+azure,us-west-central,sles-enterprise-basic-d2v2-standard
+azure,us-west-central,sles-enterprise-basic-d3v2-standard
+azure,us-west-central,sles-enterprise-basic-d12v2-standard
+azure,us-west-central,sles-enterprise-basic-d4v2-standard
+azure,us-west-central,sles-enterprise-basic-d13v2-standard
+azure,us-west-central,sles-enterprise-basic-d14v2-standard
+azure,us-west-central,sles-enterprise-basic-d5v2-standard
+azure,us-west-central,sles-enterprise-basic-d15v2-standard
+azure,us-west-central,sles-enterprise-basic-ds1-standard
+azure,us-west-central,sles-enterprise-basic-ds2-standard
+azure,us-west-central,sles-enterprise-basic-ds3-standard
+azure,us-west-central,sles-enterprise-basic-ds4-standard
+azure,us-west-central,sles-enterprise-basic-ds1v2-standard
+azure,us-west-central,sles-enterprise-basic-ds2v2-standard
+azure,us-west-central,sles-enterprise-basic-ds3v2-standard
+azure,us-west-central,sles-enterprise-basic-ds4v2-standard
+azure,us-west-central,sles-enterprise-basic-ds5v2-standard
+azure,us-west-central,sles-enterprise-basic-ds11v2-standard
+azure,us-west-central,sles-enterprise-basic-ds12v2-standard
+azure,us-west-central,sles-enterprise-basic-ds13v2-standard
+azure,us-west-central,sles-enterprise-basic-ds14v2-standard
+azure,us-west-central,sles-enterprise-basic-ds15v2-standard
+azure,us-west-central,sles-enterprise-basic-g1-standard
+azure,us-west-central,sles-enterprise-basic-g2-standard
+azure,us-west-central,sles-enterprise-basic-g3-standard
+azure,us-west-central,sles-enterprise-basic-g4-standard
+azure,us-west-central,sles-enterprise-basic-g5-standard
+azure,us-west-central,sles-enterprise-basic-gs1-standard
+azure,us-west-central,sles-enterprise-basic-gs2-standard
+azure,us-west-central,sles-enterprise-basic-gs3-standard
+azure,us-west-central,sles-enterprise-basic-gs4-standard
+azure,us-west-central,sles-enterprise-basic-gs5-standard
+azure,us-west-central,sles-enterprise-basic-nc6-standard
+azure,us-west-central,sles-enterprise-basic-nc12-standard
+azure,us-west-central,sles-enterprise-basic-nc24-standard
+azure,us-west-central,sles-enterprise-basic-nc24r-standard
+azure,us-west-central,sles-enterprise-basic-nv6-standard
+azure,us-west-central,sles-enterprise-basic-nv12-standard
+azure,us-west-central,sles-enterprise-basic-nv24-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a3-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a4-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a5-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a6-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a7-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a8-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a9-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a10-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a11-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a2v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a2mv2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a4v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a4mv2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a8mv2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-a8v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d1-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d3-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d4-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d11-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d12-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d13-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d14-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-f1-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-f2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-f4-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-f8-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-f16-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-f1s-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-f2s-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-f4s-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-f8s-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-f16s-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d1v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d11v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d2v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d3v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d12v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d4v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d13v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d14v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d5v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-d15v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds1-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds3-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds4-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds1v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds2v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds3v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds4v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds5v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds11v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds12v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds13v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds14v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-ds15v2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-g1-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-g2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-g3-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-g4-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-g5-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-gs1-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-gs2-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-gs3-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-gs4-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-gs5-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-nc6-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-nc12-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-nc24-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-nc24r-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-nv6-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-nv12-standard
+azure,asia-pacific-southeast,sles-enterprise-basic-nv24-standard
+azure,us-south-central,sles-enterprise-basic-a2-standard
+azure,us-south-central,sles-enterprise-basic-a3-standard
+azure,us-south-central,sles-enterprise-basic-a4-standard
+azure,us-south-central,sles-enterprise-basic-a5-standard
+azure,us-south-central,sles-enterprise-basic-a6-standard
+azure,us-south-central,sles-enterprise-basic-a7-standard
+azure,us-south-central,sles-enterprise-basic-a8-standard
+azure,us-south-central,sles-enterprise-basic-a9-standard
+azure,us-south-central,sles-enterprise-basic-a10-standard
+azure,us-south-central,sles-enterprise-basic-a11-standard
+azure,us-south-central,sles-enterprise-basic-a2v2-standard
+azure,us-south-central,sles-enterprise-basic-a2mv2-standard
+azure,us-south-central,sles-enterprise-basic-a4v2-standard
+azure,us-south-central,sles-enterprise-basic-a4mv2-standard
+azure,us-south-central,sles-enterprise-basic-a8mv2-standard
+azure,us-south-central,sles-enterprise-basic-a8v2-standard
+azure,us-south-central,sles-enterprise-basic-d1-standard
+azure,us-south-central,sles-enterprise-basic-d2-standard
+azure,us-south-central,sles-enterprise-basic-d3-standard
+azure,us-south-central,sles-enterprise-basic-d4-standard
+azure,us-south-central,sles-enterprise-basic-d11-standard
+azure,us-south-central,sles-enterprise-basic-d12-standard
+azure,us-south-central,sles-enterprise-basic-d13-standard
+azure,us-south-central,sles-enterprise-basic-d14-standard
+azure,us-south-central,sles-enterprise-basic-f1-standard
+azure,us-south-central,sles-enterprise-basic-f2-standard
+azure,us-south-central,sles-enterprise-basic-f4-standard
+azure,us-south-central,sles-enterprise-basic-f8-standard
+azure,us-south-central,sles-enterprise-basic-f16-standard
+azure,us-south-central,sles-enterprise-basic-f1s-standard
+azure,us-south-central,sles-enterprise-basic-f2s-standard
+azure,us-south-central,sles-enterprise-basic-f4s-standard
+azure,us-south-central,sles-enterprise-basic-f8s-standard
+azure,us-south-central,sles-enterprise-basic-f16s-standard
+azure,us-south-central,sles-enterprise-basic-d1v2-standard
+azure,us-south-central,sles-enterprise-basic-d11v2-standard
+azure,us-south-central,sles-enterprise-basic-d2v2-standard
+azure,us-south-central,sles-enterprise-basic-d3v2-standard
+azure,us-south-central,sles-enterprise-basic-d12v2-standard
+azure,us-south-central,sles-enterprise-basic-d4v2-standard
+azure,us-south-central,sles-enterprise-basic-d13v2-standard
+azure,us-south-central,sles-enterprise-basic-d14v2-standard
+azure,us-south-central,sles-enterprise-basic-d5v2-standard
+azure,us-south-central,sles-enterprise-basic-d15v2-standard
+azure,us-south-central,sles-enterprise-basic-ds1-standard
+azure,us-south-central,sles-enterprise-basic-ds2-standard
+azure,us-south-central,sles-enterprise-basic-ds3-standard
+azure,us-south-central,sles-enterprise-basic-ds4-standard
+azure,us-south-central,sles-enterprise-basic-ds1v2-standard
+azure,us-south-central,sles-enterprise-basic-ds2v2-standard
+azure,us-south-central,sles-enterprise-basic-ds3v2-standard
+azure,us-south-central,sles-enterprise-basic-ds4v2-standard
+azure,us-south-central,sles-enterprise-basic-ds5v2-standard
+azure,us-south-central,sles-enterprise-basic-ds11v2-standard
+azure,us-south-central,sles-enterprise-basic-ds12v2-standard
+azure,us-south-central,sles-enterprise-basic-ds13v2-standard
+azure,us-south-central,sles-enterprise-basic-ds14v2-standard
+azure,us-south-central,sles-enterprise-basic-ds15v2-standard
+azure,us-south-central,sles-enterprise-basic-g1-standard
+azure,us-south-central,sles-enterprise-basic-g2-standard
+azure,us-south-central,sles-enterprise-basic-g3-standard
+azure,us-south-central,sles-enterprise-basic-g4-standard
+azure,us-south-central,sles-enterprise-basic-g5-standard
+azure,us-south-central,sles-enterprise-basic-gs1-standard
+azure,us-south-central,sles-enterprise-basic-gs2-standard
+azure,us-south-central,sles-enterprise-basic-gs3-standard
+azure,us-south-central,sles-enterprise-basic-gs4-standard
+azure,us-south-central,sles-enterprise-basic-gs5-standard
+azure,us-south-central,sles-enterprise-basic-nc6-standard
+azure,us-south-central,sles-enterprise-basic-nc12-standard
+azure,us-south-central,sles-enterprise-basic-nc24-standard
+azure,us-south-central,sles-enterprise-basic-nc24r-standard
+azure,us-south-central,sles-enterprise-basic-nv6-standard
+azure,us-south-central,sles-enterprise-basic-nv12-standard
+azure,us-south-central,sles-enterprise-basic-nv24-standard
+azure,japan-east,sles-enterprise-basic-a2-standard
+azure,japan-east,sles-enterprise-basic-a3-standard
+azure,japan-east,sles-enterprise-basic-a4-standard
+azure,japan-east,sles-enterprise-basic-a5-standard
+azure,japan-east,sles-enterprise-basic-a6-standard
+azure,japan-east,sles-enterprise-basic-a7-standard
+azure,japan-east,sles-enterprise-basic-a8-standard
+azure,japan-east,sles-enterprise-basic-a9-standard
+azure,japan-east,sles-enterprise-basic-a10-standard
+azure,japan-east,sles-enterprise-basic-a11-standard
+azure,japan-east,sles-enterprise-basic-a2v2-standard
+azure,japan-east,sles-enterprise-basic-a2mv2-standard
+azure,japan-east,sles-enterprise-basic-a4v2-standard
+azure,japan-east,sles-enterprise-basic-a4mv2-standard
+azure,japan-east,sles-enterprise-basic-a8mv2-standard
+azure,japan-east,sles-enterprise-basic-a8v2-standard
+azure,japan-east,sles-enterprise-basic-d1-standard
+azure,japan-east,sles-enterprise-basic-d2-standard
+azure,japan-east,sles-enterprise-basic-d3-standard
+azure,japan-east,sles-enterprise-basic-d4-standard
+azure,japan-east,sles-enterprise-basic-d11-standard
+azure,japan-east,sles-enterprise-basic-d12-standard
+azure,japan-east,sles-enterprise-basic-d13-standard
+azure,japan-east,sles-enterprise-basic-d14-standard
+azure,japan-east,sles-enterprise-basic-f1-standard
+azure,japan-east,sles-enterprise-basic-f2-standard
+azure,japan-east,sles-enterprise-basic-f4-standard
+azure,japan-east,sles-enterprise-basic-f8-standard
+azure,japan-east,sles-enterprise-basic-f16-standard
+azure,japan-east,sles-enterprise-basic-f1s-standard
+azure,japan-east,sles-enterprise-basic-f2s-standard
+azure,japan-east,sles-enterprise-basic-f4s-standard
+azure,japan-east,sles-enterprise-basic-f8s-standard
+azure,japan-east,sles-enterprise-basic-f16s-standard
+azure,japan-east,sles-enterprise-basic-d1v2-standard
+azure,japan-east,sles-enterprise-basic-d11v2-standard
+azure,japan-east,sles-enterprise-basic-d2v2-standard
+azure,japan-east,sles-enterprise-basic-d3v2-standard
+azure,japan-east,sles-enterprise-basic-d12v2-standard
+azure,japan-east,sles-enterprise-basic-d4v2-standard
+azure,japan-east,sles-enterprise-basic-d13v2-standard
+azure,japan-east,sles-enterprise-basic-d14v2-standard
+azure,japan-east,sles-enterprise-basic-d5v2-standard
+azure,japan-east,sles-enterprise-basic-d15v2-standard
+azure,japan-east,sles-enterprise-basic-ds1-standard
+azure,japan-east,sles-enterprise-basic-ds2-standard
+azure,japan-east,sles-enterprise-basic-ds3-standard
+azure,japan-east,sles-enterprise-basic-ds4-standard
+azure,japan-east,sles-enterprise-basic-ds1v2-standard
+azure,japan-east,sles-enterprise-basic-ds2v2-standard
+azure,japan-east,sles-enterprise-basic-ds3v2-standard
+azure,japan-east,sles-enterprise-basic-ds4v2-standard
+azure,japan-east,sles-enterprise-basic-ds5v2-standard
+azure,japan-east,sles-enterprise-basic-ds11v2-standard
+azure,japan-east,sles-enterprise-basic-ds12v2-standard
+azure,japan-east,sles-enterprise-basic-ds13v2-standard
+azure,japan-east,sles-enterprise-basic-ds14v2-standard
+azure,japan-east,sles-enterprise-basic-ds15v2-standard
+azure,japan-east,sles-enterprise-basic-g1-standard
+azure,japan-east,sles-enterprise-basic-g2-standard
+azure,japan-east,sles-enterprise-basic-g3-standard
+azure,japan-east,sles-enterprise-basic-g4-standard
+azure,japan-east,sles-enterprise-basic-g5-standard
+azure,japan-east,sles-enterprise-basic-gs1-standard
+azure,japan-east,sles-enterprise-basic-gs2-standard
+azure,japan-east,sles-enterprise-basic-gs3-standard
+azure,japan-east,sles-enterprise-basic-gs4-standard
+azure,japan-east,sles-enterprise-basic-gs5-standard
+azure,japan-east,sles-enterprise-basic-nc6-standard
+azure,japan-east,sles-enterprise-basic-nc12-standard
+azure,japan-east,sles-enterprise-basic-nc24-standard
+azure,japan-east,sles-enterprise-basic-nc24r-standard
+azure,japan-east,sles-enterprise-basic-nv6-standard
+azure,japan-east,sles-enterprise-basic-nv12-standard
+azure,japan-east,sles-enterprise-basic-nv24-standard
+azure,australia-east,sles-enterprise-basic-a2-standard
+azure,australia-east,sles-enterprise-basic-a3-standard
+azure,australia-east,sles-enterprise-basic-a4-standard
+azure,australia-east,sles-enterprise-basic-a5-standard
+azure,australia-east,sles-enterprise-basic-a6-standard
+azure,australia-east,sles-enterprise-basic-a7-standard
+azure,australia-east,sles-enterprise-basic-a8-standard
+azure,australia-east,sles-enterprise-basic-a9-standard
+azure,australia-east,sles-enterprise-basic-a10-standard
+azure,australia-east,sles-enterprise-basic-a11-standard
+azure,australia-east,sles-enterprise-basic-a2v2-standard
+azure,australia-east,sles-enterprise-basic-a2mv2-standard
+azure,australia-east,sles-enterprise-basic-a4v2-standard
+azure,australia-east,sles-enterprise-basic-a4mv2-standard
+azure,australia-east,sles-enterprise-basic-a8mv2-standard
+azure,australia-east,sles-enterprise-basic-a8v2-standard
+azure,australia-east,sles-enterprise-basic-d1-standard
+azure,australia-east,sles-enterprise-basic-d2-standard
+azure,australia-east,sles-enterprise-basic-d3-standard
+azure,australia-east,sles-enterprise-basic-d4-standard
+azure,australia-east,sles-enterprise-basic-d11-standard
+azure,australia-east,sles-enterprise-basic-d12-standard
+azure,australia-east,sles-enterprise-basic-d13-standard
+azure,australia-east,sles-enterprise-basic-d14-standard
+azure,australia-east,sles-enterprise-basic-f1-standard
+azure,australia-east,sles-enterprise-basic-f2-standard
+azure,australia-east,sles-enterprise-basic-f4-standard
+azure,australia-east,sles-enterprise-basic-f8-standard
+azure,australia-east,sles-enterprise-basic-f16-standard
+azure,australia-east,sles-enterprise-basic-f1s-standard
+azure,australia-east,sles-enterprise-basic-f2s-standard
+azure,australia-east,sles-enterprise-basic-f4s-standard
+azure,australia-east,sles-enterprise-basic-f8s-standard
+azure,australia-east,sles-enterprise-basic-f16s-standard
+azure,australia-east,sles-enterprise-basic-d1v2-standard
+azure,australia-east,sles-enterprise-basic-d11v2-standard
+azure,australia-east,sles-enterprise-basic-d2v2-standard
+azure,australia-east,sles-enterprise-basic-d3v2-standard
+azure,australia-east,sles-enterprise-basic-d12v2-standard
+azure,australia-east,sles-enterprise-basic-d4v2-standard
+azure,australia-east,sles-enterprise-basic-d13v2-standard
+azure,australia-east,sles-enterprise-basic-d14v2-standard
+azure,australia-east,sles-enterprise-basic-d5v2-standard
+azure,australia-east,sles-enterprise-basic-d15v2-standard
+azure,australia-east,sles-enterprise-basic-ds1-standard
+azure,australia-east,sles-enterprise-basic-ds2-standard
+azure,australia-east,sles-enterprise-basic-ds3-standard
+azure,australia-east,sles-enterprise-basic-ds4-standard
+azure,australia-east,sles-enterprise-basic-ds1v2-standard
+azure,australia-east,sles-enterprise-basic-ds2v2-standard
+azure,australia-east,sles-enterprise-basic-ds3v2-standard
+azure,australia-east,sles-enterprise-basic-ds4v2-standard
+azure,australia-east,sles-enterprise-basic-ds5v2-standard
+azure,australia-east,sles-enterprise-basic-ds11v2-standard
+azure,australia-east,sles-enterprise-basic-ds12v2-standard
+azure,australia-east,sles-enterprise-basic-ds13v2-standard
+azure,australia-east,sles-enterprise-basic-ds14v2-standard
+azure,australia-east,sles-enterprise-basic-ds15v2-standard
+azure,australia-east,sles-enterprise-basic-g1-standard
+azure,australia-east,sles-enterprise-basic-g2-standard
+azure,australia-east,sles-enterprise-basic-g3-standard
+azure,australia-east,sles-enterprise-basic-g4-standard
+azure,australia-east,sles-enterprise-basic-g5-standard
+azure,australia-east,sles-enterprise-basic-gs1-standard
+azure,australia-east,sles-enterprise-basic-gs2-standard
+azure,australia-east,sles-enterprise-basic-gs3-standard
+azure,australia-east,sles-enterprise-basic-gs4-standard
+azure,australia-east,sles-enterprise-basic-gs5-standard
+azure,australia-east,sles-enterprise-basic-nc6-standard
+azure,australia-east,sles-enterprise-basic-nc12-standard
+azure,australia-east,sles-enterprise-basic-nc24-standard
+azure,australia-east,sles-enterprise-basic-nc24r-standard
+azure,australia-east,sles-enterprise-basic-nv6-standard
+azure,australia-east,sles-enterprise-basic-nv12-standard
+azure,australia-east,sles-enterprise-basic-nv24-standard
+azure,australia-southeast,sles-enterprise-basic-a2-standard
+azure,australia-southeast,sles-enterprise-basic-a3-standard
+azure,australia-southeast,sles-enterprise-basic-a4-standard
+azure,australia-southeast,sles-enterprise-basic-a5-standard
+azure,australia-southeast,sles-enterprise-basic-a6-standard
+azure,australia-southeast,sles-enterprise-basic-a7-standard
+azure,australia-southeast,sles-enterprise-basic-a8-standard
+azure,australia-southeast,sles-enterprise-basic-a9-standard
+azure,australia-southeast,sles-enterprise-basic-a10-standard
+azure,australia-southeast,sles-enterprise-basic-a11-standard
+azure,australia-southeast,sles-enterprise-basic-a2v2-standard
+azure,australia-southeast,sles-enterprise-basic-a2mv2-standard
+azure,australia-southeast,sles-enterprise-basic-a4v2-standard
+azure,australia-southeast,sles-enterprise-basic-a4mv2-standard
+azure,australia-southeast,sles-enterprise-basic-a8mv2-standard
+azure,australia-southeast,sles-enterprise-basic-a8v2-standard
+azure,australia-southeast,sles-enterprise-basic-d1-standard
+azure,australia-southeast,sles-enterprise-basic-d2-standard
+azure,australia-southeast,sles-enterprise-basic-d3-standard
+azure,australia-southeast,sles-enterprise-basic-d4-standard
+azure,australia-southeast,sles-enterprise-basic-d11-standard
+azure,australia-southeast,sles-enterprise-basic-d12-standard
+azure,australia-southeast,sles-enterprise-basic-d13-standard
+azure,australia-southeast,sles-enterprise-basic-d14-standard
+azure,australia-southeast,sles-enterprise-basic-f1-standard
+azure,australia-southeast,sles-enterprise-basic-f2-standard
+azure,australia-southeast,sles-enterprise-basic-f4-standard
+azure,australia-southeast,sles-enterprise-basic-f8-standard
+azure,australia-southeast,sles-enterprise-basic-f16-standard
+azure,australia-southeast,sles-enterprise-basic-f1s-standard
+azure,australia-southeast,sles-enterprise-basic-f2s-standard
+azure,australia-southeast,sles-enterprise-basic-f4s-standard
+azure,australia-southeast,sles-enterprise-basic-f8s-standard
+azure,australia-southeast,sles-enterprise-basic-f16s-standard
+azure,australia-southeast,sles-enterprise-basic-d1v2-standard
+azure,australia-southeast,sles-enterprise-basic-d11v2-standard
+azure,australia-southeast,sles-enterprise-basic-d2v2-standard
+azure,australia-southeast,sles-enterprise-basic-d3v2-standard
+azure,australia-southeast,sles-enterprise-basic-d12v2-standard
+azure,australia-southeast,sles-enterprise-basic-d4v2-standard
+azure,australia-southeast,sles-enterprise-basic-d13v2-standard
+azure,australia-southeast,sles-enterprise-basic-d14v2-standard
+azure,australia-southeast,sles-enterprise-basic-d5v2-standard
+azure,australia-southeast,sles-enterprise-basic-d15v2-standard
+azure,australia-southeast,sles-enterprise-basic-ds1-standard
+azure,australia-southeast,sles-enterprise-basic-ds2-standard
+azure,australia-southeast,sles-enterprise-basic-ds3-standard
+azure,australia-southeast,sles-enterprise-basic-ds4-standard
+azure,australia-southeast,sles-enterprise-basic-ds1v2-standard
+azure,australia-southeast,sles-enterprise-basic-ds2v2-standard
+azure,australia-southeast,sles-enterprise-basic-ds3v2-standard
+azure,australia-southeast,sles-enterprise-basic-ds4v2-standard
+azure,australia-southeast,sles-enterprise-basic-ds5v2-standard
+azure,australia-southeast,sles-enterprise-basic-ds11v2-standard
+azure,australia-southeast,sles-enterprise-basic-ds12v2-standard
+azure,australia-southeast,sles-enterprise-basic-ds13v2-standard
+azure,australia-southeast,sles-enterprise-basic-ds14v2-standard
+azure,australia-southeast,sles-enterprise-basic-ds15v2-standard
+azure,australia-southeast,sles-enterprise-basic-g1-standard
+azure,australia-southeast,sles-enterprise-basic-g2-standard
+azure,australia-southeast,sles-enterprise-basic-g3-standard
+azure,australia-southeast,sles-enterprise-basic-g4-standard
+azure,australia-southeast,sles-enterprise-basic-g5-standard
+azure,australia-southeast,sles-enterprise-basic-gs1-standard
+azure,australia-southeast,sles-enterprise-basic-gs2-standard
+azure,australia-southeast,sles-enterprise-basic-gs3-standard
+azure,australia-southeast,sles-enterprise-basic-gs4-standard
+azure,australia-southeast,sles-enterprise-basic-gs5-standard
+azure,australia-southeast,sles-enterprise-basic-nc6-standard
+azure,australia-southeast,sles-enterprise-basic-nc12-standard
+azure,australia-southeast,sles-enterprise-basic-nc24-standard
+azure,australia-southeast,sles-enterprise-basic-nc24r-standard
+azure,australia-southeast,sles-enterprise-basic-nv6-standard
+azure,australia-southeast,sles-enterprise-basic-nv12-standard
+azure,australia-southeast,sles-enterprise-basic-nv24-standard
+azure,west-india,sles-enterprise-basic-a2-standard
+azure,west-india,sles-enterprise-basic-a3-standard
+azure,west-india,sles-enterprise-basic-a4-standard
+azure,west-india,sles-enterprise-basic-a5-standard
+azure,west-india,sles-enterprise-basic-a6-standard
+azure,west-india,sles-enterprise-basic-a7-standard
+azure,west-india,sles-enterprise-basic-a8-standard
+azure,west-india,sles-enterprise-basic-a9-standard
+azure,west-india,sles-enterprise-basic-a10-standard
+azure,west-india,sles-enterprise-basic-a11-standard
+azure,west-india,sles-enterprise-basic-a2v2-standard
+azure,west-india,sles-enterprise-basic-a2mv2-standard
+azure,west-india,sles-enterprise-basic-a4v2-standard
+azure,west-india,sles-enterprise-basic-a4mv2-standard
+azure,west-india,sles-enterprise-basic-a8mv2-standard
+azure,west-india,sles-enterprise-basic-a8v2-standard
+azure,west-india,sles-enterprise-basic-d1-standard
+azure,west-india,sles-enterprise-basic-d2-standard
+azure,west-india,sles-enterprise-basic-d3-standard
+azure,west-india,sles-enterprise-basic-d4-standard
+azure,west-india,sles-enterprise-basic-d11-standard
+azure,west-india,sles-enterprise-basic-d12-standard
+azure,west-india,sles-enterprise-basic-d13-standard
+azure,west-india,sles-enterprise-basic-d14-standard
+azure,west-india,sles-enterprise-basic-f1-standard
+azure,west-india,sles-enterprise-basic-f2-standard
+azure,west-india,sles-enterprise-basic-f4-standard
+azure,west-india,sles-enterprise-basic-f8-standard
+azure,west-india,sles-enterprise-basic-f16-standard
+azure,west-india,sles-enterprise-basic-f1s-standard
+azure,west-india,sles-enterprise-basic-f2s-standard
+azure,west-india,sles-enterprise-basic-f4s-standard
+azure,west-india,sles-enterprise-basic-f8s-standard
+azure,west-india,sles-enterprise-basic-f16s-standard
+azure,west-india,sles-enterprise-basic-d1v2-standard
+azure,west-india,sles-enterprise-basic-d11v2-standard
+azure,west-india,sles-enterprise-basic-d2v2-standard
+azure,west-india,sles-enterprise-basic-d3v2-standard
+azure,west-india,sles-enterprise-basic-d12v2-standard
+azure,west-india,sles-enterprise-basic-d4v2-standard
+azure,west-india,sles-enterprise-basic-d13v2-standard
+azure,west-india,sles-enterprise-basic-d14v2-standard
+azure,west-india,sles-enterprise-basic-d5v2-standard
+azure,west-india,sles-enterprise-basic-d15v2-standard
+azure,west-india,sles-enterprise-basic-ds1-standard
+azure,west-india,sles-enterprise-basic-ds2-standard
+azure,west-india,sles-enterprise-basic-ds3-standard
+azure,west-india,sles-enterprise-basic-ds4-standard
+azure,west-india,sles-enterprise-basic-ds1v2-standard
+azure,west-india,sles-enterprise-basic-ds2v2-standard
+azure,west-india,sles-enterprise-basic-ds3v2-standard
+azure,west-india,sles-enterprise-basic-ds4v2-standard
+azure,west-india,sles-enterprise-basic-ds5v2-standard
+azure,west-india,sles-enterprise-basic-ds11v2-standard
+azure,west-india,sles-enterprise-basic-ds12v2-standard
+azure,west-india,sles-enterprise-basic-ds13v2-standard
+azure,west-india,sles-enterprise-basic-ds14v2-standard
+azure,west-india,sles-enterprise-basic-ds15v2-standard
+azure,west-india,sles-enterprise-basic-g1-standard
+azure,west-india,sles-enterprise-basic-g2-standard
+azure,west-india,sles-enterprise-basic-g3-standard
+azure,west-india,sles-enterprise-basic-g4-standard
+azure,west-india,sles-enterprise-basic-g5-standard
+azure,west-india,sles-enterprise-basic-gs1-standard
+azure,west-india,sles-enterprise-basic-gs2-standard
+azure,west-india,sles-enterprise-basic-gs3-standard
+azure,west-india,sles-enterprise-basic-gs4-standard
+azure,west-india,sles-enterprise-basic-gs5-standard
+azure,west-india,sles-enterprise-basic-nc6-standard
+azure,west-india,sles-enterprise-basic-nc12-standard
+azure,west-india,sles-enterprise-basic-nc24-standard
+azure,west-india,sles-enterprise-basic-nc24r-standard
+azure,west-india,sles-enterprise-basic-nv6-standard
+azure,west-india,sles-enterprise-basic-nv12-standard
+azure,west-india,sles-enterprise-basic-nv24-standard
+azure,us-east,sles-enterprise-basic-a2-standard
+azure,us-east,sles-enterprise-basic-a3-standard
+azure,us-east,sles-enterprise-basic-a4-standard
+azure,us-east,sles-enterprise-basic-a5-standard
+azure,us-east,sles-enterprise-basic-a6-standard
+azure,us-east,sles-enterprise-basic-a7-standard
+azure,us-east,sles-enterprise-basic-a8-standard
+azure,us-east,sles-enterprise-basic-a9-standard
+azure,us-east,sles-enterprise-basic-a10-standard
+azure,us-east,sles-enterprise-basic-a11-standard
+azure,us-east,sles-enterprise-basic-a2v2-standard
+azure,us-east,sles-enterprise-basic-a2mv2-standard
+azure,us-east,sles-enterprise-basic-a4v2-standard
+azure,us-east,sles-enterprise-basic-a4mv2-standard
+azure,us-east,sles-enterprise-basic-a8mv2-standard
+azure,us-east,sles-enterprise-basic-a8v2-standard
+azure,us-east,sles-enterprise-basic-d1-standard
+azure,us-east,sles-enterprise-basic-d2-standard
+azure,us-east,sles-enterprise-basic-d3-standard
+azure,us-east,sles-enterprise-basic-d4-standard
+azure,us-east,sles-enterprise-basic-d11-standard
+azure,us-east,sles-enterprise-basic-d12-standard
+azure,us-east,sles-enterprise-basic-d13-standard
+azure,us-east,sles-enterprise-basic-d14-standard
+azure,us-east,sles-enterprise-basic-f1-standard
+azure,us-east,sles-enterprise-basic-f2-standard
+azure,us-east,sles-enterprise-basic-f4-standard
+azure,us-east,sles-enterprise-basic-f8-standard
+azure,us-east,sles-enterprise-basic-f16-standard
+azure,us-east,sles-enterprise-basic-f1s-standard
+azure,us-east,sles-enterprise-basic-f2s-standard
+azure,us-east,sles-enterprise-basic-f4s-standard
+azure,us-east,sles-enterprise-basic-f8s-standard
+azure,us-east,sles-enterprise-basic-f16s-standard
+azure,us-east,sles-enterprise-basic-d1v2-standard
+azure,us-east,sles-enterprise-basic-d11v2-standard
+azure,us-east,sles-enterprise-basic-d2v2-standard
+azure,us-east,sles-enterprise-basic-d3v2-standard
+azure,us-east,sles-enterprise-basic-d12v2-standard
+azure,us-east,sles-enterprise-basic-d4v2-standard
+azure,us-east,sles-enterprise-basic-d13v2-standard
+azure,us-east,sles-enterprise-basic-d14v2-standard
+azure,us-east,sles-enterprise-basic-d5v2-standard
+azure,us-east,sles-enterprise-basic-d15v2-standard
+azure,us-east,sles-enterprise-basic-ds1-standard
+azure,us-east,sles-enterprise-basic-ds2-standard
+azure,us-east,sles-enterprise-basic-ds3-standard
+azure,us-east,sles-enterprise-basic-ds4-standard
+azure,us-east,sles-enterprise-basic-ds1v2-standard
+azure,us-east,sles-enterprise-basic-ds2v2-standard
+azure,us-east,sles-enterprise-basic-ds3v2-standard
+azure,us-east,sles-enterprise-basic-ds4v2-standard
+azure,us-east,sles-enterprise-basic-ds5v2-standard
+azure,us-east,sles-enterprise-basic-ds11v2-standard
+azure,us-east,sles-enterprise-basic-ds12v2-standard
+azure,us-east,sles-enterprise-basic-ds13v2-standard
+azure,us-east,sles-enterprise-basic-ds14v2-standard
+azure,us-east,sles-enterprise-basic-ds15v2-standard
+azure,us-east,sles-enterprise-basic-g1-standard
+azure,us-east,sles-enterprise-basic-g2-standard
+azure,us-east,sles-enterprise-basic-g3-standard
+azure,us-east,sles-enterprise-basic-g4-standard
+azure,us-east,sles-enterprise-basic-g5-standard
+azure,us-east,sles-enterprise-basic-gs1-standard
+azure,us-east,sles-enterprise-basic-gs2-standard
+azure,us-east,sles-enterprise-basic-gs3-standard
+azure,us-east,sles-enterprise-basic-gs4-standard
+azure,us-east,sles-enterprise-basic-gs5-standard
+azure,us-east,sles-enterprise-basic-nc6-standard
+azure,us-east,sles-enterprise-basic-nc12-standard
+azure,us-east,sles-enterprise-basic-nc24-standard
+azure,us-east,sles-enterprise-basic-nc24r-standard
+azure,us-east,sles-enterprise-basic-nv6-standard
+azure,us-east,sles-enterprise-basic-nv12-standard
+azure,us-east,sles-enterprise-basic-nv24-standard
+azure,japan-west,sles-enterprise-basic-a2-standard
+azure,japan-west,sles-enterprise-basic-a3-standard
+azure,japan-west,sles-enterprise-basic-a4-standard
+azure,japan-west,sles-enterprise-basic-a5-standard
+azure,japan-west,sles-enterprise-basic-a6-standard
+azure,japan-west,sles-enterprise-basic-a7-standard
+azure,japan-west,sles-enterprise-basic-a8-standard
+azure,japan-west,sles-enterprise-basic-a9-standard
+azure,japan-west,sles-enterprise-basic-a10-standard
+azure,japan-west,sles-enterprise-basic-a11-standard
+azure,japan-west,sles-enterprise-basic-a2v2-standard
+azure,japan-west,sles-enterprise-basic-a2mv2-standard
+azure,japan-west,sles-enterprise-basic-a4v2-standard
+azure,japan-west,sles-enterprise-basic-a4mv2-standard
+azure,japan-west,sles-enterprise-basic-a8mv2-standard
+azure,japan-west,sles-enterprise-basic-a8v2-standard
+azure,japan-west,sles-enterprise-basic-d1-standard
+azure,japan-west,sles-enterprise-basic-d2-standard
+azure,japan-west,sles-enterprise-basic-d3-standard
+azure,japan-west,sles-enterprise-basic-d4-standard
+azure,japan-west,sles-enterprise-basic-d11-standard
+azure,japan-west,sles-enterprise-basic-d12-standard
+azure,japan-west,sles-enterprise-basic-d13-standard
+azure,japan-west,sles-enterprise-basic-d14-standard
+azure,japan-west,sles-enterprise-basic-f1-standard
+azure,japan-west,sles-enterprise-basic-f2-standard
+azure,japan-west,sles-enterprise-basic-f4-standard
+azure,japan-west,sles-enterprise-basic-f8-standard
+azure,japan-west,sles-enterprise-basic-f16-standard
+azure,japan-west,sles-enterprise-basic-f1s-standard
+azure,japan-west,sles-enterprise-basic-f2s-standard
+azure,japan-west,sles-enterprise-basic-f4s-standard
+azure,japan-west,sles-enterprise-basic-f8s-standard
+azure,japan-west,sles-enterprise-basic-f16s-standard
+azure,japan-west,sles-enterprise-basic-d1v2-standard
+azure,japan-west,sles-enterprise-basic-d11v2-standard
+azure,japan-west,sles-enterprise-basic-d2v2-standard
+azure,japan-west,sles-enterprise-basic-d3v2-standard
+azure,japan-west,sles-enterprise-basic-d12v2-standard
+azure,japan-west,sles-enterprise-basic-d4v2-standard
+azure,japan-west,sles-enterprise-basic-d13v2-standard
+azure,japan-west,sles-enterprise-basic-d14v2-standard
+azure,japan-west,sles-enterprise-basic-d5v2-standard
+azure,japan-west,sles-enterprise-basic-d15v2-standard
+azure,japan-west,sles-enterprise-basic-ds1-standard
+azure,japan-west,sles-enterprise-basic-ds2-standard
+azure,japan-west,sles-enterprise-basic-ds3-standard
+azure,japan-west,sles-enterprise-basic-ds4-standard
+azure,japan-west,sles-enterprise-basic-ds1v2-standard
+azure,japan-west,sles-enterprise-basic-ds2v2-standard
+azure,japan-west,sles-enterprise-basic-ds3v2-standard
+azure,japan-west,sles-enterprise-basic-ds4v2-standard
+azure,japan-west,sles-enterprise-basic-ds5v2-standard
+azure,japan-west,sles-enterprise-basic-ds11v2-standard
+azure,japan-west,sles-enterprise-basic-ds12v2-standard
+azure,japan-west,sles-enterprise-basic-ds13v2-standard
+azure,japan-west,sles-enterprise-basic-ds14v2-standard
+azure,japan-west,sles-enterprise-basic-ds15v2-standard
+azure,japan-west,sles-enterprise-basic-g1-standard
+azure,japan-west,sles-enterprise-basic-g2-standard
+azure,japan-west,sles-enterprise-basic-g3-standard
+azure,japan-west,sles-enterprise-basic-g4-standard
+azure,japan-west,sles-enterprise-basic-g5-standard
+azure,japan-west,sles-enterprise-basic-gs1-standard
+azure,japan-west,sles-enterprise-basic-gs2-standard
+azure,japan-west,sles-enterprise-basic-gs3-standard
+azure,japan-west,sles-enterprise-basic-gs4-standard
+azure,japan-west,sles-enterprise-basic-gs5-standard
+azure,japan-west,sles-enterprise-basic-nc6-standard
+azure,japan-west,sles-enterprise-basic-nc12-standard
+azure,japan-west,sles-enterprise-basic-nc24-standard
+azure,japan-west,sles-enterprise-basic-nc24r-standard
+azure,japan-west,sles-enterprise-basic-nv6-standard
+azure,japan-west,sles-enterprise-basic-nv12-standard
+azure,japan-west,sles-enterprise-basic-nv24-standard
+azure,europe-west,sles-enterprise-basic-a2-standard
+azure,europe-west,sles-enterprise-basic-a3-standard
+azure,europe-west,sles-enterprise-basic-a4-standard
+azure,europe-west,sles-enterprise-basic-a5-standard
+azure,europe-west,sles-enterprise-basic-a6-standard
+azure,europe-west,sles-enterprise-basic-a7-standard
+azure,europe-west,sles-enterprise-basic-a8-standard
+azure,europe-west,sles-enterprise-basic-a9-standard
+azure,europe-west,sles-enterprise-basic-a10-standard
+azure,europe-west,sles-enterprise-basic-a11-standard
+azure,europe-west,sles-enterprise-basic-a2v2-standard
+azure,europe-west,sles-enterprise-basic-a2mv2-standard
+azure,europe-west,sles-enterprise-basic-a4v2-standard
+azure,europe-west,sles-enterprise-basic-a4mv2-standard
+azure,europe-west,sles-enterprise-basic-a8mv2-standard
+azure,europe-west,sles-enterprise-basic-a8v2-standard
+azure,europe-west,sles-enterprise-basic-d1-standard
+azure,europe-west,sles-enterprise-basic-d2-standard
+azure,europe-west,sles-enterprise-basic-d3-standard
+azure,europe-west,sles-enterprise-basic-d4-standard
+azure,europe-west,sles-enterprise-basic-d11-standard
+azure,europe-west,sles-enterprise-basic-d12-standard
+azure,europe-west,sles-enterprise-basic-d13-standard
+azure,europe-west,sles-enterprise-basic-d14-standard
+azure,europe-west,sles-enterprise-basic-f1-standard
+azure,europe-west,sles-enterprise-basic-f2-standard
+azure,europe-west,sles-enterprise-basic-f4-standard
+azure,europe-west,sles-enterprise-basic-f8-standard
+azure,europe-west,sles-enterprise-basic-f16-standard
+azure,europe-west,sles-enterprise-basic-f1s-standard
+azure,europe-west,sles-enterprise-basic-f2s-standard
+azure,europe-west,sles-enterprise-basic-f4s-standard
+azure,europe-west,sles-enterprise-basic-f8s-standard
+azure,europe-west,sles-enterprise-basic-f16s-standard
+azure,europe-west,sles-enterprise-basic-d1v2-standard
+azure,europe-west,sles-enterprise-basic-d11v2-standard
+azure,europe-west,sles-enterprise-basic-d2v2-standard
+azure,europe-west,sles-enterprise-basic-d3v2-standard
+azure,europe-west,sles-enterprise-basic-d12v2-standard
+azure,europe-west,sles-enterprise-basic-d4v2-standard
+azure,europe-west,sles-enterprise-basic-d13v2-standard
+azure,europe-west,sles-enterprise-basic-d14v2-standard
+azure,europe-west,sles-enterprise-basic-d5v2-standard
+azure,europe-west,sles-enterprise-basic-d15v2-standard
+azure,europe-west,sles-enterprise-basic-ds1-standard
+azure,europe-west,sles-enterprise-basic-ds2-standard
+azure,europe-west,sles-enterprise-basic-ds3-standard
+azure,europe-west,sles-enterprise-basic-ds4-standard
+azure,europe-west,sles-enterprise-basic-ds1v2-standard
+azure,europe-west,sles-enterprise-basic-ds2v2-standard
+azure,europe-west,sles-enterprise-basic-ds3v2-standard
+azure,europe-west,sles-enterprise-basic-ds4v2-standard
+azure,europe-west,sles-enterprise-basic-ds5v2-standard
+azure,europe-west,sles-enterprise-basic-ds11v2-standard
+azure,europe-west,sles-enterprise-basic-ds12v2-standard
+azure,europe-west,sles-enterprise-basic-ds13v2-standard
+azure,europe-west,sles-enterprise-basic-ds14v2-standard
+azure,europe-west,sles-enterprise-basic-ds15v2-standard
+azure,europe-west,sles-enterprise-basic-g1-standard
+azure,europe-west,sles-enterprise-basic-g2-standard
+azure,europe-west,sles-enterprise-basic-g3-standard
+azure,europe-west,sles-enterprise-basic-g4-standard
+azure,europe-west,sles-enterprise-basic-g5-standard
+azure,europe-west,sles-enterprise-basic-gs1-standard
+azure,europe-west,sles-enterprise-basic-gs2-standard
+azure,europe-west,sles-enterprise-basic-gs3-standard
+azure,europe-west,sles-enterprise-basic-gs4-standard
+azure,europe-west,sles-enterprise-basic-gs5-standard
+azure,europe-west,sles-enterprise-basic-nc6-standard
+azure,europe-west,sles-enterprise-basic-nc12-standard
+azure,europe-west,sles-enterprise-basic-nc24-standard
+azure,europe-west,sles-enterprise-basic-nc24r-standard
+azure,europe-west,sles-enterprise-basic-nv6-standard
+azure,europe-west,sles-enterprise-basic-nv12-standard
+azure,europe-west,sles-enterprise-basic-nv24-standard
+azure,us-west-2,sles-enterprise-basic-a2-standard
+azure,us-west-2,sles-enterprise-basic-a3-standard
+azure,us-west-2,sles-enterprise-basic-a4-standard
+azure,us-west-2,sles-enterprise-basic-a5-standard
+azure,us-west-2,sles-enterprise-basic-a6-standard
+azure,us-west-2,sles-enterprise-basic-a7-standard
+azure,us-west-2,sles-enterprise-basic-a8-standard
+azure,us-west-2,sles-enterprise-basic-a9-standard
+azure,us-west-2,sles-enterprise-basic-a10-standard
+azure,us-west-2,sles-enterprise-basic-a11-standard
+azure,us-west-2,sles-enterprise-basic-a2v2-standard
+azure,us-west-2,sles-enterprise-basic-a2mv2-standard
+azure,us-west-2,sles-enterprise-basic-a4v2-standard
+azure,us-west-2,sles-enterprise-basic-a4mv2-standard
+azure,us-west-2,sles-enterprise-basic-a8mv2-standard
+azure,us-west-2,sles-enterprise-basic-a8v2-standard
+azure,us-west-2,sles-enterprise-basic-d1-standard
+azure,us-west-2,sles-enterprise-basic-d2-standard
+azure,us-west-2,sles-enterprise-basic-d3-standard
+azure,us-west-2,sles-enterprise-basic-d4-standard
+azure,us-west-2,sles-enterprise-basic-d11-standard
+azure,us-west-2,sles-enterprise-basic-d12-standard
+azure,us-west-2,sles-enterprise-basic-d13-standard
+azure,us-west-2,sles-enterprise-basic-d14-standard
+azure,us-west-2,sles-enterprise-basic-f1-standard
+azure,us-west-2,sles-enterprise-basic-f2-standard
+azure,us-west-2,sles-enterprise-basic-f4-standard
+azure,us-west-2,sles-enterprise-basic-f8-standard
+azure,us-west-2,sles-enterprise-basic-f16-standard
+azure,us-west-2,sles-enterprise-basic-f1s-standard
+azure,us-west-2,sles-enterprise-basic-f2s-standard
+azure,us-west-2,sles-enterprise-basic-f4s-standard
+azure,us-west-2,sles-enterprise-basic-f8s-standard
+azure,us-west-2,sles-enterprise-basic-f16s-standard
+azure,us-west-2,sles-enterprise-basic-d1v2-standard
+azure,us-west-2,sles-enterprise-basic-d11v2-standard
+azure,us-west-2,sles-enterprise-basic-d2v2-standard
+azure,us-west-2,sles-enterprise-basic-d3v2-standard
+azure,us-west-2,sles-enterprise-basic-d12v2-standard
+azure,us-west-2,sles-enterprise-basic-d4v2-standard
+azure,us-west-2,sles-enterprise-basic-d13v2-standard
+azure,us-west-2,sles-enterprise-basic-d14v2-standard
+azure,us-west-2,sles-enterprise-basic-d5v2-standard
+azure,us-west-2,sles-enterprise-basic-d15v2-standard
+azure,us-west-2,sles-enterprise-basic-ds1-standard
+azure,us-west-2,sles-enterprise-basic-ds2-standard
+azure,us-west-2,sles-enterprise-basic-ds3-standard
+azure,us-west-2,sles-enterprise-basic-ds4-standard
+azure,us-west-2,sles-enterprise-basic-ds1v2-standard
+azure,us-west-2,sles-enterprise-basic-ds2v2-standard
+azure,us-west-2,sles-enterprise-basic-ds3v2-standard
+azure,us-west-2,sles-enterprise-basic-ds4v2-standard
+azure,us-west-2,sles-enterprise-basic-ds5v2-standard
+azure,us-west-2,sles-enterprise-basic-ds11v2-standard
+azure,us-west-2,sles-enterprise-basic-ds12v2-standard
+azure,us-west-2,sles-enterprise-basic-ds13v2-standard
+azure,us-west-2,sles-enterprise-basic-ds14v2-standard
+azure,us-west-2,sles-enterprise-basic-ds15v2-standard
+azure,us-west-2,sles-enterprise-basic-g1-standard
+azure,us-west-2,sles-enterprise-basic-g2-standard
+azure,us-west-2,sles-enterprise-basic-g3-standard
+azure,us-west-2,sles-enterprise-basic-g4-standard
+azure,us-west-2,sles-enterprise-basic-g5-standard
+azure,us-west-2,sles-enterprise-basic-gs1-standard
+azure,us-west-2,sles-enterprise-basic-gs2-standard
+azure,us-west-2,sles-enterprise-basic-gs3-standard
+azure,us-west-2,sles-enterprise-basic-gs4-standard
+azure,us-west-2,sles-enterprise-basic-gs5-standard
+azure,us-west-2,sles-enterprise-basic-nc6-standard
+azure,us-west-2,sles-enterprise-basic-nc12-standard
+azure,us-west-2,sles-enterprise-basic-nc24-standard
+azure,us-west-2,sles-enterprise-basic-nc24r-standard
+azure,us-west-2,sles-enterprise-basic-nv6-standard
+azure,us-west-2,sles-enterprise-basic-nv12-standard
+azure,us-west-2,sles-enterprise-basic-nv24-standard
+azure,south-india,sles-enterprise-basic-a2-standard
+azure,south-india,sles-enterprise-basic-a3-standard
+azure,south-india,sles-enterprise-basic-a4-standard
+azure,south-india,sles-enterprise-basic-a5-standard
+azure,south-india,sles-enterprise-basic-a6-standard
+azure,south-india,sles-enterprise-basic-a7-standard
+azure,south-india,sles-enterprise-basic-a8-standard
+azure,south-india,sles-enterprise-basic-a9-standard
+azure,south-india,sles-enterprise-basic-a10-standard
+azure,south-india,sles-enterprise-basic-a11-standard
+azure,south-india,sles-enterprise-basic-a2v2-standard
+azure,south-india,sles-enterprise-basic-a2mv2-standard
+azure,south-india,sles-enterprise-basic-a4v2-standard
+azure,south-india,sles-enterprise-basic-a4mv2-standard
+azure,south-india,sles-enterprise-basic-a8mv2-standard
+azure,south-india,sles-enterprise-basic-a8v2-standard
+azure,south-india,sles-enterprise-basic-d1-standard
+azure,south-india,sles-enterprise-basic-d2-standard
+azure,south-india,sles-enterprise-basic-d3-standard
+azure,south-india,sles-enterprise-basic-d4-standard
+azure,south-india,sles-enterprise-basic-d11-standard
+azure,south-india,sles-enterprise-basic-d12-standard
+azure,south-india,sles-enterprise-basic-d13-standard
+azure,south-india,sles-enterprise-basic-d14-standard
+azure,south-india,sles-enterprise-basic-f1-standard
+azure,south-india,sles-enterprise-basic-f2-standard
+azure,south-india,sles-enterprise-basic-f4-standard
+azure,south-india,sles-enterprise-basic-f8-standard
+azure,south-india,sles-enterprise-basic-f16-standard
+azure,south-india,sles-enterprise-basic-f1s-standard
+azure,south-india,sles-enterprise-basic-f2s-standard
+azure,south-india,sles-enterprise-basic-f4s-standard
+azure,south-india,sles-enterprise-basic-f8s-standard
+azure,south-india,sles-enterprise-basic-f16s-standard
+azure,south-india,sles-enterprise-basic-d1v2-standard
+azure,south-india,sles-enterprise-basic-d11v2-standard
+azure,south-india,sles-enterprise-basic-d2v2-standard
+azure,south-india,sles-enterprise-basic-d3v2-standard
+azure,south-india,sles-enterprise-basic-d12v2-standard
+azure,south-india,sles-enterprise-basic-d4v2-standard
+azure,south-india,sles-enterprise-basic-d13v2-standard
+azure,south-india,sles-enterprise-basic-d14v2-standard
+azure,south-india,sles-enterprise-basic-d5v2-standard
+azure,south-india,sles-enterprise-basic-d15v2-standard
+azure,south-india,sles-enterprise-basic-ds1-standard
+azure,south-india,sles-enterprise-basic-ds2-standard
+azure,south-india,sles-enterprise-basic-ds3-standard
+azure,south-india,sles-enterprise-basic-ds4-standard
+azure,south-india,sles-enterprise-basic-ds1v2-standard
+azure,south-india,sles-enterprise-basic-ds2v2-standard
+azure,south-india,sles-enterprise-basic-ds3v2-standard
+azure,south-india,sles-enterprise-basic-ds4v2-standard
+azure,south-india,sles-enterprise-basic-ds5v2-standard
+azure,south-india,sles-enterprise-basic-ds11v2-standard
+azure,south-india,sles-enterprise-basic-ds12v2-standard
+azure,south-india,sles-enterprise-basic-ds13v2-standard
+azure,south-india,sles-enterprise-basic-ds14v2-standard
+azure,south-india,sles-enterprise-basic-ds15v2-standard
+azure,south-india,sles-enterprise-basic-g1-standard
+azure,south-india,sles-enterprise-basic-g2-standard
+azure,south-india,sles-enterprise-basic-g3-standard
+azure,south-india,sles-enterprise-basic-g4-standard
+azure,south-india,sles-enterprise-basic-g5-standard
+azure,south-india,sles-enterprise-basic-gs1-standard
+azure,south-india,sles-enterprise-basic-gs2-standard
+azure,south-india,sles-enterprise-basic-gs3-standard
+azure,south-india,sles-enterprise-basic-gs4-standard
+azure,south-india,sles-enterprise-basic-gs5-standard
+azure,south-india,sles-enterprise-basic-nc6-standard
+azure,south-india,sles-enterprise-basic-nc12-standard
+azure,south-india,sles-enterprise-basic-nc24-standard
+azure,south-india,sles-enterprise-basic-nc24r-standard
+azure,south-india,sles-enterprise-basic-nv6-standard
+azure,south-india,sles-enterprise-basic-nv12-standard
+azure,south-india,sles-enterprise-basic-nv24-standard
+azure,asia-pacific-east,sles-enterprise-basic-a2-standard
+azure,asia-pacific-east,sles-enterprise-basic-a3-standard
+azure,asia-pacific-east,sles-enterprise-basic-a4-standard
+azure,asia-pacific-east,sles-enterprise-basic-a5-standard
+azure,asia-pacific-east,sles-enterprise-basic-a6-standard
+azure,asia-pacific-east,sles-enterprise-basic-a7-standard
+azure,asia-pacific-east,sles-enterprise-basic-a8-standard
+azure,asia-pacific-east,sles-enterprise-basic-a9-standard
+azure,asia-pacific-east,sles-enterprise-basic-a10-standard
+azure,asia-pacific-east,sles-enterprise-basic-a11-standard
+azure,asia-pacific-east,sles-enterprise-basic-a2v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-a2mv2-standard
+azure,asia-pacific-east,sles-enterprise-basic-a4v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-a4mv2-standard
+azure,asia-pacific-east,sles-enterprise-basic-a8mv2-standard
+azure,asia-pacific-east,sles-enterprise-basic-a8v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d1-standard
+azure,asia-pacific-east,sles-enterprise-basic-d2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d3-standard
+azure,asia-pacific-east,sles-enterprise-basic-d4-standard
+azure,asia-pacific-east,sles-enterprise-basic-d11-standard
+azure,asia-pacific-east,sles-enterprise-basic-d12-standard
+azure,asia-pacific-east,sles-enterprise-basic-d13-standard
+azure,asia-pacific-east,sles-enterprise-basic-d14-standard
+azure,asia-pacific-east,sles-enterprise-basic-f1-standard
+azure,asia-pacific-east,sles-enterprise-basic-f2-standard
+azure,asia-pacific-east,sles-enterprise-basic-f4-standard
+azure,asia-pacific-east,sles-enterprise-basic-f8-standard
+azure,asia-pacific-east,sles-enterprise-basic-f16-standard
+azure,asia-pacific-east,sles-enterprise-basic-f1s-standard
+azure,asia-pacific-east,sles-enterprise-basic-f2s-standard
+azure,asia-pacific-east,sles-enterprise-basic-f4s-standard
+azure,asia-pacific-east,sles-enterprise-basic-f8s-standard
+azure,asia-pacific-east,sles-enterprise-basic-f16s-standard
+azure,asia-pacific-east,sles-enterprise-basic-d1v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d11v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d2v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d3v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d12v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d4v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d13v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d14v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d5v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-d15v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds1-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds3-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds4-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds1v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds2v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds3v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds4v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds5v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds11v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds12v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds13v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds14v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-ds15v2-standard
+azure,asia-pacific-east,sles-enterprise-basic-g1-standard
+azure,asia-pacific-east,sles-enterprise-basic-g2-standard
+azure,asia-pacific-east,sles-enterprise-basic-g3-standard
+azure,asia-pacific-east,sles-enterprise-basic-g4-standard
+azure,asia-pacific-east,sles-enterprise-basic-g5-standard
+azure,asia-pacific-east,sles-enterprise-basic-gs1-standard
+azure,asia-pacific-east,sles-enterprise-basic-gs2-standard
+azure,asia-pacific-east,sles-enterprise-basic-gs3-standard
+azure,asia-pacific-east,sles-enterprise-basic-gs4-standard
+azure,asia-pacific-east,sles-enterprise-basic-gs5-standard
+azure,asia-pacific-east,sles-enterprise-basic-nc6-standard
+azure,asia-pacific-east,sles-enterprise-basic-nc12-standard
+azure,asia-pacific-east,sles-enterprise-basic-nc24-standard
+azure,asia-pacific-east,sles-enterprise-basic-nc24r-standard
+azure,asia-pacific-east,sles-enterprise-basic-nv6-standard
+azure,asia-pacific-east,sles-enterprise-basic-nv12-standard
+azure,asia-pacific-east,sles-enterprise-basic-nv24-standard
+azure,us-north-central,sles-enterprise-basic-a2-standard
+azure,us-north-central,sles-enterprise-basic-a3-standard
+azure,us-north-central,sles-enterprise-basic-a4-standard
+azure,us-north-central,sles-enterprise-basic-a5-standard
+azure,us-north-central,sles-enterprise-basic-a6-standard
+azure,us-north-central,sles-enterprise-basic-a7-standard
+azure,us-north-central,sles-enterprise-basic-a8-standard
+azure,us-north-central,sles-enterprise-basic-a9-standard
+azure,us-north-central,sles-enterprise-basic-a10-standard
+azure,us-north-central,sles-enterprise-basic-a11-standard
+azure,us-north-central,sles-enterprise-basic-a2v2-standard
+azure,us-north-central,sles-enterprise-basic-a2mv2-standard
+azure,us-north-central,sles-enterprise-basic-a4v2-standard
+azure,us-north-central,sles-enterprise-basic-a4mv2-standard
+azure,us-north-central,sles-enterprise-basic-a8mv2-standard
+azure,us-north-central,sles-enterprise-basic-a8v2-standard
+azure,us-north-central,sles-enterprise-basic-d1-standard
+azure,us-north-central,sles-enterprise-basic-d2-standard
+azure,us-north-central,sles-enterprise-basic-d3-standard
+azure,us-north-central,sles-enterprise-basic-d4-standard
+azure,us-north-central,sles-enterprise-basic-d11-standard
+azure,us-north-central,sles-enterprise-basic-d12-standard
+azure,us-north-central,sles-enterprise-basic-d13-standard
+azure,us-north-central,sles-enterprise-basic-d14-standard
+azure,us-north-central,sles-enterprise-basic-f1-standard
+azure,us-north-central,sles-enterprise-basic-f2-standard
+azure,us-north-central,sles-enterprise-basic-f4-standard
+azure,us-north-central,sles-enterprise-basic-f8-standard
+azure,us-north-central,sles-enterprise-basic-f16-standard
+azure,us-north-central,sles-enterprise-basic-f1s-standard
+azure,us-north-central,sles-enterprise-basic-f2s-standard
+azure,us-north-central,sles-enterprise-basic-f4s-standard
+azure,us-north-central,sles-enterprise-basic-f8s-standard
+azure,us-north-central,sles-enterprise-basic-f16s-standard
+azure,us-north-central,sles-enterprise-basic-d1v2-standard
+azure,us-north-central,sles-enterprise-basic-d11v2-standard
+azure,us-north-central,sles-enterprise-basic-d2v2-standard
+azure,us-north-central,sles-enterprise-basic-d3v2-standard
+azure,us-north-central,sles-enterprise-basic-d12v2-standard
+azure,us-north-central,sles-enterprise-basic-d4v2-standard
+azure,us-north-central,sles-enterprise-basic-d13v2-standard
+azure,us-north-central,sles-enterprise-basic-d14v2-standard
+azure,us-north-central,sles-enterprise-basic-d5v2-standard
+azure,us-north-central,sles-enterprise-basic-d15v2-standard
+azure,us-north-central,sles-enterprise-basic-ds1-standard
+azure,us-north-central,sles-enterprise-basic-ds2-standard
+azure,us-north-central,sles-enterprise-basic-ds3-standard
+azure,us-north-central,sles-enterprise-basic-ds4-standard
+azure,us-north-central,sles-enterprise-basic-ds1v2-standard
+azure,us-north-central,sles-enterprise-basic-ds2v2-standard
+azure,us-north-central,sles-enterprise-basic-ds3v2-standard
+azure,us-north-central,sles-enterprise-basic-ds4v2-standard
+azure,us-north-central,sles-enterprise-basic-ds5v2-standard
+azure,us-north-central,sles-enterprise-basic-ds11v2-standard
+azure,us-north-central,sles-enterprise-basic-ds12v2-standard
+azure,us-north-central,sles-enterprise-basic-ds13v2-standard
+azure,us-north-central,sles-enterprise-basic-ds14v2-standard
+azure,us-north-central,sles-enterprise-basic-ds15v2-standard
+azure,us-north-central,sles-enterprise-basic-g1-standard
+azure,us-north-central,sles-enterprise-basic-g2-standard
+azure,us-north-central,sles-enterprise-basic-g3-standard
+azure,us-north-central,sles-enterprise-basic-g4-standard
+azure,us-north-central,sles-enterprise-basic-g5-standard
+azure,us-north-central,sles-enterprise-basic-gs1-standard
+azure,us-north-central,sles-enterprise-basic-gs2-standard
+azure,us-north-central,sles-enterprise-basic-gs3-standard
+azure,us-north-central,sles-enterprise-basic-gs4-standard
+azure,us-north-central,sles-enterprise-basic-gs5-standard
+azure,us-north-central,sles-enterprise-basic-nc6-standard
+azure,us-north-central,sles-enterprise-basic-nc12-standard
+azure,us-north-central,sles-enterprise-basic-nc24-standard
+azure,us-north-central,sles-enterprise-basic-nc24r-standard
+azure,us-north-central,sles-enterprise-basic-nv6-standard
+azure,us-north-central,sles-enterprise-basic-nv12-standard
+azure,us-north-central,sles-enterprise-basic-nv24-standard
+azure,central-india,sles-enterprise-basic-a2-standard
+azure,central-india,sles-enterprise-basic-a3-standard
+azure,central-india,sles-enterprise-basic-a4-standard
+azure,central-india,sles-enterprise-basic-a5-standard
+azure,central-india,sles-enterprise-basic-a6-standard
+azure,central-india,sles-enterprise-basic-a7-standard
+azure,central-india,sles-enterprise-basic-a8-standard
+azure,central-india,sles-enterprise-basic-a9-standard
+azure,central-india,sles-enterprise-basic-a10-standard
+azure,central-india,sles-enterprise-basic-a11-standard
+azure,central-india,sles-enterprise-basic-a2v2-standard
+azure,central-india,sles-enterprise-basic-a2mv2-standard
+azure,central-india,sles-enterprise-basic-a4v2-standard
+azure,central-india,sles-enterprise-basic-a4mv2-standard
+azure,central-india,sles-enterprise-basic-a8mv2-standard
+azure,central-india,sles-enterprise-basic-a8v2-standard
+azure,central-india,sles-enterprise-basic-d1-standard
+azure,central-india,sles-enterprise-basic-d2-standard
+azure,central-india,sles-enterprise-basic-d3-standard
+azure,central-india,sles-enterprise-basic-d4-standard
+azure,central-india,sles-enterprise-basic-d11-standard
+azure,central-india,sles-enterprise-basic-d12-standard
+azure,central-india,sles-enterprise-basic-d13-standard
+azure,central-india,sles-enterprise-basic-d14-standard
+azure,central-india,sles-enterprise-basic-f1-standard
+azure,central-india,sles-enterprise-basic-f2-standard
+azure,central-india,sles-enterprise-basic-f4-standard
+azure,central-india,sles-enterprise-basic-f8-standard
+azure,central-india,sles-enterprise-basic-f16-standard
+azure,central-india,sles-enterprise-basic-f1s-standard
+azure,central-india,sles-enterprise-basic-f2s-standard
+azure,central-india,sles-enterprise-basic-f4s-standard
+azure,central-india,sles-enterprise-basic-f8s-standard
+azure,central-india,sles-enterprise-basic-f16s-standard
+azure,central-india,sles-enterprise-basic-d1v2-standard
+azure,central-india,sles-enterprise-basic-d11v2-standard
+azure,central-india,sles-enterprise-basic-d2v2-standard
+azure,central-india,sles-enterprise-basic-d3v2-standard
+azure,central-india,sles-enterprise-basic-d12v2-standard
+azure,central-india,sles-enterprise-basic-d4v2-standard
+azure,central-india,sles-enterprise-basic-d13v2-standard
+azure,central-india,sles-enterprise-basic-d14v2-standard
+azure,central-india,sles-enterprise-basic-d5v2-standard
+azure,central-india,sles-enterprise-basic-d15v2-standard
+azure,central-india,sles-enterprise-basic-ds1-standard
+azure,central-india,sles-enterprise-basic-ds2-standard
+azure,central-india,sles-enterprise-basic-ds3-standard
+azure,central-india,sles-enterprise-basic-ds4-standard
+azure,central-india,sles-enterprise-basic-ds1v2-standard
+azure,central-india,sles-enterprise-basic-ds2v2-standard
+azure,central-india,sles-enterprise-basic-ds3v2-standard
+azure,central-india,sles-enterprise-basic-ds4v2-standard
+azure,central-india,sles-enterprise-basic-ds5v2-standard
+azure,central-india,sles-enterprise-basic-ds11v2-standard
+azure,central-india,sles-enterprise-basic-ds12v2-standard
+azure,central-india,sles-enterprise-basic-ds13v2-standard
+azure,central-india,sles-enterprise-basic-ds14v2-standard
+azure,central-india,sles-enterprise-basic-ds15v2-standard
+azure,central-india,sles-enterprise-basic-g1-standard
+azure,central-india,sles-enterprise-basic-g2-standard
+azure,central-india,sles-enterprise-basic-g3-standard
+azure,central-india,sles-enterprise-basic-g4-standard
+azure,central-india,sles-enterprise-basic-g5-standard
+azure,central-india,sles-enterprise-basic-gs1-standard
+azure,central-india,sles-enterprise-basic-gs2-standard
+azure,central-india,sles-enterprise-basic-gs3-standard
+azure,central-india,sles-enterprise-basic-gs4-standard
+azure,central-india,sles-enterprise-basic-gs5-standard
+azure,central-india,sles-enterprise-basic-nc6-standard
+azure,central-india,sles-enterprise-basic-nc12-standard
+azure,central-india,sles-enterprise-basic-nc24-standard
+azure,central-india,sles-enterprise-basic-nc24r-standard
+azure,central-india,sles-enterprise-basic-nv6-standard
+azure,central-india,sles-enterprise-basic-nv12-standard
+azure,central-india,sles-enterprise-basic-nv24-standard
+azure,brazil-south,sles-enterprise-basic-a2-standard
+azure,brazil-south,sles-enterprise-basic-a3-standard
+azure,brazil-south,sles-enterprise-basic-a4-standard
+azure,brazil-south,sles-enterprise-basic-a5-standard
+azure,brazil-south,sles-enterprise-basic-a6-standard
+azure,brazil-south,sles-enterprise-basic-a7-standard
+azure,brazil-south,sles-enterprise-basic-a8-standard
+azure,brazil-south,sles-enterprise-basic-a9-standard
+azure,brazil-south,sles-enterprise-basic-a10-standard
+azure,brazil-south,sles-enterprise-basic-a11-standard
+azure,brazil-south,sles-enterprise-basic-a2v2-standard
+azure,brazil-south,sles-enterprise-basic-a2mv2-standard
+azure,brazil-south,sles-enterprise-basic-a4v2-standard
+azure,brazil-south,sles-enterprise-basic-a4mv2-standard
+azure,brazil-south,sles-enterprise-basic-a8mv2-standard
+azure,brazil-south,sles-enterprise-basic-a8v2-standard
+azure,brazil-south,sles-enterprise-basic-d1-standard
+azure,brazil-south,sles-enterprise-basic-d2-standard
+azure,brazil-south,sles-enterprise-basic-d3-standard
+azure,brazil-south,sles-enterprise-basic-d4-standard
+azure,brazil-south,sles-enterprise-basic-d11-standard
+azure,brazil-south,sles-enterprise-basic-d12-standard
+azure,brazil-south,sles-enterprise-basic-d13-standard
+azure,brazil-south,sles-enterprise-basic-d14-standard
+azure,brazil-south,sles-enterprise-basic-f1-standard
+azure,brazil-south,sles-enterprise-basic-f2-standard
+azure,brazil-south,sles-enterprise-basic-f4-standard
+azure,brazil-south,sles-enterprise-basic-f8-standard
+azure,brazil-south,sles-enterprise-basic-f16-standard
+azure,brazil-south,sles-enterprise-basic-f1s-standard
+azure,brazil-south,sles-enterprise-basic-f2s-standard
+azure,brazil-south,sles-enterprise-basic-f4s-standard
+azure,brazil-south,sles-enterprise-basic-f8s-standard
+azure,brazil-south,sles-enterprise-basic-f16s-standard
+azure,brazil-south,sles-enterprise-basic-d1v2-standard
+azure,brazil-south,sles-enterprise-basic-d11v2-standard
+azure,brazil-south,sles-enterprise-basic-d2v2-standard
+azure,brazil-south,sles-enterprise-basic-d3v2-standard
+azure,brazil-south,sles-enterprise-basic-d12v2-standard
+azure,brazil-south,sles-enterprise-basic-d4v2-standard
+azure,brazil-south,sles-enterprise-basic-d13v2-standard
+azure,brazil-south,sles-enterprise-basic-d14v2-standard
+azure,brazil-south,sles-enterprise-basic-d5v2-standard
+azure,brazil-south,sles-enterprise-basic-d15v2-standard
+azure,brazil-south,sles-enterprise-basic-ds1-standard
+azure,brazil-south,sles-enterprise-basic-ds2-standard
+azure,brazil-south,sles-enterprise-basic-ds3-standard
+azure,brazil-south,sles-enterprise-basic-ds4-standard
+azure,brazil-south,sles-enterprise-basic-ds1v2-standard
+azure,brazil-south,sles-enterprise-basic-ds2v2-standard
+azure,brazil-south,sles-enterprise-basic-ds3v2-standard
+azure,brazil-south,sles-enterprise-basic-ds4v2-standard
+azure,brazil-south,sles-enterprise-basic-ds5v2-standard
+azure,brazil-south,sles-enterprise-basic-ds11v2-standard
+azure,brazil-south,sles-enterprise-basic-ds12v2-standard
+azure,brazil-south,sles-enterprise-basic-ds13v2-standard
+azure,brazil-south,sles-enterprise-basic-ds14v2-standard
+azure,brazil-south,sles-enterprise-basic-ds15v2-standard
+azure,brazil-south,sles-enterprise-basic-g1-standard
+azure,brazil-south,sles-enterprise-basic-g2-standard
+azure,brazil-south,sles-enterprise-basic-g3-standard
+azure,brazil-south,sles-enterprise-basic-g4-standard
+azure,brazil-south,sles-enterprise-basic-g5-standard
+azure,brazil-south,sles-enterprise-basic-gs1-standard
+azure,brazil-south,sles-enterprise-basic-gs2-standard
+azure,brazil-south,sles-enterprise-basic-gs3-standard
+azure,brazil-south,sles-enterprise-basic-gs4-standard
+azure,brazil-south,sles-enterprise-basic-gs5-standard
+azure,brazil-south,sles-enterprise-basic-nc6-standard
+azure,brazil-south,sles-enterprise-basic-nc12-standard
+azure,brazil-south,sles-enterprise-basic-nc24-standard
+azure,brazil-south,sles-enterprise-basic-nc24r-standard
+azure,brazil-south,sles-enterprise-basic-nv6-standard
+azure,brazil-south,sles-enterprise-basic-nv12-standard
+azure,brazil-south,sles-enterprise-basic-nv24-standard
+azure,canada-east,sles-enterprise-basic-a2-standard
+azure,canada-east,sles-enterprise-basic-a3-standard
+azure,canada-east,sles-enterprise-basic-a4-standard
+azure,canada-east,sles-enterprise-basic-a5-standard
+azure,canada-east,sles-enterprise-basic-a6-standard
+azure,canada-east,sles-enterprise-basic-a7-standard
+azure,canada-east,sles-enterprise-basic-a8-standard
+azure,canada-east,sles-enterprise-basic-a9-standard
+azure,canada-east,sles-enterprise-basic-a10-standard
+azure,canada-east,sles-enterprise-basic-a11-standard
+azure,canada-east,sles-enterprise-basic-a2v2-standard
+azure,canada-east,sles-enterprise-basic-a2mv2-standard
+azure,canada-east,sles-enterprise-basic-a4v2-standard
+azure,canada-east,sles-enterprise-basic-a4mv2-standard
+azure,canada-east,sles-enterprise-basic-a8mv2-standard
+azure,canada-east,sles-enterprise-basic-a8v2-standard
+azure,canada-east,sles-enterprise-basic-d1-standard
+azure,canada-east,sles-enterprise-basic-d2-standard
+azure,canada-east,sles-enterprise-basic-d3-standard
+azure,canada-east,sles-enterprise-basic-d4-standard
+azure,canada-east,sles-enterprise-basic-d11-standard
+azure,canada-east,sles-enterprise-basic-d12-standard
+azure,canada-east,sles-enterprise-basic-d13-standard
+azure,canada-east,sles-enterprise-basic-d14-standard
+azure,canada-east,sles-enterprise-basic-f1-standard
+azure,canada-east,sles-enterprise-basic-f2-standard
+azure,canada-east,sles-enterprise-basic-f4-standard
+azure,canada-east,sles-enterprise-basic-f8-standard
+azure,canada-east,sles-enterprise-basic-f16-standard
+azure,canada-east,sles-enterprise-basic-f1s-standard
+azure,canada-east,sles-enterprise-basic-f2s-standard
+azure,canada-east,sles-enterprise-basic-f4s-standard
+azure,canada-east,sles-enterprise-basic-f8s-standard
+azure,canada-east,sles-enterprise-basic-f16s-standard
+azure,canada-east,sles-enterprise-basic-d1v2-standard
+azure,canada-east,sles-enterprise-basic-d11v2-standard
+azure,canada-east,sles-enterprise-basic-d2v2-standard
+azure,canada-east,sles-enterprise-basic-d3v2-standard
+azure,canada-east,sles-enterprise-basic-d12v2-standard
+azure,canada-east,sles-enterprise-basic-d4v2-standard
+azure,canada-east,sles-enterprise-basic-d13v2-standard
+azure,canada-east,sles-enterprise-basic-d14v2-standard
+azure,canada-east,sles-enterprise-basic-d5v2-standard
+azure,canada-east,sles-enterprise-basic-d15v2-standard
+azure,canada-east,sles-enterprise-basic-ds1-standard
+azure,canada-east,sles-enterprise-basic-ds2-standard
+azure,canada-east,sles-enterprise-basic-ds3-standard
+azure,canada-east,sles-enterprise-basic-ds4-standard
+azure,canada-east,sles-enterprise-basic-ds1v2-standard
+azure,canada-east,sles-enterprise-basic-ds2v2-standard
+azure,canada-east,sles-enterprise-basic-ds3v2-standard
+azure,canada-east,sles-enterprise-basic-ds4v2-standard
+azure,canada-east,sles-enterprise-basic-ds5v2-standard
+azure,canada-east,sles-enterprise-basic-ds11v2-standard
+azure,canada-east,sles-enterprise-basic-ds12v2-standard
+azure,canada-east,sles-enterprise-basic-ds13v2-standard
+azure,canada-east,sles-enterprise-basic-ds14v2-standard
+azure,canada-east,sles-enterprise-basic-ds15v2-standard
+azure,canada-east,sles-enterprise-basic-g1-standard
+azure,canada-east,sles-enterprise-basic-g2-standard
+azure,canada-east,sles-enterprise-basic-g3-standard
+azure,canada-east,sles-enterprise-basic-g4-standard
+azure,canada-east,sles-enterprise-basic-g5-standard
+azure,canada-east,sles-enterprise-basic-gs1-standard
+azure,canada-east,sles-enterprise-basic-gs2-standard
+azure,canada-east,sles-enterprise-basic-gs3-standard
+azure,canada-east,sles-enterprise-basic-gs4-standard
+azure,canada-east,sles-enterprise-basic-gs5-standard
+azure,canada-east,sles-enterprise-basic-nc6-standard
+azure,canada-east,sles-enterprise-basic-nc12-standard
+azure,canada-east,sles-enterprise-basic-nc24-standard
+azure,canada-east,sles-enterprise-basic-nc24r-standard
+azure,canada-east,sles-enterprise-basic-nv6-standard
+azure,canada-east,sles-enterprise-basic-nv12-standard
+azure,canada-east,sles-enterprise-basic-nv24-standard
+azure,canada-central,sles-enterprise-basic-a2-standard
+azure,canada-central,sles-enterprise-basic-a3-standard
+azure,canada-central,sles-enterprise-basic-a4-standard
+azure,canada-central,sles-enterprise-basic-a5-standard
+azure,canada-central,sles-enterprise-basic-a6-standard
+azure,canada-central,sles-enterprise-basic-a7-standard
+azure,canada-central,sles-enterprise-basic-a8-standard
+azure,canada-central,sles-enterprise-basic-a9-standard
+azure,canada-central,sles-enterprise-basic-a10-standard
+azure,canada-central,sles-enterprise-basic-a11-standard
+azure,canada-central,sles-enterprise-basic-a2v2-standard
+azure,canada-central,sles-enterprise-basic-a2mv2-standard
+azure,canada-central,sles-enterprise-basic-a4v2-standard
+azure,canada-central,sles-enterprise-basic-a4mv2-standard
+azure,canada-central,sles-enterprise-basic-a8mv2-standard
+azure,canada-central,sles-enterprise-basic-a8v2-standard
+azure,canada-central,sles-enterprise-basic-d1-standard
+azure,canada-central,sles-enterprise-basic-d2-standard
+azure,canada-central,sles-enterprise-basic-d3-standard
+azure,canada-central,sles-enterprise-basic-d4-standard
+azure,canada-central,sles-enterprise-basic-d11-standard
+azure,canada-central,sles-enterprise-basic-d12-standard
+azure,canada-central,sles-enterprise-basic-d13-standard
+azure,canada-central,sles-enterprise-basic-d14-standard
+azure,canada-central,sles-enterprise-basic-f1-standard
+azure,canada-central,sles-enterprise-basic-f2-standard
+azure,canada-central,sles-enterprise-basic-f4-standard
+azure,canada-central,sles-enterprise-basic-f8-standard
+azure,canada-central,sles-enterprise-basic-f16-standard
+azure,canada-central,sles-enterprise-basic-f1s-standard
+azure,canada-central,sles-enterprise-basic-f2s-standard
+azure,canada-central,sles-enterprise-basic-f4s-standard
+azure,canada-central,sles-enterprise-basic-f8s-standard
+azure,canada-central,sles-enterprise-basic-f16s-standard
+azure,canada-central,sles-enterprise-basic-d1v2-standard
+azure,canada-central,sles-enterprise-basic-d11v2-standard
+azure,canada-central,sles-enterprise-basic-d2v2-standard
+azure,canada-central,sles-enterprise-basic-d3v2-standard
+azure,canada-central,sles-enterprise-basic-d12v2-standard
+azure,canada-central,sles-enterprise-basic-d4v2-standard
+azure,canada-central,sles-enterprise-basic-d13v2-standard
+azure,canada-central,sles-enterprise-basic-d14v2-standard
+azure,canada-central,sles-enterprise-basic-d5v2-standard
+azure,canada-central,sles-enterprise-basic-d15v2-standard
+azure,canada-central,sles-enterprise-basic-ds1-standard
+azure,canada-central,sles-enterprise-basic-ds2-standard
+azure,canada-central,sles-enterprise-basic-ds3-standard
+azure,canada-central,sles-enterprise-basic-ds4-standard
+azure,canada-central,sles-enterprise-basic-ds1v2-standard
+azure,canada-central,sles-enterprise-basic-ds2v2-standard
+azure,canada-central,sles-enterprise-basic-ds3v2-standard
+azure,canada-central,sles-enterprise-basic-ds4v2-standard
+azure,canada-central,sles-enterprise-basic-ds5v2-standard
+azure,canada-central,sles-enterprise-basic-ds11v2-standard
+azure,canada-central,sles-enterprise-basic-ds12v2-standard
+azure,canada-central,sles-enterprise-basic-ds13v2-standard
+azure,canada-central,sles-enterprise-basic-ds14v2-standard
+azure,canada-central,sles-enterprise-basic-ds15v2-standard
+azure,canada-central,sles-enterprise-basic-g1-standard
+azure,canada-central,sles-enterprise-basic-g2-standard
+azure,canada-central,sles-enterprise-basic-g3-standard
+azure,canada-central,sles-enterprise-basic-g4-standard
+azure,canada-central,sles-enterprise-basic-g5-standard
+azure,canada-central,sles-enterprise-basic-gs1-standard
+azure,canada-central,sles-enterprise-basic-gs2-standard
+azure,canada-central,sles-enterprise-basic-gs3-standard
+azure,canada-central,sles-enterprise-basic-gs4-standard
+azure,canada-central,sles-enterprise-basic-gs5-standard
+azure,canada-central,sles-enterprise-basic-nc6-standard
+azure,canada-central,sles-enterprise-basic-nc12-standard
+azure,canada-central,sles-enterprise-basic-nc24-standard
+azure,canada-central,sles-enterprise-basic-nc24r-standard
+azure,canada-central,sles-enterprise-basic-nv6-standard
+azure,canada-central,sles-enterprise-basic-nv12-standard
+azure,canada-central,sles-enterprise-basic-nv24-standard
+azure,us-east-2,sles-enterprise-basic-a2-standard
+azure,us-east-2,sles-enterprise-basic-a3-standard
+azure,us-east-2,sles-enterprise-basic-a4-standard
+azure,us-east-2,sles-enterprise-basic-a5-standard
+azure,us-east-2,sles-enterprise-basic-a6-standard
+azure,us-east-2,sles-enterprise-basic-a7-standard
+azure,us-east-2,sles-enterprise-basic-a8-standard
+azure,us-east-2,sles-enterprise-basic-a9-standard
+azure,us-east-2,sles-enterprise-basic-a10-standard
+azure,us-east-2,sles-enterprise-basic-a11-standard
+azure,us-east-2,sles-enterprise-basic-a2v2-standard
+azure,us-east-2,sles-enterprise-basic-a2mv2-standard
+azure,us-east-2,sles-enterprise-basic-a4v2-standard
+azure,us-east-2,sles-enterprise-basic-a4mv2-standard
+azure,us-east-2,sles-enterprise-basic-a8mv2-standard
+azure,us-east-2,sles-enterprise-basic-a8v2-standard
+azure,us-east-2,sles-enterprise-basic-d1-standard
+azure,us-east-2,sles-enterprise-basic-d2-standard
+azure,us-east-2,sles-enterprise-basic-d3-standard
+azure,us-east-2,sles-enterprise-basic-d4-standard
+azure,us-east-2,sles-enterprise-basic-d11-standard
+azure,us-east-2,sles-enterprise-basic-d12-standard
+azure,us-east-2,sles-enterprise-basic-d13-standard
+azure,us-east-2,sles-enterprise-basic-d14-standard
+azure,us-east-2,sles-enterprise-basic-f1-standard
+azure,us-east-2,sles-enterprise-basic-f2-standard
+azure,us-east-2,sles-enterprise-basic-f4-standard
+azure,us-east-2,sles-enterprise-basic-f8-standard
+azure,us-east-2,sles-enterprise-basic-f16-standard
+azure,us-east-2,sles-enterprise-basic-f1s-standard
+azure,us-east-2,sles-enterprise-basic-f2s-standard
+azure,us-east-2,sles-enterprise-basic-f4s-standard
+azure,us-east-2,sles-enterprise-basic-f8s-standard
+azure,us-east-2,sles-enterprise-basic-f16s-standard
+azure,us-east-2,sles-enterprise-basic-d1v2-standard
+azure,us-east-2,sles-enterprise-basic-d11v2-standard
+azure,us-east-2,sles-enterprise-basic-d2v2-standard
+azure,us-east-2,sles-enterprise-basic-d3v2-standard
+azure,us-east-2,sles-enterprise-basic-d12v2-standard
+azure,us-east-2,sles-enterprise-basic-d4v2-standard
+azure,us-east-2,sles-enterprise-basic-d13v2-standard
+azure,us-east-2,sles-enterprise-basic-d14v2-standard
+azure,us-east-2,sles-enterprise-basic-d5v2-standard
+azure,us-east-2,sles-enterprise-basic-d15v2-standard
+azure,us-east-2,sles-enterprise-basic-ds1-standard
+azure,us-east-2,sles-enterprise-basic-ds2-standard
+azure,us-east-2,sles-enterprise-basic-ds3-standard
+azure,us-east-2,sles-enterprise-basic-ds4-standard
+azure,us-east-2,sles-enterprise-basic-ds1v2-standard
+azure,us-east-2,sles-enterprise-basic-ds2v2-standard
+azure,us-east-2,sles-enterprise-basic-ds3v2-standard
+azure,us-east-2,sles-enterprise-basic-ds4v2-standard
+azure,us-east-2,sles-enterprise-basic-ds5v2-standard
+azure,us-east-2,sles-enterprise-basic-ds11v2-standard
+azure,us-east-2,sles-enterprise-basic-ds12v2-standard
+azure,us-east-2,sles-enterprise-basic-ds13v2-standard
+azure,us-east-2,sles-enterprise-basic-ds14v2-standard
+azure,us-east-2,sles-enterprise-basic-ds15v2-standard
+azure,us-east-2,sles-enterprise-basic-g1-standard
+azure,us-east-2,sles-enterprise-basic-g2-standard
+azure,us-east-2,sles-enterprise-basic-g3-standard
+azure,us-east-2,sles-enterprise-basic-g4-standard
+azure,us-east-2,sles-enterprise-basic-g5-standard
+azure,us-east-2,sles-enterprise-basic-gs1-standard
+azure,us-east-2,sles-enterprise-basic-gs2-standard
+azure,us-east-2,sles-enterprise-basic-gs3-standard
+azure,us-east-2,sles-enterprise-basic-gs4-standard
+azure,us-east-2,sles-enterprise-basic-gs5-standard
+azure,us-east-2,sles-enterprise-basic-nc6-standard
+azure,us-east-2,sles-enterprise-basic-nc12-standard
+azure,us-east-2,sles-enterprise-basic-nc24-standard
+azure,us-east-2,sles-enterprise-basic-nc24r-standard
+azure,us-east-2,sles-enterprise-basic-nv6-standard
+azure,us-east-2,sles-enterprise-basic-nv12-standard
+azure,us-east-2,sles-enterprise-basic-nv24-standard
+azure,us-central,sles-enterprise-basic-a2-standard
+azure,us-central,sles-enterprise-basic-a3-standard
+azure,us-central,sles-enterprise-basic-a4-standard
+azure,us-central,sles-enterprise-basic-a5-standard
+azure,us-central,sles-enterprise-basic-a6-standard
+azure,us-central,sles-enterprise-basic-a7-standard
+azure,us-central,sles-enterprise-basic-a8-standard
+azure,us-central,sles-enterprise-basic-a9-standard
+azure,us-central,sles-enterprise-basic-a10-standard
+azure,us-central,sles-enterprise-basic-a11-standard
+azure,us-central,sles-enterprise-basic-a2v2-standard
+azure,us-central,sles-enterprise-basic-a2mv2-standard
+azure,us-central,sles-enterprise-basic-a4v2-standard
+azure,us-central,sles-enterprise-basic-a4mv2-standard
+azure,us-central,sles-enterprise-basic-a8mv2-standard
+azure,us-central,sles-enterprise-basic-a8v2-standard
+azure,us-central,sles-enterprise-basic-d1-standard
+azure,us-central,sles-enterprise-basic-d2-standard
+azure,us-central,sles-enterprise-basic-d3-standard
+azure,us-central,sles-enterprise-basic-d4-standard
+azure,us-central,sles-enterprise-basic-d11-standard
+azure,us-central,sles-enterprise-basic-d12-standard
+azure,us-central,sles-enterprise-basic-d13-standard
+azure,us-central,sles-enterprise-basic-d14-standard
+azure,us-central,sles-enterprise-basic-f1-standard
+azure,us-central,sles-enterprise-basic-f2-standard
+azure,us-central,sles-enterprise-basic-f4-standard
+azure,us-central,sles-enterprise-basic-f8-standard
+azure,us-central,sles-enterprise-basic-f16-standard
+azure,us-central,sles-enterprise-basic-f1s-standard
+azure,us-central,sles-enterprise-basic-f2s-standard
+azure,us-central,sles-enterprise-basic-f4s-standard
+azure,us-central,sles-enterprise-basic-f8s-standard
+azure,us-central,sles-enterprise-basic-f16s-standard
+azure,us-central,sles-enterprise-basic-d1v2-standard
+azure,us-central,sles-enterprise-basic-d11v2-standard
+azure,us-central,sles-enterprise-basic-d2v2-standard
+azure,us-central,sles-enterprise-basic-d3v2-standard
+azure,us-central,sles-enterprise-basic-d12v2-standard
+azure,us-central,sles-enterprise-basic-d4v2-standard
+azure,us-central,sles-enterprise-basic-d13v2-standard
+azure,us-central,sles-enterprise-basic-d14v2-standard
+azure,us-central,sles-enterprise-basic-d5v2-standard
+azure,us-central,sles-enterprise-basic-d15v2-standard
+azure,us-central,sles-enterprise-basic-ds1-standard
+azure,us-central,sles-enterprise-basic-ds2-standard
+azure,us-central,sles-enterprise-basic-ds3-standard
+azure,us-central,sles-enterprise-basic-ds4-standard
+azure,us-central,sles-enterprise-basic-ds1v2-standard
+azure,us-central,sles-enterprise-basic-ds2v2-standard
+azure,us-central,sles-enterprise-basic-ds3v2-standard
+azure,us-central,sles-enterprise-basic-ds4v2-standard
+azure,us-central,sles-enterprise-basic-ds5v2-standard
+azure,us-central,sles-enterprise-basic-ds11v2-standard
+azure,us-central,sles-enterprise-basic-ds12v2-standard
+azure,us-central,sles-enterprise-basic-ds13v2-standard
+azure,us-central,sles-enterprise-basic-ds14v2-standard
+azure,us-central,sles-enterprise-basic-ds15v2-standard
+azure,us-central,sles-enterprise-basic-g1-standard
+azure,us-central,sles-enterprise-basic-g2-standard
+azure,us-central,sles-enterprise-basic-g3-standard
+azure,us-central,sles-enterprise-basic-g4-standard
+azure,us-central,sles-enterprise-basic-g5-standard
+azure,us-central,sles-enterprise-basic-gs1-standard
+azure,us-central,sles-enterprise-basic-gs2-standard
+azure,us-central,sles-enterprise-basic-gs3-standard
+azure,us-central,sles-enterprise-basic-gs4-standard
+azure,us-central,sles-enterprise-basic-gs5-standard
+azure,us-central,sles-enterprise-basic-nc6-standard
+azure,us-central,sles-enterprise-basic-nc12-standard
+azure,us-central,sles-enterprise-basic-nc24-standard
+azure,us-central,sles-enterprise-basic-nc24r-standard
+azure,us-central,sles-enterprise-basic-nv6-standard
+azure,us-central,sles-enterprise-basic-nv12-standard
+azure,us-central,sles-enterprise-basic-nv24-standard
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,asia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,asia-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,europe-west1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,australia-southeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,europe-west3-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,australia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,asia-northeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-central1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-east1-d,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-central1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,europe-west3-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,southamerica-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,southamerica-east1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,southamerica-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,asia-northeast1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,asia-northeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,europe-west2-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,asia-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,europe-west2-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,europe-west1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,europe-west1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-east4-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-east4-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-central1-f,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-east1-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-east4-b,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-west1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,asia-southeast1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,europe-west2-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,europe-west3-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,us-central1-a,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,australia-southeast1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32
+gcp,asia-east1-c,CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64

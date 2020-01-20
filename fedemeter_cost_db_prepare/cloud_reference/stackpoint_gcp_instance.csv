@@ -1,0 +1,20 @@
+,input
+0,N1 Standard 1
+1,N1 Standard 2
+2,N1 Standard 4
+3,N1 Standard 8
+4,N1 Standard 16
+5,N1 Standard 32
+6,N1 Standard 64
+7,N1 High CPU 2
+8,N1 High CPU 4
+9,N1 High CPU 8
+10,N1 High CPU 16
+11,N1 High CPU 32
+12,N1 High CPU 64
+13,N1 High Mem 2
+14,N1 High Mem 4
+15,N1 High Mem 8
+16,N1 High Mem 16
+17,N1 High Mem 32
+18,N1 High Mem 64
