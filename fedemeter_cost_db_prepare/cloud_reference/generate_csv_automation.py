@@ -19,7 +19,7 @@ excuction_path = "D:\\Anaconda3\\python.exe"
 
 
 def crawler_csv_auto_script(provider):
-    os.system("%s C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance_region_crawler.py" % (excuction_path,provider, provider))
+    os.system("%s C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance_region_crawler.py" % (excuction_path, provider, provider))
 
 
 def generate_gcp_instance_detail_crawler_csv_auto_script():
@@ -50,16 +50,28 @@ if __name__ == '__main__':
 
     provider_list = ["aws", "azure", "gcp"]
 
+    print("--------crawler_csv_auto_script--------")
+
     for provider in provider_list:
         crawler_csv_auto_script(provider)
 
+    print("--------generate_gcp_instance_detail_crawler_csv_auto_script--------")
+
     generate_gcp_instance_detail_crawler_csv_auto_script()
+
+    print("--------generate_all_provider_instance_region_mapping_csv_auto_script--------")
 
     generate_all_provider_instance_region_mapping_csv_auto_script()
 
+    print("--------generate_no_filter_csv_auto_script--------")
+
     generate_no_filter_csv_auto_script()
 
+    print("--------generate_instance_family_csv_auto_script--------")
+
     generate_instance_family_csv_auto_script()
+
+    print("--------generate_prophetstor_region_mapping_csv_auto_script--------")
 
     generate_prophetstor_region_mapping_csv_auto_script()
 

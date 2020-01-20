@@ -14,7 +14,6 @@ import requests
 import json
 import math
 import time
-from dictiondb import AwsRegion, AwsInstance, AzureRegion, AzureInstance, GcpRegion, GcpInstance
 
 
 def instance_csv_call(provider):

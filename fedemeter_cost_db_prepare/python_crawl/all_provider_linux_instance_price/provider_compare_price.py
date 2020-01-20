@@ -97,9 +97,9 @@ def compare_cost(provider):
 if __name__ == '__main__':
 
     aws_compare_number, aws_correct_number = compare_cost("aws")
-    #azure_compare_number, azure_correct_number = compare_cost("azure")
-    #gcp_compare_number, gcp_correct_number = compare_cost("gcp")
+    azure_compare_number, azure_correct_number = compare_cost("azure")
+    gcp_compare_number, gcp_correct_number = compare_cost("gcp")
 
     print("aws:", aws_compare_number, aws_correct_number)
-    #print("azure", azure_compare_number, azure_correct_number)
-    #print("gcp", gcp_compare_number, gcp_correct_number)
+    print("azure", azure_compare_number, azure_correct_number)
+    print("gcp", gcp_compare_number, gcp_correct_number)

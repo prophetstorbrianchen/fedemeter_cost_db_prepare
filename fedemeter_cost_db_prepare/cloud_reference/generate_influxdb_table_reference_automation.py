@@ -64,12 +64,16 @@ if __name__ == '__main__':
     # generate_gcp_instance_influxdb_auto_script()
 
     # ----for influx dictionary db----
+    print("--------generate_table_reference_auto_script--------")
     generate_table_reference_auto_script()
 
+    print("--------generate_instance_family_table_reference_auto_script--------")
     generate_instance_family_table_reference_auto_script()
 
+    print("--------generate_no_filter_table_reference_auto_script--------")
     generate_no_filter_table_reference_auto_script()
 
+    print("--------generate_prophetstor_region_table_reference_auto_script--------")
     generate_prophetstor_region_table_reference_auto_script()
 
     # ----for db cash----
