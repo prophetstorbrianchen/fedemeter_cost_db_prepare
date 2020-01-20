@@ -14,7 +14,6 @@ import requests
 import json
 import math
 import time
-from dictiondb import AwsRegion, AwsInstance, AzureRegion, AzureInstance, GcpRegion, GcpInstance
 
 
 family_filter = 1       #0 -> no family filter/ 1 -> with family filter
