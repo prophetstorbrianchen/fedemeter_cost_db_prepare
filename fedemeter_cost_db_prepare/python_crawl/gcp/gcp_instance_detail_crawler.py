@@ -50,7 +50,6 @@ class gcp_selenium():
         #print (region_list)              
         return region_list        
 
-        
     def gcp_instance_type(self):
 
         instance_list = []
@@ -59,14 +58,15 @@ class gcp_selenium():
         
         browser.get("https://cloud.google.com/compute/docs/machine-types?hl=zh-tw")                                        #GCP instance page
         time.sleep(2)
-        browser.find_element_by_xpath("//div[@class='label']").click()                                                     #language buttom
+        browser.find_element_by_xpath("//devsite-select[@class='devsite-language-selector-menu']").click()                  #language buttom
         time.sleep(2)
-        browser.find_element_by_xpath("//ul[@class='kd-menulist']/li[3]").click()                                          #turn to English language
+        browser.find_element_by_xpath("//div[@class='devsite-select']/ul[1]/li[3]").click()                                 #turn to English language
         time.sleep(2)
+
         for i in range(2,40):
             try:
                 #instance_type = browser.find_element_by_xpath("//div[@itemprop='articleBody']/div[%d]/table[1]" %i)       #expand instance list
-                instance_type = browser.find_element_by_xpath("//div[@itemprop='articleBody']/div[%d]/table[1]/tbody[1]" % i)  # expand instance list
+                instance_type = browser.find_element_by_xpath("//article[@class='devsite-article-inner']/div[2]/div[%d]/table[1]/tbody[1]" % i)  # expand instance list
                 print("----" + str(i) + "----")
                 #print(instance_type.text)
                 all_instance_list = str(instance_type.text).splitlines()  # 換行split function

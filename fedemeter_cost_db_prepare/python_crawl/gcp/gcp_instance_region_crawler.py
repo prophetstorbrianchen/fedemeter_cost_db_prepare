@@ -28,8 +28,10 @@ class gcp_selenium():
         region_list = []
         
         browser.get("https://cloud.google.com/compute/docs/regions-zones/")                                                      #GCP price page
-        browser.find_element_by_xpath("//span[@class='kd-button kd-menubutton kd-select']").click()                  #select language
-        browser.find_element_by_xpath("//ul[@class='kd-menulist']/li[2]").click()                                    #turn to English language
+        browser.find_element_by_xpath("//devsite-select[@class='devsite-language-selector-menu']").click()  # select language
+        browser.find_element_by_xpath("//div[@class='devsite-select']/ul[1]/li[3]").click()
+        #browser.find_element_by_xpath("//span[@class='kd-button kd-menubutton kd-select']").click()                  #select language
+        #browser.find_element_by_xpath("//ul[@class='kd-menulist']/li[2]").click()                                    #turn to English language
         time.sleep(2)
         
         all_region_type = browser.find_element_by_xpath("//div[@class='devsite-table-wrapper']/table[1]/tbody[1]")                                #list all region type
@@ -51,8 +53,7 @@ class gcp_selenium():
                     print (region)
                     region_list.append(region)
         #print (region_list)              
-        return region_list        
-
+        return region_list
         
     def gcp_instance_type(self):
 
@@ -60,16 +61,16 @@ class gcp_selenium():
         cpu_list = []
         memory_list = []
         
-        browser.get("https://cloud.google.com/compute/docs/machine-types?hl=zh-tw")                                        #GCP instance page
+        browser.get("https://cloud.google.com/compute/docs/machine-types")                                        #GCP instance page
         time.sleep(2)
-        browser.find_element_by_xpath("//div[@class='label']").click()                                                     #language buttom
-        time.sleep(2)
-        browser.find_element_by_xpath("//ul[@class='kd-menulist']/li[3]").click()                                          #turn to English language
-        time.sleep(2)
-        for i in range(3,33):
+        #browser.find_element_by_xpath("//devsite-select[@class='devsite-language-selector-menu']").click()                  #language buttom
+        #time.sleep(2)
+        #browser.find_element_by_xpath("//div[@class='devsite-select']/ul[1]/li[3]").click()                                 #turn to English language
+        #time.sleep(2)
+        for i in range(3, 33):
             try:
                 #instance_type = browser.find_element_by_xpath("//div[@itemprop='articleBody']/div[%d]/table[1]" %i)       #expand instance list
-                instance_type = browser.find_element_by_xpath("//div[@itemprop='articleBody']/div[%d]/table[1]/tbody[1]" % i)  # expand instance list
+                instance_type = browser.find_element_by_xpath("//article[@class='devsite-article-inner']/div[2]/div[%d]/table[1]/tbody[1]" % i)  # expand instance list
                 print("----" + str(i) + "----")
                 #print(instance_type.text)
                 all_instance_list = str(instance_type.text).splitlines()  # 換行split function
@@ -107,7 +108,8 @@ class gcp_selenium():
                 print("Over the bounding")
         print(len(instance_list),len(cpu_list),len(memory_list))
         return instance_list, cpu_list, memory_list
-        
+
+
 if __name__ == '__main__':
     
     ####create browser
@@ -123,7 +125,7 @@ if __name__ == '__main__':
     gcp_instance_list, gcp_cpu_list, gcp_memory_list = gcp_gui_operation.gcp_instance_type()
     #print(gcp_instance_list)
     
-    
+
     ####整理成datafraom寫入CSV
     gcp_region_dict = {"region":gcp_region_list}
     #print(gcp_region_dict)
@@ -133,7 +135,7 @@ if __name__ == '__main__':
     gcp_region_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_region.csv", index=False)
 
     gcp_instance_dict = {"instance": gcp_instance_list, "cpu": gcp_cpu_list, "memory": gcp_memory_list}
-    print(gcp_instance_dict)
+    #print(gcp_instance_dict)
     gcp_instance_data = pd.DataFrame(gcp_instance_dict, columns=["instance", "cpu", "memory"])
     #print (gcp_instance_data)
     #gcp_instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\temp_gcp_instance.csv", index=False)

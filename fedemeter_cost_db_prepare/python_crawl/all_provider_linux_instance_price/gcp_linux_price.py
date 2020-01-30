@@ -33,6 +33,7 @@ class azure_selenium():
 
     def get_gcp_linux_price(self):
 
+        """
         address_list = ["https://cloud-dot-google-developers.appspot.com/compute/vm-instance-pricing_e10dbf4a8e758e19fdc67571468a7bf8.frame?hl=en",     # n1
                         "https://cloud-dot-google-developers.appspot.com/compute/vm-instance-pricing_171faddf01e3994d2488def56ed8d985.frame?hl=en",     # n1
                         "https://cloud-dot-google-developers.appspot.com/compute/vm-instance-pricing_621708866dc87e1c3f9b7b38e181a570.frame?hl=en",     # n1
@@ -46,6 +47,24 @@ class azure_selenium():
                         "https://cloud-dot-google-developers.appspot.com/compute/vm-instance-pricing_5d6e1da115da2c875456750de64a8670.frame?hl=en",     # m2
                         "https://cloud-dot-google-developers.appspot.com/compute/vm-instance-pricing_a0c26151c2d56002d174aed9aa884074.frame?hl=en",     # c2
                         ]
+        """
+        address_list = [
+            "https://cloud.google.com/compute/all-pricing_dac24bc930e8a30ce027e5f8e554db60f37385cebf93ab73142bad522c892bc0.frame",
+            "https://cloud.google.com/compute/all-pricing_85bd5bc4b29563d39ae1c9565fc990904de8e24c95cbabf801861463172f19b7.frame",
+            "https://cloud.google.com/compute/all-pricing_79985de5092a6ead500a82280cf6a69324e9a571d2cf520b12e41b6abfadceb0.frame",
+            "https://cloud.google.com/compute/all-pricing_7ca1ec6faedfbacefd8b51873620590634286b8732e4df229edad34c98d00202.frame",
+            "https://cloud.google.com/compute/all-pricing_ab55f0ac9979c5e8f0960721ca1e319113eb16cfd608b633169e14abbebd75c0.frame",
+            "https://cloud.google.com/compute/all-pricing_8029b85f606839246d7a0d0dc3732466cb1c5d1e42e3ad9221c89e138a8ebb5d.frame",
+            "https://cloud.google.com/compute/all-pricing_8029b85f606839246d7a0d0dc3732466cb1c5d1e42e3ad9221c89e138a8ebb5d.frame",
+            "https://cloud.google.com/compute/all-pricing_b4f590f8b1538f25bc64d56c09e898a369a10d2eb40b8f7c9c091de8a8c74d54.frame",
+            "https://cloud.google.com/compute/all-pricing_c06458467dd1a56138f1fead7a1685e59d97b20f7502c5116bfa1aa2e25e3484.frame",
+            "https://cloud.google.com/compute/all-pricing_9a9137173e56d4adc10e1620c8e6e3e041f50a40e63b4e74251f8772a98ad85d.frame",
+            "https://cloud.google.com/compute/all-pricing_48f8373a2145d1be2f502a8e071410420150dbb5392ac3fea57a6735e4a3a548.frame",
+            "https://cloud.google.com/compute/all-pricing_c12f526156c9c8613c00b2efa554cb06b00e75a8f657d99df2dc3c1da22b339e.frame",
+            ]
+
+
+
 
         temp_list = []
         region_list = []
