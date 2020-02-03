@@ -80,7 +80,7 @@ class azure_selenium():
 
         # get region list
         time.sleep(2)
-        browser.get("https://cloud-dot-google-developers.appspot.com/compute/vm-instance-pricing_e10dbf4a8e758e19fdc67571468a7bf8.frame?hl=en")
+        browser.get("https://cloud.google.com/compute/all-pricing_dac24bc930e8a30ce027e5f8e554db60f37385cebf93ab73142bad522c892bc0.frame")
         time.sleep(2)
         browser.find_element_by_xpath("//div[@class='table-bar']/md-select[1]/md-select-value[1]").click()              # select region
         time.sleep(2)
@@ -115,7 +115,7 @@ class azure_selenium():
 
                     for body_number in range(1,2):
                         try:
-                            all_instance = browser.find_element_by_xpath("//div[@class='devsite-table-wrapper']/table[1]/tbody[%s]" %body_number)
+                            all_instance = browser.find_element_by_xpath("//div[@class='devsite-article-body ng-scope']/table[1]/tbody[%s]" %body_number)
                             temp_instance_list = str(all_instance.text).splitlines()
                             for i in range(len(temp_instance_list)):
                                 if "96" in temp_instance_list[i]:
