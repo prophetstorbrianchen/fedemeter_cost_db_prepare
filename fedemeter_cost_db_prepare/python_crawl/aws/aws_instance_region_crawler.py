@@ -159,13 +159,18 @@ if __name__ == '__main__':
     ####create browser
     browser = webdriver.Chrome()
     browser.maximize_window()
-    
+
     ####get aws region and instance
-    aws_gui_operation = aws_selenium()   
+    aws_gui_operation = aws_selenium()
     region_list = aws_gui_operation.aws_region_type()
     instance_list, cpu_list, memory_list = aws_gui_operation.aws_instance_type()
-    
+
     ####write to csv
     aws_csv = csv_file()
     aws_csv.to_csv_region("aws", region_list)
     aws_csv.to_csv_instance("aws", instance_list, cpu_list, memory_list)
+
+    ####close broser
+    browser.close()
+
+

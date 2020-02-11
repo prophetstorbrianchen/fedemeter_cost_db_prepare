@@ -106,6 +106,10 @@ class gcp_selenium():
             except:
                 print("----" + str(i) + "----")
                 print("Over the bounding")
+        # workaround for M1-MEGAMEM-96
+        instance_list.append("M1 MEGAMEM 96")
+        cpu_list.append(float(96))
+        memory_list.append(float(1433.6))
         print(len(instance_list),len(cpu_list),len(memory_list))
         return instance_list, cpu_list, memory_list
 
@@ -140,3 +144,6 @@ if __name__ == '__main__':
     #print (gcp_instance_data)
     #gcp_instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\temp_gcp_instance.csv", index=False)
     gcp_instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_instance.csv", index=False)
+
+    ####close broser
+    browser.close()

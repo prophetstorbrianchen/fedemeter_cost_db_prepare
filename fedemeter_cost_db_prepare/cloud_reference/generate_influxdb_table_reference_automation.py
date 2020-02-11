@@ -36,8 +36,8 @@ def generate_table_reference_auto_script():
     os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\table_reference.py")
 
 
-def generate_instance_family_table_reference_auto_script():
-    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\instance_family_table_reference.py")
+def generate_instance_series_table_reference_auto_script():
+    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\instance_series_table_reference.py")
 
 
 def generate_no_filter_table_reference_auto_script():
@@ -49,8 +49,8 @@ def generate_prophetstor_region_table_reference_auto_script():
 
 
 # for db cash
-def generate_provider_instance_family_auto_script():
-    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\provider_instance_family.py")
+def generate_provider_instance_series_auto_script():
+    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\provider_instance_series.py")
 
 
 
@@ -67,8 +67,8 @@ if __name__ == '__main__':
     print("--------generate_table_reference_auto_script--------")
     generate_table_reference_auto_script()
 
-    print("--------generate_instance_family_table_reference_auto_script--------")
-    generate_instance_family_table_reference_auto_script()
+    print("--------generate_instance_series_table_reference_auto_script--------")
+    generate_instance_series_table_reference_auto_script()
 
     print("--------generate_no_filter_table_reference_auto_script--------")
     generate_no_filter_table_reference_auto_script()
@@ -77,5 +77,5 @@ if __name__ == '__main__':
     generate_prophetstor_region_table_reference_auto_script()
 
     # ----for db cash----
-    # generate_provider_instance_family_auto_script()
+    # generate_provider_instance_series_auto_script()
 

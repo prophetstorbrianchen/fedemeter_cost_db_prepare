@@ -139,3 +139,6 @@ if __name__ == '__main__':
     azure_csv = csv_file()
     azure_csv.to_csv_region("azure", region_list)
     azure_csv.to_csv_instance("azure", instance_list, cpu_list, memory_list)
+
+    ####close broser
+    browser.close()

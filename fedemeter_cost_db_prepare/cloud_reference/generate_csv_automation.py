@@ -66,8 +66,8 @@ def generate_no_filter_csv_auto_script():
     os.system("%s  C:\\Users\\Brian\\Desktop\\cloud_reference\\no_filter.py" % excuction_path)
 
 
-def generate_instance_family_csv_auto_script():
-    os.system("%s  C:\\Users\\Brian\\Desktop\\fedemeter_data\\instance_family.py" % excuction_path)
+def generate_instance_series_csv_auto_script():
+    os.system("%s  C:\\Users\\Brian\\Desktop\\fedemeter_data\\instance_series.py" % excuction_path)
 
 
 def generate_prophetstor_region_mapping_csv_auto_script():
@@ -81,8 +81,10 @@ def generate_stackpoint_filter_csv_auto_script():
 if __name__ == '__main__':
 
     print("--------move_csv_to_old--------")
-
-    move_csv_to_old()
+    try:
+        move_csv_to_old()
+    except:
+        print("The csv files had not existed. Please going on.")
 
     provider_list = ["aws", "azure", "gcp"]
 
@@ -103,9 +105,9 @@ if __name__ == '__main__':
 
     generate_no_filter_csv_auto_script()
 
-    print("--------generate_instance_family_csv_auto_script--------")
+    print("--------generate_instance_series_csv_auto_script--------")
 
-    generate_instance_family_csv_auto_script()
+    generate_instance_series_csv_auto_script()
 
     print("--------generate_prophetstor_region_mapping_csv_auto_script--------")
 

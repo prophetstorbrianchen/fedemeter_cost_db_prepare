@@ -151,3 +151,6 @@ if __name__ == '__main__':
     gcp_instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_instance_detail.csv",index=False)
     
     #get_region()
+
+    ####close broser
+    browser.close()

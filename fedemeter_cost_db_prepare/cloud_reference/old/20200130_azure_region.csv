@@ -1,0 +1,43 @@
+input,output
+East Asia,asia-pacific-east
+Southeast Asia,asia-pacific-southeast
+Australia Central,australia-central
+Australia Central 2,australia-central-2
+Australia East,australia-east
+Australia Southeast,australia-southeast
+Brazil South,brazil-south
+Canada Central,canada-central
+Canada East,canada-east
+Central India,central-india
+South India,south-india
+West India,west-india
+North Europe,europe-north
+West Europe,europe-west
+France Central,france-central
+France South,france-south
+Germany Central,germany-central
+Germany North,germany-north
+Germany Northeast,germany-northeast
+Germany West Central,germany-west-central
+Japan East,japan-east
+Japan West,japan-west
+Korea Central,korea-central
+Korea South,korea-south
+South Africa North,south-africa-north
+South Africa West,south-africa-west
+United Kingdom South,united-kingdom-south
+United Kingdom West,united-kingdom-west
+Central US,us-central
+East US,us-east
+East US 2,us-east-2
+North Central US,us-north-central
+South Central US,us-south-central
+West Central US,us-west-central
+West US,us-west
+West US 2,us-west-2
+Switzerland North,switzerland-north
+Switzerland West,switzerland-west
+UAE Central,uae-central
+UAE North,uae-north
+Norway East,norway-east
+Norway West,norway-west
