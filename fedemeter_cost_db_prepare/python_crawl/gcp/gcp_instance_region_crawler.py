@@ -138,6 +138,13 @@ if __name__ == '__main__':
     #gcp_region_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_region.csv",index=False)
     gcp_region_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_region.csv", index=False)
 
+    # write back to fedemeter forder
+    try:
+        gcp_region_data.to_csv("C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\gcp_region.csv", index=False)
+    except:
+        print("The fedemeter foder doesn't exist")
+
+
     gcp_instance_dict = {"instance": gcp_instance_list, "cpu": gcp_cpu_list, "memory": gcp_memory_list}
     #print(gcp_instance_dict)
     gcp_instance_data = pd.DataFrame(gcp_instance_dict, columns=["instance", "cpu", "memory"])

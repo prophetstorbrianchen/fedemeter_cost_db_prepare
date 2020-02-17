@@ -15,36 +15,32 @@ from pandas import DataFrame as df
 import time
 from selenium import webdriver  #從library中引入webdriver
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
 
 
 class gcp_selenium():
     
     def __init__(self):
         pass
-    
-    def gcp_region_type(self):
-        
-        browser.get("https://cloud.google.com/compute/pricing")                                                      #GCP price page
-        browser.find_element_by_xpath("//span[@class='kd-button kd-menubutton kd-select']").click()                  #select language
-        time.sleep(2)
-        browser.find_element_by_xpath("//ul[@class='kd-menulist']/li[3]").click()                                    #turn to English language
-        time.sleep(2)
-        
-        click_btn = browser.find_element_by_xpath("//div[@class='md-bar']")                                          #hour -> month
-        ActionChains(browser).click(click_btn).perform()                                                             #因為是swith，所以普通的click不能使用(要使用模仿滑鼠)
-        time.sleep(1)
-        
-        browser.find_element_by_xpath("//span[@class='md-select-icon']").click()                                     #click and list all region on gui
-        time.sleep(2)     
-                
-        #all_region_type = browser.find_element_by_xpath("//div[@id='select_container_39']")                                #list all region type
-        all_region_type = browser.find_element_by_xpath("//md-select-menu[@class='_md md-overflow']")                                #list all region type
-        #all_region_type = browser.find_element_by_xpath("//div[@class='md-select-menu-container md-active md-clickable']")  #list all region type
-        #print (all_region_type.text)
-        all_region_list = str(all_region_type.text).splitlines()                                                            #換行split function
-        #print (all_region_list)
-        return all_region_list
 
+    def gcp_region_type(self):
+
+        browser.get("https://cloud-dot-devsite-v2-prod.appspot.com/compute/all-pricing_0517e58117323561d3e20f4fa1b60ab36efa6a74297bd0e865e3a36f3d29c010.frame")                                                      #GCP price page
+        time.sleep(2)
+        browser.find_element_by_xpath("//div[@class='table-bar']/md-select[1]/md-select-value[1]").click()  # select region
+        time.sleep(2)
+        all_region = browser.find_element_by_xpath("//div[@class='md-select-menu-container md-active md-clickable']/md-select-menu[1]/md-content[1]")  # get total region number
+
+        #click_btn = browser.find_element_by_xpath("//div[@class='md-bar']")                                          #hour -> month
+        #click_btn = browser.find_element_by_xpath("//div[@class='table-bar']/md-switch[1]/div[1]/div[1]")
+        #ActionChains(browser).click(click_btn).perform()                                                             #因為是swith，所以普通的click不能使用(要使用模仿滑鼠)
+        #time.sleep(1)
+
+        all_region_list = str(all_region.text).splitlines()                                                            #換行split function
+        return all_region_list
 
     def gcp_ri_price(self,gcp_region_list):
                 
@@ -58,32 +54,20 @@ class gcp_selenium():
         mem_ri_1yr_list = []
         mem_ri_3yr_list = []
         temp_list = []
-        
-        #browser.find_element_by_xpath("//div[@id='select_container_39']/md-select-menu[1]/md-content[1]/md-option[1]").click()        #turn to reegion
-        #time.sleep(2)
 
-        #click_btn = browser.find_element_by_xpath("//div[@class='md-bar']")                                         #hour -> month
-        #ActionChains(browser).click(click_btn).perform()
-        #time.sleep(1)
-        
+        wait = WebDriverWait(browser, 60, 0.5)
+
         ####先從區域開始
-        for i in range(len(gcp_region_list)):
-        #for i in range(2):
-            #browser.find_element_by_xpath("//div[@id='select_container_39']/md-select-menu[1]/md-content[1]/md-option[%s]" %(i+1)).click()        #turn to reegion
-            browser.find_element_by_xpath("//md-select-menu[@class='_md md-overflow']/md-content[1]/md-option[%s]" %(i+1)).click()        #turn to reegion
+        for region_number in range(1, len(gcp_region_list) + 1):
+            wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='md-select-menu-container md-active md-clickable']/md-select-menu[1]/md-content[1]/md-option[%s]" % region_number)))
+            browser.find_element_by_xpath("//div[@class='md-select-menu-container md-active md-clickable']/md-select-menu[1]/md-content[1]/md-option[%s]" % region_number).click()
             time.sleep(2)
-            
-            
-            
-            all_price_type = browser.find_element_by_xpath("//div[@class='devsite-table-wrapper']/table[1]/tbody[1]")       #turn to reegion
-            print (all_price_type.text)
+
+            all_price_type = browser.find_element_by_xpath("//div[@class='devsite-article-body ng-scope']/table[1]/tbody[1]")       #turn to reegion
+            # print (all_price_type.text)
             all_price_list = str(all_price_type.text).splitlines()
-            print (all_price_list)                                                  #len(all_price_list) = 2
-            #test = str(all_price_list[0]).split()
-            #print (test)
-            #print (type(test))
-            #print (len(test))                                                      #18
-        
+            # print (all_price_list)                                                  #len(all_price_list) = 2
+
             ####分別去抓CPU和Mem的price
             for j in range(len(all_price_list)):
                 test_list = str(all_price_list[j]).split()
@@ -96,25 +80,26 @@ class gcp_selenium():
                     print ("None")
                     return None
                 
-            #print (temp_list)
-            print (gcp_region_list[i])                                                  #Iowa (us-central1)
-            print (gcp_region_list[i].split()[-1].strip("()"))                          #Iowa (us-central1) -> us-central1
-            region_location = gcp_region_list[i].split()[-1].strip("()")
+            # print (temp_list)
+            print (gcp_region_list[region_number-1])                                                  #Iowa (us-central1)
+            print (gcp_region_list[region_number-1].split()[-1].strip("()"))                          #Iowa (us-central1) -> us-central1
+            region_location = gcp_region_list[region_number-1].split()[-1].strip("()")
+
             ####整理price存回list
             region_list.append(region_location)
-            cpu_ondemand_list.append(float(temp_list[0])/730)                           #month price -> hour price
-            cpu_preemptible_list.append(float(temp_list[1])/730)
-            cpu_ri_1yr_list.append(float(temp_list[2])/730)
-            cpu_ri_3yr_list.append(float(temp_list[3])/730)
-            mem_ondemand_list.append(float(temp_list[4])/730)
-            mem_preemptible_list.append(float(temp_list[5])/730)
-            mem_ri_1yr_list.append(float(temp_list[6])/730)
-            mem_ri_3yr_list.append(float(temp_list[7])/730)
+            cpu_ondemand_list.append(float(temp_list[0]))                           #month price -> hour price
+            cpu_preemptible_list.append(float(temp_list[1]))
+            cpu_ri_1yr_list.append(float(temp_list[2]))
+            cpu_ri_3yr_list.append(float(temp_list[3]))
+            mem_ondemand_list.append(float(temp_list[4]))
+            mem_preemptible_list.append(float(temp_list[5]))
+            mem_ri_1yr_list.append(float(temp_list[6]))
+            mem_ri_3yr_list.append(float(temp_list[7]))
                         
             temp_list.clear()    
-        
-            time.sleep(2)
-            browser.find_element_by_xpath("//span[@class='md-select-icon']").click()                                    #turn to English language
+
+            wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='table-bar']/md-select[1]/md-select-value[1]")))
+            browser.find_element_by_xpath("//div[@class='table-bar']/md-select[1]/md-select-value[1]").click()  # select region
             time.sleep(2)
 
         """
@@ -136,6 +121,12 @@ class gcp_selenium():
         print (gcp_ri_price_data)
         
         gcp_ri_price_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_ri.csv")
+
+        # write back to fedemeter forder
+        try:
+            gcp_ri_price_data.to_csv("C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\gcp_ri.csv")
+        except:
+            print("The fedemeter foder doesn't exist")
         
 if __name__ == '__main__':
     
@@ -145,12 +136,10 @@ if __name__ == '__main__':
     
     ####
     gcp_gui_operation = gcp_selenium()
-    #aws_os = aws_gui_operation.aws_os_type()
-    #print (aws_os)
     gcp_region = gcp_gui_operation.gcp_region_type()
-    print (gcp_region)
+    # print(gcp_region)
     gcp_ri = gcp_gui_operation.gcp_ri_price(gcp_region)
-    #print (gcp_ri)
-    #aws_ondemand = aws_gui_operation.aws_on_demand_price()
-    
-    #get_region()
+    # print(gcp_ri)
+
+    ####close broser
+    browser.close()

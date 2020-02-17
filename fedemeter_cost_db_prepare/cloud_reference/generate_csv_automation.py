@@ -33,6 +33,9 @@ def move_csv_to_old():
     # gcp
     shutil.move('C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_instance.csv', 'C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\old\\%s_gcp_instance.csv' %date)
     shutil.move('C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_region.csv', 'C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\old\\%s_gcp_region.csv' %date)
+    shutil.move('C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_region.csv', 'C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\old\\%s_gcp_instance_detail.csv' % date)
+    shutil.move('C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_instance.csv', 'C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\old\\%s_gcp_ri.csv' % date)
+
 
     # ----fedemeter_data----
     # shutil.move('C:\\Users\\Brian\\Desktop\\fedemeter_data\\instance_family.csv', 'C:\\Users\\Brian\\Desktop\\fedemeter_data\\old\\%s_instance_family.csv' % date)
@@ -56,6 +59,10 @@ def crawler_csv_auto_script(provider):
 
 def generate_gcp_instance_detail_crawler_csv_auto_script():
     os.system("%s  C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_instance_detail_crawler.py" % excuction_path)
+
+
+def generate_gcp_ri_crawler_csv_auto_script():
+    os.system("%s  C:\\Users\\Brian\\Desktop\\python_crawl\\gcp\\gcp_ri_crawl.py" % excuction_path)
 
 
 def generate_all_provider_instance_region_mapping_csv_auto_script():
@@ -96,6 +103,10 @@ if __name__ == '__main__':
     print("--------generate_gcp_instance_detail_crawler_csv_auto_script--------")
 
     generate_gcp_instance_detail_crawler_csv_auto_script()
+
+    print("--------generate_gcp_ri_crawler_csv_auto_script--------")
+
+    generate_gcp_ri_crawler_csv_auto_script()
 
     print("--------generate_all_provider_instance_region_mapping_csv_auto_script--------")
 
