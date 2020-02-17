@@ -162,7 +162,7 @@ class csv_file():
         print (instance_data)
         
         #instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance.csv" %(provider,provider),index=False)
-        instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance.csv" % (provider, provider),index=False)
+        instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance.csv" % (provider, provider), index=False)
     
     def to_csv_region(self,provider,region_list):
     
@@ -173,7 +173,7 @@ class csv_file():
         print (region_data)
         
         #region_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_region.csv" %(provider,provider),index=False)
-        region_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_region.csv" % (provider, provider),index=False)
+        region_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_region.csv" % (provider, provider), index=False)
 
     def to_csv_price(self, provider_list, region_list, instance_type_list, cost_list):
         price_dict = {"provider": provider_list, "region": region_list, "instance": instance_type_list, "cost": cost_list}
@@ -195,10 +195,12 @@ if __name__ == '__main__':
     #region_list = aws_gui_operation.aws_region_type()
     #instance_list = aws_gui_operation.aws_instance_type()
     provider_list, region_list, instance_type_list, cost_list = aws_gui_operation.get_linux_price()
-
     
     ####write to csv
     aws_csv = csv_file()
     #aws_csv.to_csv_region("aws", region_list)
     #aws_csv.to_csv_instance("aws", instance_list)
     aws_csv.to_csv_price(provider_list, region_list, instance_type_list, cost_list)
+
+    ####close broser
+    browser.close()
