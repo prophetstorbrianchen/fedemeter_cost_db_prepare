@@ -17,40 +17,43 @@ import sys
 excuction_path = "D:\\Anaconda3\\python.exe"
 #excuction_path = "C:\\Users\\Brian\\Desktop\\test_projecct\\venv\\Scripts\\python.exe"
 
+#file_path = os.getcwd()
+file_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools"
+
 
 # for influx json db
 def generate_aws_instance_influxdb_auto_script():
-    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\awsclient.py")
+    os.system("%s  %s\\awsclient.py" % (excuction_path, file_path))
 
 
 def generate_azure_instance_influxdb_auto_script():
-    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\azureclient.py")
+    os.system("%s  %s\\azureclient.py"% (excuction_path, file_path))
 
 
 def generate_gcp_instance_influxdb_auto_script():
-    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\gcpclient.py")
+    os.system("%s  %s\\gcpclient.py"% (excuction_path, file_path))
 
 
 # for influx dictionary db
 def generate_table_reference_auto_script():
-    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\table_reference.py")
+    os.system("%s  %s\\table_reference.py"% (excuction_path, file_path))
 
 
 def generate_instance_series_table_reference_auto_script():
-    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\instance_series_table_reference.py")
+    os.system("%s  %s\\instance_series_table_reference.py"% (excuction_path, file_path))
 
 
 def generate_no_filter_table_reference_auto_script():
-    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\no_filter_table_reference.py")
+    os.system("%s  %s\\no_filter_table_reference.py"% (excuction_path, file_path))
 
 
 def generate_prophetstor_region_table_reference_auto_script():
-    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\prophetstor_region_table_reference.py")
+    os.system("%s  %s\\prophetstor_region_table_reference.py"% (excuction_path, file_path))
 
 
 # for db cash
 def generate_provider_instance_series_auto_script():
-    os.system("D:\\Anaconda3\\python.exe  C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\src\\tools\\provider_instance_series.py")
+    os.system("%s  %s\\provider_instance_series.py"% (excuction_path, file_path))
 
 
 

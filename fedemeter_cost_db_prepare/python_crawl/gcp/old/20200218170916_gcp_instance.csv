@@ -1,0 +1,75 @@
+instance,cpu,memory
+N1 Standard 1,1.0,3.75
+N1 Standard 2,2.0,7.5
+N1 Standard 4,4.0,15.0
+N1 Standard 8,8.0,30.0
+N1 Standard 16,16.0,60.0
+N1 Standard 32,32.0,120.0
+N1 Standard 64,64.0,240.0
+N1 Standard 96,96.0,360.0
+N1 High Mem 2,2.0,13.0
+N1 High Mem 4,4.0,26.0
+N1 High Mem 8,8.0,52.0
+N1 High Mem 16,16.0,104.0
+N1 High Mem 32,32.0,208.0
+N1 High Mem 64,64.0,416.0
+N1 High Mem 96,96.0,624.0
+N1 High CPU 2,2.0,1.8
+N1 High CPU 4,4.0,3.6
+N1 High CPU 8,8.0,7.2
+N1 High CPU 16,16.0,14.4
+N1 High CPU 32,32.0,28.8
+N1 High CPU 64,64.0,57.6
+N1 High CPU 96,96.0,86.4
+N2 Standard 2,2.0,8.0
+N2 Standard 4,4.0,16.0
+N2 Standard 8,8.0,32.0
+N2 Standard 16,16.0,64.0
+N2 Standard 32,32.0,128.0
+N2 Standard 48,48.0,192.0
+N2 Standard 64,64.0,256.0
+N2 Standard 80,80.0,320.0
+N2 High Mem 2,2.0,16.0
+N2 High Mem 4,4.0,32.0
+N2 High Mem 8,8.0,64.0
+N2 High Mem 16,16.0,128.0
+N2 High Mem 32,32.0,256.0
+N2 High Mem 48,48.0,384.0
+N2 High Mem 64,64.0,512.0
+N2 High Mem 80,80.0,640.0
+N2 High CPU 2,2.0,2.0
+N2 High CPU 4,4.0,4.0
+N2 High CPU 8,8.0,8.0
+N2 High CPU 16,16.0,16.0
+N2 High CPU 32,32.0,32.0
+N2 High CPU 48,48.0,48.0
+N2 High CPU 64,64.0,64.0
+N2 High CPU 80,80.0,80.0
+E2 Standard 2,2.0,8.0
+E2 Standard 4,4.0,16.0
+E2 Standard 8,8.0,32.0
+E2 Standard 16,16.0,64.0
+E2 High Mem 2,2.0,16.0
+E2 High Mem 4,4.0,32.0
+E2 High Mem 8,8.0,64.0
+E2 High Mem 16,16.0,128.0
+E2 High CPU 2,2.0,2.0
+E2 High CPU 4,4.0,4.0
+E2 High CPU 8,8.0,8.0
+E2 High CPU 16,16.0,16.0
+M1 ULTRAMEM 40,40.0,961.0
+M1 ULTRAMEM 80,80.0,1922.0
+M1 ULTRAMEM 160,160.0,3844.0
+M2 ULTRAMEM 208,208.0,5888.0
+M2 ULTRAMEM 416,416.0,11.776
+C2 Standard 4,4.0,16.0
+C2 Standard 8,8.0,32.0
+C2 Standard 16,16.0,64.0
+C2 Standard 30,30.0,120.0
+C2 Standard 60,60.0,240.0
+F1 MICRO,1.0,0.6
+G1 SMALL,1.0,1.7
+E2 MICRO,2.0,1.0
+E2 SMALL,2.0,2.0
+E2 MEDIUM,2.0,4.0
+M1 MEGAMEM 96,96.0,1433.6

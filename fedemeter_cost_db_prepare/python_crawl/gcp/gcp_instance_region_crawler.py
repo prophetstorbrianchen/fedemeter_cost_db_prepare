@@ -101,14 +101,14 @@ class gcp_selenium():
                         if "," in temp_list[-5]:
                             memory = temp_list[-5].replace(",",".")
                     instance_list.append(gcp_instance)
-                    cpu_list.append(float(cpu))
+                    cpu_list.append(int(cpu))
                     memory_list.append(float(memory))
             except:
                 print("----" + str(i) + "----")
                 print("Over the bounding")
         # workaround for M1-MEGAMEM-96
         instance_list.append("M1 MEGAMEM 96")
-        cpu_list.append(float(96))
+        cpu_list.append(int(96))
         memory_list.append(float(1433.6))
         print(len(instance_list),len(cpu_list),len(memory_list))
         return instance_list, cpu_list, memory_list

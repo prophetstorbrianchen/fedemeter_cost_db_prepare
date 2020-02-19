@@ -106,7 +106,7 @@ class gcp_selenium():
                         #print(instance, cpu, memory)
 
                         instance_list.append(instance)
-                        cpu_list.append(float(cpu))
+                        cpu_list.append(int(cpu))
                         memory_list.append(float(memory))
 
             except:
@@ -115,7 +115,7 @@ class gcp_selenium():
 
         # workaround for M1-MEGAMEM-96
         instance_list.append("M1-MEGAMEM-96")
-        cpu_list.append(float(96))
+        cpu_list.append(int(96))
         memory_list.append(float(1433.6))
         return instance_list, cpu_list, memory_list
         

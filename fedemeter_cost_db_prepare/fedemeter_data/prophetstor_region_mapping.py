@@ -236,9 +236,9 @@ def to_csv(provider_list, instance_list, cpu_list, memory_list, family_list):
     instance_family_data = pd.DataFrame(instnace_family_dict, columns=["provider", "instancetype", "cpu", "memory", "family"])
     print(instance_family_data)
 
-    instance_family_data.to_csv("C:\\Users\\Brian\\Desktop\\fedemeter_data\\instance_family.csv", index=False)
+    instance_family_data.to_csv("C:\\Users\\Brian\\Desktop\\fedemeter_data\\prophetstor_region_mapping.csv", index=False)
 
-    instance_family_data.to_csv("C:\\Users\\Brian\\Desktop\\cloud_reference\\instance_family.csv", index=False)
+    instance_family_data.to_csv("C:\\Users\\Brian\\Desktop\\cloud_reference\\prophetstor_region_mapping.csv", index=False)
 
 
 if __name__ == '__main__':
