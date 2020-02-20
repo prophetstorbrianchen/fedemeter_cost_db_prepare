@@ -18,6 +18,8 @@ import shutil
 excuction_path = "D:\\Anaconda3\\python.exe"
 #excuction_path = "C:\\Users\\Brian\\Desktop\\test_projecct\\venv\\Scripts\\python.exe"
 
+fedemeter_forder_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\table-csv"
+
 
 def move_csv_to_old():
     date = time.strftime("%Y%m%d%H%M%S", time.localtime())
@@ -85,7 +87,19 @@ def generate_stackpoint_filter_csv_auto_script():
     os.system("%s  C:\\Users\\Brian\\Desktop\\cloud_reference\\stakcpoint_filter.py" % excuction_path)
 
 
+def copy_csv_to_fedemeter_auto_sctipt(provider_list):
+    for provider in provider_list:
+        os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\{0}_instance.csv {1}\\{0}_instance.csv'.format(provider, fedemeter_forder_path))
+        os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\{0}_region.csv {1}\\{0}_region.csv'.format(provider, fedemeter_forder_path))
+
+    os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\no_filter.csv {0}\\no_filter.csv'.format(fedemeter_forder_path))
+    os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\instance_series.csv {0}\\instance_series.csv'.format(fedemeter_forder_path))
+    os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\prophetstor_region_mapping.csv {0}\\prophetstor_region_mapping.csv'.format(fedemeter_forder_path))
+    os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\stackpoint_filter.csv {0}\\stackpoint_filter.csv'.format(fedemeter_forder_path))
+
+
 if __name__ == '__main__':
+
 
     print("--------move_csv_to_old--------")
     try:
@@ -126,3 +140,6 @@ if __name__ == '__main__':
 
     # generate_stackpoint_filter_csv_auto_script()
 
+    print("--------copy_csv_to_fedemeter_auto_sctipt--------")
+
+    copy_csv_to_fedemeter_auto_sctipt(provider_list)

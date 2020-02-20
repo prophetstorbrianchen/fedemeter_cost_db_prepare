@@ -27,34 +27,33 @@ def generate_aws_instance_influxdb_auto_script():
 
 
 def generate_azure_instance_influxdb_auto_script():
-    os.system("%s  %s\\azureclient.py"% (excuction_path, file_path))
+    os.system("%s  %s\\azureclient.py" % (excuction_path, file_path))
 
 
 def generate_gcp_instance_influxdb_auto_script():
-    os.system("%s  %s\\gcpclient.py"% (excuction_path, file_path))
+    os.system("%s  %s\\gcpclient.py" % (excuction_path, file_path))
 
 
 # for influx dictionary db
 def generate_table_reference_auto_script():
-    os.system("%s  %s\\table_reference.py"% (excuction_path, file_path))
+    os.system("%s  %s\\table_reference.py" % (excuction_path, file_path))
 
 
 def generate_instance_series_table_reference_auto_script():
-    os.system("%s  %s\\instance_series_table_reference.py"% (excuction_path, file_path))
+    os.system("%s  %s\\instance_series_table_reference.py" % (excuction_path, file_path))
 
 
 def generate_no_filter_table_reference_auto_script():
-    os.system("%s  %s\\no_filter_table_reference.py"% (excuction_path, file_path))
+    os.system("%s  %s\\no_filter_table_reference.py" % (excuction_path, file_path))
 
 
 def generate_prophetstor_region_table_reference_auto_script():
-    os.system("%s  %s\\prophetstor_region_table_reference.py"% (excuction_path, file_path))
+    os.system("%s  %s\\prophetstor_region_table_reference.py" % (excuction_path, file_path))
 
 
 # for db cash
 def generate_provider_instance_series_auto_script():
-    os.system("%s  %s\\provider_instance_series.py"% (excuction_path, file_path))
-
+    os.system("%s  %s\\provider_instance_series.py" % (excuction_path, file_path))
 
 
 if __name__ == '__main__':
