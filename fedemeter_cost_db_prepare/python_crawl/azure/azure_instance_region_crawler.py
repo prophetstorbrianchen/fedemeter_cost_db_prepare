@@ -24,7 +24,8 @@ class azure_selenium():
         pass
     
     def azure_region_type(self):
-        
+
+        modified_azure_region_list = []
         azure_region_list = []
         
         browser.get("https://azure.microsoft.com/en-us/pricing/calculator/")
@@ -35,20 +36,24 @@ class azure_selenium():
         for i in range(len(select_region.options)):
             if "US Gov" in select_region.options[i].text:                                          #Filter US Gov
                 continue
-            elif select_region.options[i].text == "Germany Central (Sovereign)":                   #for specical case
-                select_region.options[i].text = "Germany Central"
-            elif select_region.options[i].text == "Germany North (Public)":
-                select_region.options[i].text = "Germany North"
-            elif select_region.options[i].text == "Germany Northeast (Sovereign)":
-                select_region.options[i].text = "Germany Northeast"
-            elif select_region.options[i].text == "Germany West Central (Public)":
-                select_region.options[i].text = "Germany West Central"
             else:
-                #print(select.options[i].text)
-                azure_region_list.append(select_region.options[i].text)
+                modified_region = select_region.options[i].text
+                original_region = select_region.options[i].text
+                if select_region.options[i].text == "Germany Central (Sovereign)":                 # for specical case
+                    modified_region = "Germany Central"
+                elif select_region.options[i].text == "Germany North (Public)":
+                    modified_region = "Germany North"
+                elif select_region.options[i].text == "Germany Northeast (Sovereign)":
+                    modified_region = "Germany Northeast"
+                elif select_region.options[i].text == "Germany West Central (Public)":
+                    modified_region = "Germany West Central"
+                else:
+                    pass
+                modified_azure_region_list.append(modified_region)
+                azure_region_list.append(original_region)
         
         #print(azure_region_list)
-        return azure_region_list
+        return azure_region_list, modified_azure_region_list
     
     def azure_instance_type(self,region_list):
 
@@ -140,12 +145,12 @@ if __name__ == '__main__':
     
     ####get aws region and instance
     azure_gui_operation = azure_selenium()   
-    region_list = azure_gui_operation.azure_region_type()
+    region_list, modified_azure_region_list = azure_gui_operation.azure_region_type()
     instance_list, cpu_list, memory_list = azure_gui_operation.azure_instance_type(region_list)
     
     ####write to csv
     azure_csv = csv_file()
-    azure_csv.to_csv_region("azure", region_list)
+    azure_csv.to_csv_region("azure", modified_azure_region_list)
     azure_csv.to_csv_instance("azure", instance_list, cpu_list, memory_list)
 
     ####close broser
