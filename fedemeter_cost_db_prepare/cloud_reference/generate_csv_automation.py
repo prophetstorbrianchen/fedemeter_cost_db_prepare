@@ -20,6 +20,7 @@ excuction_path = "D:\\Anaconda3\\python.exe"
 
 fedemeter_forder_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\table-csv"
 fedemeter_forder_federatorai_agent_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\federatorai-agent-csv"
+fedemeter_forder_data_gcp_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data"
 
 
 def move_csv_to_old():
@@ -98,6 +99,10 @@ def copy_csv_to_fedemeter_auto_sctipt(provider_list):
         os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\{0}_region.csv {1}\\{0}_region.csv'.format(provider, fedemeter_forder_path))
         os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\federatorai_agent_{0}_instance.csv {1}\\federatorai_agent_{0}_instance.csv'.format(provider, fedemeter_forder_federatorai_agent_path))
         os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\federatorai_agent_{0}_region.csv {1}\\federatorai_agent_{0}_region.csv'.format(provider, fedemeter_forder_federatorai_agent_path))
+        if provider == "gcp":
+            os.system('copy C:\\Users\\Brian\\Desktop\\python_crawl\\{0}\\{0}_instance_detail.csv {1}\\{0}_instance_detail.csv'.format(provider, fedemeter_forder_data_gcp_path))
+            os.system('copy C:\\Users\\Brian\\Desktop\\python_crawl\\{0}\\{0}_region.csv {1}\\{0}_region.csv'.format(provider, fedemeter_forder_data_gcp_path))
+            os.system('copy C:\\Users\\Brian\\Desktop\\python_crawl\\{0}\\{0}_ri.csv {1}\\{0}_ri.csv'.format(provider, fedemeter_forder_data_gcp_path))
 
     os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\no_filter.csv {0}\\no_filter.csv'.format(fedemeter_forder_path))
     os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\instance_series.csv {0}\\instance_series.csv'.format(fedemeter_forder_path))

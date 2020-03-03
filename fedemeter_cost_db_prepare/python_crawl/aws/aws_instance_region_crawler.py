@@ -46,6 +46,10 @@ class aws_selenium():
                 region = select.options[i].text
                 if select.options[i].text == "US West (Northern California)":                                                   # aws json didn't modify
                     region = "US West (N. California)"
+                elif "Europe" in select.options[i].text:
+                    string_list = region.split(" ")
+                    print(string_list)
+                    region = "EU" + " " + string_list[-1]
                 aws_region_list.append(region)
             
         #print(aws_region_list)

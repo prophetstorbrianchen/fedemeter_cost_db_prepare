@@ -83,10 +83,10 @@ def to_csv(stackpoint_filter_list):
         family_list.append(i['family'])
 
     stackpoint_dict = {"provider": provider_list, "region": region_list, "instance": instance_list, "family": family_list}
-    print(stackpoint_dict)
+    #print(stackpoint_dict)
 
     stackpoint_data = pd.DataFrame(stackpoint_dict, columns=["provider", "region", "instance","family"])
-    print(stackpoint_data)
+    #print(stackpoint_data)
 
     stackpoint_data.to_csv("C:\\Users\\Brian\\Desktop\\cloud_reference\\no_filter.csv",index=False)
 
@@ -103,10 +103,10 @@ def no_famil_to_csv(stackpoint_filter_list):
         instance_list.append(i['instance'])
 
     stackpoint_dict = {"provider": provider_list, "region": region_list, "instance": instance_list}
-    print(stackpoint_dict)
+    # print(stackpoint_dict)
 
     stackpoint_data = pd.DataFrame(stackpoint_dict, columns=["provider", "region", "instance"])
-    print(stackpoint_data)
+    # print(stackpoint_data)
 
     stackpoint_data.to_csv("C:\\Users\\Brian\\Desktop\\cloud_reference\\no_filter_no_family.csv",index=False)
 

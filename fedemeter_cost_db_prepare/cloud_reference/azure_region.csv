@@ -15,10 +15,10 @@ North Europe,europe-north
 West Europe,europe-west
 France Central,france-central
 France South,france-south
-Germany Central (Sovereign),germany-central-(sovereign)
-Germany North (Public),germany-north-(public)
-Germany Northeast (Sovereign),germany-northeast-(sovereign)
-Germany West Central (Public),germany-west
+Germany Central,germany-central
+Germany North,germany-north
+Germany Northeast,germany-northeast
+Germany West Central,germany-west-central
 Japan East,japan-east
 Japan West,japan-west
 Korea Central,korea-central
