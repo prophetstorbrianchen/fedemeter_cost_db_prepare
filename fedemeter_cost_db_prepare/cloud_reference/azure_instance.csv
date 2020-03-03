@@ -246,14 +246,14 @@ Standard ND40rs v2,ND40rsv2
 Standard ND6s,ND6s
 Standard NV12,NV12
 Standard NV12s v3,NV12sv3
-Standard NV16s v4,NV16sv4
+Standard NV16as v4,NV16asv4
 Standard NV24,NV24
 Standard NV24s v3,NV24sv3
-Standard NV32s v4,NV32sv4
+Standard NV32as v4,NV32asv4
 Standard NV48s v3,NV48sv3
-Standard NV4s v4,NV4sv4
+Standard NV4as v4,NV4asv4
 Standard NV6,NV6
-Standard NV8s v4,NV8sv4
+Standard NV8as v4,NV8asv4
 Standard PB12s,PB12s
 Standard PB24s,PB24s
 Standard PB6s,PB6s

@@ -28,7 +28,7 @@ class gcp_selenium():
 
     def gcp_region_type(self):
 
-        browser.get("https://cloud-dot-devsite-v2-prod.appspot.com/compute/all-pricing_0517e58117323561d3e20f4fa1b60ab36efa6a74297bd0e865e3a36f3d29c010.frame")                                                      #GCP price page
+        browser.get("https://cloud-dot-devsite-v2-prod.appspot.com/compute/vm-instance-pricing_810692a771a0296218d974c892ac484bb0867eb2665cb7a15912f59cff7e95f3.frame")   #GCP price page(fot n1 ri price)
         time.sleep(2)
         browser.find_element_by_xpath("//div[@class='table-bar']/md-select[1]/md-select-value[1]").click()  # select region
         time.sleep(2)

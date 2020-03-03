@@ -45,37 +45,6 @@ N2 High CPU 32,32,32.0
 N2 High CPU 48,48,48.0
 N2 High CPU 64,64,64.0
 N2 High CPU 80,80,80.0
-N2D Standard 2,2,8.0
-N2D Standard 4,4,16.0
-N2D Standard 8,8,32.0
-N2D Standard 16,16,64.0
-N2D Standard 32,32,128.0
-N2D Standard 48,48,192.0
-N2D Standard 64,64,256.0
-N2D Standard 80,80,320.0
-N2D Standard 96,96,384.0
-N2D Standard 128,128,512.0
-N2D Standard 224,224,896.0
-N2D High Mem 2,2,16.0
-N2D High Mem 4,4,32.0
-N2D High Mem 8,8,64.0
-N2D High Mem 16,16,128.0
-N2D High Mem 32,32,256.0
-N2D High Mem 48,48,384.0
-N2D High Mem 64,64,512.0
-N2D High Mem 80,80,640.0
-N2D High Mem 96,96,786.0
-N2D High CPU 2,2,2.0
-N2D High CPU 4,4,4.0
-N2D High CPU 8,8,8.0
-N2D High CPU 16,16,16.0
-N2D High CPU 32,32,32.0
-N2D High CPU 48,48,48.0
-N2D High CPU 64,64,64.0
-N2D High CPU 80,80,80.0
-N2D High CPU 96,96,96.0
-N2D High CPU 128,128,128.0
-N2D High CPU 224,224,224.0
 E2 Standard 2,2,8.0
 E2 Standard 4,4,16.0
 E2 Standard 8,8,32.0
@@ -100,4 +69,7 @@ C2 Standard 30,30,120.0
 C2 Standard 60,60,240.0
 F1 MICRO,1,0.6
 G1 SMALL,1,1.7
+E2 MICRO,2,1.0
+E2 SMALL,2,2.0
+E2 MEDIUM,2,4.0
 M1 MEGAMEM 96,96,1433.6

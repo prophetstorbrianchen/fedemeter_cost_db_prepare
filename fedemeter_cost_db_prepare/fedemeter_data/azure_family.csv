@@ -254,6 +254,10 @@ azure,standard-nv8s-v4,28,176,NV4Sv4-NV32Sv4
 azure,standard-nv12,12,112,NV6-NV24
 azure,standard-nv24,24,224,NV6-NV24
 azure,standard-nv6,6,56,NV6-NV24
+azure,standard-nv32as-v4,32,112,NV4ASv4-NV32ASv4
+azure,standard-nv16as-v4,16,56,NV4ASv4-NV32ASv4
+azure,standard-nv8as-v4,8,28,NV4ASv4-NV32ASv4
+azure,standard-nv4as-v4,4,14,NV4ASv4-NV32ASv4
 azure,standard-pb12s,24,448,PB6S-PB24S
 azure,standard-pb24s,12,224,PB6S-PB24S
 azure,standard-pb6s,6,112,PB6S-PB24S

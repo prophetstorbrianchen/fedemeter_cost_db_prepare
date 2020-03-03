@@ -35,6 +35,14 @@ class azure_selenium():
         for i in range(len(select_region.options)):
             if "US Gov" in select_region.options[i].text:                                          #Filter US Gov
                 continue
+            elif select_region.options[i].text == "Germany Central (Sovereign)":                   #for specical case
+                select_region.options[i].text = "Germany Central"
+            elif select_region.options[i].text == "Germany North (Public)":
+                select_region.options[i].text = "Germany North"
+            elif select_region.options[i].text == "Germany Northeast (Sovereign)":
+                select_region.options[i].text = "Germany Northeast"
+            elif select_region.options[i].text == "Germany West Central (Public)":
+                select_region.options[i].text = "Germany West Central"
             else:
                 #print(select.options[i].text)
                 azure_region_list.append(select_region.options[i].text)

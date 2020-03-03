@@ -17,7 +17,7 @@ aws,South America (Sao Paulo),South America,Brazil,Sao Paulo
 aws,US East (N. Virginia),North America,USA,Virginia
 aws,US East (Ohio),North America,USA,Ohio
 aws,US West (Los Angeles),North America,USA,Los Angeles
-aws,US West (Northern California),North America,USA,California
+aws,US West (N. California),North America,USA,California
 aws,US West (Oregon),North America,USA,Oregon
 azure,North Central US,North America,USA,Illinois
 azure,Australia East,Oceania,Australia,New South Wales
@@ -125,3 +125,6 @@ gcp,US West 1c,North America,USA,Oregon
 gcp,US West 2a,North America,USA,California
 gcp,US West 2b,North America,USA,California
 gcp,US West 2c,North America,USA,California
+gcp,US West 3a,North America,USA,Utah
+gcp,US West 3b,North America,USA,Utah
+gcp,US West 3c,North America,USA,Utah

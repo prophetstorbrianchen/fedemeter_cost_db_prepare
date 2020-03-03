@@ -63,7 +63,7 @@ class gcp_selenium():
         browser.find_element_by_xpath("//div[@class='devsite-select']/ul[1]/li[3]").click()                                 #turn to English language
         time.sleep(2)
 
-        for i in range(2,40):
+        for i in range(2,50):
             try:
                 #instance_type = browser.find_element_by_xpath("//div[@itemprop='articleBody']/div[%d]/table[1]" %i)       #expand instance list
                 instance_type = browser.find_element_by_xpath("//article[@class='devsite-article-inner']/div[2]/div[%d]/table[1]/tbody[1]" % i)  # expand instance list

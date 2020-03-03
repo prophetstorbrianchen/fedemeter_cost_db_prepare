@@ -9,7 +9,7 @@ c1.medium,2.0,1.7
 c1.xlarge,8.0,7.0
 c3.2xlarge,8.0,15.0
 c3.4xlarge,16.0,30.0
-c3.8xlarge,32.0,60.0
+c3.8xlarge,36.0,60.0
 c3.large,2.0,3.75
 c3.xlarge,4.0,7.5
 c4.2xlarge,8.0,15.0

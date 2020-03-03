@@ -138,6 +138,7 @@ if __name__ == '__main__':
     azure_high_performance = ["h"]
 
     gcp_general_purpose = ["n1","n2"]
+    gcp_general_purpose_amd = ["n2d"]
     gcp_general_purpose_amd_intel = ["e2"]
     gcp_compute_optimized = ["c2"]
     gcp_memory_optimized = ["m1","m2"]
@@ -281,6 +282,10 @@ if __name__ == '__main__':
                         if instance_title in gcp_general_purpose:
                             temp.update({
                                 "family": "general-purpose"
+                            })
+                        elif instance_title in gcp_general_purpose_amd:
+                            temp.update({
+                                "family": "general-purpose-amd"
                             })
                         elif instance_title in gcp_general_purpose_amd_intel:
                             temp.update({
