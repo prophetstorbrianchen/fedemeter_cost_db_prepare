@@ -48,27 +48,29 @@ class azure_selenium():
                         "https://cloud-dot-google-developers.appspot.com/compute/vm-instance-pricing_a0c26151c2d56002d174aed9aa884074.frame?hl=en",     # c2
                         ]
         """
+        """
         address_list = [
-            "https://cloud.google.com/compute/all-pricing_dac24bc930e8a30ce027e5f8e554db60f37385cebf93ab73142bad522c892bc0.frame",
-            "https://cloud.google.com/compute/all-pricing_85bd5bc4b29563d39ae1c9565fc990904de8e24c95cbabf801861463172f19b7.frame",
-            "https://cloud.google.com/compute/all-pricing_79985de5092a6ead500a82280cf6a69324e9a571d2cf520b12e41b6abfadceb0.frame",
-            "https://cloud.google.com/compute/all-pricing_7ca1ec6faedfbacefd8b51873620590634286b8732e4df229edad34c98d00202.frame",
-            "https://cloud.google.com/compute/all-pricing_ab55f0ac9979c5e8f0960721ca1e319113eb16cfd608b633169e14abbebd75c0.frame",
-            "https://cloud.google.com/compute/all-pricing_8029b85f606839246d7a0d0dc3732466cb1c5d1e42e3ad9221c89e138a8ebb5d.frame",
-            "https://cloud.google.com/compute/all-pricing_8029b85f606839246d7a0d0dc3732466cb1c5d1e42e3ad9221c89e138a8ebb5d.frame",
-            "https://cloud.google.com/compute/all-pricing_b4f590f8b1538f25bc64d56c09e898a369a10d2eb40b8f7c9c091de8a8c74d54.frame",
-            "https://cloud.google.com/compute/all-pricing_c06458467dd1a56138f1fead7a1685e59d97b20f7502c5116bfa1aa2e25e3484.frame",
-            "https://cloud.google.com/compute/all-pricing_9a9137173e56d4adc10e1620c8e6e3e041f50a40e63b4e74251f8772a98ad85d.frame",
-            "https://cloud.google.com/compute/all-pricing_48f8373a2145d1be2f502a8e071410420150dbb5392ac3fea57a6735e4a3a548.frame",
-            "https://cloud.google.com/compute/all-pricing_c12f526156c9c8613c00b2efa554cb06b00e75a8f657d99df2dc3c1da22b339e.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_70247bb78d85862a2b290545ac82cd3c0f4e0e7aa5ea1092e8dcba180b24ab80.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_db455264100419afc30d232a61f156058f602f18aa183f9cb018ad483f9ef0df.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_b7020fa96a0eb442f5b8345a4c57eb68f69a3a6dcebf142a1b705dd25e2437bd.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_154b1501cf8c62fb20b29ec71e1ec0486da85ca50cf2a10bbb3e6dd7af939fc2.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_bb3665d9e2c41f6cb83fab57f969be28193b09f7dee07eaca2211bcb94498ef1.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_af29ef739d577fcba5e74838c46774936203cc31ce3f8968ce8303c1dc6e00fe.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_16fc74c7d25755a71d9966de7b1486efae76c20446d18ed29a49ddfaa96324d3.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_13cf182d187dbda91180bce6d64ff957b0a47b6577d914741d8e3ef280b77f37.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_7e538ab6900d0f12a8adba399f907f8adae94ff09f623e336e643bf575c6eaaf.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_64c87ff750115e5fbe54d8ff310a77d70ac7a24053842cb866fa06c81da04ed3.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_4e822c4686ce4460a8705aacb8285d3fc84bbe00465a1b689b466522f93ae556.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_5a062b32b04dbfb31b71df271f2d8ce563d5341b33e2709627996b5748573148.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_71f3dc5d7031da6bc27a9c5d198819a7dbe45dcf81cbd080774f28a92b9bf075.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_20b0c7b081521c39869153c62c21b3882abb4767fa3ee8440dd28b7737efac92.frame",
+            "https://cloud.google.com/compute/vm-instance-pricing_cddf59f57300ef4a76e74cb24a7d7a47382760c37bab5a2e79c9ba86db7bbbf2.frame",
             ]
-
-
-
+        """
+        address_list = ["https://cloud.google.com/compute/vm-instance-pricing_7e538ab6900d0f12a8adba399f907f8adae94ff09f623e336e643bf575c6eaaf.frame"]
 
         temp_list = []
         region_list = []
-
 
         provider_list = []
         all_region_list = []
@@ -80,7 +82,7 @@ class azure_selenium():
 
         # get region list
         time.sleep(2)
-        browser.get("https://cloud.google.com/compute/all-pricing_dac24bc930e8a30ce027e5f8e554db60f37385cebf93ab73142bad522c892bc0.frame")
+        browser.get("https://cloud.google.com/compute/vm-instance-pricing_70247bb78d85862a2b290545ac82cd3c0f4e0e7aa5ea1092e8dcba180b24ab80.frame")
         time.sleep(2)
         browser.find_element_by_xpath("//div[@class='table-bar']/md-select[1]/md-select-value[1]").click()              # select region
         time.sleep(2)
@@ -118,8 +120,11 @@ class azure_selenium():
                             all_instance = browser.find_element_by_xpath("//div[@class='devsite-article-body ng-scope']/table[1]/tbody[%s]" %body_number)
                             temp_instance_list = str(all_instance.text).splitlines()
                             for i in range(len(temp_instance_list)):
-                                if "96" in temp_instance_list[i]:
-                                    temp_instance_list[i] = temp_instance_list[i] + " " + temp_instance_list[i+1].strip("Skylake Platform only")
+                                if "96" or "224" in temp_instance_list[i]:
+                                    if "Skylake Platform only" in temp_instance_list[i]:
+                                        temp_instance_list[i] = temp_instance_list[i] + " " + temp_instance_list[i+1].strip("Skylake Platform only")
+                                    elif "Custom machine type" in temp_instance_list[i]:
+                                        temp_instance_list[i] = temp_instance_list[i] + " " + temp_instance_list[i+1].strip("Custom machine type")
                                 if "standard" in temp_instance_list[i] or "highmem" in temp_instance_list[i] or "highcpu" in temp_instance_list[i] or "ultramem" in temp_instance_list[i] or "megamem" in temp_instance_list[i]:
                                     temp_list.append(temp_instance_list[i])
                             print(temp_list)
@@ -146,8 +151,10 @@ class azure_selenium():
                                     elif "megamem" in temp_string_split_list[1]:
                                         instance_type = temp_string_split_list[0].lower() + "-" + "megamem" + "-" + temp_string_split_list[2]
 
-
-                                    cost = float(temp_string_list[3].strip("$"))
+                                    if "n2d" in temp_string_split_list:
+                                        cost = float(temp_string_list[4].strip("$"))
+                                    else:
+                                        cost = float(temp_string_list[3].strip("$"))
 
                                     provider_list.append(provider)
                                     all_region_list.append(region)

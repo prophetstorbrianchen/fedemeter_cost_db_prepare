@@ -76,18 +76,18 @@ class gcp_selenium():
                     #print(temp_list)
                     if temp_list[0].startswith("n1"):
                         continue
-                    elif temp_list[0].startswith("e2"):
-                        instance = temp_list[0].upper()
-                        cpu = int(temp_list[12])
-                        if "," in temp_list[13]:
-                            memory = int(temp_list[13].replace(",", ""))
-                            # print("memory:" + memory)
-                        else:
-                            memory = int(temp_list[13])
+                    #elif temp_list[0].startswith("e2"):
+                    #    instance = temp_list[0].upper()
+                    #    cpu = int(temp_list[1])
+                    #    if "," in temp_list[2]:
+                    #        memory = int(temp_list[2].replace(",", ""))
+                    #        # print("memory:" + memory)
+                    #    else:
+                    #        memory = int(temp_list[2])
 
-                        instance_list.append(instance)
-                        cpu_list.append(cpu)
-                        memory_list.append(memory)
+                    #    instance_list.append(instance)
+                    #    cpu_list.append(cpu)
+                    #    memory_list.append(memory)
                     else:
                         #print(temp_list)
 
