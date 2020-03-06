@@ -32,13 +32,14 @@ def get_data_from_calculator_api(provider, region, instance):
     else:
         operatingsystem = "free"
 
-    url = "http://172.31.6.20:31000/fedemeter-api/v1/calculators/"
+    url = "http://127.0.0.1:8999/calculators/"
+    #url = "http://172.31.6.20:31000/fedemeter-api/v1/calculators/"
 
     payload = ('{"calculator":[{"%s":[{"region":"%s","instances":{"nodename":"172-23-1-200","instancetype":"%s","nodetype":"master","operatingsystem":"%s","preinstalledsw":"NA","instancenum":"1","period":"1","unit":"hour"}}]}]}'%(provider, region, instance, operatingsystem))
     headers = {
         'Content-Type': "application/json",
         'cache-control': "no-cache",
-        'Postman-Token': "ca3fc337-8d53-4cdf-936a-8fc9aaa36d3f"
+        'Postman-Token': "2faba059-ef8c-41cf-b8af-43727653eb00"
     }
 
     response = requests.request("PUT", url, data=payload, headers=headers, auth=('fedemeter', '$6$pOwGiawPSjz7qLaN$fnMXEhwzWnUw.bOKohdAhB5K5iCCOJJaZXxQkhzH4URsHP8qLTT4QeBPUKjlOAeAHbKsqlf.fyuL2pNRmR6oQD1'))
