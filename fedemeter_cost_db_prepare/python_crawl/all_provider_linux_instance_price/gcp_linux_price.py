@@ -48,7 +48,7 @@ class azure_selenium():
                         "https://cloud-dot-google-developers.appspot.com/compute/vm-instance-pricing_a0c26151c2d56002d174aed9aa884074.frame?hl=en",     # c2
                         ]
         """
-        """
+
         address_list = [
             "https://cloud.google.com/compute/vm-instance-pricing_70247bb78d85862a2b290545ac82cd3c0f4e0e7aa5ea1092e8dcba180b24ab80.frame",
             "https://cloud.google.com/compute/vm-instance-pricing_db455264100419afc30d232a61f156058f602f18aa183f9cb018ad483f9ef0df.frame",
@@ -66,8 +66,7 @@ class azure_selenium():
             "https://cloud.google.com/compute/vm-instance-pricing_20b0c7b081521c39869153c62c21b3882abb4767fa3ee8440dd28b7737efac92.frame",
             "https://cloud.google.com/compute/vm-instance-pricing_cddf59f57300ef4a76e74cb24a7d7a47382760c37bab5a2e79c9ba86db7bbbf2.frame",
             ]
-        """
-        address_list = ["https://cloud.google.com/compute/vm-instance-pricing_7e538ab6900d0f12a8adba399f907f8adae94ff09f623e336e643bf575c6eaaf.frame"]
+
 
         temp_list = []
         region_list = []
