@@ -21,6 +21,10 @@ excuction_path = "D:\\Anaconda3\\python.exe"
 fedemeter_forder_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\table-csv"
 fedemeter_forder_federatorai_agent_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\federatorai-agent-csv"
 fedemeter_forder_data_gcp_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data"
+#fedemeter_forder_path = "C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data\\table-csv"
+#fedemeter_forder_federatorai_agent_path = "C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data\\federatorai-agent-csv"
+#fedemeter_forder_data_gcp_path = "C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data"
+
 
 
 def move_csv_to_old():

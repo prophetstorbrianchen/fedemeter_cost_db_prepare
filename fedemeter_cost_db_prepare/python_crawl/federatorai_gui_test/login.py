@@ -23,5 +23,6 @@ if __name__ == '__main__':
     federatorai_gui_operation = Federatorai_Selenium(browser)
     federatorai_gui_operation.login("172.31.6.110", "admin", "admin")
 
+
     # close broser
     browser.close()

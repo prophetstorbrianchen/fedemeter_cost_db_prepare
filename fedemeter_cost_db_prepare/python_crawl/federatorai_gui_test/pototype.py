@@ -102,8 +102,8 @@ if __name__ == '__main__':
     browser.maximize_window()
     
     # test
-    federatorai_gui_operation = Federatorai_Selenium()
-    #federatorai_gui_operation.login("172.31.6.110", "admin", "admin")
+    federatorai_gui_operation = Federatorai_Selenium(browser)
+    federatorai_gui_operation.login("172.31.6.110", "admin", "admin")
     #federatorai_gui_operation.cost_multicloud_cost_analysis()
     #federatorai_gui_operation.about()
 

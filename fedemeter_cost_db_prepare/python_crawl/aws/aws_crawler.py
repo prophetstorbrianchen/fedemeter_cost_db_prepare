@@ -140,7 +140,7 @@ class aws_selenium():
 
 if __name__ == '__main__':
     ####create browser
-    browser = webdriver.Chrome()
+    browser = webdriver.Chrome("C:\\Users\\Brian\\Desktop\\python_crawl\\chromedriver.exe")
     browser.maximize_window()
     
     ####
