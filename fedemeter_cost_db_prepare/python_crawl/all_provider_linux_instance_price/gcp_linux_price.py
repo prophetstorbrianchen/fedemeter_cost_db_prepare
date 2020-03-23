@@ -137,7 +137,7 @@ class azure_selenium():
                                     continue
                                 else:
                                     temp_string_list = item.split(" ")
-                                    print(temp_string_list)
+                                    # print(temp_string_list)
                                     provider = "gcp"
                                     region = region_list[region_number-1]
 
