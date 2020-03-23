@@ -48,7 +48,7 @@ class azure_selenium():
                         "https://cloud-dot-google-developers.appspot.com/compute/vm-instance-pricing_a0c26151c2d56002d174aed9aa884074.frame?hl=en",     # c2
                         ]
         """
-
+        """
         address_list = [
             "https://cloud.google.com/compute/vm-instance-pricing_70247bb78d85862a2b290545ac82cd3c0f4e0e7aa5ea1092e8dcba180b24ab80.frame",
             "https://cloud.google.com/compute/vm-instance-pricing_db455264100419afc30d232a61f156058f602f18aa183f9cb018ad483f9ef0df.frame",
@@ -66,7 +66,9 @@ class azure_selenium():
             "https://cloud.google.com/compute/vm-instance-pricing_20b0c7b081521c39869153c62c21b3882abb4767fa3ee8440dd28b7737efac92.frame",
             "https://cloud.google.com/compute/vm-instance-pricing_cddf59f57300ef4a76e74cb24a7d7a47382760c37bab5a2e79c9ba86db7bbbf2.frame",
             ]
-
+        """
+        address_list = ["https://cloud-dot-devsite-v2-prod.appspot.com/compute/vm-instance-pricing_13cf182d187dbda91180bce6d64ff957b0a47b6577d914741d8e3ef280b77f37.frame"]
+        #address_list = ["https://cloud.google.com/compute/vm-instance-pricing_16fc74c7d25755a71d9966de7b1486efae76c20446d18ed29a49ddfaa96324d3.frame"]
 
         temp_list = []
         region_list = []
@@ -135,6 +137,7 @@ class azure_selenium():
                                     continue
                                 else:
                                     temp_string_list = item.split(" ")
+                                    print(temp_string_list)
                                     provider = "gcp"
                                     region = region_list[region_number-1]
 
@@ -150,7 +153,8 @@ class azure_selenium():
                                     elif "megamem" in temp_string_split_list[1]:
                                         instance_type = temp_string_split_list[0].lower() + "-" + "megamem" + "-" + temp_string_split_list[2]
 
-                                    if "n2d" in temp_string_split_list:
+                                    # print(temp_string_split_list)
+                                    if "n2d" in temp_string_split_list and ("highcpu" in temp_string_split_list or "highmem" in temp_string_split_list):
                                         cost = float(temp_string_list[4].strip("$"))
                                     else:
                                         cost = float(temp_string_list[3].strip("$"))

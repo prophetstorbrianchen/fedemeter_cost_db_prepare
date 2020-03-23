@@ -8,6 +8,9 @@ from pandas import DataFrame as df
 import time
 import os
 import sys
+sys.path.append('..')
+import config as conf
+
 from selenium import webdriver  # 從library中引入webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
@@ -95,6 +98,28 @@ class Federatorai_Selenium():
         about_info = self.browser.find_element_by_xpath("//div[@class='el-dialog__body']")
         print(about_info.text)
 
+    def dashbard(self):
+
+        node_number = self.browser.find_element_by_xpath("//main[@class='el-main']/div[1]/div[1]/div[1]/p[1]")
+        print(node_number.text)
+
+        node_info = self.browser.find_element_by_xpath("//main[@class='el-main']/div[2]/div[1]/div[2]/div[3]")
+        #print(node_info.text)
+        node_info_list = str(node_info.text).splitlines()
+        #print(node_info_list)
+
+        application_info = self.browser.find_element_by_xpath("//div[@class='container']/div[2]/div[2]/section[1]/main[1]/div[1]/div[1]/div[2]/div[3]")
+        #print(application_info.text)
+        application_info_list = str(application_info.text).splitlines()
+        print(application_info_list)
+
+        # test search function
+        search_sting = input("search string:")
+        self.browser.find_element_by_xpath("//main[@class='el-main']/div[2]/div[1]/div[1]/div[1]/input[1]").send_keys(search_sting)
+        node_info = self.browser.find_element_by_xpath("//main[@class='el-main']/div[2]/div[1]/div[2]/div[3]")
+        print(node_info.text)
+
+        time.sleep(5)
 
 if __name__ == '__main__':
     # create browser
@@ -106,6 +131,7 @@ if __name__ == '__main__':
     federatorai_gui_operation.login("172.31.6.110", "admin", "admin")
     #federatorai_gui_operation.cost_multicloud_cost_analysis()
     #federatorai_gui_operation.about()
+    federatorai_gui_operation.dashbard()
 
     # close broser
     browser.close()

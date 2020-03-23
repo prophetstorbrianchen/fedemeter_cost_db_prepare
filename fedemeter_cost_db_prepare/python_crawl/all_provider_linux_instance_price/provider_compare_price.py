@@ -76,7 +76,14 @@ def compare_cost(provider):
             continue
         if region == "US Gov Arizona" or region == "US Gov Iowa" or region == "US Gov Texas" or region == "US Gov Virginia":
             continue
-
+        if region == "Germany Central (Sovereign)":
+            region = "Germany Central"
+        if region == "Germany North (Public)":
+            region = "Germany North"
+        if region == "Germany Northeast (Sovereign)":
+            region = "Germany Northeast"
+        if region == "Germany West Central (Public)":
+            region = "Germany West Central"
         # ----get total compare number----
         compare_number = compare_number + 1
 
