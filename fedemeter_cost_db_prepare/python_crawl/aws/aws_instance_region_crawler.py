@@ -36,6 +36,8 @@ class aws_selenium():
         
         browser.get("https://calculator.s3.amazonaws.com/index.html")
         time.sleep(2)
+        browser.find_element_by_xpath("//button[@class='gwt-Button PRCPopupOldcalculatorLink']").click()                        # continue to use simple calculator
+        time.sleep(5)
         select = Select(browser.find_element_by_xpath("//select[@class='gwt-ListBox CR_CHOOSE_REGION regionListBox']"))         #下拉式選單
         #print(len(select.options))
         for i in range(len(select.options)):                                                                                    #下拉式選單的名字
@@ -72,6 +74,8 @@ class aws_selenium():
         
         browser.get("https://calculator.s3.amazonaws.com/index.html")
         time.sleep(2)
+        browser.find_element_by_xpath("//button[@class='gwt-Button PRCPopupOldcalculatorLink']").click()                # continue to use simple calculator
+        time.sleep(5)
         select = Select(browser.find_element_by_xpath("//select[@class='gwt-ListBox CR_CHOOSE_REGION regionListBox']"))         #Virginia 190; Oregon 189
         for index in range(5):
             select.select_by_index(index)

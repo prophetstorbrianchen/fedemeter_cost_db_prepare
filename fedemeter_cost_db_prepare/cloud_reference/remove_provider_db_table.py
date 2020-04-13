@@ -10,14 +10,14 @@ import requests
 # for test
 #table_list = ["aws_instance", "aws_region", "azure_instance", "azure_region", "gcp_instance", "gcp_region", "prophetstor_region_mapping", "no_filter","instance_gpu", "instance_series", "instance", "instance_ri", "network", "storage"]        #clear all
 #table_list = ["aws_instance","aws_region","azure_instance","azure_region","gcp_instance","gcp_region","no_filter","instance_series","instance","instance_ri"]
-table_list = ["network"]
+#table_list = ["storage"]
 #table_list = ["prophetstor_region_mapping"]
 
 # ---for update partial db---
 #table_list = ["aws_instance","aws_region","azure_instance", "azure_region","gcp_instance","gcp_region","prophetstor_region_mapping","no_filter","instance_series"]
 
 # ---for update all db---
-#table_list = ["aws_instance","aws_region","azure_instance", "azure_region","gcp_instance","gcp_region","prophetstor_region_mapping","no_filter","instance_gpu","instance_series","instance","instance_ri","network","storage"]
+table_list = ["aws_instance","aws_region","azure_instance", "azure_region","gcp_instance","gcp_region","prophetstor_region_mapping","no_filter","instance_gpu","instance_series","instance","instance_ri","network","storage"]
 
 
 
