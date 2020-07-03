@@ -17,9 +17,12 @@ Asia Northeast 3c,asia-northeast3-c
 Asia South 1a,asia-south1-a
 Asia South 1b,asia-south1-b
 Asia South 1c,asia-south1-c
-Asia Southeast 1a,asia-southeast-a
-Asia Southeast 1b,asia-southeast-b
-Asia Southeast 1c,asia-southeast-c
+Asia Southeast 1a,asia-southeast1-a
+Asia Southeast 1b,asia-southeast1-b
+Asia Southeast 1c,asia-southeast1-c
+Asia Southeast 2a,asia-southeast2-a
+Asia Southeast 2b,asia-southeast2-b
+Asia Southeast 2c,asia-southeast2-c
 Australia Southeast 1a,australia-southeast1-a
 Australia Southeast 1b,australia-southeast1-b
 Australia Southeast 1c,australia-southeast1-c
@@ -66,3 +69,6 @@ US West 2c,us-west2-c
 US West 3a,us-west3-a
 US West 3b,us-west3-b
 US West 3c,us-west3-c
+US West 4a,us-west4-a
+US West 4b,us-west4-b
+US West 4c,us-west4-c

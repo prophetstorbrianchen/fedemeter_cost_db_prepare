@@ -10,6 +10,7 @@ aws,Canada (Central),North America,Canada,Toronto
 aws,EU (Frankfurt),Europe,Germany,Frankfurt
 aws,EU (Ireland),Europe,Ireland,Ireland
 aws,EU (London),Europe,UK,London
+aws,EU (Milan),Europe,Milan,Italia
 aws,EU (Paris),Europe,France,Paris
 aws,EU (Stockholm),Europe,Sweden,Stockholm
 aws,Middle East (Bahrain),Asia,Bahrain,Bahrain
@@ -19,6 +20,7 @@ aws,US East (Ohio),North America,USA,Ohio
 aws,US West (Los Angeles),North America,USA,Los Angeles
 aws,US West (N. California),North America,USA,California
 aws,US West (Oregon),North America,USA,Oregon
+aws,Africa (Cape Town),Africa,Republic of South Africa,Cape Town
 azure,North Central US,North America,USA,Illinois
 azure,Australia East,Oceania,Australia,New South Wales
 azure,Southeast Asia,Asia,Singapore,Singapore
@@ -82,6 +84,9 @@ gcp,Asia South 1c,Asia,India,Mumbai
 gcp,Asia Southeast 1a,Asia,Singapore,Jurong West
 gcp,Asia Southeast 1b,Asia,Singapore,Jurong West
 gcp,Asia Southeast 1c,Asia,Singapore,Jurong West
+gcp,Asia Southeast 2a,Asia,Indonesia,Jakarta
+gcp,Asia Southeast 2b,Asia,Indonesia,Jakarta
+gcp,Asia Southeast 2c,Asia,Indonesia,Jakarta
 gcp,Australia Southeast 1a,Oceania,Australia,Sydney
 gcp,Australia Southeast 1b,Oceania,Australia,Sydney
 gcp,Australia Southeast 1c,Oceania,Australia,Sydney
@@ -128,3 +133,6 @@ gcp,US West 2c,North America,USA,California
 gcp,US West 3a,North America,USA,Utah
 gcp,US West 3b,North America,USA,Utah
 gcp,US West 3c,North America,USA,Utah
+gcp,US West 4a,North America,USA,Nevada
+gcp,US West 4b,North America,USA,Nevada
+gcp,US West 4c,North America,USA,Nevada

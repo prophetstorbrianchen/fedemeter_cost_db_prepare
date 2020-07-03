@@ -23,8 +23,14 @@ Japan East,japan-east
 Japan West,japan-west
 Korea Central,korea-central
 Korea South,korea-south
+Norway East,norway-east
+Norway West,norway-west
 South Africa North,south-africa-north
 South Africa West,south-africa-west
+Switzerland North,switzerland-north
+Switzerland West,switzerland-west
+UAE Central,uae-central
+UAE North,uae-north
 United Kingdom South,united-kingdom-south
 United Kingdom West,united-kingdom-west
 Central US,us-central
@@ -35,9 +41,3 @@ South Central US,us-south-central
 West Central US,us-west-central
 West US,us-west
 West US 2,us-west-2
-Switzerland North,switzerland-north
-Switzerland West,switzerland-west
-UAE Central,uae-central
-UAE North,uae-north
-Norway East,norway-east
-Norway West,norway-west

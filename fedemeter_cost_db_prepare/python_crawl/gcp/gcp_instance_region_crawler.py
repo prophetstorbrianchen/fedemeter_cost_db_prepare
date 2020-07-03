@@ -47,8 +47,8 @@ class gcp_selenium():
                     #print (temp_list[0])
                     #print (temp_list[j])
                     region = temp_list[0] + "-" + temp_list[j].strip(",")                   # europe-west1-c
-                    if "asia-southeast" in temp_list[0]:                                    # specical for gcp json, the gcp json without asia-southeast-1a/asia-southeast-1b/asia-southeast-1c
-                        region = "asia-southeast" + "-" + temp_list[j].strip(",")           # australia-southeast-c/australia-southeast-b/australia-southeast-a
+                    #if "asia-southeast" in temp_list[0]:                                    # specical for gcp json, the gcp json without asia-southeast-1a/asia-southeast-1b/asia-southeast-1c
+                    #    region = "asia-southeast" + "-" + temp_list[j].strip(",")           # australia-southeast-c/australia-southeast-b/australia-southeast-a
 
                     print (region)
                     region_list.append(region)

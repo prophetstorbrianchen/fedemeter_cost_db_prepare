@@ -1,3 +1,4 @@
 [0503/094544.166:ERROR:process_info.cc(329)] VirtualQueryEx: 存取被拒。 (0x5)
 [0503/094544.167:ERROR:process_info.cc(550)] ReadMemoryInfo failed
 [0503/094544.167:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 嘗試存取現有的處理程序。 (0xc000010a)
+[0623/175134.574:ERROR:process_info.cc(359)] UncheckedAllocate

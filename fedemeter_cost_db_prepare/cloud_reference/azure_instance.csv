@@ -44,44 +44,72 @@ Standard D15i v2,D15iv2
 Standard D15 v2,D15v2
 Standard D16as v4,D16asv4
 Standard D16a v4,D16av4
+Standard D16ds v4,D16dsv4
+Standard D16d v4,D16dv4
 Standard D16s v3,D16sv3
+Standard D16s v4,D16sv4
 Standard D16 v3,D16v3
+Standard D16 v4,D16v4
 Standard D1s,D1s
 Standard D1 v2,D1v2
 Standard D2,D2
 Standard D2as v4,D2asv4
 Standard D2a v4,D2av4
+Standard D2ds v4,D2dsv4
+Standard D2d v4,D2dv4
 Standard D2s,D2s
 Standard D2s v3,D2sv3
+Standard D2s v4,D2sv4
 Standard D2 v2,D2v2
 Standard D2 v3,D2v3
+Standard D2 v4,D2v4
 Standard D3,D3
 Standard D32as v4,D32asv4
 Standard D32a v4,D32av4
+Standard D32ds v4,D32dsv4
+Standard D32d v4,D32dv4
 Standard D32s v3,D32sv3
+Standard D32s v4,D32sv4
 Standard D32 v3,D32v3
+Standard D32 v4,D32v4
 Standard D3s,D3s
 Standard D3 v2,D3v2
 Standard D4,D4
 Standard D48as v4,D48asv4
 Standard D48a v4,D48av4
+Standard D48ds v4,D48dsv4
+Standard D48d v4,D48dv4
 Standard D48s v3,D48sv3
+Standard D48s v4,D48sv4
 Standard D48 v3,D48v3
+Standard D48 v4,D48v4
 Standard D4as v4,D4asv4
 Standard D4a v4,D4av4
+Standard D4ds v4,D4dsv4
+Standard D4d v4,D4dv4
 Standard D4s,D4s
 Standard D4s v3,D4sv3
+Standard D4s v4,D4sv4
 Standard D4 v2,D4v2
 Standard D4 v3,D4v3
+Standard D4 v4,D4v4
 Standard D5 v2,D5v2
 Standard D64as v4,D64asv4
 Standard D64a v4,D64av4
+Standard D64ds v4,D64dsv4
+Standard D64d v4,D64dv4
 Standard D64s v3,D64sv3
+Standard D64s v4,D64sv4
 Standard D64 v3,D64v3
+Standard D64 v4,D64v4
 Standard D8as v4,D8asv4
 Standard D8a v4,D8av4
+Standard D8ds v4,D8dsv4
+Standard D8d v4,D8dv4
 Standard D8s v3,D8sv3
+Standard D8s v4,D8sv4
 Standard D8 v3,D8v3
+Standard D8 v4,D8v4
 Standard D96as v4,D96asv4
 Standard D96a v4,D96av4
 Standard DC1s v2,DC1sv2
@@ -89,7 +117,7 @@ Standard DC2s,DC2s
 Standard DC2s v2,DC2sv2
 Standard DC4s,DC4s
 Standard DC4s v2,DC4sv2
-Standard DC8s v2,DC8sv2
+Standard DC8 v2,DC8v2
 Standard DS11-1 v2,DS11-1v2
 Standard DS11 v2,DS11v2
 Standard DS12-1 v2,DS12-1v2
@@ -112,45 +140,68 @@ Standard E16-4s v3,E16-4sv3
 Standard E16-8s v3,E16-8sv3
 Standard E16as v4,E16asv4
 Standard E16a v4,E16av4
+Standard E16ds v4,E16dsv4
 Standard E16s v3,E16sv3
+Standard E16s v4,E16sv4
 Standard E16 v3,E16v3
+Standard E16 v4,E16v4
 Standard E20as v4,E20asv4
 Standard E20a v4,E20av4
+Standard E20ds v4,E20dsv4
 Standard E20s v3,E20sv3
+Standard E20s v4,E20sv4
 Standard E20 v3,E20v3
 Standard E2as v4,E2asv4
 Standard E2a v4,E2av4
+Standard E2ds v4,E2dsv4
 Standard E2s v3,E2sv3
+Standard E2s v4,E2sv4
 Standard E2 v3,E2v3
+Standard E2 v4,E2v4
 Standard E32-16s v3,E32-16sv3
 Standard E32-8s v3,E32-8sv3
 Standard E32as v4,E32asv4
 Standard E32a v4,E32av4
+Standard E32ds v4,E32dsv4
 Standard E32s v3,E32sv3
+Standard E32s v4,E32sv4
 Standard E32 v3,E32v3
+Standard E32 v4,E32v4
 Standard E4-2s v3,E4-2sv3
 Standard E48as v4,E48asv4
 Standard E48a v4,E48av4
+Standard E48ds v4,E48dsv4
 Standard E48s v3,E48sv3
+Standard E48s v4,E48sv4
 Standard E48 v3,E48v3
+Standard E48 v4,E48v4
 Standard E4as v4,E4asv4
 Standard E4a v4,E4av4
+Standard E4ds v4,E4dsv4
 Standard E4s v3,E4sv3
+Standard E4s v4,E4sv4
 Standard E4 v3,E4v3
+Standard E4 v4,E4v4
 Standard E64-16s v3,E64-16sv3
 Standard E64-32s v3,E64-32sv3
 Standard E64as v4,E64asv4
 Standard E64a v4,E64av4
+Standard E64ds v4,E64dsv4
 Standard E64is v3,E64isv3
 Standard E64i v3,E64iv3
 Standard E64s v3,E64sv3
+Standard E64s v4,E64sv4
 Standard E64 v3,E64v3
+Standard E64 v4,E64v4
 Standard E8-2s v3,E8-2sv3
 Standard E8-4s v3,E8-4sv3
 Standard E8as v4,E8asv4
 Standard E8a v4,E8av4
+Standard E8ds v4,E8dsv4
 Standard E8s v3,E8sv3
+Standard E8s v4,E8sv4
 Standard E8 v3,E8v3
+Standard E8 v4,E8v4
 Standard E96as v4,E96asv4
 Standard E96a v4,E96av4
 Standard F1,F1
@@ -210,10 +261,13 @@ Standard M128-64ms,M128-64ms
 Standard M128m,M128m
 Standard M128ms,M128ms
 Standard M128s,M128s
+Standard M16-4ms,M16-4ms
 Standard M16-8ms,M16-8ms
 Standard M16ms,M16ms
 Standard M208ms v2,M208msv2
 Standard M208s v2,M208sv2
+Standard M32-16ms,M32-16ms
+Standard M32-8ms,M32-8ms
 Standard M32ls,M32ls
 Standard M32ms,M32ms
 Standard M32ts,M32ts
@@ -226,6 +280,8 @@ Standard M64ls,M64ls
 Standard M64m,M64m
 Standard M64ms,M64ms
 Standard M64s,M64s
+Standard M8-2ms,M8-2ms
+Standard M8-4ms,M8-4ms
 Standard M8ms,M8ms
 Standard NC12,NC12
 Standard NC12s v2,NC12sv2
