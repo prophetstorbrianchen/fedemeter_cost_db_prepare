@@ -34,6 +34,7 @@ aws,US East (Ohio),m6g.4xlarge,0.616
 aws,US East (Ohio),m6g.8xlarge,1.232
 aws,US East (Ohio),m6g.12xlarge,1.848
 aws,US East (Ohio),m6g.16xlarge,2.464
+aws,US East (Ohio),m6g.metal,2.464
 aws,US East (Ohio),m5.large,0.096
 aws,US East (Ohio),m5.xlarge,0.192
 aws,US East (Ohio),m5.2xlarge,0.384
@@ -88,6 +89,15 @@ aws,US East (Ohio),m4.2xlarge,0.4
 aws,US East (Ohio),m4.4xlarge,0.8
 aws,US East (Ohio),m4.10xlarge,2.0
 aws,US East (Ohio),m4.16xlarge,3.2
+aws,US East (Ohio),c6g.medium,0.034
+aws,US East (Ohio),c6g.large,0.068
+aws,US East (Ohio),c6g.xlarge,0.136
+aws,US East (Ohio),c6g.2xlarge,0.272
+aws,US East (Ohio),c6g.4xlarge,0.544
+aws,US East (Ohio),c6g.8xlarge,1.088
+aws,US East (Ohio),c6g.12xlarge,1.632
+aws,US East (Ohio),c6g.16xlarge,2.176
+aws,US East (Ohio),c6g.metal,2.176
 aws,US East (Ohio),c5.large,0.085
 aws,US East (Ohio),c5.xlarge,0.17
 aws,US East (Ohio),c5.2xlarge,0.34
@@ -97,6 +107,14 @@ aws,US East (Ohio),c5.12xlarge,2.04
 aws,US East (Ohio),c5.18xlarge,3.06
 aws,US East (Ohio),c5.24xlarge,4.08
 aws,US East (Ohio),c5.metal,4.08
+aws,US East (Ohio),c5a.large,0.077
+aws,US East (Ohio),c5a.xlarge,0.154
+aws,US East (Ohio),c5a.2xlarge,0.308
+aws,US East (Ohio),c5a.4xlarge,0.616
+aws,US East (Ohio),c5a.8xlarge,1.232
+aws,US East (Ohio),c5a.12xlarge,1.848
+aws,US East (Ohio),c5a.16xlarge,2.464
+aws,US East (Ohio),c5a.24xlarge,3.696
 aws,US East (Ohio),c5d.large,0.096
 aws,US East (Ohio),c5d.xlarge,0.192
 aws,US East (Ohio),c5d.2xlarge,0.384
@@ -131,6 +149,7 @@ aws,US East (Ohio),g4dn.4xlarge,1.204
 aws,US East (Ohio),g4dn.8xlarge,2.176
 aws,US East (Ohio),g4dn.12xlarge,3.912
 aws,US East (Ohio),g4dn.16xlarge,4.352
+aws,US East (Ohio),g4dn.metal,7.824
 aws,US East (Ohio),g3.4xlarge,1.14
 aws,US East (Ohio),g3.8xlarge,2.28
 aws,US East (Ohio),g3.16xlarge,4.56
@@ -143,6 +162,15 @@ aws,US East (Ohio),x1e.4xlarge,3.336
 aws,US East (Ohio),x1e.8xlarge,6.672
 aws,US East (Ohio),x1e.16xlarge,13.344
 aws,US East (Ohio),x1e.32xlarge,26.688
+aws,US East (Ohio),r6g.medium,0.0504
+aws,US East (Ohio),r6g.large,0.1008
+aws,US East (Ohio),r6g.xlarge,0.2016
+aws,US East (Ohio),r6g.2xlarge,0.4032
+aws,US East (Ohio),r6g.4xlarge,0.8064
+aws,US East (Ohio),r6g.8xlarge,1.6128
+aws,US East (Ohio),r6g.12xlarge,2.4192
+aws,US East (Ohio),r6g.16xlarge,3.2256
+aws,US East (Ohio),r6g.metal,3.2256
 aws,US East (Ohio),r5.large,0.126
 aws,US East (Ohio),r5.xlarge,0.252
 aws,US East (Ohio),r5.2xlarge,0.504
@@ -254,6 +282,15 @@ aws,US East (N. Virginia),t2.medium,0.0464
 aws,US East (N. Virginia),t2.large,0.0928
 aws,US East (N. Virginia),t2.xlarge,0.1856
 aws,US East (N. Virginia),t2.2xlarge,0.3712
+aws,US East (N. Virginia),m6g.medium,0.0385
+aws,US East (N. Virginia),m6g.large,0.077
+aws,US East (N. Virginia),m6g.xlarge,0.154
+aws,US East (N. Virginia),m6g.2xlarge,0.308
+aws,US East (N. Virginia),m6g.4xlarge,0.616
+aws,US East (N. Virginia),m6g.8xlarge,1.232
+aws,US East (N. Virginia),m6g.12xlarge,1.848
+aws,US East (N. Virginia),m6g.16xlarge,2.464
+aws,US East (N. Virginia),m6g.metal,2.464
 aws,US East (N. Virginia),m5.large,0.096
 aws,US East (N. Virginia),m5.xlarge,0.192
 aws,US East (N. Virginia),m5.2xlarge,0.384
@@ -308,6 +345,15 @@ aws,US East (N. Virginia),m4.2xlarge,0.4
 aws,US East (N. Virginia),m4.4xlarge,0.8
 aws,US East (N. Virginia),m4.10xlarge,2.0
 aws,US East (N. Virginia),m4.16xlarge,3.2
+aws,US East (N. Virginia),c6g.medium,0.034
+aws,US East (N. Virginia),c6g.large,0.068
+aws,US East (N. Virginia),c6g.xlarge,0.136
+aws,US East (N. Virginia),c6g.2xlarge,0.272
+aws,US East (N. Virginia),c6g.4xlarge,0.544
+aws,US East (N. Virginia),c6g.8xlarge,1.088
+aws,US East (N. Virginia),c6g.12xlarge,1.632
+aws,US East (N. Virginia),c6g.16xlarge,2.176
+aws,US East (N. Virginia),c6g.metal,2.176
 aws,US East (N. Virginia),c5.large,0.085
 aws,US East (N. Virginia),c5.xlarge,0.17
 aws,US East (N. Virginia),c5.2xlarge,0.34
@@ -317,6 +363,14 @@ aws,US East (N. Virginia),c5.12xlarge,2.04
 aws,US East (N. Virginia),c5.18xlarge,3.06
 aws,US East (N. Virginia),c5.24xlarge,4.08
 aws,US East (N. Virginia),c5.metal,4.08
+aws,US East (N. Virginia),c5a.large,0.077
+aws,US East (N. Virginia),c5a.xlarge,0.154
+aws,US East (N. Virginia),c5a.2xlarge,0.308
+aws,US East (N. Virginia),c5a.4xlarge,0.616
+aws,US East (N. Virginia),c5a.8xlarge,1.232
+aws,US East (N. Virginia),c5a.12xlarge,1.848
+aws,US East (N. Virginia),c5a.16xlarge,2.464
+aws,US East (N. Virginia),c5a.24xlarge,3.696
 aws,US East (N. Virginia),c5d.large,0.096
 aws,US East (N. Virginia),c5d.xlarge,0.192
 aws,US East (N. Virginia),c5d.2xlarge,0.384
@@ -362,6 +416,15 @@ aws,US East (N. Virginia),x1e.4xlarge,3.336
 aws,US East (N. Virginia),x1e.8xlarge,6.672
 aws,US East (N. Virginia),x1e.16xlarge,13.344
 aws,US East (N. Virginia),x1e.32xlarge,26.688
+aws,US East (N. Virginia),r6g.medium,0.0504
+aws,US East (N. Virginia),r6g.large,0.1008
+aws,US East (N. Virginia),r6g.xlarge,0.2016
+aws,US East (N. Virginia),r6g.2xlarge,0.4032
+aws,US East (N. Virginia),r6g.4xlarge,0.8064
+aws,US East (N. Virginia),r6g.8xlarge,1.6128
+aws,US East (N. Virginia),r6g.12xlarge,2.4192
+aws,US East (N. Virginia),r6g.16xlarge,3.2256
+aws,US East (N. Virginia),r6g.metal,3.2256
 aws,US East (N. Virginia),r5.large,0.126
 aws,US East (N. Virginia),r5.xlarge,0.252
 aws,US East (N. Virginia),r5.2xlarge,0.504
@@ -697,6 +760,15 @@ aws,US West (Oregon),t2.medium,0.0464
 aws,US West (Oregon),t2.large,0.0928
 aws,US West (Oregon),t2.xlarge,0.1856
 aws,US West (Oregon),t2.2xlarge,0.3712
+aws,US West (Oregon),m6g.medium,0.0385
+aws,US West (Oregon),m6g.large,0.077
+aws,US West (Oregon),m6g.xlarge,0.154
+aws,US West (Oregon),m6g.2xlarge,0.308
+aws,US West (Oregon),m6g.4xlarge,0.616
+aws,US West (Oregon),m6g.8xlarge,1.232
+aws,US West (Oregon),m6g.12xlarge,1.848
+aws,US West (Oregon),m6g.16xlarge,2.464
+aws,US West (Oregon),m6g.metal,2.464
 aws,US West (Oregon),m5.large,0.096
 aws,US West (Oregon),m5.xlarge,0.192
 aws,US West (Oregon),m5.2xlarge,0.384
@@ -753,6 +825,15 @@ aws,US West (Oregon),m4.2xlarge,0.4
 aws,US West (Oregon),m4.4xlarge,0.8
 aws,US West (Oregon),m4.10xlarge,2.0
 aws,US West (Oregon),m4.16xlarge,3.2
+aws,US West (Oregon),c6g.medium,0.034
+aws,US West (Oregon),c6g.large,0.068
+aws,US West (Oregon),c6g.xlarge,0.136
+aws,US West (Oregon),c6g.2xlarge,0.272
+aws,US West (Oregon),c6g.4xlarge,0.544
+aws,US West (Oregon),c6g.8xlarge,1.088
+aws,US West (Oregon),c6g.12xlarge,1.632
+aws,US West (Oregon),c6g.16xlarge,2.176
+aws,US West (Oregon),c6g.metal,2.176
 aws,US West (Oregon),c5.large,0.085
 aws,US West (Oregon),c5.xlarge,0.17
 aws,US West (Oregon),c5.2xlarge,0.34
@@ -762,6 +843,14 @@ aws,US West (Oregon),c5.12xlarge,2.04
 aws,US West (Oregon),c5.18xlarge,3.06
 aws,US West (Oregon),c5.24xlarge,4.08
 aws,US West (Oregon),c5.metal,4.08
+aws,US West (Oregon),c5a.large,0.077
+aws,US West (Oregon),c5a.xlarge,0.154
+aws,US West (Oregon),c5a.2xlarge,0.308
+aws,US West (Oregon),c5a.4xlarge,0.616
+aws,US West (Oregon),c5a.8xlarge,1.232
+aws,US West (Oregon),c5a.12xlarge,1.848
+aws,US West (Oregon),c5a.16xlarge,2.464
+aws,US West (Oregon),c5a.24xlarge,3.696
 aws,US West (Oregon),c5d.large,0.096
 aws,US West (Oregon),c5d.xlarge,0.192
 aws,US West (Oregon),c5d.2xlarge,0.384
@@ -796,6 +885,7 @@ aws,US West (Oregon),g4dn.4xlarge,1.204
 aws,US West (Oregon),g4dn.8xlarge,2.176
 aws,US West (Oregon),g4dn.12xlarge,3.912
 aws,US West (Oregon),g4dn.16xlarge,4.352
+aws,US West (Oregon),g4dn.metal,7.824
 aws,US West (Oregon),g3.4xlarge,1.14
 aws,US West (Oregon),g3.8xlarge,2.28
 aws,US West (Oregon),g3.16xlarge,4.56
@@ -808,6 +898,15 @@ aws,US West (Oregon),x1e.4xlarge,3.336
 aws,US West (Oregon),x1e.8xlarge,6.672
 aws,US West (Oregon),x1e.16xlarge,13.344
 aws,US West (Oregon),x1e.32xlarge,26.688
+aws,US West (Oregon),r6g.medium,0.0504
+aws,US West (Oregon),r6g.large,0.1008
+aws,US West (Oregon),r6g.xlarge,0.2016
+aws,US West (Oregon),r6g.2xlarge,0.4032
+aws,US West (Oregon),r6g.4xlarge,0.8064
+aws,US West (Oregon),r6g.8xlarge,1.6128
+aws,US West (Oregon),r6g.12xlarge,2.4192
+aws,US West (Oregon),r6g.16xlarge,3.2256
+aws,US West (Oregon),r6g.metal,3.2256
 aws,US West (Oregon),r5.large,0.126
 aws,US West (Oregon),r5.xlarge,0.252
 aws,US West (Oregon),r5.2xlarge,0.504
@@ -894,6 +993,78 @@ aws,US West (Oregon),d2.xlarge,0.69
 aws,US West (Oregon),d2.2xlarge,1.38
 aws,US West (Oregon),d2.4xlarge,2.76
 aws,US West (Oregon),d2.8xlarge,5.52
+aws,Africa (Cape Town),t3.nano,0.0068
+aws,Africa (Cape Town),t3.micro,0.0136
+aws,Africa (Cape Town),t3.small,0.0271
+aws,Africa (Cape Town),t3.medium,0.0542
+aws,Africa (Cape Town),t3.large,0.1085
+aws,Africa (Cape Town),t3.xlarge,0.217
+aws,Africa (Cape Town),t3.2xlarge,0.4339
+aws,Africa (Cape Town),m5.large,0.127
+aws,Africa (Cape Town),m5.xlarge,0.254
+aws,Africa (Cape Town),m5.2xlarge,0.508
+aws,Africa (Cape Town),m5.4xlarge,1.016
+aws,Africa (Cape Town),m5.8xlarge,2.032
+aws,Africa (Cape Town),m5.12xlarge,3.048
+aws,Africa (Cape Town),m5.16xlarge,4.064
+aws,Africa (Cape Town),m5.24xlarge,6.096
+aws,Africa (Cape Town),m5.metal,6.096
+aws,Africa (Cape Town),m5d.large,0.15
+aws,Africa (Cape Town),m5d.xlarge,0.3
+aws,Africa (Cape Town),m5d.2xlarge,0.6
+aws,Africa (Cape Town),m5d.4xlarge,1.2
+aws,Africa (Cape Town),m5d.8xlarge,2.4
+aws,Africa (Cape Town),m5d.12xlarge,3.6
+aws,Africa (Cape Town),m5d.16xlarge,4.8
+aws,Africa (Cape Town),m5d.24xlarge,7.2
+aws,Africa (Cape Town),m5d.metal,7.2
+aws,Africa (Cape Town),c5.large,0.114
+aws,Africa (Cape Town),c5.xlarge,0.228
+aws,Africa (Cape Town),c5.2xlarge,0.456
+aws,Africa (Cape Town),c5.4xlarge,0.912
+aws,Africa (Cape Town),c5.9xlarge,2.052
+aws,Africa (Cape Town),c5.12xlarge,2.736
+aws,Africa (Cape Town),c5.18xlarge,4.104
+aws,Africa (Cape Town),c5.24xlarge,5.472
+aws,Africa (Cape Town),c5.metal,5.472
+aws,Africa (Cape Town),c5d.large,0.13
+aws,Africa (Cape Town),c5d.xlarge,0.26
+aws,Africa (Cape Town),c5d.2xlarge,0.52
+aws,Africa (Cape Town),c5d.4xlarge,1.04
+aws,Africa (Cape Town),c5d.9xlarge,2.34
+aws,Africa (Cape Town),c5d.12xlarge,3.12
+aws,Africa (Cape Town),c5d.18xlarge,4.68
+aws,Africa (Cape Town),c5d.24xlarge,6.24
+aws,Africa (Cape Town),c5d.metal,6.24
+aws,Africa (Cape Town),r5.large,0.168
+aws,Africa (Cape Town),r5.xlarge,0.336
+aws,Africa (Cape Town),r5.2xlarge,0.672
+aws,Africa (Cape Town),r5.4xlarge,1.344
+aws,Africa (Cape Town),r5.8xlarge,2.688
+aws,Africa (Cape Town),r5.12xlarge,4.032
+aws,Africa (Cape Town),r5.16xlarge,5.376
+aws,Africa (Cape Town),r5.24xlarge,8.064
+aws,Africa (Cape Town),r5.metal,8.064
+aws,Africa (Cape Town),r5d.large,0.19
+aws,Africa (Cape Town),r5d.xlarge,0.38
+aws,Africa (Cape Town),r5d.2xlarge,0.76
+aws,Africa (Cape Town),r5d.4xlarge,1.52
+aws,Africa (Cape Town),r5d.8xlarge,3.04
+aws,Africa (Cape Town),r5d.12xlarge,4.56
+aws,Africa (Cape Town),r5d.16xlarge,6.08
+aws,Africa (Cape Town),r5d.24xlarge,9.12
+aws,Africa (Cape Town),r5d.metal,9.12
+aws,Africa (Cape Town),i3.large,0.205
+aws,Africa (Cape Town),i3.xlarge,0.41
+aws,Africa (Cape Town),i3.2xlarge,0.82
+aws,Africa (Cape Town),i3.4xlarge,1.64
+aws,Africa (Cape Town),i3.8xlarge,3.28
+aws,Africa (Cape Town),i3.16xlarge,6.56
+aws,Africa (Cape Town),i3.metal,6.56
+aws,Africa (Cape Town),d2.xlarge,0.875
+aws,Africa (Cape Town),d2.2xlarge,1.75
+aws,Africa (Cape Town),d2.4xlarge,3.5
+aws,Africa (Cape Town),d2.8xlarge,7.0
 aws,Asia Pacific (Hong Kong),t3.nano,0.0073
 aws,Asia Pacific (Hong Kong),t3.micro,0.0146
 aws,Asia Pacific (Hong Kong),t3.small,0.0292
@@ -1131,6 +1302,14 @@ aws,Asia Pacific (Mumbai),i3.2xlarge,0.708
 aws,Asia Pacific (Mumbai),i3.4xlarge,1.416
 aws,Asia Pacific (Mumbai),i3.8xlarge,2.832
 aws,Asia Pacific (Mumbai),i3.16xlarge,5.664
+aws,Asia Pacific (Mumbai),i3en.large,0.257
+aws,Asia Pacific (Mumbai),i3en.xlarge,0.514
+aws,Asia Pacific (Mumbai),i3en.2xlarge,1.028
+aws,Asia Pacific (Mumbai),i3en.3xlarge,1.542
+aws,Asia Pacific (Mumbai),i3en.6xlarge,3.084
+aws,Asia Pacific (Mumbai),i3en.12xlarge,6.168
+aws,Asia Pacific (Mumbai),i3en.24xlarge,12.336
+aws,Asia Pacific (Mumbai),i3en.metal,12.336
 aws,Asia Pacific (Mumbai),d2.xlarge,0.827
 aws,Asia Pacific (Mumbai),d2.2xlarge,1.653
 aws,Asia Pacific (Mumbai),d2.4xlarge,3.306
@@ -1204,6 +1383,7 @@ aws,Asia Pacific (Seoul),c5.9xlarge,1.728
 aws,Asia Pacific (Seoul),c5.12xlarge,2.304
 aws,Asia Pacific (Seoul),c5.18xlarge,3.456
 aws,Asia Pacific (Seoul),c5.24xlarge,4.608
+aws,Asia Pacific (Seoul),c5.metal,4.608
 aws,Asia Pacific (Seoul),c5d.large,0.11
 aws,Asia Pacific (Seoul),c5d.xlarge,0.22
 aws,Asia Pacific (Seoul),c5d.2xlarge,0.44
@@ -1406,6 +1586,14 @@ aws,Asia Pacific (Singapore),c5.12xlarge,2.352
 aws,Asia Pacific (Singapore),c5.18xlarge,3.528
 aws,Asia Pacific (Singapore),c5.24xlarge,4.704
 aws,Asia Pacific (Singapore),c5.metal,4.704
+aws,Asia Pacific (Singapore),c5a.large,0.088
+aws,Asia Pacific (Singapore),c5a.xlarge,0.176
+aws,Asia Pacific (Singapore),c5a.2xlarge,0.352
+aws,Asia Pacific (Singapore),c5a.4xlarge,0.704
+aws,Asia Pacific (Singapore),c5a.8xlarge,1.408
+aws,Asia Pacific (Singapore),c5a.12xlarge,2.112
+aws,Asia Pacific (Singapore),c5a.16xlarge,2.816
+aws,Asia Pacific (Singapore),c5a.24xlarge,4.224
 aws,Asia Pacific (Singapore),c5d.large,0.112
 aws,Asia Pacific (Singapore),c5d.xlarge,0.224
 aws,Asia Pacific (Singapore),c5d.2xlarge,0.448
@@ -1606,6 +1794,14 @@ aws,Asia Pacific (Sydney),c5.12xlarge,2.664
 aws,Asia Pacific (Sydney),c5.18xlarge,3.996
 aws,Asia Pacific (Sydney),c5.24xlarge,5.328
 aws,Asia Pacific (Sydney),c5.metal,5.328
+aws,Asia Pacific (Sydney),c5a.large,0.1
+aws,Asia Pacific (Sydney),c5a.xlarge,0.2
+aws,Asia Pacific (Sydney),c5a.2xlarge,0.4
+aws,Asia Pacific (Sydney),c5a.4xlarge,0.8
+aws,Asia Pacific (Sydney),c5a.8xlarge,1.6
+aws,Asia Pacific (Sydney),c5a.12xlarge,2.4
+aws,Asia Pacific (Sydney),c5a.16xlarge,3.2
+aws,Asia Pacific (Sydney),c5a.24xlarge,4.8
 aws,Asia Pacific (Sydney),c5d.large,0.126
 aws,Asia Pacific (Sydney),c5d.xlarge,0.252
 aws,Asia Pacific (Sydney),c5d.2xlarge,0.504
@@ -1743,6 +1939,15 @@ aws,Asia Pacific (Tokyo),t2.medium,0.0608
 aws,Asia Pacific (Tokyo),t2.large,0.1216
 aws,Asia Pacific (Tokyo),t2.xlarge,0.2432
 aws,Asia Pacific (Tokyo),t2.2xlarge,0.4864
+aws,Asia Pacific (Tokyo),m6g.medium,0.0495
+aws,Asia Pacific (Tokyo),m6g.large,0.099
+aws,Asia Pacific (Tokyo),m6g.xlarge,0.198
+aws,Asia Pacific (Tokyo),m6g.2xlarge,0.396
+aws,Asia Pacific (Tokyo),m6g.4xlarge,0.792
+aws,Asia Pacific (Tokyo),m6g.8xlarge,1.584
+aws,Asia Pacific (Tokyo),m6g.12xlarge,2.376
+aws,Asia Pacific (Tokyo),m6g.16xlarge,3.168
+aws,Asia Pacific (Tokyo),m6g.metal,3.168
 aws,Asia Pacific (Tokyo),m5.large,0.124
 aws,Asia Pacific (Tokyo),m5.xlarge,0.248
 aws,Asia Pacific (Tokyo),m5.2xlarge,0.496
@@ -1799,6 +2004,15 @@ aws,Asia Pacific (Tokyo),m4.2xlarge,0.516
 aws,Asia Pacific (Tokyo),m4.4xlarge,1.032
 aws,Asia Pacific (Tokyo),m4.10xlarge,2.58
 aws,Asia Pacific (Tokyo),m4.16xlarge,4.128
+aws,Asia Pacific (Tokyo),c6g.medium,0.0428
+aws,Asia Pacific (Tokyo),c6g.large,0.0856
+aws,Asia Pacific (Tokyo),c6g.xlarge,0.1712
+aws,Asia Pacific (Tokyo),c6g.2xlarge,0.3424
+aws,Asia Pacific (Tokyo),c6g.4xlarge,0.6848
+aws,Asia Pacific (Tokyo),c6g.8xlarge,1.3696
+aws,Asia Pacific (Tokyo),c6g.12xlarge,2.0544
+aws,Asia Pacific (Tokyo),c6g.16xlarge,2.7392
+aws,Asia Pacific (Tokyo),c6g.metal,2.7392
 aws,Asia Pacific (Tokyo),c5.large,0.107
 aws,Asia Pacific (Tokyo),c5.xlarge,0.214
 aws,Asia Pacific (Tokyo),c5.2xlarge,0.428
@@ -1842,6 +2056,7 @@ aws,Asia Pacific (Tokyo),g4dn.4xlarge,1.625
 aws,Asia Pacific (Tokyo),g4dn.8xlarge,2.938
 aws,Asia Pacific (Tokyo),g4dn.12xlarge,5.281
 aws,Asia Pacific (Tokyo),g4dn.16xlarge,5.875
+aws,Asia Pacific (Tokyo),g4dn.metal,10.562
 aws,Asia Pacific (Tokyo),g3.4xlarge,1.58
 aws,Asia Pacific (Tokyo),g3.8xlarge,3.16
 aws,Asia Pacific (Tokyo),g3.16xlarge,6.32
@@ -1854,6 +2069,15 @@ aws,Asia Pacific (Tokyo),x1e.4xlarge,4.836
 aws,Asia Pacific (Tokyo),x1e.8xlarge,9.672
 aws,Asia Pacific (Tokyo),x1e.16xlarge,19.344
 aws,Asia Pacific (Tokyo),x1e.32xlarge,38.688
+aws,Asia Pacific (Tokyo),r6g.medium,0.0608
+aws,Asia Pacific (Tokyo),r6g.large,0.1216
+aws,Asia Pacific (Tokyo),r6g.xlarge,0.2432
+aws,Asia Pacific (Tokyo),r6g.2xlarge,0.4864
+aws,Asia Pacific (Tokyo),r6g.4xlarge,0.9728
+aws,Asia Pacific (Tokyo),r6g.8xlarge,1.9456
+aws,Asia Pacific (Tokyo),r6g.12xlarge,2.9184
+aws,Asia Pacific (Tokyo),r6g.16xlarge,3.8912
+aws,Asia Pacific (Tokyo),r6g.metal,3.8912
 aws,Asia Pacific (Tokyo),r5.large,0.152
 aws,Asia Pacific (Tokyo),r5.xlarge,0.304
 aws,Asia Pacific (Tokyo),r5.2xlarge,0.608
@@ -2105,826 +2329,975 @@ aws,Canada (Central),d2.xlarge,0.759
 aws,Canada (Central),d2.2xlarge,1.518
 aws,Canada (Central),d2.4xlarge,3.036
 aws,Canada (Central),d2.8xlarge,6.072
-aws,EU (Frankfurt),a1.medium,0.0291
-aws,EU (Frankfurt),a1.large,0.0582
-aws,EU (Frankfurt),a1.xlarge,0.1164
-aws,EU (Frankfurt),a1.2xlarge,0.2328
-aws,EU (Frankfurt),a1.4xlarge,0.4656
-aws,EU (Frankfurt),a1.metal,0.466
-aws,EU (Frankfurt),t3.nano,0.006
-aws,EU (Frankfurt),t3.micro,0.012
-aws,EU (Frankfurt),t3.small,0.024
-aws,EU (Frankfurt),t3.medium,0.048
-aws,EU (Frankfurt),t3.large,0.096
-aws,EU (Frankfurt),t3.xlarge,0.192
-aws,EU (Frankfurt),t3.2xlarge,0.384
-aws,EU (Frankfurt),t3a.nano,0.0054
-aws,EU (Frankfurt),t3a.micro,0.0108
-aws,EU (Frankfurt),t3a.small,0.0216
-aws,EU (Frankfurt),t3a.medium,0.0432
-aws,EU (Frankfurt),t3a.large,0.0864
-aws,EU (Frankfurt),t3a.xlarge,0.1728
-aws,EU (Frankfurt),t3a.2xlarge,0.3456
-aws,EU (Frankfurt),t2.nano,0.0067
-aws,EU (Frankfurt),t2.micro,0.0134
-aws,EU (Frankfurt),t2.small,0.0268
-aws,EU (Frankfurt),t2.medium,0.0536
-aws,EU (Frankfurt),t2.large,0.1072
-aws,EU (Frankfurt),t2.xlarge,0.2144
-aws,EU (Frankfurt),t2.2xlarge,0.4288
-aws,EU (Frankfurt),m5.large,0.115
-aws,EU (Frankfurt),m5.xlarge,0.23
-aws,EU (Frankfurt),m5.2xlarge,0.46
-aws,EU (Frankfurt),m5.4xlarge,0.92
-aws,EU (Frankfurt),m5.8xlarge,1.84
-aws,EU (Frankfurt),m5.12xlarge,2.76
-aws,EU (Frankfurt),m5.16xlarge,3.68
-aws,EU (Frankfurt),m5.24xlarge,5.52
-aws,EU (Frankfurt),m5.metal,5.52
-aws,EU (Frankfurt),m5a.large,0.104
-aws,EU (Frankfurt),m5a.xlarge,0.208
-aws,EU (Frankfurt),m5a.2xlarge,0.416
-aws,EU (Frankfurt),m5a.4xlarge,0.832
-aws,EU (Frankfurt),m5a.8xlarge,1.664
-aws,EU (Frankfurt),m5a.12xlarge,2.496
-aws,EU (Frankfurt),m5a.16xlarge,3.328
-aws,EU (Frankfurt),m5a.24xlarge,4.992
-aws,EU (Frankfurt),m5ad.large,0.125
-aws,EU (Frankfurt),m5ad.xlarge,0.25
-aws,EU (Frankfurt),m5ad.2xlarge,0.5
-aws,EU (Frankfurt),m5ad.4xlarge,1.0
-aws,EU (Frankfurt),m5ad.8xlarge,2.0
-aws,EU (Frankfurt),m5ad.12xlarge,3.0
-aws,EU (Frankfurt),m5ad.16xlarge,4.0
-aws,EU (Frankfurt),m5ad.24xlarge,6.0
-aws,EU (Frankfurt),m5d.large,0.136
-aws,EU (Frankfurt),m5d.xlarge,0.272
-aws,EU (Frankfurt),m5d.2xlarge,0.544
-aws,EU (Frankfurt),m5d.4xlarge,1.088
-aws,EU (Frankfurt),m5d.8xlarge,2.176
-aws,EU (Frankfurt),m5d.12xlarge,3.264
-aws,EU (Frankfurt),m5d.16xlarge,4.352
-aws,EU (Frankfurt),m5d.24xlarge,6.528
-aws,EU (Frankfurt),m5d.metal,6.528
-aws,EU (Frankfurt),m5dn.large,0.162
-aws,EU (Frankfurt),m5dn.xlarge,0.324
-aws,EU (Frankfurt),m5dn.2xlarge,0.648
-aws,EU (Frankfurt),m5dn.4xlarge,1.296
-aws,EU (Frankfurt),m5dn.8xlarge,2.592
-aws,EU (Frankfurt),m5dn.12xlarge,3.888
-aws,EU (Frankfurt),m5dn.16xlarge,5.184
-aws,EU (Frankfurt),m5dn.24xlarge,7.776
-aws,EU (Frankfurt),m5n.large,0.141
-aws,EU (Frankfurt),m5n.xlarge,0.282
-aws,EU (Frankfurt),m5n.2xlarge,0.564
-aws,EU (Frankfurt),m5n.4xlarge,1.128
-aws,EU (Frankfurt),m5n.8xlarge,2.256
-aws,EU (Frankfurt),m5n.12xlarge,3.384
-aws,EU (Frankfurt),m5n.16xlarge,4.512
-aws,EU (Frankfurt),m5n.24xlarge,6.768
-aws,EU (Frankfurt),m4.large,0.12
-aws,EU (Frankfurt),m4.xlarge,0.24
-aws,EU (Frankfurt),m4.2xlarge,0.48
-aws,EU (Frankfurt),m4.4xlarge,0.96
-aws,EU (Frankfurt),m4.10xlarge,2.4
-aws,EU (Frankfurt),m4.16xlarge,3.84
-aws,EU (Frankfurt),c5.large,0.097
-aws,EU (Frankfurt),c5.xlarge,0.194
-aws,EU (Frankfurt),c5.2xlarge,0.388
-aws,EU (Frankfurt),c5.4xlarge,0.776
-aws,EU (Frankfurt),c5.9xlarge,1.746
-aws,EU (Frankfurt),c5.12xlarge,2.328
-aws,EU (Frankfurt),c5.18xlarge,3.492
-aws,EU (Frankfurt),c5.24xlarge,4.656
-aws,EU (Frankfurt),c5.metal,4.656
-aws,EU (Frankfurt),c5d.large,0.111
-aws,EU (Frankfurt),c5d.xlarge,0.222
-aws,EU (Frankfurt),c5d.2xlarge,0.444
-aws,EU (Frankfurt),c5d.4xlarge,0.888
-aws,EU (Frankfurt),c5d.9xlarge,1.998
-aws,EU (Frankfurt),c5d.12xlarge,2.664
-aws,EU (Frankfurt),c5d.18xlarge,3.996
-aws,EU (Frankfurt),c5d.24xlarge,5.328
-aws,EU (Frankfurt),c5d.metal,5.328
-aws,EU (Frankfurt),c5n.large,0.123
-aws,EU (Frankfurt),c5n.xlarge,0.246
-aws,EU (Frankfurt),c5n.2xlarge,0.492
-aws,EU (Frankfurt),c5n.4xlarge,0.984
-aws,EU (Frankfurt),c5n.9xlarge,2.214
-aws,EU (Frankfurt),c5n.18xlarge,4.428
-aws,EU (Frankfurt),c5n.metal,4.428
-aws,EU (Frankfurt),c4.large,0.114
-aws,EU (Frankfurt),c4.xlarge,0.227
-aws,EU (Frankfurt),c4.2xlarge,0.454
-aws,EU (Frankfurt),c4.4xlarge,0.909
-aws,EU (Frankfurt),c4.8xlarge,1.817
-aws,EU (Frankfurt),p3.2xlarge,3.823
-aws,EU (Frankfurt),p3.8xlarge,15.292
-aws,EU (Frankfurt),p3.16xlarge,30.584
-aws,EU (Frankfurt),p2.xlarge,1.326
-aws,EU (Frankfurt),p2.8xlarge,10.608
-aws,EU (Frankfurt),p2.16xlarge,21.216
-aws,EU (Frankfurt),g4dn.xlarge,0.658
-aws,EU (Frankfurt),g4dn.2xlarge,0.94
-aws,EU (Frankfurt),g4dn.4xlarge,1.505
-aws,EU (Frankfurt),g4dn.8xlarge,2.72
-aws,EU (Frankfurt),g4dn.12xlarge,4.89
-aws,EU (Frankfurt),g4dn.16xlarge,5.44
-aws,EU (Frankfurt),g3.4xlarge,1.425
-aws,EU (Frankfurt),g3.8xlarge,2.85
-aws,EU (Frankfurt),g3.16xlarge,5.7
-aws,EU (Frankfurt),g3s.xlarge,0.938
-aws,EU (Frankfurt),x1.16xlarge,9.337
-aws,EU (Frankfurt),x1.32xlarge,18.674
-aws,EU (Frankfurt),x1e.xlarge,1.167
-aws,EU (Frankfurt),x1e.2xlarge,2.334
-aws,EU (Frankfurt),x1e.4xlarge,4.668
-aws,EU (Frankfurt),x1e.8xlarge,9.336
-aws,EU (Frankfurt),x1e.16xlarge,18.672
-aws,EU (Frankfurt),x1e.32xlarge,37.344
-aws,EU (Frankfurt),r5.large,0.152
-aws,EU (Frankfurt),r5.xlarge,0.304
-aws,EU (Frankfurt),r5.2xlarge,0.608
-aws,EU (Frankfurt),r5.4xlarge,1.216
-aws,EU (Frankfurt),r5.8xlarge,2.432
-aws,EU (Frankfurt),r5.12xlarge,3.648
-aws,EU (Frankfurt),r5.16xlarge,4.864
-aws,EU (Frankfurt),r5.24xlarge,7.296
-aws,EU (Frankfurt),r5.metal,7.296
-aws,EU (Frankfurt),r5a.large,0.137
-aws,EU (Frankfurt),r5a.xlarge,0.274
-aws,EU (Frankfurt),r5a.2xlarge,0.548
-aws,EU (Frankfurt),r5a.4xlarge,1.096
-aws,EU (Frankfurt),r5a.8xlarge,2.192
-aws,EU (Frankfurt),r5a.12xlarge,3.288
-aws,EU (Frankfurt),r5a.16xlarge,4.384
-aws,EU (Frankfurt),r5a.24xlarge,6.576
-aws,EU (Frankfurt),r5ad.large,0.158
-aws,EU (Frankfurt),r5ad.xlarge,0.316
-aws,EU (Frankfurt),r5ad.2xlarge,0.632
-aws,EU (Frankfurt),r5ad.4xlarge,1.264
-aws,EU (Frankfurt),r5ad.8xlarge,2.528
-aws,EU (Frankfurt),r5ad.12xlarge,3.792
-aws,EU (Frankfurt),r5ad.16xlarge,5.056
-aws,EU (Frankfurt),r5ad.24xlarge,7.584
-aws,EU (Frankfurt),r5d.large,0.173
-aws,EU (Frankfurt),r5d.xlarge,0.346
-aws,EU (Frankfurt),r5d.2xlarge,0.692
-aws,EU (Frankfurt),r5d.4xlarge,1.384
-aws,EU (Frankfurt),r5d.8xlarge,2.768
-aws,EU (Frankfurt),r5d.12xlarge,4.152
-aws,EU (Frankfurt),r5d.16xlarge,5.536
-aws,EU (Frankfurt),r5d.24xlarge,8.304
-aws,EU (Frankfurt),r5d.metal,8.304
-aws,EU (Frankfurt),r5dn.large,0.199
-aws,EU (Frankfurt),r5dn.xlarge,0.398
-aws,EU (Frankfurt),r5dn.2xlarge,0.796
-aws,EU (Frankfurt),r5dn.4xlarge,1.592
-aws,EU (Frankfurt),r5dn.8xlarge,3.184
-aws,EU (Frankfurt),r5dn.12xlarge,4.776
-aws,EU (Frankfurt),r5dn.16xlarge,6.368
-aws,EU (Frankfurt),r5dn.24xlarge,9.552
-aws,EU (Frankfurt),r5n.large,0.178
-aws,EU (Frankfurt),r5n.xlarge,0.356
-aws,EU (Frankfurt),r5n.2xlarge,0.712
-aws,EU (Frankfurt),r5n.4xlarge,1.424
-aws,EU (Frankfurt),r5n.8xlarge,2.848
-aws,EU (Frankfurt),r5n.12xlarge,4.272
-aws,EU (Frankfurt),r5n.16xlarge,5.696
-aws,EU (Frankfurt),r5n.24xlarge,8.544
-aws,EU (Frankfurt),r4.large,0.16005
-aws,EU (Frankfurt),r4.xlarge,0.3201
-aws,EU (Frankfurt),r4.2xlarge,0.6402
-aws,EU (Frankfurt),r4.4xlarge,1.2804
-aws,EU (Frankfurt),r4.8xlarge,2.5608
-aws,EU (Frankfurt),r4.16xlarge,5.1216
-aws,EU (Frankfurt),z1d.large,0.225
-aws,EU (Frankfurt),z1d.xlarge,0.45
-aws,EU (Frankfurt),z1d.2xlarge,0.9
-aws,EU (Frankfurt),z1d.3xlarge,1.35
-aws,EU (Frankfurt),z1d.6xlarge,2.7
-aws,EU (Frankfurt),z1d.12xlarge,5.4
-aws,EU (Frankfurt),z1d.metal,5.4
-aws,EU (Frankfurt),i3.large,0.186
-aws,EU (Frankfurt),i3.xlarge,0.372
-aws,EU (Frankfurt),i3.2xlarge,0.744
-aws,EU (Frankfurt),i3.4xlarge,1.488
-aws,EU (Frankfurt),i3.8xlarge,2.976
-aws,EU (Frankfurt),i3.16xlarge,5.952
-aws,EU (Frankfurt),i3.metal,5.952
-aws,EU (Frankfurt),i3en.large,0.27
-aws,EU (Frankfurt),i3en.xlarge,0.54
-aws,EU (Frankfurt),i3en.2xlarge,1.08
-aws,EU (Frankfurt),i3en.3xlarge,1.62
-aws,EU (Frankfurt),i3en.6xlarge,3.24
-aws,EU (Frankfurt),i3en.12xlarge,6.48
-aws,EU (Frankfurt),i3en.24xlarge,12.96
-aws,EU (Frankfurt),i3en.metal,12.96
-aws,EU (Frankfurt),d2.xlarge,0.794
-aws,EU (Frankfurt),d2.2xlarge,1.588
-aws,EU (Frankfurt),d2.4xlarge,3.176
-aws,EU (Frankfurt),d2.8xlarge,6.352
-aws,EU (Ireland),a1.medium,0.0288
-aws,EU (Ireland),a1.large,0.0576
-aws,EU (Ireland),a1.xlarge,0.1152
-aws,EU (Ireland),a1.2xlarge,0.2304
-aws,EU (Ireland),a1.4xlarge,0.4608
-aws,EU (Ireland),a1.metal,0.461
-aws,EU (Ireland),t3.nano,0.0057
-aws,EU (Ireland),t3.micro,0.0114
-aws,EU (Ireland),t3.small,0.0228
-aws,EU (Ireland),t3.medium,0.0456
-aws,EU (Ireland),t3.large,0.0912
-aws,EU (Ireland),t3.xlarge,0.1824
-aws,EU (Ireland),t3.2xlarge,0.3648
-aws,EU (Ireland),t3a.nano,0.0051
-aws,EU (Ireland),t3a.micro,0.0102
-aws,EU (Ireland),t3a.small,0.0204
-aws,EU (Ireland),t3a.medium,0.0408
-aws,EU (Ireland),t3a.large,0.0816
-aws,EU (Ireland),t3a.xlarge,0.1632
-aws,EU (Ireland),t3a.2xlarge,0.3264
-aws,EU (Ireland),t2.nano,0.0063
-aws,EU (Ireland),t2.micro,0.0126
-aws,EU (Ireland),t2.small,0.025
-aws,EU (Ireland),t2.medium,0.05
-aws,EU (Ireland),t2.large,0.1008
-aws,EU (Ireland),t2.xlarge,0.2016
-aws,EU (Ireland),t2.2xlarge,0.4032
-aws,EU (Ireland),m5.large,0.107
-aws,EU (Ireland),m5.xlarge,0.214
-aws,EU (Ireland),m5.2xlarge,0.428
-aws,EU (Ireland),m5.4xlarge,0.856
-aws,EU (Ireland),m5.8xlarge,1.712
-aws,EU (Ireland),m5.12xlarge,2.568
-aws,EU (Ireland),m5.16xlarge,3.424
-aws,EU (Ireland),m5.24xlarge,5.136
-aws,EU (Ireland),m5.metal,5.136
-aws,EU (Ireland),m5a.large,0.096
-aws,EU (Ireland),m5a.xlarge,0.192
-aws,EU (Ireland),m5a.2xlarge,0.384
-aws,EU (Ireland),m5a.4xlarge,0.768
-aws,EU (Ireland),m5a.8xlarge,1.536
-aws,EU (Ireland),m5a.12xlarge,2.304
-aws,EU (Ireland),m5a.16xlarge,3.072
-aws,EU (Ireland),m5a.24xlarge,4.608
-aws,EU (Ireland),m5ad.large,0.115
-aws,EU (Ireland),m5ad.xlarge,0.23
-aws,EU (Ireland),m5ad.2xlarge,0.46
-aws,EU (Ireland),m5ad.4xlarge,0.92
-aws,EU (Ireland),m5ad.8xlarge,1.84
-aws,EU (Ireland),m5ad.12xlarge,2.76
-aws,EU (Ireland),m5ad.16xlarge,3.68
-aws,EU (Ireland),m5ad.24xlarge,5.52
-aws,EU (Ireland),m5d.large,0.126
-aws,EU (Ireland),m5d.xlarge,0.252
-aws,EU (Ireland),m5d.2xlarge,0.504
-aws,EU (Ireland),m5d.4xlarge,1.008
-aws,EU (Ireland),m5d.8xlarge,2.016
-aws,EU (Ireland),m5d.12xlarge,3.024
-aws,EU (Ireland),m5d.16xlarge,4.032
-aws,EU (Ireland),m5d.24xlarge,6.048
-aws,EU (Ireland),m5d.metal,6.048
-aws,EU (Ireland),m5dn.large,0.152
-aws,EU (Ireland),m5dn.xlarge,0.304
-aws,EU (Ireland),m5dn.2xlarge,0.608
-aws,EU (Ireland),m5dn.4xlarge,1.216
-aws,EU (Ireland),m5dn.8xlarge,2.432
-aws,EU (Ireland),m5dn.12xlarge,3.648
-aws,EU (Ireland),m5dn.16xlarge,4.864
-aws,EU (Ireland),m5dn.24xlarge,7.296
-aws,EU (Ireland),m5n.large,0.133
-aws,EU (Ireland),m5n.xlarge,0.266
-aws,EU (Ireland),m5n.2xlarge,0.532
-aws,EU (Ireland),m5n.4xlarge,1.064
-aws,EU (Ireland),m5n.8xlarge,2.128
-aws,EU (Ireland),m5n.12xlarge,3.192
-aws,EU (Ireland),m5n.16xlarge,4.256
-aws,EU (Ireland),m5n.24xlarge,6.384
-aws,EU (Ireland),m4.large,0.111
-aws,EU (Ireland),m4.xlarge,0.222
-aws,EU (Ireland),m4.2xlarge,0.444
-aws,EU (Ireland),m4.4xlarge,0.888
-aws,EU (Ireland),m4.10xlarge,2.22
-aws,EU (Ireland),m4.16xlarge,3.552
-aws,EU (Ireland),c5.large,0.096
-aws,EU (Ireland),c5.xlarge,0.192
-aws,EU (Ireland),c5.2xlarge,0.384
-aws,EU (Ireland),c5.4xlarge,0.768
-aws,EU (Ireland),c5.9xlarge,1.728
-aws,EU (Ireland),c5.12xlarge,2.304
-aws,EU (Ireland),c5.18xlarge,3.456
-aws,EU (Ireland),c5.24xlarge,4.608
-aws,EU (Ireland),c5.metal,4.608
-aws,EU (Ireland),c5d.large,0.109
-aws,EU (Ireland),c5d.xlarge,0.218
-aws,EU (Ireland),c5d.2xlarge,0.436
-aws,EU (Ireland),c5d.4xlarge,0.872
-aws,EU (Ireland),c5d.9xlarge,1.962
-aws,EU (Ireland),c5d.12xlarge,2.616
-aws,EU (Ireland),c5d.18xlarge,3.924
-aws,EU (Ireland),c5d.24xlarge,5.232
-aws,EU (Ireland),c5d.metal,5.232
-aws,EU (Ireland),c5n.large,0.122
-aws,EU (Ireland),c5n.xlarge,0.244
-aws,EU (Ireland),c5n.2xlarge,0.488
-aws,EU (Ireland),c5n.4xlarge,0.976
-aws,EU (Ireland),c5n.9xlarge,2.196
-aws,EU (Ireland),c5n.18xlarge,4.392
-aws,EU (Ireland),c5n.metal,4.392
-aws,EU (Ireland),c4.large,0.113
-aws,EU (Ireland),c4.xlarge,0.226
-aws,EU (Ireland),c4.2xlarge,0.453
-aws,EU (Ireland),c4.4xlarge,0.905
-aws,EU (Ireland),c4.8xlarge,1.811
-aws,EU (Ireland),p3.2xlarge,3.305
-aws,EU (Ireland),p3.8xlarge,13.22
-aws,EU (Ireland),p3.16xlarge,26.44
-aws,EU (Ireland),p3dn.24xlarge,33.711
-aws,EU (Ireland),p2.xlarge,0.972
-aws,EU (Ireland),p2.8xlarge,7.776
-aws,EU (Ireland),p2.16xlarge,15.552
-aws,EU (Ireland),g4dn.xlarge,0.587
-aws,EU (Ireland),g4dn.2xlarge,0.838
-aws,EU (Ireland),g4dn.4xlarge,1.342
-aws,EU (Ireland),g4dn.8xlarge,2.426
-aws,EU (Ireland),g4dn.12xlarge,4.362
-aws,EU (Ireland),g4dn.16xlarge,4.853
-aws,EU (Ireland),g3.4xlarge,1.21
-aws,EU (Ireland),g3.8xlarge,2.42
-aws,EU (Ireland),g3.16xlarge,4.84
-aws,EU (Ireland),g3s.xlarge,0.796
-aws,EU (Ireland),x1.16xlarge,8.003
-aws,EU (Ireland),x1.32xlarge,16.006
-aws,EU (Ireland),x1e.xlarge,1.0
-aws,EU (Ireland),x1e.2xlarge,2.0
-aws,EU (Ireland),x1e.4xlarge,4.0
-aws,EU (Ireland),x1e.8xlarge,8.0
-aws,EU (Ireland),x1e.16xlarge,16.0
-aws,EU (Ireland),x1e.32xlarge,32.0
-aws,EU (Ireland),r5.large,0.141
-aws,EU (Ireland),r5.xlarge,0.282
-aws,EU (Ireland),r5.2xlarge,0.564
-aws,EU (Ireland),r5.4xlarge,1.128
-aws,EU (Ireland),r5.8xlarge,2.256
-aws,EU (Ireland),r5.12xlarge,3.384
-aws,EU (Ireland),r5.16xlarge,4.512
-aws,EU (Ireland),r5.24xlarge,6.768
-aws,EU (Ireland),r5.metal,6.768
-aws,EU (Ireland),r5a.large,0.127
-aws,EU (Ireland),r5a.xlarge,0.254
-aws,EU (Ireland),r5a.2xlarge,0.508
-aws,EU (Ireland),r5a.4xlarge,1.016
-aws,EU (Ireland),r5a.8xlarge,2.032
-aws,EU (Ireland),r5a.12xlarge,3.048
-aws,EU (Ireland),r5a.16xlarge,4.064
-aws,EU (Ireland),r5a.24xlarge,6.096
-aws,EU (Ireland),r5ad.large,0.146
-aws,EU (Ireland),r5ad.xlarge,0.292
-aws,EU (Ireland),r5ad.2xlarge,0.584
-aws,EU (Ireland),r5ad.4xlarge,1.168
-aws,EU (Ireland),r5ad.8xlarge,2.336
-aws,EU (Ireland),r5ad.12xlarge,3.504
-aws,EU (Ireland),r5ad.16xlarge,4.672
-aws,EU (Ireland),r5ad.24xlarge,7.008
-aws,EU (Ireland),r5d.large,0.16
-aws,EU (Ireland),r5d.xlarge,0.32
-aws,EU (Ireland),r5d.2xlarge,0.64
-aws,EU (Ireland),r5d.4xlarge,1.28
-aws,EU (Ireland),r5d.8xlarge,2.56
-aws,EU (Ireland),r5d.12xlarge,3.84
-aws,EU (Ireland),r5d.16xlarge,5.12
-aws,EU (Ireland),r5d.24xlarge,7.68
-aws,EU (Ireland),r5d.metal,7.68
-aws,EU (Ireland),r5dn.large,0.186
-aws,EU (Ireland),r5dn.xlarge,0.372
-aws,EU (Ireland),r5dn.2xlarge,0.744
-aws,EU (Ireland),r5dn.4xlarge,1.488
-aws,EU (Ireland),r5dn.8xlarge,2.976
-aws,EU (Ireland),r5dn.12xlarge,4.464
-aws,EU (Ireland),r5dn.16xlarge,5.952
-aws,EU (Ireland),r5dn.24xlarge,8.928
-aws,EU (Ireland),r5n.large,0.167
-aws,EU (Ireland),r5n.xlarge,0.334
-aws,EU (Ireland),r5n.2xlarge,0.668
-aws,EU (Ireland),r5n.4xlarge,1.336
-aws,EU (Ireland),r5n.8xlarge,2.672
-aws,EU (Ireland),r5n.12xlarge,4.008
-aws,EU (Ireland),r5n.16xlarge,5.344
-aws,EU (Ireland),r5n.24xlarge,8.016
-aws,EU (Ireland),r4.large,0.1482
-aws,EU (Ireland),r4.xlarge,0.2964
-aws,EU (Ireland),r4.2xlarge,0.5928
-aws,EU (Ireland),r4.4xlarge,1.1856
-aws,EU (Ireland),r4.8xlarge,2.3712
-aws,EU (Ireland),r4.16xlarge,4.7424
-aws,EU (Ireland),z1d.large,0.208
-aws,EU (Ireland),z1d.xlarge,0.416
-aws,EU (Ireland),z1d.2xlarge,0.832
-aws,EU (Ireland),z1d.3xlarge,1.248
-aws,EU (Ireland),z1d.6xlarge,2.496
-aws,EU (Ireland),z1d.12xlarge,4.992
-aws,EU (Ireland),z1d.metal,4.992
-aws,EU (Ireland),i3.large,0.172
-aws,EU (Ireland),i3.xlarge,0.344
-aws,EU (Ireland),i3.2xlarge,0.688
-aws,EU (Ireland),i3.4xlarge,1.376
-aws,EU (Ireland),i3.8xlarge,2.752
-aws,EU (Ireland),i3.16xlarge,5.504
-aws,EU (Ireland),i3.metal,5.504
-aws,EU (Ireland),i3en.large,0.25
-aws,EU (Ireland),i3en.xlarge,0.5
-aws,EU (Ireland),i3en.2xlarge,1.0
-aws,EU (Ireland),i3en.3xlarge,1.5
-aws,EU (Ireland),i3en.6xlarge,3.0
-aws,EU (Ireland),i3en.12xlarge,6.0
-aws,EU (Ireland),i3en.24xlarge,12.0
-aws,EU (Ireland),i3en.metal,12.0
-aws,EU (Ireland),h1.2xlarge,0.519
-aws,EU (Ireland),h1.4xlarge,1.038
-aws,EU (Ireland),h1.8xlarge,2.076
-aws,EU (Ireland),h1.16xlarge,4.152
-aws,EU (Ireland),d2.xlarge,0.735
-aws,EU (Ireland),d2.2xlarge,1.47
-aws,EU (Ireland),d2.4xlarge,2.94
-aws,EU (Ireland),d2.8xlarge,5.88
-aws,EU (London),t3.nano,0.0059
-aws,EU (London),t3.micro,0.0118
-aws,EU (London),t3.small,0.0236
-aws,EU (London),t3.medium,0.0472
-aws,EU (London),t3.large,0.0944
-aws,EU (London),t3.xlarge,0.1888
-aws,EU (London),t3.2xlarge,0.3776
-aws,EU (London),t3a.nano,0.0053
-aws,EU (London),t3a.micro,0.0106
-aws,EU (London),t3a.small,0.0212
-aws,EU (London),t3a.medium,0.0425
-aws,EU (London),t3a.large,0.085
-aws,EU (London),t3a.xlarge,0.1699
-aws,EU (London),t3a.2xlarge,0.3398
-aws,EU (London),t2.nano,0.0066
-aws,EU (London),t2.micro,0.0132
-aws,EU (London),t2.small,0.026
-aws,EU (London),t2.medium,0.052
-aws,EU (London),t2.large,0.1056
-aws,EU (London),t2.xlarge,0.2112
-aws,EU (London),t2.2xlarge,0.4224
-aws,EU (London),m5.large,0.111
-aws,EU (London),m5.xlarge,0.222
-aws,EU (London),m5.2xlarge,0.444
-aws,EU (London),m5.4xlarge,0.888
-aws,EU (London),m5.8xlarge,1.776
-aws,EU (London),m5.12xlarge,2.664
-aws,EU (London),m5.16xlarge,3.552
-aws,EU (London),m5.24xlarge,5.328
-aws,EU (London),m5.metal,5.328
-aws,EU (London),m5a.large,0.1
-aws,EU (London),m5a.xlarge,0.2
-aws,EU (London),m5a.2xlarge,0.4
-aws,EU (London),m5a.4xlarge,0.8
-aws,EU (London),m5a.8xlarge,1.6
-aws,EU (London),m5a.12xlarge,2.4
-aws,EU (London),m5a.16xlarge,3.2
-aws,EU (London),m5a.24xlarge,4.8
-aws,EU (London),m5ad.large,0.12
-aws,EU (London),m5ad.xlarge,0.24
-aws,EU (London),m5ad.2xlarge,0.48
-aws,EU (London),m5ad.4xlarge,0.96
-aws,EU (London),m5ad.8xlarge,1.92
-aws,EU (London),m5ad.12xlarge,2.88
-aws,EU (London),m5ad.16xlarge,3.84
-aws,EU (London),m5ad.24xlarge,5.76
-aws,EU (London),m5d.large,0.131
-aws,EU (London),m5d.xlarge,0.262
-aws,EU (London),m5d.2xlarge,0.524
-aws,EU (London),m5d.4xlarge,1.048
-aws,EU (London),m5d.8xlarge,2.096
-aws,EU (London),m5d.12xlarge,3.144
-aws,EU (London),m5d.16xlarge,4.192
-aws,EU (London),m5d.24xlarge,6.288
-aws,EU (London),m5d.metal,6.288
-aws,EU (London),m4.large,0.116
-aws,EU (London),m4.xlarge,0.232
-aws,EU (London),m4.2xlarge,0.464
-aws,EU (London),m4.4xlarge,0.928
-aws,EU (London),m4.10xlarge,2.32
-aws,EU (London),m4.16xlarge,3.712
-aws,EU (London),c5.large,0.101
-aws,EU (London),c5.xlarge,0.202
-aws,EU (London),c5.2xlarge,0.404
-aws,EU (London),c5.4xlarge,0.808
-aws,EU (London),c5.9xlarge,1.818
-aws,EU (London),c5.12xlarge,2.424
-aws,EU (London),c5.18xlarge,3.636
-aws,EU (London),c5.24xlarge,4.848
-aws,EU (London),c5.metal,4.848
-aws,EU (London),c5d.large,0.115
-aws,EU (London),c5d.xlarge,0.23
-aws,EU (London),c5d.2xlarge,0.46
-aws,EU (London),c5d.4xlarge,0.92
-aws,EU (London),c5d.9xlarge,2.07
-aws,EU (London),c5d.12xlarge,2.76
-aws,EU (London),c5d.18xlarge,4.14
-aws,EU (London),c5d.24xlarge,5.52
-aws,EU (London),c5d.metal,5.52
-aws,EU (London),c4.large,0.119
-aws,EU (London),c4.xlarge,0.237
-aws,EU (London),c4.2xlarge,0.476
-aws,EU (London),c4.4xlarge,0.95
-aws,EU (London),c4.8xlarge,1.902
-aws,EU (London),p3.2xlarge,3.589
-aws,EU (London),p3.8xlarge,14.356
-aws,EU (London),p3.16xlarge,28.712
-aws,EU (London),g4dn.xlarge,0.615
-aws,EU (London),g4dn.2xlarge,0.88
-aws,EU (London),g4dn.4xlarge,1.409
-aws,EU (London),g4dn.8xlarge,2.546
-aws,EU (London),g4dn.12xlarge,4.577
-aws,EU (London),g4dn.16xlarge,5.092
-aws,EU (London),g3.4xlarge,1.429
-aws,EU (London),g3.8xlarge,2.858
-aws,EU (London),g3.16xlarge,5.716
-aws,EU (London),g3s.xlarge,0.94
-aws,EU (London),x1.16xlarge,8.403
-aws,EU (London),x1.32xlarge,16.806
-aws,EU (London),r5.large,0.148
-aws,EU (London),r5.xlarge,0.296
-aws,EU (London),r5.2xlarge,0.592
-aws,EU (London),r5.4xlarge,1.184
-aws,EU (London),r5.8xlarge,2.368
-aws,EU (London),r5.12xlarge,3.552
-aws,EU (London),r5.16xlarge,4.736
-aws,EU (London),r5.24xlarge,7.104
-aws,EU (London),r5.metal,7.104
-aws,EU (London),r5a.large,0.133
-aws,EU (London),r5a.xlarge,0.266
-aws,EU (London),r5a.2xlarge,0.532
-aws,EU (London),r5a.4xlarge,1.064
-aws,EU (London),r5a.8xlarge,2.128
-aws,EU (London),r5a.12xlarge,3.192
-aws,EU (London),r5a.16xlarge,4.256
-aws,EU (London),r5a.24xlarge,6.384
-aws,EU (London),r5ad.large,0.154
-aws,EU (London),r5ad.xlarge,0.308
-aws,EU (London),r5ad.2xlarge,0.616
-aws,EU (London),r5ad.4xlarge,1.232
-aws,EU (London),r5ad.8xlarge,2.464
-aws,EU (London),r5ad.12xlarge,3.696
-aws,EU (London),r5ad.16xlarge,4.928
-aws,EU (London),r5ad.24xlarge,7.392
-aws,EU (London),r5d.large,0.169
-aws,EU (London),r5d.xlarge,0.338
-aws,EU (London),r5d.2xlarge,0.676
-aws,EU (London),r5d.4xlarge,1.352
-aws,EU (London),r5d.8xlarge,2.704
-aws,EU (London),r5d.12xlarge,4.056
-aws,EU (London),r5d.16xlarge,5.408
-aws,EU (London),r5d.24xlarge,8.112
-aws,EU (London),r5d.metal,8.112
-aws,EU (London),r4.large,0.156
-aws,EU (London),r4.xlarge,0.312
-aws,EU (London),r4.2xlarge,0.624
-aws,EU (London),r4.4xlarge,1.248
-aws,EU (London),r4.8xlarge,2.496
-aws,EU (London),r4.16xlarge,4.992
-aws,EU (London),z1d.large,0.22
-aws,EU (London),z1d.xlarge,0.439
-aws,EU (London),z1d.2xlarge,0.879
-aws,EU (London),z1d.3xlarge,1.318
-aws,EU (London),z1d.6xlarge,2.636
-aws,EU (London),z1d.12xlarge,5.273
-aws,EU (London),z1d.metal,5.273
-aws,EU (London),i3.large,0.181
-aws,EU (London),i3.xlarge,0.362
-aws,EU (London),i3.2xlarge,0.724
-aws,EU (London),i3.4xlarge,1.448
-aws,EU (London),i3.8xlarge,2.896
-aws,EU (London),i3.16xlarge,5.792
-aws,EU (London),i3en.large,0.263
-aws,EU (London),i3en.xlarge,0.526
-aws,EU (London),i3en.2xlarge,1.052
-aws,EU (London),i3en.3xlarge,1.578
-aws,EU (London),i3en.6xlarge,3.156
-aws,EU (London),i3en.12xlarge,6.312
-aws,EU (London),i3en.24xlarge,12.624
-aws,EU (London),i3en.metal,12.624
-aws,EU (London),d2.xlarge,0.772
-aws,EU (London),d2.2xlarge,1.544
-aws,EU (London),d2.4xlarge,3.087
-aws,EU (London),d2.8xlarge,6.174
-aws,EU (Paris),t3.nano,0.0059
-aws,EU (Paris),t3.micro,0.0118
-aws,EU (Paris),t3.small,0.0236
-aws,EU (Paris),t3.medium,0.0472
-aws,EU (Paris),t3.large,0.0944
-aws,EU (Paris),t3.xlarge,0.1888
-aws,EU (Paris),t3.2xlarge,0.3776
-aws,EU (Paris),t3a.nano,0.0053
-aws,EU (Paris),t3a.micro,0.0106
-aws,EU (Paris),t3a.small,0.0212
-aws,EU (Paris),t3a.medium,0.0425
-aws,EU (Paris),t3a.large,0.085
-aws,EU (Paris),t3a.xlarge,0.1699
-aws,EU (Paris),t3a.2xlarge,0.3398
-aws,EU (Paris),t2.nano,0.0066
-aws,EU (Paris),t2.micro,0.0132
-aws,EU (Paris),t2.small,0.0264
-aws,EU (Paris),t2.medium,0.0528
-aws,EU (Paris),t2.large,0.1056
-aws,EU (Paris),t2.xlarge,0.2112
-aws,EU (Paris),t2.2xlarge,0.4224
-aws,EU (Paris),m5.large,0.112
-aws,EU (Paris),m5.xlarge,0.224
-aws,EU (Paris),m5.2xlarge,0.448
-aws,EU (Paris),m5.4xlarge,0.896
-aws,EU (Paris),m5.8xlarge,1.792
-aws,EU (Paris),m5.12xlarge,2.688
-aws,EU (Paris),m5.16xlarge,3.584
-aws,EU (Paris),m5.24xlarge,5.376
-aws,EU (Paris),m5.metal,5.376
-aws,EU (Paris),m5a.large,0.101
-aws,EU (Paris),m5a.xlarge,0.202
-aws,EU (Paris),m5a.2xlarge,0.404
-aws,EU (Paris),m5a.4xlarge,0.808
-aws,EU (Paris),m5a.8xlarge,1.616
-aws,EU (Paris),m5a.12xlarge,2.424
-aws,EU (Paris),m5a.16xlarge,3.232
-aws,EU (Paris),m5a.24xlarge,4.848
-aws,EU (Paris),m5ad.large,0.121
-aws,EU (Paris),m5ad.xlarge,0.242
-aws,EU (Paris),m5ad.2xlarge,0.484
-aws,EU (Paris),m5ad.4xlarge,0.968
-aws,EU (Paris),m5ad.8xlarge,1.936
-aws,EU (Paris),m5ad.12xlarge,2.904
-aws,EU (Paris),m5ad.16xlarge,3.872
-aws,EU (Paris),m5ad.24xlarge,5.808
-aws,EU (Paris),m5d.large,0.132
-aws,EU (Paris),m5d.xlarge,0.264
-aws,EU (Paris),m5d.2xlarge,0.528
-aws,EU (Paris),m5d.4xlarge,1.056
-aws,EU (Paris),m5d.8xlarge,2.112
-aws,EU (Paris),m5d.12xlarge,3.168
-aws,EU (Paris),m5d.16xlarge,4.224
-aws,EU (Paris),m5d.24xlarge,6.336
-aws,EU (Paris),m5d.metal,6.336
-aws,EU (Paris),c5.large,0.101
-aws,EU (Paris),c5.xlarge,0.202
-aws,EU (Paris),c5.2xlarge,0.404
-aws,EU (Paris),c5.4xlarge,0.808
-aws,EU (Paris),c5.9xlarge,1.818
-aws,EU (Paris),c5.12xlarge,2.424
-aws,EU (Paris),c5.18xlarge,3.636
-aws,EU (Paris),c5.24xlarge,4.848
-aws,EU (Paris),c5.metal,4.848
-aws,EU (Paris),c5d.large,0.115
-aws,EU (Paris),c5d.xlarge,0.23
-aws,EU (Paris),c5d.2xlarge,0.46
-aws,EU (Paris),c5d.4xlarge,0.92
-aws,EU (Paris),c5d.9xlarge,2.07
-aws,EU (Paris),c5d.18xlarge,4.14
-aws,EU (Paris),g4dn.xlarge,0.615
-aws,EU (Paris),g4dn.2xlarge,0.879
-aws,EU (Paris),g4dn.4xlarge,1.408
-aws,EU (Paris),g4dn.8xlarge,2.544
-aws,EU (Paris),g4dn.12xlarge,4.574
-aws,EU (Paris),g4dn.16xlarge,5.088
-aws,EU (Paris),x1.16xlarge,8.403
-aws,EU (Paris),x1.32xlarge,16.806
-aws,EU (Paris),r5.large,0.148
-aws,EU (Paris),r5.xlarge,0.296
-aws,EU (Paris),r5.2xlarge,0.592
-aws,EU (Paris),r5.4xlarge,1.184
-aws,EU (Paris),r5.8xlarge,2.368
-aws,EU (Paris),r5.12xlarge,3.552
-aws,EU (Paris),r5.16xlarge,4.736
-aws,EU (Paris),r5.24xlarge,7.104
-aws,EU (Paris),r5.metal,7.104
-aws,EU (Paris),r5a.large,0.133
-aws,EU (Paris),r5a.xlarge,0.266
-aws,EU (Paris),r5a.2xlarge,0.532
-aws,EU (Paris),r5a.4xlarge,1.064
-aws,EU (Paris),r5a.8xlarge,2.128
-aws,EU (Paris),r5a.12xlarge,3.192
-aws,EU (Paris),r5a.16xlarge,4.256
-aws,EU (Paris),r5a.24xlarge,6.384
-aws,EU (Paris),r5ad.large,0.153
-aws,EU (Paris),r5ad.xlarge,0.306
-aws,EU (Paris),r5ad.2xlarge,0.612
-aws,EU (Paris),r5ad.4xlarge,1.224
-aws,EU (Paris),r5ad.8xlarge,2.448
-aws,EU (Paris),r5ad.12xlarge,3.672
-aws,EU (Paris),r5ad.16xlarge,4.896
-aws,EU (Paris),r5ad.24xlarge,7.344
-aws,EU (Paris),r5d.large,0.169
-aws,EU (Paris),r5d.xlarge,0.338
-aws,EU (Paris),r5d.2xlarge,0.676
-aws,EU (Paris),r5d.4xlarge,1.352
-aws,EU (Paris),r5d.8xlarge,2.704
-aws,EU (Paris),r5d.12xlarge,4.056
-aws,EU (Paris),r5d.16xlarge,5.408
-aws,EU (Paris),r5d.24xlarge,8.112
-aws,EU (Paris),r5d.metal,8.112
-aws,EU (Paris),r4.large,0.156
-aws,EU (Paris),r4.xlarge,0.312
-aws,EU (Paris),r4.2xlarge,0.624
-aws,EU (Paris),r4.4xlarge,1.248
-aws,EU (Paris),r4.8xlarge,2.496
-aws,EU (Paris),r4.16xlarge,4.992
-aws,EU (Paris),i3.large,0.181
-aws,EU (Paris),i3.xlarge,0.362
-aws,EU (Paris),i3.2xlarge,0.724
-aws,EU (Paris),i3.4xlarge,1.448
-aws,EU (Paris),i3.8xlarge,2.896
-aws,EU (Paris),i3.16xlarge,5.792
-aws,EU (Paris),i3en.large,0.263
-aws,EU (Paris),i3en.xlarge,0.526
-aws,EU (Paris),i3en.2xlarge,1.052
-aws,EU (Paris),i3en.3xlarge,1.578
-aws,EU (Paris),i3en.6xlarge,3.156
-aws,EU (Paris),i3en.12xlarge,6.312
-aws,EU (Paris),i3en.24xlarge,12.624
-aws,EU (Paris),i3en.metal,12.624
-aws,EU (Paris),d2.xlarge,0.772
-aws,EU (Paris),d2.2xlarge,1.544
-aws,EU (Paris),d2.4xlarge,3.088
-aws,EU (Paris),d2.8xlarge,6.176
-aws,EU (Stockholm),t3.nano,0.0054
-aws,EU (Stockholm),t3.micro,0.0108
-aws,EU (Stockholm),t3.small,0.0216
-aws,EU (Stockholm),t3.medium,0.0432
-aws,EU (Stockholm),t3.large,0.0864
-aws,EU (Stockholm),t3.xlarge,0.1728
-aws,EU (Stockholm),t3.2xlarge,0.3456
-aws,EU (Stockholm),m5.large,0.102
-aws,EU (Stockholm),m5.xlarge,0.204
-aws,EU (Stockholm),m5.2xlarge,0.408
-aws,EU (Stockholm),m5.4xlarge,0.816
-aws,EU (Stockholm),m5.8xlarge,1.632
-aws,EU (Stockholm),m5.12xlarge,2.448
-aws,EU (Stockholm),m5.16xlarge,3.264
-aws,EU (Stockholm),m5.24xlarge,4.896
-aws,EU (Stockholm),m5.metal,4.896
-aws,EU (Stockholm),m5d.large,0.12
-aws,EU (Stockholm),m5d.xlarge,0.24
-aws,EU (Stockholm),m5d.2xlarge,0.48
-aws,EU (Stockholm),m5d.4xlarge,0.96
-aws,EU (Stockholm),m5d.8xlarge,1.92
-aws,EU (Stockholm),m5d.12xlarge,2.88
-aws,EU (Stockholm),m5d.16xlarge,3.84
-aws,EU (Stockholm),m5d.24xlarge,5.76
-aws,EU (Stockholm),m5d.metal,5.76
-aws,EU (Stockholm),c5.large,0.091
-aws,EU (Stockholm),c5.xlarge,0.182
-aws,EU (Stockholm),c5.2xlarge,0.364
-aws,EU (Stockholm),c5.4xlarge,0.728
-aws,EU (Stockholm),c5.9xlarge,1.638
-aws,EU (Stockholm),c5.12xlarge,2.184
-aws,EU (Stockholm),c5.18xlarge,3.276
-aws,EU (Stockholm),c5.24xlarge,4.368
-aws,EU (Stockholm),c5.metal,4.368
-aws,EU (Stockholm),c5d.large,0.104
-aws,EU (Stockholm),c5d.xlarge,0.208
-aws,EU (Stockholm),c5d.2xlarge,0.416
-aws,EU (Stockholm),c5d.4xlarge,0.832
-aws,EU (Stockholm),c5d.9xlarge,1.872
-aws,EU (Stockholm),c5d.12xlarge,2.496
-aws,EU (Stockholm),c5d.18xlarge,3.744
-aws,EU (Stockholm),c5d.24xlarge,4.992
-aws,EU (Stockholm),c5d.metal,4.992
-aws,EU (Stockholm),g4dn.xlarge,0.558
-aws,EU (Stockholm),g4dn.2xlarge,0.798
-aws,EU (Stockholm),g4dn.4xlarge,1.277
-aws,EU (Stockholm),g4dn.8xlarge,2.308
-aws,EU (Stockholm),g4dn.12xlarge,4.15
-aws,EU (Stockholm),g4dn.16xlarge,4.617
-aws,EU (Stockholm),r5.large,0.134
-aws,EU (Stockholm),r5.xlarge,0.268
-aws,EU (Stockholm),r5.2xlarge,0.536
-aws,EU (Stockholm),r5.4xlarge,1.072
-aws,EU (Stockholm),r5.8xlarge,2.144
-aws,EU (Stockholm),r5.12xlarge,3.216
-aws,EU (Stockholm),r5.16xlarge,4.288
-aws,EU (Stockholm),r5.24xlarge,6.432
-aws,EU (Stockholm),r5.metal,6.432
-aws,EU (Stockholm),r5d.large,0.152
-aws,EU (Stockholm),r5d.xlarge,0.304
-aws,EU (Stockholm),r5d.2xlarge,0.608
-aws,EU (Stockholm),r5d.4xlarge,1.216
-aws,EU (Stockholm),r5d.8xlarge,2.432
-aws,EU (Stockholm),r5d.12xlarge,3.648
-aws,EU (Stockholm),r5d.16xlarge,4.864
-aws,EU (Stockholm),r5d.24xlarge,7.296
-aws,EU (Stockholm),r5d.metal,7.296
-aws,EU (Stockholm),i3.large,0.163
-aws,EU (Stockholm),i3.xlarge,0.326
-aws,EU (Stockholm),i3.2xlarge,0.652
-aws,EU (Stockholm),i3.4xlarge,1.304
-aws,EU (Stockholm),i3.8xlarge,2.608
-aws,EU (Stockholm),i3.16xlarge,5.216
-aws,EU (Stockholm),d2.xlarge,0.698
-aws,EU (Stockholm),d2.2xlarge,1.396
-aws,EU (Stockholm),d2.4xlarge,2.792
-aws,EU (Stockholm),d2.8xlarge,5.584
+aws,Europe (Frankfurt),a1.medium,0.0291
+aws,Europe (Frankfurt),a1.large,0.0582
+aws,Europe (Frankfurt),a1.xlarge,0.1164
+aws,Europe (Frankfurt),a1.2xlarge,0.2328
+aws,Europe (Frankfurt),a1.4xlarge,0.4656
+aws,Europe (Frankfurt),a1.metal,0.466
+aws,Europe (Frankfurt),t3.nano,0.006
+aws,Europe (Frankfurt),t3.micro,0.012
+aws,Europe (Frankfurt),t3.small,0.024
+aws,Europe (Frankfurt),t3.medium,0.048
+aws,Europe (Frankfurt),t3.large,0.096
+aws,Europe (Frankfurt),t3.xlarge,0.192
+aws,Europe (Frankfurt),t3.2xlarge,0.384
+aws,Europe (Frankfurt),t3a.nano,0.0054
+aws,Europe (Frankfurt),t3a.micro,0.0108
+aws,Europe (Frankfurt),t3a.small,0.0216
+aws,Europe (Frankfurt),t3a.medium,0.0432
+aws,Europe (Frankfurt),t3a.large,0.0864
+aws,Europe (Frankfurt),t3a.xlarge,0.1728
+aws,Europe (Frankfurt),t3a.2xlarge,0.3456
+aws,Europe (Frankfurt),t2.nano,0.0067
+aws,Europe (Frankfurt),t2.micro,0.0134
+aws,Europe (Frankfurt),t2.small,0.0268
+aws,Europe (Frankfurt),t2.medium,0.0536
+aws,Europe (Frankfurt),t2.large,0.1072
+aws,Europe (Frankfurt),t2.xlarge,0.2144
+aws,Europe (Frankfurt),t2.2xlarge,0.4288
+aws,Europe (Frankfurt),m6g.medium,0.046
+aws,Europe (Frankfurt),m6g.large,0.092
+aws,Europe (Frankfurt),m6g.xlarge,0.184
+aws,Europe (Frankfurt),m6g.2xlarge,0.368
+aws,Europe (Frankfurt),m6g.4xlarge,0.736
+aws,Europe (Frankfurt),m6g.8xlarge,1.472
+aws,Europe (Frankfurt),m6g.12xlarge,2.208
+aws,Europe (Frankfurt),m6g.16xlarge,2.944
+aws,Europe (Frankfurt),m6g.metal,2.944
+aws,Europe (Frankfurt),m5.large,0.115
+aws,Europe (Frankfurt),m5.xlarge,0.23
+aws,Europe (Frankfurt),m5.2xlarge,0.46
+aws,Europe (Frankfurt),m5.4xlarge,0.92
+aws,Europe (Frankfurt),m5.8xlarge,1.84
+aws,Europe (Frankfurt),m5.12xlarge,2.76
+aws,Europe (Frankfurt),m5.16xlarge,3.68
+aws,Europe (Frankfurt),m5.24xlarge,5.52
+aws,Europe (Frankfurt),m5.metal,5.52
+aws,Europe (Frankfurt),m5a.large,0.104
+aws,Europe (Frankfurt),m5a.xlarge,0.208
+aws,Europe (Frankfurt),m5a.2xlarge,0.416
+aws,Europe (Frankfurt),m5a.4xlarge,0.832
+aws,Europe (Frankfurt),m5a.8xlarge,1.664
+aws,Europe (Frankfurt),m5a.12xlarge,2.496
+aws,Europe (Frankfurt),m5a.16xlarge,3.328
+aws,Europe (Frankfurt),m5a.24xlarge,4.992
+aws,Europe (Frankfurt),m5ad.large,0.125
+aws,Europe (Frankfurt),m5ad.xlarge,0.25
+aws,Europe (Frankfurt),m5ad.2xlarge,0.5
+aws,Europe (Frankfurt),m5ad.4xlarge,1.0
+aws,Europe (Frankfurt),m5ad.8xlarge,2.0
+aws,Europe (Frankfurt),m5ad.12xlarge,3.0
+aws,Europe (Frankfurt),m5ad.16xlarge,4.0
+aws,Europe (Frankfurt),m5ad.24xlarge,6.0
+aws,Europe (Frankfurt),m5d.large,0.136
+aws,Europe (Frankfurt),m5d.xlarge,0.272
+aws,Europe (Frankfurt),m5d.2xlarge,0.544
+aws,Europe (Frankfurt),m5d.4xlarge,1.088
+aws,Europe (Frankfurt),m5d.8xlarge,2.176
+aws,Europe (Frankfurt),m5d.12xlarge,3.264
+aws,Europe (Frankfurt),m5d.16xlarge,4.352
+aws,Europe (Frankfurt),m5d.24xlarge,6.528
+aws,Europe (Frankfurt),m5d.metal,6.528
+aws,Europe (Frankfurt),m5dn.large,0.162
+aws,Europe (Frankfurt),m5dn.xlarge,0.324
+aws,Europe (Frankfurt),m5dn.2xlarge,0.648
+aws,Europe (Frankfurt),m5dn.4xlarge,1.296
+aws,Europe (Frankfurt),m5dn.8xlarge,2.592
+aws,Europe (Frankfurt),m5dn.12xlarge,3.888
+aws,Europe (Frankfurt),m5dn.16xlarge,5.184
+aws,Europe (Frankfurt),m5dn.24xlarge,7.776
+aws,Europe (Frankfurt),m5n.large,0.141
+aws,Europe (Frankfurt),m5n.xlarge,0.282
+aws,Europe (Frankfurt),m5n.2xlarge,0.564
+aws,Europe (Frankfurt),m5n.4xlarge,1.128
+aws,Europe (Frankfurt),m5n.8xlarge,2.256
+aws,Europe (Frankfurt),m5n.12xlarge,3.384
+aws,Europe (Frankfurt),m5n.16xlarge,4.512
+aws,Europe (Frankfurt),m5n.24xlarge,6.768
+aws,Europe (Frankfurt),m4.large,0.12
+aws,Europe (Frankfurt),m4.xlarge,0.24
+aws,Europe (Frankfurt),m4.2xlarge,0.48
+aws,Europe (Frankfurt),m4.4xlarge,0.96
+aws,Europe (Frankfurt),m4.10xlarge,2.4
+aws,Europe (Frankfurt),m4.16xlarge,3.84
+aws,Europe (Frankfurt),c6g.medium,0.0388
+aws,Europe (Frankfurt),c6g.large,0.0776
+aws,Europe (Frankfurt),c6g.xlarge,0.1552
+aws,Europe (Frankfurt),c6g.2xlarge,0.3104
+aws,Europe (Frankfurt),c6g.4xlarge,0.6208
+aws,Europe (Frankfurt),c6g.8xlarge,1.2416
+aws,Europe (Frankfurt),c6g.12xlarge,1.8624
+aws,Europe (Frankfurt),c6g.16xlarge,2.4832
+aws,Europe (Frankfurt),c6g.metal,2.4832
+aws,Europe (Frankfurt),c5.large,0.097
+aws,Europe (Frankfurt),c5.xlarge,0.194
+aws,Europe (Frankfurt),c5.2xlarge,0.388
+aws,Europe (Frankfurt),c5.4xlarge,0.776
+aws,Europe (Frankfurt),c5.9xlarge,1.746
+aws,Europe (Frankfurt),c5.12xlarge,2.328
+aws,Europe (Frankfurt),c5.18xlarge,3.492
+aws,Europe (Frankfurt),c5.24xlarge,4.656
+aws,Europe (Frankfurt),c5.metal,4.656
+aws,Europe (Frankfurt),c5a.large,0.087
+aws,Europe (Frankfurt),c5a.xlarge,0.174
+aws,Europe (Frankfurt),c5a.2xlarge,0.348
+aws,Europe (Frankfurt),c5a.4xlarge,0.696
+aws,Europe (Frankfurt),c5a.8xlarge,1.392
+aws,Europe (Frankfurt),c5a.12xlarge,2.088
+aws,Europe (Frankfurt),c5a.16xlarge,2.784
+aws,Europe (Frankfurt),c5a.24xlarge,4.176
+aws,Europe (Frankfurt),c5d.large,0.111
+aws,Europe (Frankfurt),c5d.xlarge,0.222
+aws,Europe (Frankfurt),c5d.2xlarge,0.444
+aws,Europe (Frankfurt),c5d.4xlarge,0.888
+aws,Europe (Frankfurt),c5d.9xlarge,1.998
+aws,Europe (Frankfurt),c5d.12xlarge,2.664
+aws,Europe (Frankfurt),c5d.18xlarge,3.996
+aws,Europe (Frankfurt),c5d.24xlarge,5.328
+aws,Europe (Frankfurt),c5d.metal,5.328
+aws,Europe (Frankfurt),c5n.large,0.123
+aws,Europe (Frankfurt),c5n.xlarge,0.246
+aws,Europe (Frankfurt),c5n.2xlarge,0.492
+aws,Europe (Frankfurt),c5n.4xlarge,0.984
+aws,Europe (Frankfurt),c5n.9xlarge,2.214
+aws,Europe (Frankfurt),c5n.18xlarge,4.428
+aws,Europe (Frankfurt),c5n.metal,4.428
+aws,Europe (Frankfurt),c4.large,0.114
+aws,Europe (Frankfurt),c4.xlarge,0.227
+aws,Europe (Frankfurt),c4.2xlarge,0.454
+aws,Europe (Frankfurt),c4.4xlarge,0.909
+aws,Europe (Frankfurt),c4.8xlarge,1.817
+aws,Europe (Frankfurt),p3.2xlarge,3.823
+aws,Europe (Frankfurt),p3.8xlarge,15.292
+aws,Europe (Frankfurt),p3.16xlarge,30.584
+aws,Europe (Frankfurt),p2.xlarge,1.326
+aws,Europe (Frankfurt),p2.8xlarge,10.608
+aws,Europe (Frankfurt),p2.16xlarge,21.216
+aws,Europe (Frankfurt),g4dn.xlarge,0.658
+aws,Europe (Frankfurt),g4dn.2xlarge,0.94
+aws,Europe (Frankfurt),g4dn.4xlarge,1.505
+aws,Europe (Frankfurt),g4dn.8xlarge,2.72
+aws,Europe (Frankfurt),g4dn.12xlarge,4.89
+aws,Europe (Frankfurt),g4dn.16xlarge,5.44
+aws,Europe (Frankfurt),g3.4xlarge,1.425
+aws,Europe (Frankfurt),g3.8xlarge,2.85
+aws,Europe (Frankfurt),g3.16xlarge,5.7
+aws,Europe (Frankfurt),g3s.xlarge,0.938
+aws,Europe (Frankfurt),x1.16xlarge,9.337
+aws,Europe (Frankfurt),x1.32xlarge,18.674
+aws,Europe (Frankfurt),x1e.xlarge,1.167
+aws,Europe (Frankfurt),x1e.2xlarge,2.334
+aws,Europe (Frankfurt),x1e.4xlarge,4.668
+aws,Europe (Frankfurt),x1e.8xlarge,9.336
+aws,Europe (Frankfurt),x1e.16xlarge,18.672
+aws,Europe (Frankfurt),x1e.32xlarge,37.344
+aws,Europe (Frankfurt),r6g.medium,0.0608
+aws,Europe (Frankfurt),r6g.large,0.1216
+aws,Europe (Frankfurt),r6g.xlarge,0.2432
+aws,Europe (Frankfurt),r6g.2xlarge,0.4864
+aws,Europe (Frankfurt),r6g.4xlarge,0.9728
+aws,Europe (Frankfurt),r6g.8xlarge,1.9456
+aws,Europe (Frankfurt),r6g.12xlarge,2.9184
+aws,Europe (Frankfurt),r6g.16xlarge,3.8912
+aws,Europe (Frankfurt),r6g.metal,3.8912
+aws,Europe (Frankfurt),r5.large,0.152
+aws,Europe (Frankfurt),r5.xlarge,0.304
+aws,Europe (Frankfurt),r5.2xlarge,0.608
+aws,Europe (Frankfurt),r5.4xlarge,1.216
+aws,Europe (Frankfurt),r5.8xlarge,2.432
+aws,Europe (Frankfurt),r5.12xlarge,3.648
+aws,Europe (Frankfurt),r5.16xlarge,4.864
+aws,Europe (Frankfurt),r5.24xlarge,7.296
+aws,Europe (Frankfurt),r5.metal,7.296
+aws,Europe (Frankfurt),r5a.large,0.137
+aws,Europe (Frankfurt),r5a.xlarge,0.274
+aws,Europe (Frankfurt),r5a.2xlarge,0.548
+aws,Europe (Frankfurt),r5a.4xlarge,1.096
+aws,Europe (Frankfurt),r5a.8xlarge,2.192
+aws,Europe (Frankfurt),r5a.12xlarge,3.288
+aws,Europe (Frankfurt),r5a.16xlarge,4.384
+aws,Europe (Frankfurt),r5a.24xlarge,6.576
+aws,Europe (Frankfurt),r5ad.large,0.158
+aws,Europe (Frankfurt),r5ad.xlarge,0.316
+aws,Europe (Frankfurt),r5ad.2xlarge,0.632
+aws,Europe (Frankfurt),r5ad.4xlarge,1.264
+aws,Europe (Frankfurt),r5ad.8xlarge,2.528
+aws,Europe (Frankfurt),r5ad.12xlarge,3.792
+aws,Europe (Frankfurt),r5ad.16xlarge,5.056
+aws,Europe (Frankfurt),r5ad.24xlarge,7.584
+aws,Europe (Frankfurt),r5d.large,0.173
+aws,Europe (Frankfurt),r5d.xlarge,0.346
+aws,Europe (Frankfurt),r5d.2xlarge,0.692
+aws,Europe (Frankfurt),r5d.4xlarge,1.384
+aws,Europe (Frankfurt),r5d.8xlarge,2.768
+aws,Europe (Frankfurt),r5d.12xlarge,4.152
+aws,Europe (Frankfurt),r5d.16xlarge,5.536
+aws,Europe (Frankfurt),r5d.24xlarge,8.304
+aws,Europe (Frankfurt),r5d.metal,8.304
+aws,Europe (Frankfurt),r5dn.large,0.199
+aws,Europe (Frankfurt),r5dn.xlarge,0.398
+aws,Europe (Frankfurt),r5dn.2xlarge,0.796
+aws,Europe (Frankfurt),r5dn.4xlarge,1.592
+aws,Europe (Frankfurt),r5dn.8xlarge,3.184
+aws,Europe (Frankfurt),r5dn.12xlarge,4.776
+aws,Europe (Frankfurt),r5dn.16xlarge,6.368
+aws,Europe (Frankfurt),r5dn.24xlarge,9.552
+aws,Europe (Frankfurt),r5n.large,0.178
+aws,Europe (Frankfurt),r5n.xlarge,0.356
+aws,Europe (Frankfurt),r5n.2xlarge,0.712
+aws,Europe (Frankfurt),r5n.4xlarge,1.424
+aws,Europe (Frankfurt),r5n.8xlarge,2.848
+aws,Europe (Frankfurt),r5n.12xlarge,4.272
+aws,Europe (Frankfurt),r5n.16xlarge,5.696
+aws,Europe (Frankfurt),r5n.24xlarge,8.544
+aws,Europe (Frankfurt),r4.large,0.16005
+aws,Europe (Frankfurt),r4.xlarge,0.3201
+aws,Europe (Frankfurt),r4.2xlarge,0.6402
+aws,Europe (Frankfurt),r4.4xlarge,1.2804
+aws,Europe (Frankfurt),r4.8xlarge,2.5608
+aws,Europe (Frankfurt),r4.16xlarge,5.1216
+aws,Europe (Frankfurt),z1d.large,0.225
+aws,Europe (Frankfurt),z1d.xlarge,0.45
+aws,Europe (Frankfurt),z1d.2xlarge,0.9
+aws,Europe (Frankfurt),z1d.3xlarge,1.35
+aws,Europe (Frankfurt),z1d.6xlarge,2.7
+aws,Europe (Frankfurt),z1d.12xlarge,5.4
+aws,Europe (Frankfurt),z1d.metal,5.4
+aws,Europe (Frankfurt),i3.large,0.186
+aws,Europe (Frankfurt),i3.xlarge,0.372
+aws,Europe (Frankfurt),i3.2xlarge,0.744
+aws,Europe (Frankfurt),i3.4xlarge,1.488
+aws,Europe (Frankfurt),i3.8xlarge,2.976
+aws,Europe (Frankfurt),i3.16xlarge,5.952
+aws,Europe (Frankfurt),i3.metal,5.952
+aws,Europe (Frankfurt),i3en.large,0.27
+aws,Europe (Frankfurt),i3en.xlarge,0.54
+aws,Europe (Frankfurt),i3en.2xlarge,1.08
+aws,Europe (Frankfurt),i3en.3xlarge,1.62
+aws,Europe (Frankfurt),i3en.6xlarge,3.24
+aws,Europe (Frankfurt),i3en.12xlarge,6.48
+aws,Europe (Frankfurt),i3en.24xlarge,12.96
+aws,Europe (Frankfurt),i3en.metal,12.96
+aws,Europe (Frankfurt),d2.xlarge,0.794
+aws,Europe (Frankfurt),d2.2xlarge,1.588
+aws,Europe (Frankfurt),d2.4xlarge,3.176
+aws,Europe (Frankfurt),d2.8xlarge,6.352
+aws,Europe (Ireland),a1.medium,0.0288
+aws,Europe (Ireland),a1.large,0.0576
+aws,Europe (Ireland),a1.xlarge,0.1152
+aws,Europe (Ireland),a1.2xlarge,0.2304
+aws,Europe (Ireland),a1.4xlarge,0.4608
+aws,Europe (Ireland),a1.metal,0.461
+aws,Europe (Ireland),t3.nano,0.0057
+aws,Europe (Ireland),t3.micro,0.0114
+aws,Europe (Ireland),t3.small,0.0228
+aws,Europe (Ireland),t3.medium,0.0456
+aws,Europe (Ireland),t3.large,0.0912
+aws,Europe (Ireland),t3.xlarge,0.1824
+aws,Europe (Ireland),t3.2xlarge,0.3648
+aws,Europe (Ireland),t3a.nano,0.0051
+aws,Europe (Ireland),t3a.micro,0.0102
+aws,Europe (Ireland),t3a.small,0.0204
+aws,Europe (Ireland),t3a.medium,0.0408
+aws,Europe (Ireland),t3a.large,0.0816
+aws,Europe (Ireland),t3a.xlarge,0.1632
+aws,Europe (Ireland),t3a.2xlarge,0.3264
+aws,Europe (Ireland),t2.nano,0.0063
+aws,Europe (Ireland),t2.micro,0.0126
+aws,Europe (Ireland),t2.small,0.025
+aws,Europe (Ireland),t2.medium,0.05
+aws,Europe (Ireland),t2.large,0.1008
+aws,Europe (Ireland),t2.xlarge,0.2016
+aws,Europe (Ireland),t2.2xlarge,0.4032
+aws,Europe (Ireland),m6g.medium,0.043
+aws,Europe (Ireland),m6g.large,0.086
+aws,Europe (Ireland),m6g.xlarge,0.172
+aws,Europe (Ireland),m6g.2xlarge,0.344
+aws,Europe (Ireland),m6g.4xlarge,0.688
+aws,Europe (Ireland),m6g.8xlarge,1.376
+aws,Europe (Ireland),m6g.12xlarge,2.064
+aws,Europe (Ireland),m6g.16xlarge,2.752
+aws,Europe (Ireland),m6g.metal,2.752
+aws,Europe (Ireland),m5.large,0.107
+aws,Europe (Ireland),m5.xlarge,0.214
+aws,Europe (Ireland),m5.2xlarge,0.428
+aws,Europe (Ireland),m5.4xlarge,0.856
+aws,Europe (Ireland),m5.8xlarge,1.712
+aws,Europe (Ireland),m5.12xlarge,2.568
+aws,Europe (Ireland),m5.16xlarge,3.424
+aws,Europe (Ireland),m5.24xlarge,5.136
+aws,Europe (Ireland),m5.metal,5.136
+aws,Europe (Ireland),m5a.large,0.096
+aws,Europe (Ireland),m5a.xlarge,0.192
+aws,Europe (Ireland),m5a.2xlarge,0.384
+aws,Europe (Ireland),m5a.4xlarge,0.768
+aws,Europe (Ireland),m5a.8xlarge,1.536
+aws,Europe (Ireland),m5a.12xlarge,2.304
+aws,Europe (Ireland),m5a.16xlarge,3.072
+aws,Europe (Ireland),m5a.24xlarge,4.608
+aws,Europe (Ireland),m5ad.large,0.115
+aws,Europe (Ireland),m5ad.xlarge,0.23
+aws,Europe (Ireland),m5ad.2xlarge,0.46
+aws,Europe (Ireland),m5ad.4xlarge,0.92
+aws,Europe (Ireland),m5ad.8xlarge,1.84
+aws,Europe (Ireland),m5ad.12xlarge,2.76
+aws,Europe (Ireland),m5ad.16xlarge,3.68
+aws,Europe (Ireland),m5ad.24xlarge,5.52
+aws,Europe (Ireland),m5d.large,0.126
+aws,Europe (Ireland),m5d.xlarge,0.252
+aws,Europe (Ireland),m5d.2xlarge,0.504
+aws,Europe (Ireland),m5d.4xlarge,1.008
+aws,Europe (Ireland),m5d.8xlarge,2.016
+aws,Europe (Ireland),m5d.12xlarge,3.024
+aws,Europe (Ireland),m5d.16xlarge,4.032
+aws,Europe (Ireland),m5d.24xlarge,6.048
+aws,Europe (Ireland),m5d.metal,6.048
+aws,Europe (Ireland),m5dn.large,0.152
+aws,Europe (Ireland),m5dn.xlarge,0.304
+aws,Europe (Ireland),m5dn.2xlarge,0.608
+aws,Europe (Ireland),m5dn.4xlarge,1.216
+aws,Europe (Ireland),m5dn.8xlarge,2.432
+aws,Europe (Ireland),m5dn.12xlarge,3.648
+aws,Europe (Ireland),m5dn.16xlarge,4.864
+aws,Europe (Ireland),m5dn.24xlarge,7.296
+aws,Europe (Ireland),m5n.large,0.133
+aws,Europe (Ireland),m5n.xlarge,0.266
+aws,Europe (Ireland),m5n.2xlarge,0.532
+aws,Europe (Ireland),m5n.4xlarge,1.064
+aws,Europe (Ireland),m5n.8xlarge,2.128
+aws,Europe (Ireland),m5n.12xlarge,3.192
+aws,Europe (Ireland),m5n.16xlarge,4.256
+aws,Europe (Ireland),m5n.24xlarge,6.384
+aws,Europe (Ireland),m4.large,0.111
+aws,Europe (Ireland),m4.xlarge,0.222
+aws,Europe (Ireland),m4.2xlarge,0.444
+aws,Europe (Ireland),m4.4xlarge,0.888
+aws,Europe (Ireland),m4.10xlarge,2.22
+aws,Europe (Ireland),m4.16xlarge,3.552
+aws,Europe (Ireland),c6g.medium,0.0384
+aws,Europe (Ireland),c6g.large,0.0768
+aws,Europe (Ireland),c6g.xlarge,0.1536
+aws,Europe (Ireland),c6g.2xlarge,0.3072
+aws,Europe (Ireland),c6g.4xlarge,0.6144
+aws,Europe (Ireland),c6g.8xlarge,1.2288
+aws,Europe (Ireland),c6g.12xlarge,1.8432
+aws,Europe (Ireland),c6g.16xlarge,2.4576
+aws,Europe (Ireland),c6g.metal,2.4576
+aws,Europe (Ireland),c5.large,0.096
+aws,Europe (Ireland),c5.xlarge,0.192
+aws,Europe (Ireland),c5.2xlarge,0.384
+aws,Europe (Ireland),c5.4xlarge,0.768
+aws,Europe (Ireland),c5.9xlarge,1.728
+aws,Europe (Ireland),c5.12xlarge,2.304
+aws,Europe (Ireland),c5.18xlarge,3.456
+aws,Europe (Ireland),c5.24xlarge,4.608
+aws,Europe (Ireland),c5.metal,4.608
+aws,Europe (Ireland),c5a.large,0.086
+aws,Europe (Ireland),c5a.xlarge,0.172
+aws,Europe (Ireland),c5a.2xlarge,0.344
+aws,Europe (Ireland),c5a.4xlarge,0.688
+aws,Europe (Ireland),c5a.8xlarge,1.376
+aws,Europe (Ireland),c5a.12xlarge,2.064
+aws,Europe (Ireland),c5a.16xlarge,2.752
+aws,Europe (Ireland),c5a.24xlarge,4.128
+aws,Europe (Ireland),c5d.large,0.109
+aws,Europe (Ireland),c5d.xlarge,0.218
+aws,Europe (Ireland),c5d.2xlarge,0.436
+aws,Europe (Ireland),c5d.4xlarge,0.872
+aws,Europe (Ireland),c5d.9xlarge,1.962
+aws,Europe (Ireland),c5d.12xlarge,2.616
+aws,Europe (Ireland),c5d.18xlarge,3.924
+aws,Europe (Ireland),c5d.24xlarge,5.232
+aws,Europe (Ireland),c5d.metal,5.232
+aws,Europe (Ireland),c5n.large,0.122
+aws,Europe (Ireland),c5n.xlarge,0.244
+aws,Europe (Ireland),c5n.2xlarge,0.488
+aws,Europe (Ireland),c5n.4xlarge,0.976
+aws,Europe (Ireland),c5n.9xlarge,2.196
+aws,Europe (Ireland),c5n.18xlarge,4.392
+aws,Europe (Ireland),c5n.metal,4.392
+aws,Europe (Ireland),c4.large,0.113
+aws,Europe (Ireland),c4.xlarge,0.226
+aws,Europe (Ireland),c4.2xlarge,0.453
+aws,Europe (Ireland),c4.4xlarge,0.905
+aws,Europe (Ireland),c4.8xlarge,1.811
+aws,Europe (Ireland),p3.2xlarge,3.305
+aws,Europe (Ireland),p3.8xlarge,13.22
+aws,Europe (Ireland),p3.16xlarge,26.44
+aws,Europe (Ireland),p3dn.24xlarge,33.711
+aws,Europe (Ireland),p2.xlarge,0.972
+aws,Europe (Ireland),p2.8xlarge,7.776
+aws,Europe (Ireland),p2.16xlarge,15.552
+aws,Europe (Ireland),g4dn.xlarge,0.587
+aws,Europe (Ireland),g4dn.2xlarge,0.838
+aws,Europe (Ireland),g4dn.4xlarge,1.342
+aws,Europe (Ireland),g4dn.8xlarge,2.426
+aws,Europe (Ireland),g4dn.12xlarge,4.362
+aws,Europe (Ireland),g4dn.16xlarge,4.853
+aws,Europe (Ireland),g3.4xlarge,1.21
+aws,Europe (Ireland),g3.8xlarge,2.42
+aws,Europe (Ireland),g3.16xlarge,4.84
+aws,Europe (Ireland),g3s.xlarge,0.796
+aws,Europe (Ireland),x1.16xlarge,8.003
+aws,Europe (Ireland),x1.32xlarge,16.006
+aws,Europe (Ireland),x1e.xlarge,1.0
+aws,Europe (Ireland),x1e.2xlarge,2.0
+aws,Europe (Ireland),x1e.4xlarge,4.0
+aws,Europe (Ireland),x1e.8xlarge,8.0
+aws,Europe (Ireland),x1e.16xlarge,16.0
+aws,Europe (Ireland),x1e.32xlarge,32.0
+aws,Europe (Ireland),r6g.medium,0.0564
+aws,Europe (Ireland),r6g.large,0.1128
+aws,Europe (Ireland),r6g.xlarge,0.2256
+aws,Europe (Ireland),r6g.2xlarge,0.4512
+aws,Europe (Ireland),r6g.4xlarge,0.9024
+aws,Europe (Ireland),r6g.8xlarge,1.8048
+aws,Europe (Ireland),r6g.12xlarge,2.7072
+aws,Europe (Ireland),r6g.16xlarge,3.6096
+aws,Europe (Ireland),r6g.metal,3.6096
+aws,Europe (Ireland),r5.large,0.141
+aws,Europe (Ireland),r5.xlarge,0.282
+aws,Europe (Ireland),r5.2xlarge,0.564
+aws,Europe (Ireland),r5.4xlarge,1.128
+aws,Europe (Ireland),r5.8xlarge,2.256
+aws,Europe (Ireland),r5.12xlarge,3.384
+aws,Europe (Ireland),r5.16xlarge,4.512
+aws,Europe (Ireland),r5.24xlarge,6.768
+aws,Europe (Ireland),r5.metal,6.768
+aws,Europe (Ireland),r5a.large,0.127
+aws,Europe (Ireland),r5a.xlarge,0.254
+aws,Europe (Ireland),r5a.2xlarge,0.508
+aws,Europe (Ireland),r5a.4xlarge,1.016
+aws,Europe (Ireland),r5a.8xlarge,2.032
+aws,Europe (Ireland),r5a.12xlarge,3.048
+aws,Europe (Ireland),r5a.16xlarge,4.064
+aws,Europe (Ireland),r5a.24xlarge,6.096
+aws,Europe (Ireland),r5ad.large,0.146
+aws,Europe (Ireland),r5ad.xlarge,0.292
+aws,Europe (Ireland),r5ad.2xlarge,0.584
+aws,Europe (Ireland),r5ad.4xlarge,1.168
+aws,Europe (Ireland),r5ad.8xlarge,2.336
+aws,Europe (Ireland),r5ad.12xlarge,3.504
+aws,Europe (Ireland),r5ad.16xlarge,4.672
+aws,Europe (Ireland),r5ad.24xlarge,7.008
+aws,Europe (Ireland),r5d.large,0.16
+aws,Europe (Ireland),r5d.xlarge,0.32
+aws,Europe (Ireland),r5d.2xlarge,0.64
+aws,Europe (Ireland),r5d.4xlarge,1.28
+aws,Europe (Ireland),r5d.8xlarge,2.56
+aws,Europe (Ireland),r5d.12xlarge,3.84
+aws,Europe (Ireland),r5d.16xlarge,5.12
+aws,Europe (Ireland),r5d.24xlarge,7.68
+aws,Europe (Ireland),r5d.metal,7.68
+aws,Europe (Ireland),r5dn.large,0.186
+aws,Europe (Ireland),r5dn.xlarge,0.372
+aws,Europe (Ireland),r5dn.2xlarge,0.744
+aws,Europe (Ireland),r5dn.4xlarge,1.488
+aws,Europe (Ireland),r5dn.8xlarge,2.976
+aws,Europe (Ireland),r5dn.12xlarge,4.464
+aws,Europe (Ireland),r5dn.16xlarge,5.952
+aws,Europe (Ireland),r5dn.24xlarge,8.928
+aws,Europe (Ireland),r5n.large,0.167
+aws,Europe (Ireland),r5n.xlarge,0.334
+aws,Europe (Ireland),r5n.2xlarge,0.668
+aws,Europe (Ireland),r5n.4xlarge,1.336
+aws,Europe (Ireland),r5n.8xlarge,2.672
+aws,Europe (Ireland),r5n.12xlarge,4.008
+aws,Europe (Ireland),r5n.16xlarge,5.344
+aws,Europe (Ireland),r5n.24xlarge,8.016
+aws,Europe (Ireland),r4.large,0.1482
+aws,Europe (Ireland),r4.xlarge,0.2964
+aws,Europe (Ireland),r4.2xlarge,0.5928
+aws,Europe (Ireland),r4.4xlarge,1.1856
+aws,Europe (Ireland),r4.8xlarge,2.3712
+aws,Europe (Ireland),r4.16xlarge,4.7424
+aws,Europe (Ireland),z1d.large,0.208
+aws,Europe (Ireland),z1d.xlarge,0.416
+aws,Europe (Ireland),z1d.2xlarge,0.832
+aws,Europe (Ireland),z1d.3xlarge,1.248
+aws,Europe (Ireland),z1d.6xlarge,2.496
+aws,Europe (Ireland),z1d.12xlarge,4.992
+aws,Europe (Ireland),z1d.metal,4.992
+aws,Europe (Ireland),i3.large,0.172
+aws,Europe (Ireland),i3.xlarge,0.344
+aws,Europe (Ireland),i3.2xlarge,0.688
+aws,Europe (Ireland),i3.4xlarge,1.376
+aws,Europe (Ireland),i3.8xlarge,2.752
+aws,Europe (Ireland),i3.16xlarge,5.504
+aws,Europe (Ireland),i3.metal,5.504
+aws,Europe (Ireland),i3en.large,0.25
+aws,Europe (Ireland),i3en.xlarge,0.5
+aws,Europe (Ireland),i3en.2xlarge,1.0
+aws,Europe (Ireland),i3en.3xlarge,1.5
+aws,Europe (Ireland),i3en.6xlarge,3.0
+aws,Europe (Ireland),i3en.12xlarge,6.0
+aws,Europe (Ireland),i3en.24xlarge,12.0
+aws,Europe (Ireland),i3en.metal,12.0
+aws,Europe (Ireland),h1.2xlarge,0.519
+aws,Europe (Ireland),h1.4xlarge,1.038
+aws,Europe (Ireland),h1.8xlarge,2.076
+aws,Europe (Ireland),h1.16xlarge,4.152
+aws,Europe (Ireland),d2.xlarge,0.735
+aws,Europe (Ireland),d2.2xlarge,1.47
+aws,Europe (Ireland),d2.4xlarge,2.94
+aws,Europe (Ireland),d2.8xlarge,5.88
+aws,Europe (London),t3.nano,0.0059
+aws,Europe (London),t3.micro,0.0118
+aws,Europe (London),t3.small,0.0236
+aws,Europe (London),t3.medium,0.0472
+aws,Europe (London),t3.large,0.0944
+aws,Europe (London),t3.xlarge,0.1888
+aws,Europe (London),t3.2xlarge,0.3776
+aws,Europe (London),t3a.nano,0.0053
+aws,Europe (London),t3a.micro,0.0106
+aws,Europe (London),t3a.small,0.0212
+aws,Europe (London),t3a.medium,0.0425
+aws,Europe (London),t3a.large,0.085
+aws,Europe (London),t3a.xlarge,0.1699
+aws,Europe (London),t3a.2xlarge,0.3398
+aws,Europe (London),t2.nano,0.0066
+aws,Europe (London),t2.micro,0.0132
+aws,Europe (London),t2.small,0.026
+aws,Europe (London),t2.medium,0.052
+aws,Europe (London),t2.large,0.1056
+aws,Europe (London),t2.xlarge,0.2112
+aws,Europe (London),t2.2xlarge,0.4224
+aws,Europe (London),m5.large,0.111
+aws,Europe (London),m5.xlarge,0.222
+aws,Europe (London),m5.2xlarge,0.444
+aws,Europe (London),m5.4xlarge,0.888
+aws,Europe (London),m5.8xlarge,1.776
+aws,Europe (London),m5.12xlarge,2.664
+aws,Europe (London),m5.16xlarge,3.552
+aws,Europe (London),m5.24xlarge,5.328
+aws,Europe (London),m5.metal,5.328
+aws,Europe (London),m5a.large,0.1
+aws,Europe (London),m5a.xlarge,0.2
+aws,Europe (London),m5a.2xlarge,0.4
+aws,Europe (London),m5a.4xlarge,0.8
+aws,Europe (London),m5a.8xlarge,1.6
+aws,Europe (London),m5a.12xlarge,2.4
+aws,Europe (London),m5a.16xlarge,3.2
+aws,Europe (London),m5a.24xlarge,4.8
+aws,Europe (London),m5ad.large,0.12
+aws,Europe (London),m5ad.xlarge,0.24
+aws,Europe (London),m5ad.2xlarge,0.48
+aws,Europe (London),m5ad.4xlarge,0.96
+aws,Europe (London),m5ad.8xlarge,1.92
+aws,Europe (London),m5ad.12xlarge,2.88
+aws,Europe (London),m5ad.16xlarge,3.84
+aws,Europe (London),m5ad.24xlarge,5.76
+aws,Europe (London),m5d.large,0.131
+aws,Europe (London),m5d.xlarge,0.262
+aws,Europe (London),m5d.2xlarge,0.524
+aws,Europe (London),m5d.4xlarge,1.048
+aws,Europe (London),m5d.8xlarge,2.096
+aws,Europe (London),m5d.12xlarge,3.144
+aws,Europe (London),m5d.16xlarge,4.192
+aws,Europe (London),m5d.24xlarge,6.288
+aws,Europe (London),m5d.metal,6.288
+aws,Europe (London),m4.large,0.116
+aws,Europe (London),m4.xlarge,0.232
+aws,Europe (London),m4.2xlarge,0.464
+aws,Europe (London),m4.4xlarge,0.928
+aws,Europe (London),m4.10xlarge,2.32
+aws,Europe (London),m4.16xlarge,3.712
+aws,Europe (London),c5.large,0.101
+aws,Europe (London),c5.xlarge,0.202
+aws,Europe (London),c5.2xlarge,0.404
+aws,Europe (London),c5.4xlarge,0.808
+aws,Europe (London),c5.9xlarge,1.818
+aws,Europe (London),c5.12xlarge,2.424
+aws,Europe (London),c5.18xlarge,3.636
+aws,Europe (London),c5.24xlarge,4.848
+aws,Europe (London),c5.metal,4.848
+aws,Europe (London),c5d.large,0.115
+aws,Europe (London),c5d.xlarge,0.23
+aws,Europe (London),c5d.2xlarge,0.46
+aws,Europe (London),c5d.4xlarge,0.92
+aws,Europe (London),c5d.9xlarge,2.07
+aws,Europe (London),c5d.12xlarge,2.76
+aws,Europe (London),c5d.18xlarge,4.14
+aws,Europe (London),c5d.24xlarge,5.52
+aws,Europe (London),c5d.metal,5.52
+aws,Europe (London),c5n.large,0.128
+aws,Europe (London),c5n.xlarge,0.256
+aws,Europe (London),c5n.2xlarge,0.512
+aws,Europe (London),c5n.4xlarge,1.024
+aws,Europe (London),c5n.9xlarge,2.304
+aws,Europe (London),c5n.18xlarge,4.608
+aws,Europe (London),c5n.metal,4.608
+aws,Europe (London),c4.large,0.119
+aws,Europe (London),c4.xlarge,0.237
+aws,Europe (London),c4.2xlarge,0.476
+aws,Europe (London),c4.4xlarge,0.95
+aws,Europe (London),c4.8xlarge,1.902
+aws,Europe (London),p3.2xlarge,3.589
+aws,Europe (London),p3.8xlarge,14.356
+aws,Europe (London),p3.16xlarge,28.712
+aws,Europe (London),g4dn.xlarge,0.615
+aws,Europe (London),g4dn.2xlarge,0.88
+aws,Europe (London),g4dn.4xlarge,1.409
+aws,Europe (London),g4dn.8xlarge,2.546
+aws,Europe (London),g4dn.12xlarge,4.577
+aws,Europe (London),g4dn.16xlarge,5.092
+aws,Europe (London),g3.4xlarge,1.429
+aws,Europe (London),g3.8xlarge,2.858
+aws,Europe (London),g3.16xlarge,5.716
+aws,Europe (London),g3s.xlarge,0.94
+aws,Europe (London),x1.16xlarge,8.403
+aws,Europe (London),x1.32xlarge,16.806
+aws,Europe (London),r5.large,0.148
+aws,Europe (London),r5.xlarge,0.296
+aws,Europe (London),r5.2xlarge,0.592
+aws,Europe (London),r5.4xlarge,1.184
+aws,Europe (London),r5.8xlarge,2.368
+aws,Europe (London),r5.12xlarge,3.552
+aws,Europe (London),r5.16xlarge,4.736
+aws,Europe (London),r5.24xlarge,7.104
+aws,Europe (London),r5.metal,7.104
+aws,Europe (London),r5a.large,0.133
+aws,Europe (London),r5a.xlarge,0.266
+aws,Europe (London),r5a.2xlarge,0.532
+aws,Europe (London),r5a.4xlarge,1.064
+aws,Europe (London),r5a.8xlarge,2.128
+aws,Europe (London),r5a.12xlarge,3.192
+aws,Europe (London),r5a.16xlarge,4.256
+aws,Europe (London),r5a.24xlarge,6.384
+aws,Europe (London),r5ad.large,0.154
+aws,Europe (London),r5ad.xlarge,0.308
+aws,Europe (London),r5ad.2xlarge,0.616
+aws,Europe (London),r5ad.4xlarge,1.232
+aws,Europe (London),r5ad.8xlarge,2.464
+aws,Europe (London),r5ad.12xlarge,3.696
+aws,Europe (London),r5ad.16xlarge,4.928
+aws,Europe (London),r5ad.24xlarge,7.392
+aws,Europe (London),r5d.large,0.169
+aws,Europe (London),r5d.xlarge,0.338
+aws,Europe (London),r5d.2xlarge,0.676
+aws,Europe (London),r5d.4xlarge,1.352
+aws,Europe (London),r5d.8xlarge,2.704
+aws,Europe (London),r5d.12xlarge,4.056
+aws,Europe (London),r5d.16xlarge,5.408
+aws,Europe (London),r5d.24xlarge,8.112
+aws,Europe (London),r5d.metal,8.112
+aws,Europe (London),r4.large,0.156
+aws,Europe (London),r4.xlarge,0.312
+aws,Europe (London),r4.2xlarge,0.624
+aws,Europe (London),r4.4xlarge,1.248
+aws,Europe (London),r4.8xlarge,2.496
+aws,Europe (London),r4.16xlarge,4.992
+aws,Europe (London),z1d.large,0.22
+aws,Europe (London),z1d.xlarge,0.439
+aws,Europe (London),z1d.2xlarge,0.879
+aws,Europe (London),z1d.3xlarge,1.318
+aws,Europe (London),z1d.6xlarge,2.636
+aws,Europe (London),z1d.12xlarge,5.273
+aws,Europe (London),z1d.metal,5.273
+aws,Europe (London),i3.large,0.181
+aws,Europe (London),i3.xlarge,0.362
+aws,Europe (London),i3.2xlarge,0.724
+aws,Europe (London),i3.4xlarge,1.448
+aws,Europe (London),i3.8xlarge,2.896
+aws,Europe (London),i3.16xlarge,5.792
+aws,Europe (London),i3en.large,0.263
+aws,Europe (London),i3en.xlarge,0.526
+aws,Europe (London),i3en.2xlarge,1.052
+aws,Europe (London),i3en.3xlarge,1.578
+aws,Europe (London),i3en.6xlarge,3.156
+aws,Europe (London),i3en.12xlarge,6.312
+aws,Europe (London),i3en.24xlarge,12.624
+aws,Europe (London),i3en.metal,12.624
+aws,Europe (London),d2.xlarge,0.772
+aws,Europe (London),d2.2xlarge,1.544
+aws,Europe (London),d2.4xlarge,3.087
+aws,Europe (London),d2.8xlarge,6.174
+aws,Europe (Milan),t3.nano,0.006
+aws,Europe (Milan),t3.micro,0.012
+aws,Europe (Milan),t3.small,0.024
+aws,Europe (Milan),t3.medium,0.0479
+aws,Europe (Milan),t3.large,0.0958
+aws,Europe (Milan),t3.xlarge,0.1917
+aws,Europe (Milan),t3.2xlarge,0.3834
+aws,Europe (Milan),m5.large,0.112
+aws,Europe (Milan),m5.xlarge,0.224
+aws,Europe (Milan),m5.2xlarge,0.448
+aws,Europe (Milan),m5.4xlarge,0.896
+aws,Europe (Milan),m5.8xlarge,1.792
+aws,Europe (Milan),m5.12xlarge,2.688
+aws,Europe (Milan),m5.16xlarge,3.584
+aws,Europe (Milan),m5.24xlarge,5.376
+aws,Europe (Milan),m5.metal,5.376
+aws,Europe (Milan),m5d.large,0.132
+aws,Europe (Milan),m5d.xlarge,0.264
+aws,Europe (Milan),m5d.2xlarge,0.528
+aws,Europe (Milan),m5d.4xlarge,1.056
+aws,Europe (Milan),m5d.8xlarge,2.112
+aws,Europe (Milan),m5d.12xlarge,3.168
+aws,Europe (Milan),m5d.16xlarge,4.224
+aws,Europe (Milan),m5d.24xlarge,6.336
+aws,Europe (Milan),m5d.metal,6.336
+aws,Europe (Milan),c5.large,0.101
+aws,Europe (Milan),c5.xlarge,0.202
+aws,Europe (Milan),c5.2xlarge,0.404
+aws,Europe (Milan),c5.4xlarge,0.808
+aws,Europe (Milan),c5.9xlarge,1.818
+aws,Europe (Milan),c5.12xlarge,2.424
+aws,Europe (Milan),c5.18xlarge,3.636
+aws,Europe (Milan),c5.24xlarge,4.848
+aws,Europe (Milan),c5.metal,4.848
+aws,Europe (Milan),c5d.large,0.114
+aws,Europe (Milan),c5d.xlarge,0.228
+aws,Europe (Milan),c5d.2xlarge,0.456
+aws,Europe (Milan),c5d.4xlarge,0.912
+aws,Europe (Milan),c5d.9xlarge,2.052
+aws,Europe (Milan),c5d.12xlarge,2.736
+aws,Europe (Milan),c5d.18xlarge,4.104
+aws,Europe (Milan),c5d.24xlarge,5.472
+aws,Europe (Milan),c5d.metal,5.472
+aws,Europe (Milan),r5.large,0.148
+aws,Europe (Milan),r5.xlarge,0.296
+aws,Europe (Milan),r5.2xlarge,0.592
+aws,Europe (Milan),r5.4xlarge,1.184
+aws,Europe (Milan),r5.8xlarge,2.368
+aws,Europe (Milan),r5.12xlarge,3.552
+aws,Europe (Milan),r5.16xlarge,4.736
+aws,Europe (Milan),r5.24xlarge,7.104
+aws,Europe (Milan),r5.metal,7.104
+aws,Europe (Milan),r5d.large,0.168
+aws,Europe (Milan),r5d.xlarge,0.336
+aws,Europe (Milan),r5d.2xlarge,0.672
+aws,Europe (Milan),r5d.4xlarge,1.344
+aws,Europe (Milan),r5d.8xlarge,2.688
+aws,Europe (Milan),r5d.12xlarge,4.032
+aws,Europe (Milan),r5d.16xlarge,5.376
+aws,Europe (Milan),r5d.24xlarge,8.064
+aws,Europe (Milan),r5d.metal,8.064
+aws,Europe (Milan),i3.large,0.181
+aws,Europe (Milan),i3.xlarge,0.362
+aws,Europe (Milan),i3.2xlarge,0.724
+aws,Europe (Milan),i3.4xlarge,1.448
+aws,Europe (Milan),i3.8xlarge,2.896
+aws,Europe (Milan),i3.16xlarge,5.792
+aws,Europe (Milan),i3.metal,5.792
+aws,Europe (Milan),d2.xlarge,0.772
+aws,Europe (Milan),d2.2xlarge,1.544
+aws,Europe (Milan),d2.4xlarge,3.088
+aws,Europe (Milan),d2.8xlarge,6.176
+aws,Europe (Paris),t3.nano,0.0059
+aws,Europe (Paris),t3.micro,0.0118
+aws,Europe (Paris),t3.small,0.0236
+aws,Europe (Paris),t3.medium,0.0472
+aws,Europe (Paris),t3.large,0.0944
+aws,Europe (Paris),t3.xlarge,0.1888
+aws,Europe (Paris),t3.2xlarge,0.3776
+aws,Europe (Paris),t3a.nano,0.0053
+aws,Europe (Paris),t3a.micro,0.0106
+aws,Europe (Paris),t3a.small,0.0212
+aws,Europe (Paris),t3a.medium,0.0425
+aws,Europe (Paris),t3a.large,0.085
+aws,Europe (Paris),t3a.xlarge,0.1699
+aws,Europe (Paris),t3a.2xlarge,0.3398
+aws,Europe (Paris),t2.nano,0.0066
+aws,Europe (Paris),t2.micro,0.0132
+aws,Europe (Paris),t2.small,0.0264
+aws,Europe (Paris),t2.medium,0.0528
+aws,Europe (Paris),t2.large,0.1056
+aws,Europe (Paris),t2.xlarge,0.2112
+aws,Europe (Paris),t2.2xlarge,0.4224
+aws,Europe (Paris),m5.large,0.112
+aws,Europe (Paris),m5.xlarge,0.224
+aws,Europe (Paris),m5.2xlarge,0.448
+aws,Europe (Paris),m5.4xlarge,0.896
+aws,Europe (Paris),m5.8xlarge,1.792
+aws,Europe (Paris),m5.12xlarge,2.688
+aws,Europe (Paris),m5.16xlarge,3.584
+aws,Europe (Paris),m5.24xlarge,5.376
+aws,Europe (Paris),m5.metal,5.376
+aws,Europe (Paris),m5a.large,0.101
+aws,Europe (Paris),m5a.xlarge,0.202
+aws,Europe (Paris),m5a.2xlarge,0.404
+aws,Europe (Paris),m5a.4xlarge,0.808
+aws,Europe (Paris),m5a.8xlarge,1.616
+aws,Europe (Paris),m5a.12xlarge,2.424
+aws,Europe (Paris),m5a.16xlarge,3.232
+aws,Europe (Paris),m5a.24xlarge,4.848
+aws,Europe (Paris),m5ad.large,0.121
+aws,Europe (Paris),m5ad.xlarge,0.242
+aws,Europe (Paris),m5ad.2xlarge,0.484
+aws,Europe (Paris),m5ad.4xlarge,0.968
+aws,Europe (Paris),m5ad.8xlarge,1.936
+aws,Europe (Paris),m5ad.12xlarge,2.904
+aws,Europe (Paris),m5ad.16xlarge,3.872
+aws,Europe (Paris),m5ad.24xlarge,5.808
+aws,Europe (Paris),m5d.large,0.132
+aws,Europe (Paris),m5d.xlarge,0.264
+aws,Europe (Paris),m5d.2xlarge,0.528
+aws,Europe (Paris),m5d.4xlarge,1.056
+aws,Europe (Paris),m5d.8xlarge,2.112
+aws,Europe (Paris),m5d.12xlarge,3.168
+aws,Europe (Paris),m5d.16xlarge,4.224
+aws,Europe (Paris),m5d.24xlarge,6.336
+aws,Europe (Paris),m5d.metal,6.336
+aws,Europe (Paris),c5.large,0.101
+aws,Europe (Paris),c5.xlarge,0.202
+aws,Europe (Paris),c5.2xlarge,0.404
+aws,Europe (Paris),c5.4xlarge,0.808
+aws,Europe (Paris),c5.9xlarge,1.818
+aws,Europe (Paris),c5.12xlarge,2.424
+aws,Europe (Paris),c5.18xlarge,3.636
+aws,Europe (Paris),c5.24xlarge,4.848
+aws,Europe (Paris),c5.metal,4.848
+aws,Europe (Paris),c5d.large,0.115
+aws,Europe (Paris),c5d.xlarge,0.23
+aws,Europe (Paris),c5d.2xlarge,0.46
+aws,Europe (Paris),c5d.4xlarge,0.92
+aws,Europe (Paris),c5d.9xlarge,2.07
+aws,Europe (Paris),c5d.18xlarge,4.14
+aws,Europe (Paris),g4dn.xlarge,0.615
+aws,Europe (Paris),g4dn.2xlarge,0.879
+aws,Europe (Paris),g4dn.4xlarge,1.408
+aws,Europe (Paris),g4dn.8xlarge,2.544
+aws,Europe (Paris),g4dn.12xlarge,4.574
+aws,Europe (Paris),g4dn.16xlarge,5.088
+aws,Europe (Paris),x1.16xlarge,8.403
+aws,Europe (Paris),x1.32xlarge,16.806
+aws,Europe (Paris),r5.large,0.148
+aws,Europe (Paris),r5.xlarge,0.296
+aws,Europe (Paris),r5.2xlarge,0.592
+aws,Europe (Paris),r5.4xlarge,1.184
+aws,Europe (Paris),r5.8xlarge,2.368
+aws,Europe (Paris),r5.12xlarge,3.552
+aws,Europe (Paris),r5.16xlarge,4.736
+aws,Europe (Paris),r5.24xlarge,7.104
+aws,Europe (Paris),r5.metal,7.104
+aws,Europe (Paris),r5a.large,0.133
+aws,Europe (Paris),r5a.xlarge,0.266
+aws,Europe (Paris),r5a.2xlarge,0.532
+aws,Europe (Paris),r5a.4xlarge,1.064
+aws,Europe (Paris),r5a.8xlarge,2.128
+aws,Europe (Paris),r5a.12xlarge,3.192
+aws,Europe (Paris),r5a.16xlarge,4.256
+aws,Europe (Paris),r5a.24xlarge,6.384
+aws,Europe (Paris),r5ad.large,0.153
+aws,Europe (Paris),r5ad.xlarge,0.306
+aws,Europe (Paris),r5ad.2xlarge,0.612
+aws,Europe (Paris),r5ad.4xlarge,1.224
+aws,Europe (Paris),r5ad.8xlarge,2.448
+aws,Europe (Paris),r5ad.12xlarge,3.672
+aws,Europe (Paris),r5ad.16xlarge,4.896
+aws,Europe (Paris),r5ad.24xlarge,7.344
+aws,Europe (Paris),r5d.large,0.169
+aws,Europe (Paris),r5d.xlarge,0.338
+aws,Europe (Paris),r5d.2xlarge,0.676
+aws,Europe (Paris),r5d.4xlarge,1.352
+aws,Europe (Paris),r5d.8xlarge,2.704
+aws,Europe (Paris),r5d.12xlarge,4.056
+aws,Europe (Paris),r5d.16xlarge,5.408
+aws,Europe (Paris),r5d.24xlarge,8.112
+aws,Europe (Paris),r5d.metal,8.112
+aws,Europe (Paris),r4.large,0.156
+aws,Europe (Paris),r4.xlarge,0.312
+aws,Europe (Paris),r4.2xlarge,0.624
+aws,Europe (Paris),r4.4xlarge,1.248
+aws,Europe (Paris),r4.8xlarge,2.496
+aws,Europe (Paris),r4.16xlarge,4.992
+aws,Europe (Paris),i3.large,0.181
+aws,Europe (Paris),i3.xlarge,0.362
+aws,Europe (Paris),i3.2xlarge,0.724
+aws,Europe (Paris),i3.4xlarge,1.448
+aws,Europe (Paris),i3.8xlarge,2.896
+aws,Europe (Paris),i3.16xlarge,5.792
+aws,Europe (Paris),i3en.large,0.263
+aws,Europe (Paris),i3en.xlarge,0.526
+aws,Europe (Paris),i3en.2xlarge,1.052
+aws,Europe (Paris),i3en.3xlarge,1.578
+aws,Europe (Paris),i3en.6xlarge,3.156
+aws,Europe (Paris),i3en.12xlarge,6.312
+aws,Europe (Paris),i3en.24xlarge,12.624
+aws,Europe (Paris),i3en.metal,12.624
+aws,Europe (Paris),d2.xlarge,0.772
+aws,Europe (Paris),d2.2xlarge,1.544
+aws,Europe (Paris),d2.4xlarge,3.088
+aws,Europe (Paris),d2.8xlarge,6.176
+aws,Europe (Stockholm),t3.nano,0.0054
+aws,Europe (Stockholm),t3.micro,0.0108
+aws,Europe (Stockholm),t3.small,0.0216
+aws,Europe (Stockholm),t3.medium,0.0432
+aws,Europe (Stockholm),t3.large,0.0864
+aws,Europe (Stockholm),t3.xlarge,0.1728
+aws,Europe (Stockholm),t3.2xlarge,0.3456
+aws,Europe (Stockholm),m5.large,0.102
+aws,Europe (Stockholm),m5.xlarge,0.204
+aws,Europe (Stockholm),m5.2xlarge,0.408
+aws,Europe (Stockholm),m5.4xlarge,0.816
+aws,Europe (Stockholm),m5.8xlarge,1.632
+aws,Europe (Stockholm),m5.12xlarge,2.448
+aws,Europe (Stockholm),m5.16xlarge,3.264
+aws,Europe (Stockholm),m5.24xlarge,4.896
+aws,Europe (Stockholm),m5.metal,4.896
+aws,Europe (Stockholm),m5d.large,0.12
+aws,Europe (Stockholm),m5d.xlarge,0.24
+aws,Europe (Stockholm),m5d.2xlarge,0.48
+aws,Europe (Stockholm),m5d.4xlarge,0.96
+aws,Europe (Stockholm),m5d.8xlarge,1.92
+aws,Europe (Stockholm),m5d.12xlarge,2.88
+aws,Europe (Stockholm),m5d.16xlarge,3.84
+aws,Europe (Stockholm),m5d.24xlarge,5.76
+aws,Europe (Stockholm),m5d.metal,5.76
+aws,Europe (Stockholm),c5.large,0.091
+aws,Europe (Stockholm),c5.xlarge,0.182
+aws,Europe (Stockholm),c5.2xlarge,0.364
+aws,Europe (Stockholm),c5.4xlarge,0.728
+aws,Europe (Stockholm),c5.9xlarge,1.638
+aws,Europe (Stockholm),c5.12xlarge,2.184
+aws,Europe (Stockholm),c5.18xlarge,3.276
+aws,Europe (Stockholm),c5.24xlarge,4.368
+aws,Europe (Stockholm),c5.metal,4.368
+aws,Europe (Stockholm),c5d.large,0.104
+aws,Europe (Stockholm),c5d.xlarge,0.208
+aws,Europe (Stockholm),c5d.2xlarge,0.416
+aws,Europe (Stockholm),c5d.4xlarge,0.832
+aws,Europe (Stockholm),c5d.9xlarge,1.872
+aws,Europe (Stockholm),c5d.12xlarge,2.496
+aws,Europe (Stockholm),c5d.18xlarge,3.744
+aws,Europe (Stockholm),c5d.24xlarge,4.992
+aws,Europe (Stockholm),c5d.metal,4.992
+aws,Europe (Stockholm),g4dn.xlarge,0.558
+aws,Europe (Stockholm),g4dn.2xlarge,0.798
+aws,Europe (Stockholm),g4dn.4xlarge,1.277
+aws,Europe (Stockholm),g4dn.8xlarge,2.308
+aws,Europe (Stockholm),g4dn.12xlarge,4.15
+aws,Europe (Stockholm),g4dn.16xlarge,4.617
+aws,Europe (Stockholm),r5.large,0.134
+aws,Europe (Stockholm),r5.xlarge,0.268
+aws,Europe (Stockholm),r5.2xlarge,0.536
+aws,Europe (Stockholm),r5.4xlarge,1.072
+aws,Europe (Stockholm),r5.8xlarge,2.144
+aws,Europe (Stockholm),r5.12xlarge,3.216
+aws,Europe (Stockholm),r5.16xlarge,4.288
+aws,Europe (Stockholm),r5.24xlarge,6.432
+aws,Europe (Stockholm),r5.metal,6.432
+aws,Europe (Stockholm),r5d.large,0.152
+aws,Europe (Stockholm),r5d.xlarge,0.304
+aws,Europe (Stockholm),r5d.2xlarge,0.608
+aws,Europe (Stockholm),r5d.4xlarge,1.216
+aws,Europe (Stockholm),r5d.8xlarge,2.432
+aws,Europe (Stockholm),r5d.12xlarge,3.648
+aws,Europe (Stockholm),r5d.16xlarge,4.864
+aws,Europe (Stockholm),r5d.24xlarge,7.296
+aws,Europe (Stockholm),r5d.metal,7.296
+aws,Europe (Stockholm),i3.large,0.163
+aws,Europe (Stockholm),i3.xlarge,0.326
+aws,Europe (Stockholm),i3.2xlarge,0.652
+aws,Europe (Stockholm),i3.4xlarge,1.304
+aws,Europe (Stockholm),i3.8xlarge,2.608
+aws,Europe (Stockholm),i3.16xlarge,5.216
+aws,Europe (Stockholm),d2.xlarge,0.698
+aws,Europe (Stockholm),d2.2xlarge,1.396
+aws,Europe (Stockholm),d2.4xlarge,2.792
+aws,Europe (Stockholm),d2.8xlarge,5.584
 aws,Middle East (Bahrain),t3.nano,0.0063
 aws,Middle East (Bahrain),t3.micro,0.0125
 aws,Middle East (Bahrain),t3.small,0.0251
@@ -2955,10 +3328,7 @@ aws,Middle East (Bahrain),c5.xlarge,0.211
 aws,Middle East (Bahrain),c5.2xlarge,0.422
 aws,Middle East (Bahrain),c5.4xlarge,0.845
 aws,Middle East (Bahrain),c5.9xlarge,1.901
-aws,Middle East (Bahrain),c5.12xlarge,2.534
 aws,Middle East (Bahrain),c5.18xlarge,3.802
-aws,Middle East (Bahrain),c5.24xlarge,5.069
-aws,Middle East (Bahrain),c5.metal,5.069
 aws,Middle East (Bahrain),c5d.large,0.12
 aws,Middle East (Bahrain),c5d.xlarge,0.24
 aws,Middle East (Bahrain),c5d.2xlarge,0.48
@@ -3081,6 +3451,13 @@ aws,South America (Sao Paulo),c5d.12xlarge,3.576
 aws,South America (Sao Paulo),c5d.18xlarge,5.364
 aws,South America (Sao Paulo),c5d.24xlarge,7.152
 aws,South America (Sao Paulo),c5d.metal,7.152
+aws,South America (Sao Paulo),c5n.large,0.166
+aws,South America (Sao Paulo),c5n.xlarge,0.332
+aws,South America (Sao Paulo),c5n.2xlarge,0.664
+aws,South America (Sao Paulo),c5n.4xlarge,1.328
+aws,South America (Sao Paulo),c5n.9xlarge,2.988
+aws,South America (Sao Paulo),c5n.18xlarge,5.976
+aws,South America (Sao Paulo),c5n.metal,5.976
 aws,South America (Sao Paulo),c4.large,0.155
 aws,South America (Sao Paulo),c4.xlarge,0.309
 aws,South America (Sao Paulo),c4.2xlarge,0.618
@@ -3094,60 +3471,61 @@ aws,South America (Sao Paulo),g4dn.12xlarge,6.649
 aws,South America (Sao Paulo),g4dn.16xlarge,7.397
 aws,South America (Sao Paulo),x1.16xlarge,13.005
 aws,South America (Sao Paulo),x1.32xlarge,26.01
-aws,South America (Sao Paulo),r5.large,0.266
-aws,South America (Sao Paulo),r5.xlarge,0.532
-aws,South America (Sao Paulo),r5.2xlarge,1.064
-aws,South America (Sao Paulo),r5.4xlarge,2.128
-aws,South America (Sao Paulo),r5.8xlarge,4.256
-aws,South America (Sao Paulo),r5.12xlarge,6.384
-aws,South America (Sao Paulo),r5.16xlarge,8.512
-aws,South America (Sao Paulo),r5.24xlarge,12.768
-aws,South America (Sao Paulo),r5.metal,12.768
-aws,South America (Sao Paulo),r5a.large,0.239
-aws,South America (Sao Paulo),r5a.xlarge,0.478
-aws,South America (Sao Paulo),r5a.2xlarge,0.956
-aws,South America (Sao Paulo),r5a.4xlarge,1.912
-aws,South America (Sao Paulo),r5a.8xlarge,3.824
-aws,South America (Sao Paulo),r5a.12xlarge,5.736
-aws,South America (Sao Paulo),r5a.16xlarge,7.648
-aws,South America (Sao Paulo),r5a.24xlarge,11.472
-aws,South America (Sao Paulo),r5ad.large,0.266
-aws,South America (Sao Paulo),r5ad.xlarge,0.532
-aws,South America (Sao Paulo),r5ad.2xlarge,1.064
-aws,South America (Sao Paulo),r5ad.4xlarge,2.128
-aws,South America (Sao Paulo),r5ad.8xlarge,4.256
-aws,South America (Sao Paulo),r5ad.12xlarge,6.384
-aws,South America (Sao Paulo),r5ad.16xlarge,8.512
-aws,South America (Sao Paulo),r5ad.24xlarge,12.768
-aws,South America (Sao Paulo),r5d.large,0.293
-aws,South America (Sao Paulo),r5d.xlarge,0.586
-aws,South America (Sao Paulo),r5d.2xlarge,1.172
-aws,South America (Sao Paulo),r5d.4xlarge,2.344
-aws,South America (Sao Paulo),r5d.8xlarge,4.688
-aws,South America (Sao Paulo),r5d.12xlarge,7.032
-aws,South America (Sao Paulo),r5d.16xlarge,9.376
-aws,South America (Sao Paulo),r5d.24xlarge,14.064
-aws,South America (Sao Paulo),r5d.metal,14.064
+aws,South America (Sao Paulo),x1e.32xlarge,52.019
+aws,South America (Sao Paulo),r5.large,0.201
+aws,South America (Sao Paulo),r5.xlarge,0.402
+aws,South America (Sao Paulo),r5.2xlarge,0.804
+aws,South America (Sao Paulo),r5.4xlarge,1.608
+aws,South America (Sao Paulo),r5.8xlarge,3.216
+aws,South America (Sao Paulo),r5.12xlarge,4.824
+aws,South America (Sao Paulo),r5.16xlarge,6.432
+aws,South America (Sao Paulo),r5.24xlarge,9.648
+aws,South America (Sao Paulo),r5.metal,9.648
+aws,South America (Sao Paulo),r5a.large,0.181
+aws,South America (Sao Paulo),r5a.xlarge,0.362
+aws,South America (Sao Paulo),r5a.2xlarge,0.724
+aws,South America (Sao Paulo),r5a.4xlarge,1.448
+aws,South America (Sao Paulo),r5a.8xlarge,2.896
+aws,South America (Sao Paulo),r5a.12xlarge,4.344
+aws,South America (Sao Paulo),r5a.16xlarge,5.792
+aws,South America (Sao Paulo),r5a.24xlarge,8.688
+aws,South America (Sao Paulo),r5ad.large,0.208
+aws,South America (Sao Paulo),r5ad.xlarge,0.416
+aws,South America (Sao Paulo),r5ad.2xlarge,0.832
+aws,South America (Sao Paulo),r5ad.4xlarge,1.664
+aws,South America (Sao Paulo),r5ad.8xlarge,3.328
+aws,South America (Sao Paulo),r5ad.12xlarge,4.992
+aws,South America (Sao Paulo),r5ad.16xlarge,6.656
+aws,South America (Sao Paulo),r5ad.24xlarge,9.984
+aws,South America (Sao Paulo),r5d.large,0.228
+aws,South America (Sao Paulo),r5d.xlarge,0.456
+aws,South America (Sao Paulo),r5d.2xlarge,0.912
+aws,South America (Sao Paulo),r5d.4xlarge,1.824
+aws,South America (Sao Paulo),r5d.8xlarge,3.648
+aws,South America (Sao Paulo),r5d.12xlarge,5.472
+aws,South America (Sao Paulo),r5d.16xlarge,7.296
+aws,South America (Sao Paulo),r5d.24xlarge,10.944
+aws,South America (Sao Paulo),r5d.metal,10.944
 aws,South America (Sao Paulo),r4.large,0.28
 aws,South America (Sao Paulo),r4.xlarge,0.56
 aws,South America (Sao Paulo),r4.2xlarge,1.12
 aws,South America (Sao Paulo),r4.4xlarge,2.24
 aws,South America (Sao Paulo),r4.8xlarge,4.48
 aws,South America (Sao Paulo),r4.16xlarge,8.96
-aws,South America (Sao Paulo),i3.large,0.286
-aws,South America (Sao Paulo),i3.xlarge,0.572
-aws,South America (Sao Paulo),i3.2xlarge,1.144
-aws,South America (Sao Paulo),i3.4xlarge,2.288
-aws,South America (Sao Paulo),i3.8xlarge,4.576
-aws,South America (Sao Paulo),i3.16xlarge,9.152
-aws,South America (Sao Paulo),i3en.large,0.415
-aws,South America (Sao Paulo),i3en.xlarge,0.83
-aws,South America (Sao Paulo),i3en.2xlarge,1.66
-aws,South America (Sao Paulo),i3en.3xlarge,2.49
-aws,South America (Sao Paulo),i3en.6xlarge,4.98
-aws,South America (Sao Paulo),i3en.12xlarge,9.96
-aws,South America (Sao Paulo),i3en.24xlarge,19.92
-aws,South America (Sao Paulo),i3en.metal,19.92
+aws,South America (Sao Paulo),i3.large,0.249
+aws,South America (Sao Paulo),i3.xlarge,0.498
+aws,South America (Sao Paulo),i3.2xlarge,0.996
+aws,South America (Sao Paulo),i3.4xlarge,1.992
+aws,South America (Sao Paulo),i3.8xlarge,3.984
+aws,South America (Sao Paulo),i3.16xlarge,7.968
+aws,South America (Sao Paulo),i3en.large,0.36
+aws,South America (Sao Paulo),i3en.xlarge,0.72
+aws,South America (Sao Paulo),i3en.2xlarge,1.44
+aws,South America (Sao Paulo),i3en.3xlarge,2.16
+aws,South America (Sao Paulo),i3en.6xlarge,4.32
+aws,South America (Sao Paulo),i3en.12xlarge,8.64
+aws,South America (Sao Paulo),i3en.24xlarge,17.28
+aws,South America (Sao Paulo),i3en.metal,17.28
 aws,AWS GovCloud (US-East),t3.nano,0.0061
 aws,AWS GovCloud (US-East),t3.micro,0.0122
 aws,AWS GovCloud (US-East),t3.small,0.0244
@@ -3193,7 +3571,10 @@ aws,AWS GovCloud (US-East),c5.xlarge,0.204
 aws,AWS GovCloud (US-East),c5.2xlarge,0.408
 aws,AWS GovCloud (US-East),c5.4xlarge,0.816
 aws,AWS GovCloud (US-East),c5.9xlarge,1.836
+aws,AWS GovCloud (US-East),c5.12xlarge,2.448
 aws,AWS GovCloud (US-East),c5.18xlarge,3.672
+aws,AWS GovCloud (US-East),c5.24xlarge,4.896
+aws,AWS GovCloud (US-East),c5.metal,4.896
 aws,AWS GovCloud (US-East),c5d.large,0.116
 aws,AWS GovCloud (US-East),c5d.xlarge,0.232
 aws,AWS GovCloud (US-East),c5d.2xlarge,0.464
@@ -3208,6 +3589,12 @@ aws,AWS GovCloud (US-East),c5n.9xlarge,2.34
 aws,AWS GovCloud (US-East),c5n.18xlarge,4.68
 aws,AWS GovCloud (US-East),c5n.metal,4.68
 aws,AWS GovCloud (US-East),p3dn.24xlarge,37.454
+aws,AWS GovCloud (US-East),g4dn.xlarge,0.663
+aws,AWS GovCloud (US-East),g4dn.2xlarge,0.948
+aws,AWS GovCloud (US-East),g4dn.4xlarge,1.518
+aws,AWS GovCloud (US-East),g4dn.8xlarge,2.743
+aws,AWS GovCloud (US-East),g4dn.12xlarge,4.931
+aws,AWS GovCloud (US-East),g4dn.16xlarge,5.486
 aws,AWS GovCloud (US-East),x1.16xlarge,8.003
 aws,AWS GovCloud (US-East),x1.32xlarge,16.006
 aws,AWS GovCloud (US-East),x1e.xlarge,1.0
@@ -3315,6 +3702,24 @@ aws,AWS GovCloud (US-West),m5d.12xlarge,3.432
 aws,AWS GovCloud (US-West),m5d.16xlarge,4.576
 aws,AWS GovCloud (US-West),m5d.24xlarge,6.864
 aws,AWS GovCloud (US-West),m5d.metal,6.864
+aws,AWS GovCloud (US-West),m5dn.large,0.171
+aws,AWS GovCloud (US-West),m5dn.xlarge,0.342
+aws,AWS GovCloud (US-West),m5dn.2xlarge,0.684
+aws,AWS GovCloud (US-West),m5dn.4xlarge,1.368
+aws,AWS GovCloud (US-West),m5dn.8xlarge,2.736
+aws,AWS GovCloud (US-West),m5dn.12xlarge,4.104
+aws,AWS GovCloud (US-West),m5dn.16xlarge,5.472
+aws,AWS GovCloud (US-West),m5dn.24xlarge,8.208
+aws,AWS GovCloud (US-West),m5dn.metal,8.208
+aws,AWS GovCloud (US-West),m5n.large,0.149
+aws,AWS GovCloud (US-West),m5n.xlarge,0.298
+aws,AWS GovCloud (US-West),m5n.2xlarge,0.596
+aws,AWS GovCloud (US-West),m5n.4xlarge,1.192
+aws,AWS GovCloud (US-West),m5n.8xlarge,2.384
+aws,AWS GovCloud (US-West),m5n.12xlarge,3.576
+aws,AWS GovCloud (US-West),m5n.16xlarge,4.768
+aws,AWS GovCloud (US-West),m5n.24xlarge,7.152
+aws,AWS GovCloud (US-West),m5n.metal,7.152
 aws,AWS GovCloud (US-West),m4.large,0.126
 aws,AWS GovCloud (US-West),m4.xlarge,0.252
 aws,AWS GovCloud (US-West),m4.2xlarge,0.504
@@ -3364,9 +3769,11 @@ aws,AWS GovCloud (US-West),g4dn.4xlarge,1.518
 aws,AWS GovCloud (US-West),g4dn.8xlarge,2.743
 aws,AWS GovCloud (US-West),g4dn.12xlarge,4.931
 aws,AWS GovCloud (US-West),g4dn.16xlarge,5.486
+aws,AWS GovCloud (US-West),g4dn.metal,9.862
 aws,AWS GovCloud (US-West),g3.4xlarge,1.32
 aws,AWS GovCloud (US-West),g3.8xlarge,2.64
 aws,AWS GovCloud (US-West),g3.16xlarge,5.28
+aws,AWS GovCloud (US-West),g3s.xlarge,0.868
 aws,AWS GovCloud (US-West),x1.16xlarge,8.003
 aws,AWS GovCloud (US-West),x1.32xlarge,16.006
 aws,AWS GovCloud (US-West),x1e.xlarge,1.0
@@ -3409,6 +3816,24 @@ aws,AWS GovCloud (US-West),r5d.12xlarge,4.152
 aws,AWS GovCloud (US-West),r5d.16xlarge,5.536
 aws,AWS GovCloud (US-West),r5d.24xlarge,8.304
 aws,AWS GovCloud (US-West),r5d.metal,8.304
+aws,AWS GovCloud (US-West),r5dn.large,0.201
+aws,AWS GovCloud (US-West),r5dn.xlarge,0.402
+aws,AWS GovCloud (US-West),r5dn.2xlarge,0.804
+aws,AWS GovCloud (US-West),r5dn.4xlarge,1.608
+aws,AWS GovCloud (US-West),r5dn.8xlarge,3.216
+aws,AWS GovCloud (US-West),r5dn.12xlarge,4.824
+aws,AWS GovCloud (US-West),r5dn.16xlarge,6.432
+aws,AWS GovCloud (US-West),r5dn.24xlarge,9.648
+aws,AWS GovCloud (US-West),r5dn.metal,9.648
+aws,AWS GovCloud (US-West),r5n.large,0.179
+aws,AWS GovCloud (US-West),r5n.xlarge,0.358
+aws,AWS GovCloud (US-West),r5n.2xlarge,0.716
+aws,AWS GovCloud (US-West),r5n.4xlarge,1.432
+aws,AWS GovCloud (US-West),r5n.8xlarge,2.864
+aws,AWS GovCloud (US-West),r5n.12xlarge,4.296
+aws,AWS GovCloud (US-West),r5n.16xlarge,5.728
+aws,AWS GovCloud (US-West),r5n.24xlarge,8.592
+aws,AWS GovCloud (US-West),r5n.metal,8.592
 aws,AWS GovCloud (US-West),r4.large,0.1596
 aws,AWS GovCloud (US-West),r4.xlarge,0.3192
 aws,AWS GovCloud (US-West),r4.2xlarge,0.6384
@@ -3429,6 +3854,8 @@ aws,AWS GovCloud (US-West),i3en.3xlarge,1.638
 aws,AWS GovCloud (US-West),i3en.6xlarge,3.276
 aws,AWS GovCloud (US-West),i3en.12xlarge,6.552
 aws,AWS GovCloud (US-West),i3en.24xlarge,13.104
+aws,AWS GovCloud (US-West),i3en.metal,13.104
+aws,AWS GovCloud (US-West),i3p.16xlarge,6.016
 aws,AWS GovCloud (US-West),d2.xlarge,0.828
 aws,AWS GovCloud (US-West),d2.2xlarge,1.656
 aws,AWS GovCloud (US-West),d2.4xlarge,3.312

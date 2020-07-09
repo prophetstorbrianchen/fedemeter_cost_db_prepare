@@ -25,11 +25,63 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
 
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
 
-class azure_selenium():
+
+class gcp_selenium():
     
     def __init__(self):
+        self.address_list = self.get_iframe_address()
         pass
+
+    def get_iframe_address(self):
+
+        address_list = []
+
+        url = 'https://cloud.google.com/compute/all-pricing'
+        r = requests.get(url)
+        soup = BeautifulSoup(r.text, 'html.parser')
+
+        """
+        iframexx = soup.find_all('iframe')
+        print(iframexx)
+        print(len(iframexx))
+
+        soup = BeautifulSoup(r.text, 'html.parser')
+        h4 = soup.find_all('h4')
+        print(h4)
+        print(len(h4))
+
+        soup = BeautifulSoup(r.text, 'html.parser')
+        h3 = soup.find_all('h3')
+        print(h3)
+        print(len(h3))
+        """
+
+        divs_text = soup.find_all("div", {"class": "devsite-article-body clearfix "})
+        # print(divs_text)
+        # print(type(mydivs))
+
+        # --BeautifulSoup formate to sting--
+        divs_string = str(divs_text)
+        # print(divs_string)
+        divs_list = divs_string.splitlines()
+
+        # --analyze the text and get the sting address--
+        for i in range(len(divs_list)):
+            if i > 2 and ("machine-types" in divs_list[i-1] or "custommachinetypepricing" in divs_list[i-1] or "extendedmemory" in divs_list[i-1] or "sharedcore" in divs_list[i-1] or "vcpus_and_memory" in divs_list[i-1]):
+                continue
+            if i > 2 and ("N2 machine types" in divs_list[i-1] or "N2D machine types" in divs_list[i-1] or "N1 machine types" in divs_list[i-1] or "vCPUs and memory" in divs_list[i-1]):
+                continue
+            if ("e2" in divs_list[i-1] or "n2" in divs_list[i-1] or "n2d" in divs_list[i-1] or "n1" in divs_list[i-1] or "c2" in divs_list[i-1]) and "<p><devsite-iframe>" in divs_list[i]:
+                # print(divs_list[i])
+                temp_sting = divs_list[i].split("src")
+                # print(temp_sting)
+                address = "https://cloud.google.com" + temp_sting[-1][2:-28]                                            # get the right place
+                address_list.append(address)
+        print(address_list)
+        return address_list
 
     def get_gcp_linux_price(self):
 
@@ -67,8 +119,7 @@ class azure_selenium():
             "https://cloud.google.com/compute/vm-instance-pricing_cddf59f57300ef4a76e74cb24a7d7a47382760c37bab5a2e79c9ba86db7bbbf2.frame",
             ]
         """
-        address_list = ["https://cloud-dot-devsite-v2-prod.appspot.com/compute/vm-instance-pricing_13cf182d187dbda91180bce6d64ff957b0a47b6577d914741d8e3ef280b77f37.frame"]
-        #address_list = ["https://cloud.google.com/compute/vm-instance-pricing_16fc74c7d25755a71d9966de7b1486efae76c20446d18ed29a49ddfaa96324d3.frame"]
+        address_list = self.address_list
 
         temp_list = []
         region_list = []
@@ -83,7 +134,7 @@ class azure_selenium():
 
         # get region list
         time.sleep(2)
-        browser.get("https://cloud.google.com/compute/vm-instance-pricing_70247bb78d85862a2b290545ac82cd3c0f4e0e7aa5ea1092e8dcba180b24ab80.frame")
+        browser.get(address_list[0])
         time.sleep(2)
         browser.find_element_by_xpath("//div[@class='table-bar']/md-select[1]/md-select-value[1]").click()              # select region
         time.sleep(2)
@@ -110,15 +161,15 @@ class azure_selenium():
                 browser.find_element_by_xpath("//div[@class='table-bar']/md-select[1]/md-select-value[1]").click()  # select region
                 time.sleep(2)
 
-                for region_number in range(1,len(region_list)+1):
+                for region_number in range(1, len(region_list) + 1):
 
                     wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='md-select-menu-container md-active md-clickable']/md-select-menu[1]/md-content[1]/md-option[%s]" % region_number)))
                     browser.find_element_by_xpath("//div[@class='md-select-menu-container md-active md-clickable']/md-select-menu[1]/md-content[1]/md-option[%s]" % region_number).click()
                     time.sleep(2)
 
-                    for body_number in range(1,2):
+                    for body_number in range(1, 2):
                         try:
-                            all_instance = browser.find_element_by_xpath("//div[@class='devsite-article-body ng-scope']/table[1]/tbody[%s]" %body_number)
+                            all_instance = browser.find_element_by_xpath("//div[@class='devsite-article-body ng-scope']/table[1]/tbody[%s]" % body_number)
                             temp_instance_list = str(all_instance.text).splitlines()
                             for i in range(len(temp_instance_list)):
                                 if "96" or "224" in temp_instance_list[i]:
@@ -128,7 +179,7 @@ class azure_selenium():
                                         temp_instance_list[i] = temp_instance_list[i] + " " + temp_instance_list[i+1].strip("Custom machine type")
                                 if "standard" in temp_instance_list[i] or "highmem" in temp_instance_list[i] or "highcpu" in temp_instance_list[i] or "ultramem" in temp_instance_list[i] or "megamem" in temp_instance_list[i]:
                                     temp_list.append(temp_instance_list[i])
-                            print(temp_list)
+                            print(temp_list,region)
 
                             for item in temp_list:
                                 if "Not available in this region" in item:
@@ -171,6 +222,7 @@ class azure_selenium():
                     browser.find_element_by_xpath("//div[@class='table-bar']/md-select[1]/md-select-value[1]").click()  # select region
                     time.sleep(2)
             except:
+                print("region:" + region)
                 print("jump time out")
         return provider_list, all_region_list, instance_type_list, cost_list
 
@@ -179,28 +231,6 @@ class csv_file():
     
     def __init__(self):
         pass
-
-    def to_csv_instance(self,provider,instance_list):
-    
-        instance_dict = {"instance":instance_list}
-        print (instance_dict)
-        
-        instance_data = pd.DataFrame(instance_dict,columns=["instance"])
-        print (instance_data)
-        
-        #instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance.csv" %(provider,provider),index=False)
-        instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance.csv" % (provider, provider), index=False)
-    
-    def to_csv_region(self,region_list):
-    
-        instance_dict = {"region":region_list}
-        print (instance_dict)
-        
-        region_data = pd.DataFrame(region_list,columns=["region"])
-        print (region_data)
-        
-        #region_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_region.csv" %(provider,provider),index=False)
-        region_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_region.csv" % (provider, provider), index=False)
 
     def to_csv_price(self, provider_list, region_list, instance_type_list, cost_list):
         price_dict = {"provider": provider_list, "region": region_list, "instance": instance_type_list, "cost": cost_list}
@@ -218,16 +248,11 @@ if __name__ == '__main__':
     browser.maximize_window()
     
     ####get aws region and instance
-    gcp_gui_operation = azure_selenium()
-    #region_list = aws_gui_operation.aws_region_type()
-    #instance_list = aws_gui_operation.aws_instance_type()
-    #region_list, instance_type_list, cost_list = aws_gui_operation.get_linux_price()
+    gcp_gui_operation = gcp_selenium()
     provider_list, region_list, instance_type_list, cost_list = gcp_gui_operation.get_gcp_linux_price()
 
     ####write to csv
     gcp_csv = csv_file()
-    #aws_csv.to_csv_region("aws", region_list)
-    #aws_csv.to_csv_instance("aws", instance_list)
     gcp_csv.to_csv_price(provider_list, region_list, instance_type_list, cost_list)
 
     ####close broser

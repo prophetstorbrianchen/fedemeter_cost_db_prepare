@@ -64,6 +64,11 @@ def compare_cost(provider):
 
     compare_number = 0
     correct_number = 0
+    failed_compare_count = 0
+    one_percent_count = 0
+    ten_percent_count = 0
+    twenty_percent_count = 0
+    others_count = 0
 
     for i in range(len(csv_nd_array)):
         provider = csv_nd_array[i][0]
@@ -74,6 +79,8 @@ def compare_cost(provider):
         # ----for aws/azure gov----
         if region == "AWS GovCloud (US-West)" or region == "AWS GovCloud (US-East)":
             continue
+        if provider == "aws" and "Europe" in region:
+            region = region.replace("Europe", "EU")
         if region == "US Gov Arizona" or region == "US Gov Iowa" or region == "US Gov Texas" or region == "US Gov Virginia":
             continue
         if region == "Germany Central (Sovereign)":
@@ -97,17 +104,38 @@ def compare_cost(provider):
             correct_number = correct_number + 1
         else:
             print(round(calculator_api_cost, 4), round(csv_cost, 4), provider, region, instance)
+            # --use calculator_api_price to be standard--
+            calculator_api_price = round(calculator_api_cost, 4)
+            csv_price = round(csv_cost, 4)
+
+            # --csv price was zero and failed to compare --
+            if csv_price == 0 or calculator_api_price == 0:
+                failed_compare_count = failed_compare_count + 1
+            # --1%--
+            elif round(abs(calculator_api_price - csv_price) / calculator_api_price, 4) <= 0.01:
+                one_percent_count = one_percent_count + 1
+            # --10%--
+            elif round(abs(calculator_api_price - csv_price) / calculator_api_price, 4) <= 0.1:
+                ten_percent_count = ten_percent_count + 1
+            # --20%--
+            elif round(abs(calculator_api_price - csv_price) / calculator_api_price, 4) <= 0.2:
+                twenty_percent_count = twenty_percent_count + 1
+            # --more than 20%--
+            else:
+                others_count = others_count + 1
+
 
     # print(compare_number, correct_number)
-    return compare_number, correct_number
+    return compare_number, correct_number, failed_compare_count, one_percent_count, ten_percent_count, twenty_percent_count, others_count
 
 
 if __name__ == '__main__':
 
-    aws_compare_number, aws_correct_number = compare_cost("aws")
-    azure_compare_number, azure_correct_number = compare_cost("azure")
-    gcp_compare_number, gcp_correct_number = compare_cost("gcp")
+    aws_compare_number, aws_correct_number, aws_failed_compare_count, aws_one_percent_count, aws_ten_percent_count, aws_twenty_percent_count, aws_others_count = compare_cost("aws")
+    azure_compare_number, azure_correct_number, azure_failed_compare_count, azure_one_percent_count, azure_ten_percent_count, azure_twenty_percent_count, azure_others_count = compare_cost("azure")
+    gcp_compare_number, gcp_correct_number, gcp_failed_compare_count, gcp_one_percent_count, gcp_ten_percent_count, gcp_twenty_percent_count, gcp_others_count = compare_cost("gcp")
 
-    print("aws:", aws_compare_number, aws_correct_number)
-    print("azure", azure_compare_number, azure_correct_number)
-    print("gcp", gcp_compare_number, gcp_correct_number)
+    print("aws:", aws_compare_number, aws_correct_number, aws_failed_compare_count, aws_one_percent_count, aws_ten_percent_count, aws_twenty_percent_count, aws_others_count)
+    print("azure", azure_compare_number, azure_correct_number, azure_failed_compare_count, azure_one_percent_count, azure_ten_percent_count, azure_twenty_percent_count, azure_others_count)
+    print("gcp", gcp_compare_number, gcp_correct_number, gcp_failed_compare_count, gcp_one_percent_count, gcp_ten_percent_count, gcp_twenty_percent_count, gcp_others_count)
+

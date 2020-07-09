@@ -617,6 +617,7 @@ gcp,e2-standard-2,2.0,8.0,e2-standard
 gcp,e2-standard-4,4.0,16.0,e2-standard
 gcp,e2-standard-8,8.0,32.0,e2-standard
 gcp,e2-standard-16,16.0,64.0,e2-standard
+gcp,e2-standard-32,32.0,128.0,e2-standard
 gcp,e2-high-mem-2,2.0,16.0,e2-high-mem
 gcp,e2-high-mem-4,4.0,32.0,e2-high-mem
 gcp,e2-high-mem-8,8.0,64.0,e2-high-mem
@@ -625,6 +626,7 @@ gcp,e2-high-cpu-2,2.0,2.0,e2-high-cpu
 gcp,e2-high-cpu-4,4.0,4.0,e2-high-cpu
 gcp,e2-high-cpu-8,8.0,8.0,e2-high-cpu
 gcp,e2-high-cpu-16,16.0,16.0,e2-high-cpu
+gcp,e2-high-cpu-32,32.0,32.0,e2-high-cpu
 gcp,n2-standard-2,2.0,8.0,n2-standard
 gcp,n2-standard-4,4.0,16.0,n2-standard
 gcp,n2-standard-8,8.0,32.0,n2-standard
@@ -707,11 +709,12 @@ gcp,c2-standard-8,8.0,32.0,c2-standard
 gcp,c2-standard-16,16.0,64.0,c2-standard
 gcp,c2-standard-30,30.0,120.0,c2-standard
 gcp,c2-standard-60,60.0,240.0,c2-standard
-gcp,m2-ultramem-208,208.0,5.888,m2-ultramem
-gcp,m2-ultramem-416,416.0,11.776,m2-ultramem
+gcp,m2-ultramem-208,208.0,5888.0,m2-ultramem
+gcp,m2-ultramem-416,416.0,11776.0,m2-ultramem
+gcp,m2-megamem-416,416.0,5888.0,m2-megamem
 gcp,m1-ultramem-40,40.0,961.0,m1-ultramem
-gcp,m1-ultramem-80,80.0,1.922,m1-ultramem
-gcp,m1-ultramem-160,160.0,3.844,m1-ultramem
+gcp,m1-ultramem-80,80.0,1922.0,m1-ultramem
+gcp,m1-ultramem-160,160.0,3844.0,m1-ultramem
 gcp,e2-micro,2.0,1.0,e2-micro
 gcp,e2-small,2.0,2.0,e2-small
 gcp,e2-medium,2.0,4.0,e2-medium

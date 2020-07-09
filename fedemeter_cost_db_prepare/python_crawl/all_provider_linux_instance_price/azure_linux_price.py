@@ -68,7 +68,7 @@ class azure_selenium():
             select.select_by_index(index)                                                                               # 選第幾個
             time.sleep(2)
             for family in instance_family:
-                all_instance = browser.find_element_by_xpath("//div[@data-filter='%s']/div[2]" %family)                     #general purpose/compute-optimized/...
+                all_instance = browser.find_element_by_xpath("//div[@data-filter='%s']/div[2]" %family)                 #general purpose/compute-optimized/...
                 temp_instance_list = str(all_instance.text).splitlines()
                 #print(temp_instance_list)
                 for item in temp_instance_list:
@@ -123,28 +123,6 @@ class csv_file():
     def __init__(self):
         pass
 
-    def to_csv_instance(self,provider,instance_list):
-    
-        instance_dict = {"instance":instance_list}
-        print (instance_dict)
-        
-        instance_data = pd.DataFrame(instance_dict,columns=["instance"])
-        print (instance_data)
-        
-        #instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance.csv" %(provider,provider),index=False)
-        instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance.csv" % (provider, provider), index=False)
-    
-    def to_csv_region(self,provider,region_list):
-    
-        instance_dict = {"region":region_list}
-        print (instance_dict)
-        
-        region_data = pd.DataFrame(region_list,columns=["region"])
-        print (region_data)
-        
-        #region_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_region.csv" %(provider,provider),index=False)
-        region_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_region.csv" % (provider, provider), index=False)
-
     def to_csv_price(self, provider_list, region_list, instance_type_list, cost_list):
         price_dict = {"provider": provider_list, "region": region_list, "instance": instance_type_list, "cost": cost_list}
         print(price_dict)
@@ -162,15 +140,10 @@ if __name__ == '__main__':
     
     ####get aws region and instance
     azure_gui_operation = azure_selenium()
-    #region_list = aws_gui_operation.aws_region_type()
-    #instance_list = aws_gui_operation.aws_instance_type()
-    #region_list, instance_type_list, cost_list = aws_gui_operation.get_linux_price()
     provider_list, region_list, instance_type_list, cost_list = azure_gui_operation.get_azure_linux_price()
     
     ####write to csv
     azure_csv = csv_file()
-    #aws_csv.to_csv_region("aws", region_list)
-    #aws_csv.to_csv_instance("aws", instance_list)
     azure_csv.to_csv_price(provider_list, region_list, instance_type_list, cost_list)
 
     ####close broser

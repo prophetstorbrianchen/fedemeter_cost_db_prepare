@@ -47,6 +47,8 @@ def instance_csv_call(provider):
                 output_sting = string_list[0] + "-HIGHCPU-" + string_list[-1]
             elif "ULTRAMEM" in instance:
                 output_sting = string_list[0] + "-ULTRAMEM-" + string_list[-1]
+            elif "MEGAMEM" in instance:
+                output_sting = string_list[0] + "-MEGAMEM-" + string_list[-1]
             else:
                 output_sting = string_list[0] + "-" + string_list[-1]
 

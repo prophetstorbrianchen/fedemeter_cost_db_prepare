@@ -111,6 +111,7 @@ def copy_csv_to_fedemeter_auto_sctipt(provider_list):
     os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\no_filter.csv {0}\\no_filter.csv'.format(fedemeter_forder_path))
     os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\instance_series.csv {0}\\instance_series.csv'.format(fedemeter_forder_path))
     os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\prophetstor_region_mapping.csv {0}\\prophetstor_region_mapping.csv'.format(fedemeter_forder_path))
+    os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\prophetstor_region_mapping.csv {0}\\prophetstor_region_mapping.csv'.format(fedemeter_forder_data_gcp_path))
     os.system('copy C:\\Users\\Brian\\Desktop\\cloud_reference\\stackpoint_filter.csv {0}\\stackpoint_filter.csv'.format(fedemeter_forder_path))
 
 
