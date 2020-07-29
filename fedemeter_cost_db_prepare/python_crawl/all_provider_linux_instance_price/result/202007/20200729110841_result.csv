@@ -1,0 +1,4 @@
+vendor,total number,correct number,error number,failed compare number,one percent number,ten percent number,twenty percent number,others number,correct rate,error rate,failed compare rate,one percent rate,ten percent rate,twenty percent rate,other rate
+aws,3527,3525,0,0,0,0,0,0,0.999432946,0.000567054,1,0,0,0,0
+azure,7862,7819,43,43,0,0,0,0,0.994530654,0.005469346,1,0,0,0,0
+gcp,1293,1219,74,0,24,6,25,19,0.942768755,0.057231245,0,0.324324324,0.081081081,0.337837838,0.256756757

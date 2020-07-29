@@ -1,0 +1,122 @@
+D:\Anaconda3\python.exe C:/Users/Brian/Desktop/python_crawl/all_provider_linux_instance_price/provider_compare_price.py
+0 31.212 aws US East (Ohio) p3dn.24xlarge
+0 7.824 aws US East (Ohio) g4dn.metal
+0 0.0063 azure Central US standard-b1ls
+0 0.0052 azure East US standard-b1ls
+0 0.0052 azure East US 2 standard-b1ls
+0 0.0052 azure North Central US standard-b1ls
+0 0.0063 azure South Central US standard-b1ls
+0 0.0063 azure West Central US standard-b1ls
+0 0.0062 azure West US standard-b1ls
+0 0.0052 azure West US 2 standard-b1ls
+0 0.0059 azure United Kingdom South standard-b1ls
+0 1.978 azure United Kingdom South standard-dc8-v2
+0 0.0059 azure United Kingdom West standard-b1ls
+0 0.0078 azure UAE Central standard-b1ls
+0 0.0063 azure UAE North standard-b1ls
+0 0.0072 azure Switzerland North standard-b1ls
+0 0.0094 azure Switzerland West standard-b1ls
+0 0.0066 azure Norway East standard-b1ls
+0 0.0086 azure Norway West standard-b1ls
+0 0.0065 azure Korea Central standard-b1ls
+0 0.0071 azure Korea South standard-b1ls
+0 0.0068 azure Japan East standard-b1ls
+0 0.0075 azure Japan West standard-b1ls
+0 0.0056 azure Central India standard-b1ls
+0 0.0078 azure South India standard-b1ls
+0 0.0078 azure West India standard-b1ls
+0 0.0038 azure Germany Central standard-b1ls
+0 0.0078 azure Germany North standard-b1ls
+0 0.0038 azure Germany Northeast standard-b1ls
+0 0.006 azure Germany West Central standard-b1ls
+0 0.0059 azure France Central standard-b1ls
+0 0.0085 azure France South standard-b1ls
+0 0.0057 azure North Europe standard-b1ls
+0 0.006 azure West Europe standard-b1ls
+0 0.0058 azure Canada Central standard-b1ls
+0 0.0059 azure Canada East standard-b1ls
+0 0.0084 azure Brazil South standard-b1ls
+0 0.0066 azure Australia Central standard-b1ls
+0 0.0066 azure Australia Central 2 standard-b1ls
+0 0.0066 azure Australia East standard-b1ls
+0 0.0066 azure Australia Southeast standard-b1ls
+0 0.0073 azure East Asia standard-b1ls
+0 0.0066 azure Southeast Asia standard-b1ls
+0 0.007 azure South Africa North standard-b1ls
+0 0.0088 azure South Africa West standard-b1ls
+1.7107 1.7093 gcp Europe West 4b n2-standard-32
+2.566 2.5639 gcp Europe West 4b n2-standard-48
+3.4213 3.4186 gcp Europe West 4b n2-standard-64
+4.2766 4.2732 gcp Europe West 4b n2-standard-80
+2.3076 2.3058 gcp Europe West 4b n2-high-mem-32
+3.4615 3.4588 gcp Europe West 4b n2-high-mem-48
+4.6153 4.6117 gcp Europe West 4b n2-high-mem-64
+5.7691 5.7646 gcp Europe West 4b n2-high-mem-80
+1.2629 1.2618 gcp Europe West 4b n2-high-cpu-32
+1.8944 1.8928 gcp Europe West 4b n2-high-cpu-48
+2.5258 2.5237 gcp Europe West 4b n2-high-cpu-64
+3.1573 3.1546 gcp Europe West 4b n2-high-cpu-80
+0.0665 0.055 gcp Asia East 2b n1-standard-1
+0.1329 0.11 gcp Asia East 2b n1-standard-2
+0.2658 0.22 gcp Asia East 2b n1-standard-4
+0.5317 0.44 gcp Asia East 2b n1-standard-8
+1.0634 0.88 gcp Asia East 2b n1-standard-16
+2.1268 1.76 gcp Asia East 2b n1-standard-32
+4.2535 3.52 gcp Asia East 2b n1-standard-64
+0.055 0.0665 gcp Asia East 1b n1-standard-1
+0.11 0.1329 gcp Asia East 1b n1-standard-2
+0.22 0.2658 gcp Asia East 1b n1-standard-4
+0.44 0.5317 gcp Asia East 1b n1-standard-8
+0.88 1.0634 gcp Asia East 1b n1-standard-16
+1.76 2.1268 gcp Asia East 1b n1-standard-32
+3.52 4.2535 gcp Asia East 1b n1-standard-64
+1.8944 1.8928 gcp US Central 1b n1-high-mem-32
+3.7888 3.7857 gcp US Central 1b n1-high-mem-64
+1.8944 1.8928 gcp US West 1b n1-high-mem-32
+3.7888 3.7857 gcp US West 1b n1-high-mem-64
+0.1348 0.1332 gcp US East 4b n1-high-mem-2
+0.2696 0.2665 gcp US East 4b n1-high-mem-4
+0.5393 0.5329 gcp US East 4b n1-high-mem-8
+1.0786 1.0659 gcp US East 4b n1-high-mem-16
+2.1571 2.1317 gcp US East 4b n1-high-mem-32
+4.3142 4.2635 gcp US East 4b n1-high-mem-64
+1.8944 1.8928 gcp US East 1b n1-high-mem-32
+3.7888 3.7857 gcp US East 1b n1-high-mem-64
+0.1655 0.137 gcp Asia East 2b n1-high-mem-2
+0.3311 0.274 gcp Asia East 2b n1-high-mem-4
+0.6621 0.548 gcp Asia East 2b n1-high-mem-8
+1.3242 1.096 gcp Asia East 2b n1-high-mem-16
+2.6484 2.192 gcp Asia East 2b n1-high-mem-32
+5.2968 4.384 gcp Asia East 2b n1-high-mem-64
+0.137 0.1655 gcp Asia East 1b n1-high-mem-2
+0.274 0.3311 gcp Asia East 1b n1-high-mem-4
+0.548 0.6621 gcp Asia East 1b n1-high-mem-8
+1.096 1.3242 gcp Asia East 1b n1-high-mem-16
+2.192 2.6484 gcp Asia East 1b n1-high-mem-32
+4.384 5.2968 gcp Asia East 1b n1-high-mem-64
+2.2688 2.2672 gcp US Central 1b n1-high-cpu-64
+2.2688 2.2672 gcp US West 1b n1-high-cpu-64
+2.2688 2.2672 gcp US East 1b n1-high-cpu-64
+0.0953 0.0773 gcp Asia Southeast 2b n1-high-cpu-2
+0.1905 0.1546 gcp Asia Southeast 2b n1-high-cpu-4
+0.3811 0.3091 gcp Asia Southeast 2b n1-high-cpu-8
+0.7621 0.6182 gcp Asia Southeast 2b n1-high-cpu-16
+1.5243 1.2365 gcp Asia Southeast 2b n1-high-cpu-32
+3.0485 2.473 gcp Asia Southeast 2b n1-high-cpu-64
+0.0991 0.0821 gcp Asia East 2b n1-high-cpu-2
+0.1983 0.1642 gcp Asia East 2b n1-high-cpu-4
+0.3965 0.3284 gcp Asia East 2b n1-high-cpu-8
+0.7931 0.6568 gcp Asia East 2b n1-high-cpu-16
+1.5861 1.3136 gcp Asia East 2b n1-high-cpu-32
+3.1722 2.6272 gcp Asia East 2b n1-high-cpu-64
+0.0821 0.0991 gcp Asia East 1b n1-high-cpu-2
+0.1642 0.1983 gcp Asia East 1b n1-high-cpu-4
+0.3284 0.3965 gcp Asia East 1b n1-high-cpu-8
+0.6568 0.7931 gcp Asia East 1b n1-high-cpu-16
+1.3136 1.5861 gcp Asia East 1b n1-high-cpu-32
+2.6272 3.1722 gcp Asia East 1b n1-high-cpu-64
+3.1309 3.1321 gcp US Central 1b c2-standard-60
+1.724 1.7226 gcp Europe West 4b c2-standard-30
+3.4481 3.4453 gcp Europe West 4b c2-standard-60
+
+Process finished with exit code 0
