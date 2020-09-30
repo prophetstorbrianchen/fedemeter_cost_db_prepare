@@ -55,7 +55,7 @@ class azure_selenium():
         #print(azure_region_list)
         return azure_region_list, modified_azure_region_list
     
-    def azure_instance_type(self,region_list):
+    def azure_instance_type(self, region_list):
 
         set_list = []
         azure_instance_list = []
@@ -63,7 +63,10 @@ class azure_selenium():
         cpu_list = []
         memory_list = []
         
-        select_region = Select(browser.find_element_by_xpath("//select[@class='select']"))        
+        select_region = Select(browser.find_element_by_xpath("//select[@class='select']"))
+        select_os = Select(browser.find_element_by_xpath("//select[@aria-label='Operating system']"))
+        select_os.select_by_visible_text("Linux")                                                                       # select "Linux" OS
+
         for region in region_list:
             #print("====" + select_region.options[num_region].text + "====")
             #select_region.select_by_index(num_region)
@@ -110,7 +113,7 @@ class azure_selenium():
         #print(len(set(azure_instance_list)))                                                                              #201
         #print(type(list(set(azure_instance_list))))
         return instance_list, cpu_list, memory_list
-        
+
 class csv_file():
     
     def __init__(self):

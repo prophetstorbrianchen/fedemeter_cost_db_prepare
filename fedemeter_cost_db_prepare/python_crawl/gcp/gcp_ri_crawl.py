@@ -28,8 +28,23 @@ class gcp_selenium():
 
     def gcp_region_type(self):
 
+        url = 'https://cloud.google.com/compute/all-pricing'
+        r = requests.get(url)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        divs_text = soup.find_all("article", {"class": "devsite-article-inner"})
+
+        # --BeautifulSoup formate to sting--
+        divs_string = str(divs_text)
+        divs_list = divs_string.splitlines()
+        for i in range(len(divs_list)):
+            if divs_list[i] == '<h3 data-text="N1 machine types" id="n1_machine_types" tabindex="0">N1 machine types</h3>':
+                print(divs_list[i + 1])
+                temp_sting = divs_list[i + 1].split("src")
+                address = "https://cloud.google.com" + temp_sting[-1][2:-28]  # get the right place
+
+
         # https://cloud.google.com/compute/all-pricing
-        browser.get("https://cloud-dot-devsite-v2-prod.appspot.com/compute/all-pricing_aed588f15e358005dcd470424abf3a82a6b26fbe2630bd1c2a0703b4372a5ca2.frame")   #GCP price page(for n1 ri price)
+        browser.get(address)   #GCP price page(for n1 ri price)
         time.sleep(2)
         browser.find_element_by_xpath("//div[@class='table-bar']/md-select[1]/md-select-value[1]").click()  # select region
         time.sleep(2)
@@ -64,7 +79,7 @@ class gcp_selenium():
             browser.find_element_by_xpath("//div[@class='md-select-menu-container md-active md-clickable']/md-select-menu[1]/md-content[1]/md-option[%s]" % region_number).click()
             time.sleep(2)
 
-            all_price_type = browser.find_element_by_xpath("//div[@class='devsite-article-body ng-scope']/table[1]/tbody[1]")       #turn to reegion
+            all_price_type = browser.find_element_by_xpath("//div[@class='devsite-article-body ng-scope']/div[2]/table[1]/tbody[1]")       #turn to reegion
             # print (all_price_type.text)
             all_price_list = str(all_price_type.text).splitlines()
             # print (all_price_list)                                                  #len(all_price_list) = 2

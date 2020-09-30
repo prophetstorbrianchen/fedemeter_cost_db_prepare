@@ -17,9 +17,11 @@ aws,Middle East (Bahrain),Asia,Bahrain,Bahrain
 aws,South America (Sao Paulo),South America,Brazil,Sao Paulo
 aws,US East (N. Virginia),North America,USA,Virginia
 aws,US East (Ohio),North America,USA,Ohio
+aws,US East (Verizon) - Boston,North America,USA,Boston
 aws,US West (Los Angeles),North America,USA,Los Angeles
 aws,US West (N. California),North America,USA,California
 aws,US West (Oregon),North America,USA,Oregon
+aws,US West (Verizon) - San Francisco Bay Area,North America,USA,San Francisco
 aws,Africa (Cape Town),Africa,Republic of South Africa,Cape Town
 azure,North Central US,North America,USA,Illinois
 azure,Australia East,Oceania,Australia,New South Wales
@@ -35,6 +37,7 @@ azure,East US 2,North America,USA,Virginia
 azure,South India,Asia,India,Chennai
 azure,Australia Central 2,Oceania,Australia,Canberra
 azure,Brazil South,South America,Brazil,Sao Paulo
+azure,Brazil Southeast,South America,Brazil,Rio de Janeiro
 azure,North Europe,Europe,Ireland,Ireland
 azure,France South,Europe,France,Marseille
 azure,Germany Northeast,Europe,Germany,Magdeburg

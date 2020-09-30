@@ -319,13 +319,6 @@ t3a.micro,2.0,1.0
 t3a.nano,2.0,0.5
 t3a.small,2.0,2.0
 t3a.xlarge,4.0,16.0
-t4g.2xlarge,8.0,32.0
-t4g.large,2.0,8.0
-t4g.medium,2.0,4.0
-t4g.micro,2.0,1.0
-t4g.nano,2.0,0.5
-t4g.small,2.0,2.0
-t4g.xlarge,4.0,16.0
 x1.16xlarge,64.0,976.0
 x1.32xlarge,128.0,1952.0
 x1e.16xlarge,64.0,1952.0

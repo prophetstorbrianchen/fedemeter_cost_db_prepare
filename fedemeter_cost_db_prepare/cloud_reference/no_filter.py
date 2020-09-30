@@ -120,22 +120,61 @@ if __name__ == '__main__':
     """
     stackpoint_filter_list = []
 
+    # aws family set
+    aws_family_dict = {
+        "general-purpose": ["t3","t2","m5","m5d","m5n","m5dn","m4","m3","m2","m1"],
+        "general-purpose-arm": ["a1","m6g","m6gd"],
+        "general-purpose-amd": ["t3a", "m5a", "m5ad"],
+        "compute-optimized": ["c5", "c5d", "c5n", "c4", "c3", "cc2"],
+        "compute-optimized-arm": ["c6g", "c6gd"],
+        "compute-optimized-amd": ["c5a", "c5ad"],
+        "memory-optimized": ["r5", "r5d", "r5n", "r5dn", "r4", "r3", "x1e", "x1", "u-", "z1d"],
+        "memory-optimized-arm": ["r6g", "r6gd"],
+        "memory-optimized-amd": ["r5a", "r5ad"],
+        "accelerated-computing": ["p3", "p3dn", "p2", "inf1", "g4dn", "g3", "g2", "f1"],
+        "storage-optimized": ["i3", "i3en", "i2", "d2", "h1"]
+    }
+
     aws_general_purpose = ["t3","t2","m5","m5d","m5n","m5dn","m4","m3","m2","m1"]
-    aws_general_purpose_arm = ["a1","m6g"]
+    aws_general_purpose_arm = ["a1","m6g","m6gd"]
     aws_general_purpose_amd = ["t3a","m5a","m5ad"]
     aws_compute_optimized = ["c5","c5d","c5n","c4","c3","cc2"]
+    aws_compute_optimized_arm = ["c6g","c6gd"]
+    aws_compute_optimized_amd = ["c5a","c5ad"]
     aws_memory_optimized = ["r5","r5d","r5n","r5dn","r4","r3","x1e","x1","u-","z1d"]
+    aws_memory_optimized_arm = ["r6g","r6gd"]
     aws_memory_optimized_amd = ["r5a","r5ad"]
     aws_accelerated_computing = ["p3","p3dn","p2","inf1","g4dn","g3","g2","f1"]
     aws_storage_optimized = ["i3","i3en","i2","d2","h1"]
 
+    # azure family set
+    azure_family_dict = {
+        "general-purpose": ["a"],                                                                                       # b series 目前不考慮
+        "burstable": ["b"],
+        "compute-optimized": ["f"],
+        "memory-optimized": ["e", "d", "g", "m", "s"],
+        "storage-optimized": ["l"],
+        "gpu": ["n"],
+        "high-performance": ["h"]
+    }
+
     #azure_general_purpose = ["b","a"]
     azure_general_purpose = ["a"]                                                                                       # b series 目前不考慮
+    azure_burstable = ["b"]
     azure_compute_optimized = ["f"]
     azure_memory_optimized = ["e","d","g","m","s"]
     azure_storage_optimized = ["l"]
     azure_gpu = ["n"]
     azure_high_performance = ["h"]
+
+    # gcp family set
+    gcp_family_dict = {
+        "general-purpose": ["n1", "n2"],
+        "general-purpose-amd": ["n2d"],
+        "general-purpose-amd-intel": ["e2"],
+        "compute-optimized": ["c2"],
+        "memory-optimized": ["m1", "m2"]
+    }
 
     gcp_general_purpose = ["n1","n2"]
     gcp_general_purpose_amd = ["n2d"]
@@ -144,7 +183,7 @@ if __name__ == '__main__':
     gcp_memory_optimized = ["m1","m2"]
 
     if family_filter == 0:
-        ####No Family
+        # without family
         provider_list = ["aws","azure","gcp"]
         for provider in provider_list:
             for region in region_csv_call(provider):
@@ -159,7 +198,7 @@ if __name__ == '__main__':
         #print(len(all_list))
         no_famil_to_csv(stackpoint_filter_list)
     else:
-        ####With Family
+        # with family
         provider_list = ["aws","azure","gcp"]
         for provider in provider_list:
             for region in region_csv_call(provider):
@@ -172,6 +211,17 @@ if __name__ == '__main__':
                     if provider == "aws":
                         temp_list = instance.split(".")
                         instance_title = temp_list[0]
+                        # --new--
+                        temp.update({
+                            "family": "na"
+                        })
+                        for family, family_list in aws_family_dict.items():
+                            if instance_title in family_list:
+                                temp.update({
+                                    "family": family
+                                })
+                        # --old--
+                        """
                         if instance_title in aws_general_purpose:
                             temp.update({
                                 "family": "general-purpose"
@@ -184,6 +234,14 @@ if __name__ == '__main__':
                             temp.update({
                                 "family": "general-purpose-amd"
                             })
+                        elif instance_title in aws_compute_optimized_arm:
+                            temp.update({
+                                "family": "compute-optimized-arm"
+                            })
+                        elif instance_title in aws_compute_optimized_amd:
+                            temp.update({
+                                "family": "compute-optimized-amd"
+                            })
                         elif instance_title in aws_compute_optimized:
                             temp.update({
                                 "family": "compute-optimized"
@@ -191,6 +249,10 @@ if __name__ == '__main__':
                         elif instance_title in aws_memory_optimized:
                             temp.update({
                                 "family": "memory-optimized"
+                            })
+                        elif instance_title in aws_compute_optimized_arm:
+                            temp.update({
+                                "family": "memory-optimized-arm"
                             })
                         elif instance_title in aws_memory_optimized_amd:
                             temp.update({
@@ -208,6 +270,7 @@ if __name__ == '__main__':
                             temp.update({
                                 "family": "na"
                             })
+                        """
                     if provider == "azure":
                         temp_list = instance.split("-")
                         instance_title = temp_list[3]                                                                       #a2v2/d1v2
@@ -270,6 +333,10 @@ if __name__ == '__main__':
                             temp.update({
                                 "family": "high-performance"
                             })
+                        elif instance_capital in azure_burstable:
+                            temp.update({
+                                "family": "burstable"
+                            })
                         else:
                             temp.update({
                                 "family": "na"
@@ -279,6 +346,17 @@ if __name__ == '__main__':
                         #instance_title = temp_list[4].lower()                                                               #standard/highcpu/highmem
                         instance_title = temp_list[3].lower()  # standard/highcpu/highmem
                         #print(instance_title)
+                        # --new--
+                        temp.update({
+                            "family": "na"
+                        })
+                        for family, family_list in gcp_family_dict.items():
+                            if instance_title in family_list:
+                                temp.update({
+                                    "family": family
+                                })
+                        # --old--
+                        """
                         if instance_title in gcp_general_purpose:
                             temp.update({
                                 "family": "general-purpose"
@@ -303,6 +381,7 @@ if __name__ == '__main__':
                             temp.update({
                                 "family": "na"
                             })
+                        """
                     stackpoint_filter_list.append(temp)
         #print(stackpoint_filter_list)
         #print(len(stackpoint_filter_list))

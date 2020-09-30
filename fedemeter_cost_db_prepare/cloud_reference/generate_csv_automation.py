@@ -15,15 +15,16 @@ import sys
 import shutil
 
 
-excuction_path = "D:\\Anaconda3\\python.exe"
-#excuction_path = "C:\\Users\\Brian\\Desktop\\test_projecct\\venv\\Scripts\\python.exe"
+# excuction_path = "D:\\Anaconda3\\python.exe"
+# excuction_path = "C:\\Users\\Brian\\Desktop\\test_projecct\\venv\\Scripts\\python.exe"
+excuction_path = "C:\\Users\\Brian\\PycharmProjects\\untitled\\venv\\Scripts\\python.exe"
 
-fedemeter_forder_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\table-csv"
-fedemeter_forder_federatorai_agent_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\federatorai-agent-csv"
-fedemeter_forder_data_gcp_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data"
-#fedemeter_forder_path = "C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data\\table-csv"
-#fedemeter_forder_federatorai_agent_path = "C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data\\federatorai-agent-csv"
-#fedemeter_forder_data_gcp_path = "C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data"
+# fedemeter_forder_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\table-csv"
+# fedemeter_forder_federatorai_agent_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\federatorai-agent-csv"
+# fedemeter_forder_data_gcp_path = "C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data"
+fedemeter_forder_path = "C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data\\table-csv"
+fedemeter_forder_federatorai_agent_path = "C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data\\federatorai-agent-csv"
+fedemeter_forder_data_gcp_path = "C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data"
 
 
 

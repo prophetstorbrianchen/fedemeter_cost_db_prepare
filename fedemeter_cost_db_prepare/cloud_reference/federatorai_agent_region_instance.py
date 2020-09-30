@@ -117,7 +117,7 @@ def region_csv_call(provider):
             input_region_list.append(input_region)
             output_region_list.append(output_region)
         else:
-            if region == "US West (Los Angeles)":
+            if region == "US West (Los Angeles)" or region == "US East (Verizon) - Boston" or region == "US West (Verizon) - San Francisco Bay Area":
                 continue
             else:
                 input_region = federatorai_agent_reion_mapping[region]

@@ -14,9 +14,9 @@ class PriceCompare(object):
         self.path = path
         self.json_price = self.load_from_json("C:\\opt\\prophetstor\\alameter\\apiserver\\data\\", "compare_price_book.json")
         self.instance_mapping = self.load_from_json("C:\\opt\\prophetstor\\alameter\\apiserver\\data\\", "provider_instance_dictionary.json")
-        self.aws_region_mapping = self.load_data_from_csv(path="C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\table-csv", file_name="aws_region.csv")
-        self.azure_region_mapping = self.load_data_from_csv(path="C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\table-csv", file_name="azure_region.csv")
-        self.gcp_region_mapping = self.load_data_from_csv(path="C:\\Users\\Brian\\Desktop\\git_home\\alameter-api\\data\\table-csv", file_name="gcp_region.csv")
+        self.aws_region_mapping = self.load_data_from_csv(path="C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data\\table-csv", file_name="aws_region.csv")
+        self.azure_region_mapping = self.load_data_from_csv(path="C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data\\table-csv", file_name="azure_region.csv")
+        self.gcp_region_mapping = self.load_data_from_csv(path="C:\\Users\\Brian\\Desktop\\git_home\\fedemeter\\data\\table-csv", file_name="gcp_region.csv")
 
     def load_data_from_csv(self, provider=None, path=None, file_name=None):
         if provider:

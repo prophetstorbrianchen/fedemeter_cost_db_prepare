@@ -31,7 +31,6 @@ class aws_selenium():
         pass
     
     def aws_region_type(self):
-        
         aws_region_list = []
         
         browser.get("https://calculator.s3.amazonaws.com/index.html")
@@ -65,25 +64,23 @@ class aws_selenium():
 
         
     def aws_instance_type(self):
-
         set_list = []
         aws_instance_list = []
         cpu_list = []
         memory_list = []
 
-        
         browser.get("https://calculator.s3.amazonaws.com/index.html")
         time.sleep(2)
         browser.find_element_by_xpath("//button[@class='gwt-Button PRCPopupOldcalculatorLink']").click()                # continue to use simple calculator
         time.sleep(5)
         select = Select(browser.find_element_by_xpath("//select[@class='gwt-ListBox CR_CHOOSE_REGION regionListBox']"))         #Virginia 190; Oregon 189
-        for index in range(5):
+        for index in range(10):
             select.select_by_index(index)
             time.sleep(2)
             browser.find_element_by_xpath("//table[@class='itemsTable']/tbody[1]/tr[2]/td[1]").click()         #add new row
             time.sleep(5)
             browser.find_element_by_xpath("//div[@class='gwt-PushButton gwt-PushButton-up']").click()          #Type buttom
-            time.sleep(10)
+            time.sleep(5)
             all_instance = browser.find_element_by_xpath("//table[@class='Types']/tbody[1]")
             time.sleep(2)
             #print(all_instance.text)
@@ -107,6 +104,7 @@ class aws_selenium():
                     else:
                         memory_list.append(float(all_instance_list[i]))
 
+            #print(len(aws_instance_list))
             #print(len(aws_instance_list))
             #aws_instance_list.clear()
             browser.find_element_by_xpath("//table[@class='ContentContainer InstanceSelectorContent']/tbody[1]/tr[2]/td[1]/table[1]/tbody[1]/tr[1]/td[3]/table[1]/tbody[1]/tr[1]/td[3]/button[1]").click()          #close buttom
@@ -133,7 +131,7 @@ class aws_selenium():
 
         # print(aws_instance_list, cpu_list, memory_list)
         return aws_instance_list, cpu_list, memory_list
-    
+
 class csv_file():
     
     def __init__(self):
@@ -160,7 +158,17 @@ class csv_file():
         
         #instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance.csv" %(provider,provider),index=False)
         instance_data.to_csv("C:\\Users\\Brian\\Desktop\\python_crawl\\%s\\%s_instance.csv" % (provider, provider),index=False)
-    
+
+    def to_csv(self, path, datainfo):
+        columns_list = []
+
+        for column_name, data_list in datainfo.items():
+            columns_list.append(column_name)
+
+        data = pd.DataFrame(datainfo, columns=columns_list)
+        data.to_csv(path, index=False)
+
+        pass
 
 
 if __name__ == '__main__':
@@ -180,5 +188,3 @@ if __name__ == '__main__':
 
     ####close broser
     browser.close()
-
-
